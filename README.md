@@ -1,0 +1,1 @@
+# Analiza-resevalnikov-za-podgrafni-izomorfizem
