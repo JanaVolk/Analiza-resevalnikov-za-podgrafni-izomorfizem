@@ -69,4 +69,4 @@ def generate_multiple_tests(num_tests, num_nodes):
     print(f"All {num_tests} tests generated successfully.")
 
 if __name__ == "__main__":
-    generate_multiple_tests(num_tests=100, num_nodes=40)
+    generate_multiple_tests(num_tests=100, num_nodes=1000)
