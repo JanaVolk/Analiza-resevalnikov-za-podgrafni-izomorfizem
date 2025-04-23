@@ -86,7 +86,7 @@ def export_graph_vf3(G, file_path, node_attr='label', default_node_attr=1):
 
 
 def generate_multiple_tests_scale_free(num_tests, num_nodes, m):
-    out_dir = "test_instances_scale_free_lad"
+    out_dir = "scalefree_lad"
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
     
@@ -105,7 +105,7 @@ def generate_multiple_tests_scale_free(num_tests, num_nodes, m):
     print(f"All {num_tests} scale-free LAD tests generated successfully.")
 
 def generate_multiple_tests_ri_scale_free(num_tests, num_nodes, m):
-    out_dir = "test_instances_scale_free_ri"
+    out_dir = "scalefree_ri"
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
     
@@ -124,11 +124,11 @@ def generate_multiple_tests_ri_scale_free(num_tests, num_nodes, m):
     print(f"All {num_tests} scale-free RI tests generated successfully.")
  
 def generate_multiple_tests_vf3_scale_free(num_tests, num_nodes, m):
-    out_dir = "test_instances_scale_free_vf3"
+    out_dir = "scalefree_vf3"
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
     
-    for i in range(1, num_tests + 1):
+    for i in range(0, num_tests):
         sf_graph = generate_scale_free_graph(num_nodes, m)
         target_file_path = os.path.join(out_dir, f"{i}graph.grf")
         export_graph_vf3(sf_graph, target_file_path)
@@ -148,6 +148,6 @@ if __name__ == "__main__":
     num_nodes = 1000   
     m = 2              
     
-    generate_multiple_tests_scale_free(num_tests, num_nodes, m)
-    generate_multiple_tests_ri_scale_free(num_tests, num_nodes, m)
+    #generate_multiple_tests_scale_free(num_tests, num_nodes, m)
+    #generate_multiple_tests_ri_scale_free(num_tests, num_nodes, m)
     generate_multiple_tests_vf3_scale_free(num_tests, num_nodes, m)

@@ -90,7 +90,7 @@ def export_graph_vf3(G, file_path, node_attr='label', default_node_attr=1):
 
 def generate_multiple_tests_er_lad(num_tests, num_nodes, p):
 
-    out_dir = "test_instances_er_lad"
+    out_dir = "er_lad"
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
 
@@ -110,7 +110,7 @@ def generate_multiple_tests_er_lad(num_tests, num_nodes, p):
 
 def generate_multiple_tests_er_ri(num_tests, num_nodes, p):
  
-    out_dir = "test_instances_er_ri"
+    out_dir = "er_ri"
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
 
@@ -130,11 +130,11 @@ def generate_multiple_tests_er_ri(num_tests, num_nodes, p):
 
 def generate_multiple_tests_er_vf3(num_tests, num_nodes, p):
 
-    out_dir = "test_instances_er_vf3"
+    out_dir = "er_vf3"
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
 
-    for i in range(1, num_tests + 1):
+    for i in range(0, num_tests):
         er_graph = generate_er_graph(num_nodes, p)
         target_file_path = os.path.join(out_dir, f"{i}graph.grf")
         export_graph_vf3(er_graph, target_file_path)

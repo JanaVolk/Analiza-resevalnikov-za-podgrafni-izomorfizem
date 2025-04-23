@@ -1,16 +1,12 @@
-import networkx as nx
-import random
 import os
+import random
+import networkx as nx
 
-# Generates a minimum spanning tree from a complete graph with random edge weights
-def generate_tree_graph(num_nodes):
-    G = nx.complete_graph(num_nodes)
-    for u, v in G.edges():
-        G[u][v]['weight'] = random.random()
-    tree = nx.minimum_spanning_tree(G)
-    return tree
 
-# Generates a connected subgraph with a given fraction of nodes
+def load_snap_ego_network(file_path):
+    G = nx.read_edgelist(file_path, nodetype=int)
+    return G
+
 def generate_random_subgraph(G, fraction):
     num_nodes = max(1, int(fraction * G.number_of_nodes()))
     start_node = random.choice(list(G.nodes()))
@@ -49,6 +45,7 @@ def export_graph_lad(G, file_path):
                 line = "0\n"
             f.write(line)
     print(f"Graph exported to {file_path}")
+
 # RI format
 def export_graph_ri(G, file_path, header):
     """
@@ -119,71 +116,68 @@ def export_graph_vf3(G, file_path, node_attr='label', default_node_attr=1):
                 f.write(f"{node} {neighbor}\n")
     print(f"VF3 graph exported to {file_path}")
 
-# LAD and Glasgow solvers
-def generate_multiple_tests(num_tests, num_nodes):
-    out_dir = "tree_lad"
-    if not os.path.exists(out_dir):
-        os.makedirs(out_dir)
-    
-    for i in range(1, num_tests + 1):
-        tree_graph = generate_tree_graph(num_nodes)
-        original_file_path = os.path.join(out_dir, f"{i}_original_graph")
-        export_graph_lad(tree_graph, original_file_path)
+### function that generates subgraph tests from SNAP graphs ###
 
-        for fraction, label in zip([0.1, 0.2, 0.6], ["10", "20", "60"]):
-            subgraph = generate_random_subgraph(tree_graph, fraction)
-            subgraph_file_path = os.path.join(out_dir, f"{i}_subgraph_{label}")
-            export_graph_lad(subgraph, subgraph_file_path)
-    
-        print(f"Test {i} generated with files {original_file_path} and corresponding subgraphs.")
-    
-    print(f"All {num_tests} LAD tests generated successfully.")
+def generate_subgraph_tests_from_snap(snap_folder, solver_format='lad', fractions=[0.1, 0.2, 0.6], out_folder="snap_subgraphs"):
+    """
+    1. Scans snap_folder for all .edges files, 
+    2. loads each graph, 
+    3. generates subgraphs for each fraction in 'fractions', 
+    4. exports them in the chosen solver format.
 
-# RI solver
-def generate_multiple_tests_ri(num_tests, num_nodes):
-    out_dir = "tree_ri"
-    if not os.path.exists(out_dir):
-        os.makedirs(out_dir)
+    """
+    output_dir = os.path.join(snap_folder, out_folder)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"Created output folder: {output_dir}")
     
-    for i in range(1, num_tests + 1):
-        tree_graph = generate_tree_graph(num_nodes)
-        target_file_path = os.path.join(out_dir, f"{i}_original_graph.gfu")
-        export_graph_ri(tree_graph, target_file_path, "#data")
-
-        for fraction, label in zip([0.1, 0.2, 0.6], ["10", "20", "60"]):
-            subgraph = generate_random_subgraph(tree_graph, fraction)
-            pattern_file_path = os.path.join(out_dir, f"{i}_subgraph_{label}.gfu")
-            export_graph_ri(subgraph, pattern_file_path, "#query")
+    for filename in os.listdir(snap_folder):
+        if filename.endswith(".edges"):
+            file_path = os.path.join(snap_folder, filename)
+            # Load the original SNAP graph.
+            G = load_snap_ego_network(file_path)
+            base_name = os.path.splitext(filename)[0]
+            
+            # Export the original graph in the chosen format.
+            if solver_format.lower() == 'lad':
+                orig_out = os.path.join(output_dir, base_name + "_original.lad")
+                export_graph_lad(G, orig_out)
+            elif solver_format.lower() == 'ri':
+                orig_out = os.path.join(output_dir, base_name + "_original.gfu")
+                export_graph_ri(G, orig_out, "#data")
+            elif solver_format.lower() == 'vf3':
+                orig_out = os.path.join(output_dir, base_name + "_original.grf")
+                export_graph_vf3(G, orig_out)
+            else:
+                print(f"Unknown solver format: {solver_format}")
+                continue
+            
+            # For each specified fraction, generate and export a connected subgraph.
+            for fraction in fractions:
+                label = str(int(fraction * 100))  # e.g. 10 for 0.1, 20 for 0.2, etc.
+                subG = generate_random_subgraph(G, fraction)
+                if solver_format.lower() == 'lad':
+                    out_file = os.path.join(output_dir, f"{base_name}_subgraph_{label}.lad")
+                    export_graph_lad(subG, out_file)
+                elif solver_format.lower() == 'ri':
+                    out_file = os.path.join(output_dir, f"{base_name}_subgraph_{label}.gfu")
+                    export_graph_ri(subG, out_file, "#query")
+                elif solver_format.lower() == 'vf3':
+                    out_file = os.path.join(output_dir, f"{base_name}_subgraph_{label}.grf")
+                    export_graph_vf3(subG, out_file)
+                print(f"Subgraph for fraction {fraction} exported as {out_file}")
     
-        print(f"Test {i} generated with target {target_file_path} and corresponding pattern graphs.")
-    
-    print(f"All {num_tests} RI tests generated successfully.")
-
-# VF3 solver
-def generate_multiple_tests_vf3(num_tests, num_nodes):
-    out_dir = "tree_vf3"
-    if not os.path.exists(out_dir):
-        os.makedirs(out_dir)
-    
-    for i in range(0, num_tests):
-        tree_graph = generate_tree_graph(num_nodes)
-        target_file_path = os.path.join(out_dir, f"{i}graph.grf")
-        export_graph_vf3(tree_graph, target_file_path)
-        
-        for fraction, label in zip([0.1, 0.2, 0.6], ["10", "20", "60"]):
-            subgraph = generate_random_subgraph(tree_graph, fraction)
-            pattern_file_path = os.path.join(out_dir, f"{i}graph{label}.sub.grf")
-            export_graph_vf3(subgraph, pattern_file_path)
-    
-        print(f"Test {i} generated with target {target_file_path} and corresponding VF3 pattern graphs.")
-    
-    print(f"All {num_tests} VF3 tests generated successfully.")
+    print("Subgraph tests generated successfully.")
 
 
 if __name__ == "__main__":
+    snap_folder = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/twitter"
 
-    generate_multiple_tests(num_tests=2, num_nodes=1000)
+    chosen_format = 'lad'
     
-    generate_multiple_tests_ri(num_tests=2, num_nodes=1000)
+    fractions = [0.1, 0.2, 0.6]
 
-    generate_multiple_tests_vf3(num_tests=2, num_nodes=1000)
+    out_folder = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/SNAP_twitter_lad"
+    
+    print(f"Processing SNAP files in {snap_folder} to generate subgraphs in {chosen_format.upper()} format.")
+    generate_subgraph_tests_from_snap(snap_folder, solver_format=chosen_format, fractions=fractions, out_folder=out_folder)
