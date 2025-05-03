@@ -148,6 +148,6 @@ if __name__ == "__main__":
     num_nodes = 1000   
     m = 2              
     
-    #generate_multiple_tests_scale_free(num_tests, num_nodes, m)
-    #generate_multiple_tests_ri_scale_free(num_tests, num_nodes, m)
+    generate_multiple_tests_scale_free(num_tests, num_nodes, m)
+    generate_multiple_tests_ri_scale_free(num_tests, num_nodes, m)
     generate_multiple_tests_vf3_scale_free(num_tests, num_nodes, m)
