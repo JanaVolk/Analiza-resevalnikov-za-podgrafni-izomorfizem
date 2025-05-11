@@ -144,7 +144,7 @@ def generate_multiple_tests_vf3_scale_free(num_tests, num_nodes, m):
 
 
 if __name__ == "__main__":
-    num_tests = 2      
+    num_tests = 100      
     num_nodes = 1000   
     m = 2              
     

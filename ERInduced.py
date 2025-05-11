@@ -150,7 +150,7 @@ def generate_multiple_tests_er_vf3(num_tests, num_nodes, p):
 
 if __name__ == "__main__":
 
-    num_tests = 2       
+    num_tests = 100       
     num_nodes = 1000    
     p = 0.01            
 

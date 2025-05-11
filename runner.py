@@ -12,32 +12,32 @@ TEST_SOURCE_DIRS = {
         "tree": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/tree_lad",
         "scale_free": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/scalefree_lad",
     },
-    "ri": {
-        "er": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/er_ri",
-        "tree": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/tree_ri",
-        "scale_free": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/scalefree_ri",
-    },
-    "vf3": {
-        "er": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/er_vf3",
-        "tree": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/tree_vf3",
-        "scale_free": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/scalefree_vf3",
-    }
+    #"ri": {
+    #    "er": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/er_ri",
+    #    "tree": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/tree_ri",
+    #    "scale_free": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/scalefree_ri",
+    #},
+    #"vf3": {
+    #    "er": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/er_vf3",
+    #    "tree": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/tree_vf3",
+    #    "scale_free": "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/scalefree_vf3",
+    #}
 }
 
 SOLVER_DEST_DIRS = {
-    "Glasgow": "/home/jana/Documents/DIPLOMA/SOLVERJI/GLASGOW/glasgow-subgraph-solver/test",
-    "LAD":     "/home/jana/Documents/DIPLOMA/SOLVERJI/LAD/pathLAD/test",
-    "RI":      "/home/jana/Documents/DIPLOMA/SOLVERJI/RI/RI/test",
-    "VF3":     "/home/jana/Documents/DIPLOMA/SOLVERJI/VF3/vf3lib/test",
+    #"Glasgow": "/home/jana/Documents/DIPLOMA/SOLVERJI/GLASGOW/glasgow-subgraph-solver/test",
+    #"LAD":     "/home/jana/Documents/DIPLOMA/SOLVERJI/LAD/pathLAD/test",
+    #"RI":      "/home/jana/Documents/DIPLOMA/SOLVERJI/RI/RI/test",
+    #"VF3":     "/home/jana/Documents/DIPLOMA/SOLVERJI/VF3/vf3lib/test",
     "SICS":    "/home/jana/Documents/DIPLOMA/SOLVERJI/SICS/sics/test",
 }
 
 SOLVER_FORMAT = {
-    "Glasgow": "lad",
-    "LAD": "lad",
+    #"Glasgow": "lad",
+    #"LAD": "lad",
     "SICS": "lad",
-    "RI": "ri",
-    "VF3": "vf3",
+    #"RI": "ri",
+    #"VF3": "vf3",
 }
 
 # Step 2: Helper for logging
@@ -72,9 +72,6 @@ def copy_tests(solver_name, test_type):
 
 # Step 4: Run tests for one solver & one type
 
-import os
-import subprocess
-import time
 
 def run_all_tests_for_solver(solver, test_type, log_file):
     test_dir = os.path.join(SOLVER_DEST_DIRS[solver["name"]], test_type)
@@ -193,42 +190,6 @@ def main():
     os.makedirs("results", exist_ok=True)
 
     solvers = [
-        {
-            "name": "Glasgow",
-            "workdir": "/home/jana/Documents/DIPLOMA/SOLVERJI/GLASGOW/glasgow-subgraph-solver",
-            "command": "./build/glasgow_subgraph_solver --timeout 60 --induced --format lad {pattern} {target}",
-            "file_pattern": {
-                "target": "{group}_original_graph",
-                "pattern": "{group}_subgraph_{level}"
-            }
-        },
-        {
-            "name": "LAD",
-            "workdir": "/home/jana/Documents/DIPLOMA/SOLVERJI/LAD/pathLAD",
-            "command": "./main -s 60 -f -i -p {pattern} -t {target}",
-            "file_pattern": {
-                "target": "{group}_original_graph",
-                "pattern": "{group}_subgraph_{level}"
-            }
-        },
-        {
-            "name": "RI",
-            "workdir": "/home/jana/Documents/DIPLOMA/SOLVERJI/RI/RI",
-            "command": "./ri36 ind gfu {target} {pattern}",
-            "file_pattern": {
-                "target": "{group}_original_graph.gfu",
-                "pattern": "{group}_subgraph_{level}.gfu"
-            }
-        },
-        {
-            "name": "VF3",
-            "workdir": "/home/jana/Documents/DIPLOMA/SOLVERJI/VF3/vf3lib",
-            "command": "./bin/vf3 -u {pattern} {target}",
-            "file_pattern": {
-                "target": "{group}graph.grf",
-                "pattern": "{group}graph{level}.sub.grf"
-            }
-        },
         {
             "name": "SICS",
             "workdir": "/home/jana/Documents/DIPLOMA/SOLVERJI/SICS/sics",

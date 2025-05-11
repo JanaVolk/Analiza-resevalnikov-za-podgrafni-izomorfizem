@@ -182,8 +182,8 @@ def generate_multiple_tests_vf3(num_tests, num_nodes):
 
 if __name__ == "__main__":
 
-    generate_multiple_tests(num_tests=2, num_nodes=1000)
+    generate_multiple_tests(num_tests=100, num_nodes=1000)
     
-    generate_multiple_tests_ri(num_tests=2, num_nodes=1000)
+    generate_multiple_tests_ri(num_tests=100, num_nodes=1000)
 
-    generate_multiple_tests_vf3(num_tests=2, num_nodes=1000)
+    generate_multiple_tests_vf3(num_tests=100, num_nodes=1000)
