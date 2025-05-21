@@ -1,0 +1,2383 @@
+=== START LAD (scale_free) ===
+[Run] LAD (scale_free) groups: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+
+[Run] LAD grp=1 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp1_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/1_subgraph_10 -t ./test/scale_free/1_original_graph
+[Run] Done in 20.66s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 20.168409 seconds
+
+[Valgrind] ==52213==     in use at exit: 10,647,164 bytes in 3,529 blocks
+[Valgrind] ==52213==   total heap usage: 3,534 allocs, 5 frees, 10,660,396 bytes allocated
+
+[Run] LAD grp=1 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp1_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/1_subgraph_20 -t ./test/scale_free/1_original_graph
+[Run] Done in 24.42s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 23.967888 seconds
+
+[Valgrind] ==52260==     in use at exit: 12,298,184 bytes in 4,029 blocks
+[Valgrind] ==52260==   total heap usage: 4,034 allocs, 5 frees, 12,311,416 bytes allocated
+
+[Run] LAD grp=1 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp1_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/1_subgraph_60 -t ./test/scale_free/1_original_graph
+[Run] Done in 7.43s
+Run completed: 1 solutions; 0 fail nodes; 12 nodes; 6.988395 seconds
+
+[Valgrind] ==52273==     in use at exit: 20,160,152 bytes in 6,029 blocks
+[Valgrind] ==52273==   total heap usage: 6,034 allocs, 5 frees, 20,173,384 bytes allocated
+
+[Run] LAD grp=2 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp2_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/2_subgraph_10 -t ./test/scale_free/2_original_graph
+[Run] Done in 5.33s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 4.959683 seconds
+
+[Valgrind] ==52279==     in use at exit: 10,673,196 bytes in 3,529 blocks
+[Valgrind] ==52279==   total heap usage: 3,534 allocs, 5 frees, 10,686,428 bytes allocated
+
+[Run] LAD grp=2 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp2_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/2_subgraph_20 -t ./test/scale_free/2_original_graph
+[Run] Done in 3.63s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 3.243056 seconds
+
+[Valgrind] ==52290==     in use at exit: 12,200,748 bytes in 4,029 blocks
+[Valgrind] ==52290==   total heap usage: 4,034 allocs, 5 frees, 12,213,980 bytes allocated
+
+[Run] LAD grp=2 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp2_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/2_subgraph_60 -t ./test/scale_free/2_original_graph
+[Run] Done in 7.85s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.404565 seconds
+
+[Valgrind] ==52297==     in use at exit: 20,123,656 bytes in 6,029 blocks
+[Valgrind] ==52297==   total heap usage: 6,034 allocs, 5 frees, 20,136,888 bytes allocated
+
+[Run] LAD grp=3 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp3_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/3_subgraph_10 -t ./test/scale_free/3_original_graph
+[Run] Done in 22.93s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 22.554858 seconds
+
+[Valgrind] ==52304==     in use at exit: 10,649,040 bytes in 3,529 blocks
+[Valgrind] ==52304==   total heap usage: 3,534 allocs, 5 frees, 10,662,272 bytes allocated
+
+[Run] LAD grp=3 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp3_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/3_subgraph_20 -t ./test/scale_free/3_original_graph
+[Run] Done in 40.97s
+Run completed: 1 solutions; 0 fail nodes; 40 nodes; 40.528025 seconds
+
+[Valgrind] ==52312==     in use at exit: 12,396,980 bytes in 4,029 blocks
+[Valgrind] ==52312==   total heap usage: 4,034 allocs, 5 frees, 12,410,212 bytes allocated
+
+[Run] LAD grp=3 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp3_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/3_subgraph_60 -t ./test/scale_free/3_original_graph
+[Run] Done in 7.71s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.254219 seconds
+
+[Valgrind] ==52335==     in use at exit: 20,107,572 bytes in 6,029 blocks
+[Valgrind] ==52335==   total heap usage: 6,034 allocs, 5 frees, 20,120,804 bytes allocated
+
+[Run] LAD grp=4 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp4_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/4_subgraph_10 -t ./test/scale_free/4_original_graph
+[Run] Done in 17.84s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 17.464013 seconds
+
+[Valgrind] ==52341==     in use at exit: 10,638,792 bytes in 3,529 blocks
+[Valgrind] ==52341==   total heap usage: 3,534 allocs, 5 frees, 10,652,024 bytes allocated
+
+[Run] LAD grp=4 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp4_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/4_subgraph_20 -t ./test/scale_free/4_original_graph
+[Run] Done in 3.90s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 3.523497 seconds
+
+[Valgrind] ==52350==     in use at exit: 12,243,260 bytes in 4,029 blocks
+[Valgrind] ==52350==   total heap usage: 4,034 allocs, 5 frees, 12,256,492 bytes allocated
+
+[Run] LAD grp=4 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp4_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/4_subgraph_60 -t ./test/scale_free/4_original_graph
+[Run] Done in 7.81s
+Run completed: 1 solutions; 0 fail nodes; 10 nodes; 7.356788 seconds
+
+[Valgrind] ==52356==     in use at exit: 20,017,316 bytes in 6,029 blocks
+[Valgrind] ==52356==   total heap usage: 6,034 allocs, 5 frees, 20,030,548 bytes allocated
+
+[Run] LAD grp=5 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp5_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/5_subgraph_10 -t ./test/scale_free/5_original_graph
+[Run] Done in 45.66s
+Run completed: 1 solutions; 3 fail nodes; 51 nodes; 45.236021 seconds
+
+[Valgrind] ==52367==     in use at exit: 10,705,592 bytes in 3,529 blocks
+[Valgrind] ==52367==   total heap usage: 3,534 allocs, 5 frees, 10,718,824 bytes allocated
+
+[Run] LAD grp=5 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp5_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/5_subgraph_20 -t ./test/scale_free/5_original_graph
+[Run] Done in 24.12s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 23.710167 seconds
+
+[Valgrind] ==52386==     in use at exit: 12,322,936 bytes in 4,029 blocks
+[Valgrind] ==52386==   total heap usage: 4,034 allocs, 5 frees, 12,336,168 bytes allocated
+
+[Run] LAD grp=5 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp5_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/5_subgraph_60 -t ./test/scale_free/5_original_graph
+[Run] Done in 7.54s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.077887 seconds
+
+[Valgrind] ==52392==     in use at exit: 20,184,080 bytes in 6,029 blocks
+[Valgrind] ==52392==   total heap usage: 6,034 allocs, 5 frees, 20,197,312 bytes allocated
+
+[Run] LAD grp=6 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp6_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/6_subgraph_10 -t ./test/scale_free/6_original_graph
+[Run] Done in 22.87s
+Run completed: 1 solutions; 1 fail nodes; 24 nodes; 22.464026 seconds
+
+[Valgrind] ==52403==     in use at exit: 10,679,016 bytes in 3,529 blocks
+[Valgrind] ==52403==   total heap usage: 3,534 allocs, 5 frees, 10,692,248 bytes allocated
+
+[Run] LAD grp=6 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp6_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/6_subgraph_20 -t ./test/scale_free/6_original_graph
+[Run] Done in 25.94s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 25.496080 seconds
+
+[Valgrind] ==52410==     in use at exit: 12,318,712 bytes in 4,029 blocks
+[Valgrind] ==52410==   total heap usage: 4,034 allocs, 5 frees, 12,331,944 bytes allocated
+
+[Run] LAD grp=6 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp6_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/6_subgraph_60 -t ./test/scale_free/6_original_graph
+[Run] Done in 7.64s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.133839 seconds
+
+[Valgrind] ==52440==     in use at exit: 20,161,644 bytes in 6,029 blocks
+[Valgrind] ==52440==   total heap usage: 6,034 allocs, 5 frees, 20,174,876 bytes allocated
+
+[Run] LAD grp=7 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp7_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/7_subgraph_10 -t ./test/scale_free/7_original_graph
+[Run] Done in 27.92s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 27.526409 seconds
+
+[Valgrind] ==52453==     in use at exit: 10,688,088 bytes in 3,529 blocks
+[Valgrind] ==52453==   total heap usage: 3,534 allocs, 5 frees, 10,701,320 bytes allocated
+
+[Run] LAD grp=7 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp7_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/7_subgraph_20 -t ./test/scale_free/7_original_graph
+[Run] Done in 3.92s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 3.517475 seconds
+
+[Valgrind] ==52468==     in use at exit: 12,285,492 bytes in 4,029 blocks
+[Valgrind] ==52468==   total heap usage: 4,034 allocs, 5 frees, 12,298,724 bytes allocated
+
+[Run] LAD grp=7 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp7_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/7_subgraph_60 -t ./test/scale_free/7_original_graph
+[Run] Done in 8.02s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.591483 seconds
+
+[Valgrind] ==52474==     in use at exit: 20,172,732 bytes in 6,029 blocks
+[Valgrind] ==52474==   total heap usage: 6,034 allocs, 5 frees, 20,185,964 bytes allocated
+
+[Run] LAD grp=8 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp8_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/8_subgraph_10 -t ./test/scale_free/8_original_graph
+[Run] Done in 22.03s
+Run completed: 1 solutions; 1 fail nodes; 34 nodes; 21.627611 seconds
+
+[Valgrind] ==52480==     in use at exit: 10,692,724 bytes in 3,529 blocks
+[Valgrind] ==52480==   total heap usage: 3,534 allocs, 5 frees, 10,705,956 bytes allocated
+
+[Run] LAD grp=8 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp8_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/8_subgraph_20 -t ./test/scale_free/8_original_graph
+[Run] Done in 4.26s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 3.814826 seconds
+
+[Valgrind] ==52493==     in use at exit: 12,300,896 bytes in 4,029 blocks
+[Valgrind] ==52493==   total heap usage: 4,034 allocs, 5 frees, 12,314,128 bytes allocated
+
+[Run] LAD grp=8 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp8_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/8_subgraph_60 -t ./test/scale_free/8_original_graph
+[Run] Done in 8.61s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 8.142927 seconds
+
+[Valgrind] ==52516==     in use at exit: 20,103,748 bytes in 6,029 blocks
+[Valgrind] ==52516==   total heap usage: 6,034 allocs, 5 frees, 20,116,980 bytes allocated
+
+[Run] LAD grp=9 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp9_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/9_subgraph_10 -t ./test/scale_free/9_original_graph
+[Run] Done in 3.21s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 2.847452 seconds
+
+[Valgrind] ==52522==     in use at exit: 10,510,532 bytes in 3,529 blocks
+[Valgrind] ==52522==   total heap usage: 3,534 allocs, 5 frees, 10,523,764 bytes allocated
+
+[Run] LAD grp=9 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp9_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/9_subgraph_20 -t ./test/scale_free/9_original_graph
+[Run] Done in 3.80s
+Run completed: 1 solutions; 1 fail nodes; 33 nodes; 3.355675 seconds
+
+[Valgrind] ==52528==     in use at exit: 12,289,984 bytes in 4,029 blocks
+[Valgrind] ==52528==   total heap usage: 4,034 allocs, 5 frees, 12,303,216 bytes allocated
+
+[Run] LAD grp=9 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp9_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/9_subgraph_60 -t ./test/scale_free/9_original_graph
+[Run] Done in 7.81s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.375590 seconds
+
+[Valgrind] ==52534==     in use at exit: 20,059,324 bytes in 6,029 blocks
+[Valgrind] ==52534==   total heap usage: 6,034 allocs, 5 frees, 20,072,556 bytes allocated
+
+[Run] LAD grp=10 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp10_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/10_subgraph_10 -t ./test/scale_free/10_original_graph
+[Run] Done in 32.98s
+Run completed: 1 solutions; 2 fail nodes; 32 nodes; 32.564085 seconds
+
+[Valgrind] ==52540==     in use at exit: 10,636,272 bytes in 3,529 blocks
+[Valgrind] ==52540==   total heap usage: 3,534 allocs, 5 frees, 10,649,504 bytes allocated
+
+[Run] LAD grp=10 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp10_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/10_subgraph_20 -t ./test/scale_free/10_original_graph
+[Run] Done in 19.91s
+Run completed: 1 solutions; 0 fail nodes; 38 nodes; 19.507941 seconds
+
+[Valgrind] ==52547==     in use at exit: 12,169,632 bytes in 4,029 blocks
+[Valgrind] ==52547==   total heap usage: 4,034 allocs, 5 frees, 12,182,864 bytes allocated
+
+[Run] LAD grp=10 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp10_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/10_subgraph_60 -t ./test/scale_free/10_original_graph
+[Run] Done in 7.94s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.478944 seconds
+
+[Valgrind] ==52554==     in use at exit: 20,113,344 bytes in 6,029 blocks
+[Valgrind] ==52554==   total heap usage: 6,034 allocs, 5 frees, 20,126,576 bytes allocated
+
+[Run] LAD grp=11 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp11_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/11_subgraph_10 -t ./test/scale_free/11_original_graph
+[Run] Done in 17.16s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 16.777475 seconds
+
+[Valgrind] ==52560==     in use at exit: 10,566,248 bytes in 3,529 blocks
+[Valgrind] ==52560==   total heap usage: 3,534 allocs, 5 frees, 10,579,480 bytes allocated
+
+[Run] LAD grp=11 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp11_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/11_subgraph_20 -t ./test/scale_free/11_original_graph
+[Run] Done in 4.02s
+Run completed: 1 solutions; 0 fail nodes; 37 nodes; 3.616155 seconds
+
+[Valgrind] ==52579==     in use at exit: 12,278,676 bytes in 4,029 blocks
+[Valgrind] ==52579==   total heap usage: 4,034 allocs, 5 frees, 12,291,908 bytes allocated
+
+[Run] LAD grp=11 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp11_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/11_subgraph_60 -t ./test/scale_free/11_original_graph
+[Run] Done in 7.74s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.299434 seconds
+
+[Valgrind] ==52585==     in use at exit: 20,020,836 bytes in 6,029 blocks
+[Valgrind] ==52585==   total heap usage: 6,034 allocs, 5 frees, 20,034,068 bytes allocated
+
+[Run] LAD grp=12 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp12_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/12_subgraph_10 -t ./test/scale_free/12_original_graph
+[Run] Done in 15.86s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 15.460497 seconds
+
+[Valgrind] ==52591==     in use at exit: 10,650,656 bytes in 3,529 blocks
+[Valgrind] ==52591==   total heap usage: 3,534 allocs, 5 frees, 10,663,888 bytes allocated
+
+[Run] LAD grp=12 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp12_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/12_subgraph_20 -t ./test/scale_free/12_original_graph
+[Run] Done in 20.37s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 19.965730 seconds
+
+[Valgrind] ==52598==     in use at exit: 12,216,860 bytes in 4,029 blocks
+[Valgrind] ==52598==   total heap usage: 4,034 allocs, 5 frees, 12,230,092 bytes allocated
+
+[Run] LAD grp=12 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp12_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/12_subgraph_60 -t ./test/scale_free/12_original_graph
+[Run] Done in 7.59s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.157432 seconds
+
+[Valgrind] ==52604==     in use at exit: 20,085,400 bytes in 6,029 blocks
+[Valgrind] ==52604==   total heap usage: 6,034 allocs, 5 frees, 20,098,632 bytes allocated
+
+[Run] LAD grp=13 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp13_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/13_subgraph_10 -t ./test/scale_free/13_original_graph
+[Run] Done in 19.28s
+Run completed: 1 solutions; 2 fail nodes; 23 nodes; 18.896781 seconds
+
+[Valgrind] ==52610==     in use at exit: 10,618,976 bytes in 3,529 blocks
+[Valgrind] ==52610==   total heap usage: 3,534 allocs, 5 frees, 10,632,208 bytes allocated
+
+[Run] LAD grp=13 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp13_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/13_subgraph_20 -t ./test/scale_free/13_original_graph
+[Run] Done in 24.50s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 24.084556 seconds
+
+[Valgrind] ==52616==     in use at exit: 12,299,676 bytes in 4,029 blocks
+[Valgrind] ==52616==   total heap usage: 4,034 allocs, 5 frees, 12,312,908 bytes allocated
+
+[Run] LAD grp=13 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp13_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/13_subgraph_60 -t ./test/scale_free/13_original_graph
+[Run] Done in 7.42s
+Run completed: 1 solutions; 0 fail nodes; 12 nodes; 6.969092 seconds
+
+[Valgrind] ==52640==     in use at exit: 19,938,336 bytes in 6,029 blocks
+[Valgrind] ==52640==   total heap usage: 6,034 allocs, 5 frees, 19,951,568 bytes allocated
+
+[Run] LAD grp=14 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp14_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/14_subgraph_10 -t ./test/scale_free/14_original_graph
+[Run] Done in 26.56s
+Run completed: 1 solutions; 2 fail nodes; 32 nodes; 26.166969 seconds
+
+[Valgrind] ==52646==     in use at exit: 10,701,952 bytes in 3,529 blocks
+[Valgrind] ==52646==   total heap usage: 3,534 allocs, 5 frees, 10,715,184 bytes allocated
+
+[Run] LAD grp=14 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp14_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/14_subgraph_20 -t ./test/scale_free/14_original_graph
+[Run] Done in 3.79s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 3.384888 seconds
+
+[Valgrind] ==52663==     in use at exit: 12,304,248 bytes in 4,029 blocks
+[Valgrind] ==52663==   total heap usage: 4,034 allocs, 5 frees, 12,317,480 bytes allocated
+
+[Run] LAD grp=14 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp14_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/14_subgraph_60 -t ./test/scale_free/14_original_graph
+[Run] Done in 7.42s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 6.969968 seconds
+
+[Valgrind] ==52670==     in use at exit: 20,037,496 bytes in 6,029 blocks
+[Valgrind] ==52670==   total heap usage: 6,034 allocs, 5 frees, 20,050,728 bytes allocated
+
+[Run] LAD grp=15 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp15_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/15_subgraph_10 -t ./test/scale_free/15_original_graph
+[Run] Done in 21.39s
+Run completed: 1 solutions; 4 fail nodes; 28 nodes; 20.989836 seconds
+
+[Valgrind] ==52676==     in use at exit: 10,658,408 bytes in 3,529 blocks
+[Valgrind] ==52676==   total heap usage: 3,534 allocs, 5 frees, 10,671,640 bytes allocated
+
+[Run] LAD grp=15 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp15_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/15_subgraph_20 -t ./test/scale_free/15_original_graph
+[Run] Done in 23.56s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 23.110545 seconds
+
+[Valgrind] ==52688==     in use at exit: 12,222,080 bytes in 4,029 blocks
+[Valgrind] ==52688==   total heap usage: 4,034 allocs, 5 frees, 12,235,312 bytes allocated
+
+[Run] LAD grp=15 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp15_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/15_subgraph_60 -t ./test/scale_free/15_original_graph
+[Run] Done in 7.66s
+Run completed: 1 solutions; 0 fail nodes; 12 nodes; 7.225487 seconds
+
+[Valgrind] ==52713==     in use at exit: 20,023,816 bytes in 6,029 blocks
+[Valgrind] ==52713==   total heap usage: 6,034 allocs, 5 frees, 20,037,048 bytes allocated
+
+[Run] LAD grp=16 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp16_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/16_subgraph_10 -t ./test/scale_free/16_original_graph
+[Run] Done in 15.42s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 15.036155 seconds
+
+[Valgrind] ==52719==     in use at exit: 10,617,756 bytes in 3,529 blocks
+[Valgrind] ==52719==   total heap usage: 3,534 allocs, 5 frees, 10,630,988 bytes allocated
+
+[Run] LAD grp=16 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp16_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/16_subgraph_20 -t ./test/scale_free/16_original_graph
+[Run] Done in 21.04s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 20.618736 seconds
+
+[Valgrind] ==52744==     in use at exit: 12,247,740 bytes in 4,029 blocks
+[Valgrind] ==52744==   total heap usage: 4,034 allocs, 5 frees, 12,260,972 bytes allocated
+
+[Run] LAD grp=16 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp16_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/16_subgraph_60 -t ./test/scale_free/16_original_graph
+[Run] Done in 7.87s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.409171 seconds
+
+[Valgrind] ==52750==     in use at exit: 20,064,032 bytes in 6,029 blocks
+[Valgrind] ==52750==   total heap usage: 6,034 allocs, 5 frees, 20,077,264 bytes allocated
+
+[Run] LAD grp=17 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp17_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/17_subgraph_10 -t ./test/scale_free/17_original_graph
+[Run] Done in 21.36s
+Run completed: 1 solutions; 0 fail nodes; 37 nodes; 20.957742 seconds
+
+[Valgrind] ==52762==     in use at exit: 10,636,068 bytes in 3,529 blocks
+[Valgrind] ==52762==   total heap usage: 3,534 allocs, 5 frees, 10,649,300 bytes allocated
+
+[Run] LAD grp=17 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp17_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/17_subgraph_20 -t ./test/scale_free/17_original_graph
+[Run] Done in 22.78s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 22.347089 seconds
+
+[Valgrind] ==52779==     in use at exit: 12,253,268 bytes in 4,029 blocks
+[Valgrind] ==52779==   total heap usage: 4,034 allocs, 5 frees, 12,266,500 bytes allocated
+
+[Run] LAD grp=17 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp17_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/17_subgraph_60 -t ./test/scale_free/17_original_graph
+[Run] Done in 7.50s
+Run completed: 1 solutions; 0 fail nodes; 11 nodes; 7.055557 seconds
+
+[Valgrind] ==52785==     in use at exit: 20,036,948 bytes in 6,029 blocks
+[Valgrind] ==52785==   total heap usage: 6,034 allocs, 5 frees, 20,050,180 bytes allocated
+
+[Run] LAD grp=18 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp18_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/18_subgraph_10 -t ./test/scale_free/18_original_graph
+[Run] Done in 32.53s
+Run completed: 1 solutions; 4 fail nodes; 31 nodes; 32.126158 seconds
+
+[Valgrind] ==52793==     in use at exit: 10,645,764 bytes in 3,529 blocks
+[Valgrind] ==52793==   total heap usage: 3,534 allocs, 5 frees, 10,658,996 bytes allocated
+
+[Run] LAD grp=18 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp18_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/18_subgraph_20 -t ./test/scale_free/18_original_graph
+[Run] Done in 3.73s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 3.319112 seconds
+
+[Valgrind] ==52799==     in use at exit: 12,234,340 bytes in 4,029 blocks
+[Valgrind] ==52799==   total heap usage: 4,034 allocs, 5 frees, 12,247,572 bytes allocated
+
+[Run] LAD grp=18 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp18_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/18_subgraph_60 -t ./test/scale_free/18_original_graph
+[Run] Done in 7.67s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 7.225524 seconds
+
+[Valgrind] ==52806==     in use at exit: 19,960,984 bytes in 6,029 blocks
+[Valgrind] ==52806==   total heap usage: 6,034 allocs, 5 frees, 19,974,216 bytes allocated
+
+[Run] LAD grp=19 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp19_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/19_subgraph_10 -t ./test/scale_free/19_original_graph
+[Run] Done in 10.11s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 9.735755 seconds
+
+[Valgrind] ==52812==     in use at exit: 10,627,992 bytes in 3,529 blocks
+[Valgrind] ==52812==   total heap usage: 3,534 allocs, 5 frees, 10,641,224 bytes allocated
+
+[Run] LAD grp=19 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp19_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/19_subgraph_20 -t ./test/scale_free/19_original_graph
+[Run] Done in 4.04s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 3.621552 seconds
+
+[Valgrind] ==52820==     in use at exit: 12,266,092 bytes in 4,029 blocks
+[Valgrind] ==52820==   total heap usage: 4,034 allocs, 5 frees, 12,279,324 bytes allocated
+
+[Run] LAD grp=19 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp19_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/19_subgraph_60 -t ./test/scale_free/19_original_graph
+[Run] Done in 9.05s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 8.563703 seconds
+
+[Valgrind] ==52841==     in use at exit: 20,013,176 bytes in 6,029 blocks
+[Valgrind] ==52841==   total heap usage: 6,034 allocs, 5 frees, 20,026,408 bytes allocated
+
+[Run] LAD grp=20 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp20_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/20_subgraph_10 -t ./test/scale_free/20_original_graph
+[Run] Done in 16.42s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 16.020114 seconds
+
+[Valgrind] ==52848==     in use at exit: 10,641,836 bytes in 3,529 blocks
+[Valgrind] ==52848==   total heap usage: 3,534 allocs, 5 frees, 10,655,068 bytes allocated
+
+[Run] LAD grp=20 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp20_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/20_subgraph_20 -t ./test/scale_free/20_original_graph
+[Run] Done in 3.52s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 3.127348 seconds
+
+[Valgrind] ==52858==     in use at exit: 12,198,224 bytes in 4,029 blocks
+[Valgrind] ==52858==   total heap usage: 4,034 allocs, 5 frees, 12,211,456 bytes allocated
+
+[Run] LAD grp=20 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp20_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/20_subgraph_60 -t ./test/scale_free/20_original_graph
+[Run] Done in 8.33s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.896502 seconds
+
+[Valgrind] ==52865==     in use at exit: 20,015,224 bytes in 6,029 blocks
+[Valgrind] ==52865==   total heap usage: 6,034 allocs, 5 frees, 20,028,456 bytes allocated
+
+[Run] LAD grp=21 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp21_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/21_subgraph_10 -t ./test/scale_free/21_original_graph
+[Run] Done in 27.40s
+Run completed: 1 solutions; 3 fail nodes; 27 nodes; 27.009625 seconds
+
+[Valgrind] ==52877==     in use at exit: 10,690,800 bytes in 3,529 blocks
+[Valgrind] ==52877==   total heap usage: 3,534 allocs, 5 frees, 10,704,032 bytes allocated
+
+[Run] LAD grp=21 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp21_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/21_subgraph_20 -t ./test/scale_free/21_original_graph
+[Run] Done in 27.41s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 26.964956 seconds
+
+[Valgrind] ==52884==     in use at exit: 12,328,120 bytes in 4,029 blocks
+[Valgrind] ==52884==   total heap usage: 4,034 allocs, 5 frees, 12,341,352 bytes allocated
+
+[Run] LAD grp=21 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp21_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/21_subgraph_60 -t ./test/scale_free/21_original_graph
+[Run] Done in 8.58s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 8.090100 seconds
+
+[Valgrind] ==52912==     in use at exit: 20,085,208 bytes in 6,029 blocks
+[Valgrind] ==52912==   total heap usage: 6,034 allocs, 5 frees, 20,098,440 bytes allocated
+
+[Run] LAD grp=22 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp22_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/22_subgraph_10 -t ./test/scale_free/22_original_graph
+[Run] Done in 15.32s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 14.938340 seconds
+
+[Valgrind] ==52919==     in use at exit: 10,598,724 bytes in 3,529 blocks
+[Valgrind] ==52919==   total heap usage: 3,534 allocs, 5 frees, 10,611,956 bytes allocated
+
+[Run] LAD grp=22 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp22_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/22_subgraph_20 -t ./test/scale_free/22_original_graph
+[Run] Done in 3.76s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 3.360278 seconds
+
+[Valgrind] ==52925==     in use at exit: 12,251,500 bytes in 4,029 blocks
+[Valgrind] ==52925==   total heap usage: 4,034 allocs, 5 frees, 12,264,732 bytes allocated
+
+[Run] LAD grp=22 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp22_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/22_subgraph_60 -t ./test/scale_free/22_original_graph
+[Run] Done in 7.80s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.367156 seconds
+
+[Valgrind] ==52932==     in use at exit: 20,053,780 bytes in 6,029 blocks
+[Valgrind] ==52932==   total heap usage: 6,034 allocs, 5 frees, 20,067,012 bytes allocated
+
+[Run] LAD grp=23 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp23_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/23_subgraph_10 -t ./test/scale_free/23_original_graph
+[Run] Done in 24.78s
+Run completed: 1 solutions; 2 fail nodes; 35 nodes; 24.389834 seconds
+
+[Valgrind] ==52938==     in use at exit: 10,609,792 bytes in 3,529 blocks
+[Valgrind] ==52938==   total heap usage: 3,534 allocs, 5 frees, 10,623,024 bytes allocated
+
+[Run] LAD grp=23 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp23_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/23_subgraph_20 -t ./test/scale_free/23_original_graph
+[Run] Done in 20.04s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 19.622609 seconds
+
+[Valgrind] ==52944==     in use at exit: 12,204,648 bytes in 4,029 blocks
+[Valgrind] ==52944==   total heap usage: 4,034 allocs, 5 frees, 12,217,880 bytes allocated
+
+[Run] LAD grp=23 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp23_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/23_subgraph_60 -t ./test/scale_free/23_original_graph
+[Run] Done in 7.46s
+Run completed: 1 solutions; 0 fail nodes; 7 nodes; 7.022656 seconds
+
+[Valgrind] ==52950==     in use at exit: 20,045,236 bytes in 6,029 blocks
+[Valgrind] ==52950==   total heap usage: 6,034 allocs, 5 frees, 20,058,468 bytes allocated
+
+[Run] LAD grp=24 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp24_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/24_subgraph_10 -t ./test/scale_free/24_original_graph
+[Run] Done in 16.17s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 15.783937 seconds
+
+[Valgrind] ==52958==     in use at exit: 10,581,200 bytes in 3,529 blocks
+[Valgrind] ==52958==   total heap usage: 3,534 allocs, 5 frees, 10,594,432 bytes allocated
+
+[Run] LAD grp=24 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp24_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/24_subgraph_20 -t ./test/scale_free/24_original_graph
+[Run] Done in 24.60s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 24.170941 seconds
+
+[Valgrind] ==52984==     in use at exit: 12,193,116 bytes in 4,029 blocks
+[Valgrind] ==52984==   total heap usage: 4,034 allocs, 5 frees, 12,206,348 bytes allocated
+
+[Run] LAD grp=24 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp24_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/24_subgraph_60 -t ./test/scale_free/24_original_graph
+[Run] Done in 8.13s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.680914 seconds
+
+[Valgrind] ==52992==     in use at exit: 20,088,972 bytes in 6,029 blocks
+[Valgrind] ==52992==   total heap usage: 6,034 allocs, 5 frees, 20,102,204 bytes allocated
+
+[Run] LAD grp=25 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp25_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/25_subgraph_10 -t ./test/scale_free/25_original_graph
+[Run] Done in 21.67s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 21.281595 seconds
+
+[Valgrind] ==53006==     in use at exit: 10,631,140 bytes in 3,529 blocks
+[Valgrind] ==53006==   total heap usage: 3,534 allocs, 5 frees, 10,644,372 bytes allocated
+
+[Run] LAD grp=25 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp25_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/25_subgraph_20 -t ./test/scale_free/25_original_graph
+[Run] Done in 3.82s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 3.415068 seconds
+
+[Valgrind] ==53033==     in use at exit: 12,176,312 bytes in 4,029 blocks
+[Valgrind] ==53033==   total heap usage: 4,034 allocs, 5 frees, 12,189,544 bytes allocated
+
+[Run] LAD grp=25 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp25_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/25_subgraph_60 -t ./test/scale_free/25_original_graph
+[Run] Done in 7.48s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.049837 seconds
+
+[Valgrind] ==53039==     in use at exit: 19,936,188 bytes in 6,029 blocks
+[Valgrind] ==53039==   total heap usage: 6,034 allocs, 5 frees, 19,949,420 bytes allocated
+
+[Run] LAD grp=26 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp26_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/26_subgraph_10 -t ./test/scale_free/26_original_graph
+[Run] Done in 20.45s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 20.041873 seconds
+
+[Valgrind] ==53045==     in use at exit: 10,622,564 bytes in 3,529 blocks
+[Valgrind] ==53045==   total heap usage: 3,534 allocs, 5 frees, 10,635,796 bytes allocated
+
+[Run] LAD grp=26 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp26_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/26_subgraph_20 -t ./test/scale_free/26_original_graph
+[Run] Done in 22.39s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 21.953942 seconds
+
+[Valgrind] ==53061==     in use at exit: 12,260,920 bytes in 4,029 blocks
+[Valgrind] ==53061==   total heap usage: 4,034 allocs, 5 frees, 12,274,152 bytes allocated
+
+[Run] LAD grp=26 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp26_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/26_subgraph_60 -t ./test/scale_free/26_original_graph
+[Run] Done in 7.93s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 7.504263 seconds
+
+[Valgrind] ==53073==     in use at exit: 20,041,316 bytes in 6,029 blocks
+[Valgrind] ==53073==   total heap usage: 6,034 allocs, 5 frees, 20,054,548 bytes allocated
+
+[Run] LAD grp=27 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp27_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/27_subgraph_10 -t ./test/scale_free/27_original_graph
+[Run] Done in 25.61s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 25.237803 seconds
+
+[Valgrind] ==53079==     in use at exit: 10,674,744 bytes in 3,529 blocks
+[Valgrind] ==53079==   total heap usage: 3,534 allocs, 5 frees, 10,687,976 bytes allocated
+
+[Run] LAD grp=27 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp27_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/27_subgraph_20 -t ./test/scale_free/27_original_graph
+[Run] Done in 3.78s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 3.373446 seconds
+
+[Valgrind] ==53088==     in use at exit: 12,212,444 bytes in 4,029 blocks
+[Valgrind] ==53088==   total heap usage: 4,034 allocs, 5 frees, 12,225,676 bytes allocated
+
+[Run] LAD grp=27 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp27_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/27_subgraph_60 -t ./test/scale_free/27_original_graph
+[Run] Done in 7.37s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 6.925716 seconds
+
+[Valgrind] ==53094==     in use at exit: 20,089,896 bytes in 6,029 blocks
+[Valgrind] ==53094==   total heap usage: 6,034 allocs, 5 frees, 20,103,128 bytes allocated
+
+[Run] LAD grp=28 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp28_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/28_subgraph_10 -t ./test/scale_free/28_original_graph
+[Run] Done in 33.89s
+Run completed: 1 solutions; 5 fail nodes; 32 nodes; 33.522469 seconds
+
+[Valgrind] ==53100==     in use at exit: 10,652,668 bytes in 3,529 blocks
+[Valgrind] ==53100==   total heap usage: 3,534 allocs, 5 frees, 10,665,900 bytes allocated
+
+[Run] LAD grp=28 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp28_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/28_subgraph_20 -t ./test/scale_free/28_original_graph
+[Run] Done in 34.35s
+Run completed: 1 solutions; 1 fail nodes; 31 nodes; 33.925222 seconds
+
+[Valgrind] ==53118==     in use at exit: 12,300,180 bytes in 4,029 blocks
+[Valgrind] ==53118==   total heap usage: 4,034 allocs, 5 frees, 12,313,412 bytes allocated
+
+[Run] LAD grp=28 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp28_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/28_subgraph_60 -t ./test/scale_free/28_original_graph
+[Run] Done in 7.72s
+Run completed: 1 solutions; 0 fail nodes; 11 nodes; 7.282657 seconds
+
+[Valgrind] ==53126==     in use at exit: 20,210,960 bytes in 6,029 blocks
+[Valgrind] ==53126==   total heap usage: 6,034 allocs, 5 frees, 20,224,192 bytes allocated
+
+[Run] LAD grp=29 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp29_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/29_subgraph_10 -t ./test/scale_free/29_original_graph
+[Run] Done in 16.19s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 15.839156 seconds
+
+[Valgrind] ==53132==     in use at exit: 10,607,464 bytes in 3,529 blocks
+[Valgrind] ==53132==   total heap usage: 3,534 allocs, 5 frees, 10,620,696 bytes allocated
+
+[Run] LAD grp=29 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp29_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/29_subgraph_20 -t ./test/scale_free/29_original_graph
+[Run] Done in 24.15s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 23.683266 seconds
+
+[Valgrind] ==53139==     in use at exit: 12,239,416 bytes in 4,029 blocks
+[Valgrind] ==53139==   total heap usage: 4,034 allocs, 5 frees, 12,252,648 bytes allocated
+
+[Run] LAD grp=29 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp29_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/29_subgraph_60 -t ./test/scale_free/29_original_graph
+[Run] Done in 7.84s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 7.369833 seconds
+
+[Valgrind] ==53157==     in use at exit: 20,158,884 bytes in 6,029 blocks
+[Valgrind] ==53157==   total heap usage: 6,034 allocs, 5 frees, 20,172,116 bytes allocated
+
+[Run] LAD grp=30 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp30_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/30_subgraph_10 -t ./test/scale_free/30_original_graph
+[Run] Done in 16.48s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 16.084727 seconds
+
+[Valgrind] ==53163==     in use at exit: 10,577,916 bytes in 3,529 blocks
+[Valgrind] ==53163==   total heap usage: 3,534 allocs, 5 frees, 10,591,148 bytes allocated
+
+[Run] LAD grp=30 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp30_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/30_subgraph_20 -t ./test/scale_free/30_original_graph
+[Run] Done in 3.52s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 3.138231 seconds
+
+[Valgrind] ==53169==     in use at exit: 12,223,184 bytes in 4,029 blocks
+[Valgrind] ==53169==   total heap usage: 4,034 allocs, 5 frees, 12,236,416 bytes allocated
+
+[Run] LAD grp=30 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp30_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/30_subgraph_60 -t ./test/scale_free/30_original_graph
+[Run] Done in 7.34s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 6.894413 seconds
+
+[Valgrind] ==53175==     in use at exit: 20,047,408 bytes in 6,029 blocks
+[Valgrind] ==53175==   total heap usage: 6,034 allocs, 5 frees, 20,060,640 bytes allocated
+
+[Run] LAD grp=31 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp31_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/31_subgraph_10 -t ./test/scale_free/31_original_graph
+[Run] Done in 19.60s
+Run completed: 1 solutions; 1 fail nodes; 22 nodes; 19.227475 seconds
+
+[Valgrind] ==53183==     in use at exit: 10,620,524 bytes in 3,529 blocks
+[Valgrind] ==53183==   total heap usage: 3,534 allocs, 5 frees, 10,633,756 bytes allocated
+
+[Run] LAD grp=31 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp31_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/31_subgraph_20 -t ./test/scale_free/31_original_graph
+[Run] Done in 22.84s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 22.423586 seconds
+
+[Valgrind] ==53190==     in use at exit: 12,206,864 bytes in 4,029 blocks
+[Valgrind] ==53190==   total heap usage: 4,034 allocs, 5 frees, 12,220,096 bytes allocated
+
+[Run] LAD grp=31 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp31_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/31_subgraph_60 -t ./test/scale_free/31_original_graph
+[Run] Done in 8.16s
+Run completed: 1 solutions; 0 fail nodes; 11 nodes; 7.666236 seconds
+
+[Valgrind] ==53196==     in use at exit: 20,094,368 bytes in 6,029 blocks
+[Valgrind] ==53196==   total heap usage: 6,034 allocs, 5 frees, 20,107,600 bytes allocated
+
+[Run] LAD grp=32 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp32_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/32_subgraph_10 -t ./test/scale_free/32_original_graph
+[Run] Done in 14.33s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 13.931104 seconds
+
+[Valgrind] ==53212==     in use at exit: 10,590,092 bytes in 3,529 blocks
+[Valgrind] ==53212==   total heap usage: 3,534 allocs, 5 frees, 10,603,324 bytes allocated
+
+[Run] LAD grp=32 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp32_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/32_subgraph_20 -t ./test/scale_free/32_original_graph
+[Run] Done in 18.33s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 17.942234 seconds
+
+[Valgrind] ==53218==     in use at exit: 12,162,016 bytes in 4,029 blocks
+[Valgrind] ==53218==   total heap usage: 4,034 allocs, 5 frees, 12,175,248 bytes allocated
+
+[Run] LAD grp=32 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp32_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/32_subgraph_60 -t ./test/scale_free/32_original_graph
+[Run] Done in 7.52s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.080309 seconds
+
+[Valgrind] ==53225==     in use at exit: 20,090,116 bytes in 6,029 blocks
+[Valgrind] ==53225==   total heap usage: 6,034 allocs, 5 frees, 20,103,348 bytes allocated
+
+[Run] LAD grp=33 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp33_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/33_subgraph_10 -t ./test/scale_free/33_original_graph
+[Run] Done in 21.57s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 21.169822 seconds
+
+[Valgrind] ==53231==     in use at exit: 10,605,680 bytes in 3,529 blocks
+[Valgrind] ==53231==   total heap usage: 3,534 allocs, 5 frees, 10,618,912 bytes allocated
+
+[Run] LAD grp=33 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp33_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/33_subgraph_20 -t ./test/scale_free/33_original_graph
+[Run] Done in 22.66s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 22.230838 seconds
+
+[Valgrind] ==53237==     in use at exit: 12,238,356 bytes in 4,029 blocks
+[Valgrind] ==53237==   total heap usage: 4,034 allocs, 5 frees, 12,251,588 bytes allocated
+
+[Run] LAD grp=33 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp33_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/33_subgraph_60 -t ./test/scale_free/33_original_graph
+[Run] Done in 8.10s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.615827 seconds
+
+[Valgrind] ==53243==     in use at exit: 19,956,768 bytes in 6,029 blocks
+[Valgrind] ==53243==   total heap usage: 6,034 allocs, 5 frees, 19,970,000 bytes allocated
+
+[Run] LAD grp=34 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp34_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/34_subgraph_10 -t ./test/scale_free/34_original_graph
+[Run] Done in 27.29s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 26.875315 seconds
+
+[Valgrind] ==53260==     in use at exit: 10,688,080 bytes in 3,529 blocks
+[Valgrind] ==53260==   total heap usage: 3,534 allocs, 5 frees, 10,701,312 bytes allocated
+
+[Run] LAD grp=34 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp34_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/34_subgraph_20 -t ./test/scale_free/34_original_graph
+[Run] Done in 23.80s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 23.388994 seconds
+
+[Valgrind] ==53273==     in use at exit: 12,305,392 bytes in 4,029 blocks
+[Valgrind] ==53273==   total heap usage: 4,034 allocs, 5 frees, 12,318,624 bytes allocated
+
+[Run] LAD grp=34 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp34_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/34_subgraph_60 -t ./test/scale_free/34_original_graph
+[Run] Done in 8.00s
+Run completed: 1 solutions; 0 fail nodes; 12 nodes; 7.546311 seconds
+
+[Valgrind] ==53279==     in use at exit: 20,123,316 bytes in 6,029 blocks
+[Valgrind] ==53279==   total heap usage: 6,034 allocs, 5 frees, 20,136,548 bytes allocated
+
+[Run] LAD grp=35 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp35_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/35_subgraph_10 -t ./test/scale_free/35_original_graph
+[Run] Done in 14.58s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 14.222873 seconds
+
+[Valgrind] ==53286==     in use at exit: 10,602,440 bytes in 3,529 blocks
+[Valgrind] ==53286==   total heap usage: 3,534 allocs, 5 frees, 10,615,672 bytes allocated
+
+[Run] LAD grp=35 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp35_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/35_subgraph_20 -t ./test/scale_free/35_original_graph
+[Run] Done in 3.89s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 3.490435 seconds
+
+[Valgrind] ==53292==     in use at exit: 12,203,212 bytes in 4,029 blocks
+[Valgrind] ==53292==   total heap usage: 4,034 allocs, 5 frees, 12,216,444 bytes allocated
+
+[Run] LAD grp=35 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp35_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/35_subgraph_60 -t ./test/scale_free/35_original_graph
+[Run] Done in 7.45s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 6.997725 seconds
+
+[Valgrind] ==53298==     in use at exit: 20,075,504 bytes in 6,029 blocks
+[Valgrind] ==53298==   total heap usage: 6,034 allocs, 5 frees, 20,088,736 bytes allocated
+
+[Run] LAD grp=36 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp36_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/36_subgraph_10 -t ./test/scale_free/36_original_graph
+[Run] Done in 17.78s
+Run completed: 1 solutions; 2 fail nodes; 30 nodes; 17.375651 seconds
+
+[Valgrind] ==53314==     in use at exit: 10,634,000 bytes in 3,529 blocks
+[Valgrind] ==53314==   total heap usage: 3,534 allocs, 5 frees, 10,647,232 bytes allocated
+
+[Run] LAD grp=36 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp36_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/36_subgraph_20 -t ./test/scale_free/36_original_graph
+[Run] Done in 4.17s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 3.776899 seconds
+
+[Valgrind] ==53321==     in use at exit: 12,319,796 bytes in 4,029 blocks
+[Valgrind] ==53321==   total heap usage: 4,034 allocs, 5 frees, 12,333,028 bytes allocated
+
+[Run] LAD grp=36 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp36_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/36_subgraph_60 -t ./test/scale_free/36_original_graph
+[Run] Done in 8.22s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 7.776440 seconds
+
+[Valgrind] ==53327==     in use at exit: 20,008,844 bytes in 6,029 blocks
+[Valgrind] ==53327==   total heap usage: 6,034 allocs, 5 frees, 20,022,076 bytes allocated
+
+[Run] LAD grp=37 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp37_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/37_subgraph_10 -t ./test/scale_free/37_original_graph
+[Run] Done in 15.24s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 14.866601 seconds
+
+[Valgrind] ==53333==     in use at exit: 10,611,888 bytes in 3,529 blocks
+[Valgrind] ==53333==   total heap usage: 3,534 allocs, 5 frees, 10,625,120 bytes allocated
+
+[Run] LAD grp=37 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp37_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/37_subgraph_20 -t ./test/scale_free/37_original_graph
+[Run] Done in 26.89s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 26.466779 seconds
+
+[Valgrind] ==53339==     in use at exit: 12,243,776 bytes in 4,029 blocks
+[Valgrind] ==53339==   total heap usage: 4,034 allocs, 5 frees, 12,257,008 bytes allocated
+
+[Run] LAD grp=37 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp37_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/37_subgraph_60 -t ./test/scale_free/37_original_graph
+[Run] Done in 7.52s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 7.060383 seconds
+
+[Valgrind] ==53345==     in use at exit: 20,043,592 bytes in 6,029 blocks
+[Valgrind] ==53345==   total heap usage: 6,034 allocs, 5 frees, 20,056,824 bytes allocated
+
+[Run] LAD grp=38 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp38_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/38_subgraph_10 -t ./test/scale_free/38_original_graph
+[Run] Done in 33.58s
+Run completed: 1 solutions; 5 fail nodes; 35 nodes; 33.166556 seconds
+
+[Valgrind] ==53351==     in use at exit: 10,675,080 bytes in 3,529 blocks
+[Valgrind] ==53351==   total heap usage: 3,534 allocs, 5 frees, 10,688,312 bytes allocated
+
+[Run] LAD grp=38 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp38_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/38_subgraph_20 -t ./test/scale_free/38_original_graph
+[Run] Done in 3.55s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 3.134964 seconds
+
+[Valgrind] ==53371==     in use at exit: 12,221,656 bytes in 4,029 blocks
+[Valgrind] ==53371==   total heap usage: 4,034 allocs, 5 frees, 12,234,888 bytes allocated
+
+[Run] LAD grp=38 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp38_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/38_subgraph_60 -t ./test/scale_free/38_original_graph
+[Run] Done in 7.97s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.520682 seconds
+
+[Valgrind] ==53377==     in use at exit: 20,150,152 bytes in 6,029 blocks
+[Valgrind] ==53377==   total heap usage: 6,034 allocs, 5 frees, 20,163,384 bytes allocated
+
+[Run] LAD grp=39 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp39_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/39_subgraph_10 -t ./test/scale_free/39_original_graph
+[Run] Done in 26.51s
+Run completed: 1 solutions; 3 fail nodes; 25 nodes; 26.115728 seconds
+
+[Valgrind] ==53383==     in use at exit: 10,642,904 bytes in 3,529 blocks
+[Valgrind] ==53383==   total heap usage: 3,534 allocs, 5 frees, 10,656,136 bytes allocated
+
+[Run] LAD grp=39 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp39_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/39_subgraph_20 -t ./test/scale_free/39_original_graph
+[Run] Done in 21.29s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 20.882058 seconds
+
+[Valgrind] ==53389==     in use at exit: 12,200,016 bytes in 4,029 blocks
+[Valgrind] ==53389==   total heap usage: 4,034 allocs, 5 frees, 12,213,248 bytes allocated
+
+[Run] LAD grp=39 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp39_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/39_subgraph_60 -t ./test/scale_free/39_original_graph
+[Run] Done in 7.63s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 7.095296 seconds
+
+[Valgrind] ==53397==     in use at exit: 19,942,220 bytes in 6,029 blocks
+[Valgrind] ==53397==   total heap usage: 6,034 allocs, 5 frees, 19,955,452 bytes allocated
+
+[Run] LAD grp=40 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp40_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/40_subgraph_10 -t ./test/scale_free/40_original_graph
+[Run] Done in 32.20s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 31.823516 seconds
+
+[Valgrind] ==53404==     in use at exit: 10,721,968 bytes in 3,529 blocks
+[Valgrind] ==53404==   total heap usage: 3,534 allocs, 5 frees, 10,735,200 bytes allocated
+
+[Run] LAD grp=40 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp40_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/40_subgraph_20 -t ./test/scale_free/40_original_graph
+[Run] Done in 4.05s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 3.655368 seconds
+
+[Valgrind] ==53421==     in use at exit: 12,270,856 bytes in 4,029 blocks
+[Valgrind] ==53421==   total heap usage: 4,034 allocs, 5 frees, 12,284,088 bytes allocated
+
+[Run] LAD grp=40 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp40_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/40_subgraph_60 -t ./test/scale_free/40_original_graph
+[Run] Done in 7.90s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.457352 seconds
+
+[Valgrind] ==53427==     in use at exit: 20,054,052 bytes in 6,029 blocks
+[Valgrind] ==53427==   total heap usage: 6,034 allocs, 5 frees, 20,067,284 bytes allocated
+
+[Run] LAD grp=41 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp41_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/41_subgraph_10 -t ./test/scale_free/41_original_graph
+[Run] Done in 16.51s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 16.139706 seconds
+
+[Valgrind] ==53433==     in use at exit: 10,621,728 bytes in 3,529 blocks
+[Valgrind] ==53433==   total heap usage: 3,534 allocs, 5 frees, 10,634,960 bytes allocated
+
+[Run] LAD grp=41 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp41_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/41_subgraph_20 -t ./test/scale_free/41_original_graph
+[Run] Done in 3.78s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 3.388418 seconds
+
+[Valgrind] ==53441==     in use at exit: 12,215,580 bytes in 4,029 blocks
+[Valgrind] ==53441==   total heap usage: 4,034 allocs, 5 frees, 12,228,812 bytes allocated
+
+[Run] LAD grp=41 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp41_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/41_subgraph_60 -t ./test/scale_free/41_original_graph
+[Run] Done in 7.85s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.400226 seconds
+
+[Valgrind] ==53458==     in use at exit: 20,083,200 bytes in 6,029 blocks
+[Valgrind] ==53458==   total heap usage: 6,034 allocs, 5 frees, 20,096,432 bytes allocated
+
+[Run] LAD grp=42 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp42_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/42_subgraph_10 -t ./test/scale_free/42_original_graph
+[Run] Done in 22.73s
+Run completed: 1 solutions; 3 fail nodes; 31 nodes; 22.323722 seconds
+
+[Valgrind] ==53464==     in use at exit: 10,645,936 bytes in 3,529 blocks
+[Valgrind] ==53464==   total heap usage: 3,534 allocs, 5 frees, 10,659,168 bytes allocated
+
+[Run] LAD grp=42 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp42_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/42_subgraph_20 -t ./test/scale_free/42_original_graph
+[Run] Done in 33.09s
+Run completed: 1 solutions; 0 fail nodes; 39 nodes; 32.631163 seconds
+
+[Valgrind] ==53480==     in use at exit: 12,366,272 bytes in 4,029 blocks
+[Valgrind] ==53480==   total heap usage: 4,034 allocs, 5 frees, 12,379,504 bytes allocated
+
+[Run] LAD grp=42 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp42_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/42_subgraph_60 -t ./test/scale_free/42_original_graph
+[Run] Done in 7.80s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.376346 seconds
+
+[Valgrind] ==53488==     in use at exit: 20,108,776 bytes in 6,029 blocks
+[Valgrind] ==53488==   total heap usage: 6,034 allocs, 5 frees, 20,122,008 bytes allocated
+
+[Run] LAD grp=43 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp43_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/43_subgraph_10 -t ./test/scale_free/43_original_graph
+[Run] Done in 10.31s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 9.952049 seconds
+
+[Valgrind] ==53494==     in use at exit: 10,503,972 bytes in 3,529 blocks
+[Valgrind] ==53494==   total heap usage: 3,534 allocs, 5 frees, 10,517,204 bytes allocated
+
+[Run] LAD grp=43 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp43_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/43_subgraph_20 -t ./test/scale_free/43_original_graph
+[Run] Done in 3.56s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 3.178094 seconds
+
+[Valgrind] ==53501==     in use at exit: 12,252,664 bytes in 4,029 blocks
+[Valgrind] ==53501==   total heap usage: 4,034 allocs, 5 frees, 12,265,896 bytes allocated
+
+[Run] LAD grp=43 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp43_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/43_subgraph_60 -t ./test/scale_free/43_original_graph
+[Run] Done in 8.20s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 7.768597 seconds
+
+[Valgrind] ==53507==     in use at exit: 20,068,316 bytes in 6,029 blocks
+[Valgrind] ==53507==   total heap usage: 6,034 allocs, 5 frees, 20,081,548 bytes allocated
+
+[Run] LAD grp=44 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp44_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/44_subgraph_10 -t ./test/scale_free/44_original_graph
+[Run] Done in 5.09s
+Run completed: 1 solutions; 1 fail nodes; 35 nodes; 4.737082 seconds
+
+[Valgrind] ==53513==     in use at exit: 10,618,696 bytes in 3,529 blocks
+[Valgrind] ==53513==   total heap usage: 3,534 allocs, 5 frees, 10,631,928 bytes allocated
+
+[Run] LAD grp=44 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp44_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/44_subgraph_20 -t ./test/scale_free/44_original_graph
+[Run] Done in 25.69s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 25.236039 seconds
+
+[Valgrind] ==53520==     in use at exit: 12,323,996 bytes in 4,029 blocks
+[Valgrind] ==53520==   total heap usage: 4,034 allocs, 5 frees, 12,337,228 bytes allocated
+
+[Run] LAD grp=44 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp44_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/44_subgraph_60 -t ./test/scale_free/44_original_graph
+[Run] Done in 8.09s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.624711 seconds
+
+[Valgrind] ==53536==     in use at exit: 19,954,656 bytes in 6,029 blocks
+[Valgrind] ==53536==   total heap usage: 6,034 allocs, 5 frees, 19,967,888 bytes allocated
+
+[Run] LAD grp=45 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp45_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/45_subgraph_10 -t ./test/scale_free/45_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=45 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp45_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/45_subgraph_20 -t ./test/scale_free/45_original_graph
+[Run] Done in 4.54s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 4.144454 seconds
+
+[Valgrind] ==53548==     in use at exit: 12,202,172 bytes in 4,029 blocks
+[Valgrind] ==53548==   total heap usage: 4,034 allocs, 5 frees, 12,215,404 bytes allocated
+
+[Run] LAD grp=45 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp45_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/45_subgraph_60 -t ./test/scale_free/45_original_graph
+[Run] Done in 7.80s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 7.304438 seconds
+
+[Valgrind] ==53554==     in use at exit: 19,968,184 bytes in 6,029 blocks
+[Valgrind] ==53554==   total heap usage: 6,034 allocs, 5 frees, 19,981,416 bytes allocated
+
+[Run] LAD grp=46 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp46_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/46_subgraph_10 -t ./test/scale_free/46_original_graph
+[Run] Done in 24.96s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 24.584854 seconds
+
+[Valgrind] ==53561==     in use at exit: 10,671,536 bytes in 3,529 blocks
+[Valgrind] ==53561==   total heap usage: 3,534 allocs, 5 frees, 10,684,768 bytes allocated
+
+[Run] LAD grp=46 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp46_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/46_subgraph_20 -t ./test/scale_free/46_original_graph
+[Run] Done in 27.30s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 26.910853 seconds
+
+[Valgrind] ==53586==     in use at exit: 12,278,908 bytes in 4,029 blocks
+[Valgrind] ==53586==   total heap usage: 4,034 allocs, 5 frees, 12,292,140 bytes allocated
+
+[Run] LAD grp=46 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp46_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/46_subgraph_60 -t ./test/scale_free/46_original_graph
+[Run] Done in 7.47s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.010321 seconds
+
+[Valgrind] ==53598==     in use at exit: 20,005,032 bytes in 6,029 blocks
+[Valgrind] ==53598==   total heap usage: 6,034 allocs, 5 frees, 20,018,264 bytes allocated
+
+[Run] LAD grp=47 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp47_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/47_subgraph_10 -t ./test/scale_free/47_original_graph
+[Run] Done in 22.66s
+Run completed: 1 solutions; 1 fail nodes; 29 nodes; 22.220211 seconds
+
+[Valgrind] ==53604==     in use at exit: 10,700,192 bytes in 3,529 blocks
+[Valgrind] ==53604==   total heap usage: 3,534 allocs, 5 frees, 10,713,424 bytes allocated
+
+[Run] LAD grp=47 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp47_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/47_subgraph_20 -t ./test/scale_free/47_original_graph
+[Run] Done in 3.65s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 3.256168 seconds
+
+[Valgrind] ==53613==     in use at exit: 12,311,028 bytes in 4,029 blocks
+[Valgrind] ==53613==   total heap usage: 4,034 allocs, 5 frees, 12,324,260 bytes allocated
+
+[Run] LAD grp=47 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp47_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/47_subgraph_60 -t ./test/scale_free/47_original_graph
+[Run] Done in 7.39s
+Run completed: 1 solutions; 0 fail nodes; 10 nodes; 6.954446 seconds
+
+[Valgrind] ==53619==     in use at exit: 20,068,576 bytes in 6,029 blocks
+[Valgrind] ==53619==   total heap usage: 6,034 allocs, 5 frees, 20,081,808 bytes allocated
+
+[Run] LAD grp=48 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp48_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/48_subgraph_10 -t ./test/scale_free/48_original_graph
+[Run] Done in 19.96s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 19.578805 seconds
+
+[Valgrind] ==53630==     in use at exit: 10,638,344 bytes in 3,529 blocks
+[Valgrind] ==53630==   total heap usage: 3,534 allocs, 5 frees, 10,651,576 bytes allocated
+
+[Run] LAD grp=48 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp48_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/48_subgraph_20 -t ./test/scale_free/48_original_graph
+[Run] Done in 3.89s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 3.475451 seconds
+
+[Valgrind] ==53646==     in use at exit: 12,248,664 bytes in 4,029 blocks
+[Valgrind] ==53646==   total heap usage: 4,034 allocs, 5 frees, 12,261,896 bytes allocated
+
+[Run] LAD grp=48 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp48_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/48_subgraph_60 -t ./test/scale_free/48_original_graph
+[Run] Done in 8.07s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 7.625705 seconds
+
+[Valgrind] ==53658==     in use at exit: 19,974,872 bytes in 6,029 blocks
+[Valgrind] ==53658==   total heap usage: 6,034 allocs, 5 frees, 19,988,104 bytes allocated
+
+[Run] LAD grp=49 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp49_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/49_subgraph_10 -t ./test/scale_free/49_original_graph
+[Run] Done in 13.19s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 12.827165 seconds
+
+[Valgrind] ==53665==     in use at exit: 10,607,140 bytes in 3,529 blocks
+[Valgrind] ==53665==   total heap usage: 3,534 allocs, 5 frees, 10,620,372 bytes allocated
+
+[Run] LAD grp=49 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp49_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/49_subgraph_20 -t ./test/scale_free/49_original_graph
+[Run] Done in 19.76s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 19.360905 seconds
+
+[Valgrind] ==53671==     in use at exit: 12,190,072 bytes in 4,029 blocks
+[Valgrind] ==53671==   total heap usage: 4,034 allocs, 5 frees, 12,203,304 bytes allocated
+
+[Run] LAD grp=49 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp49_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/49_subgraph_60 -t ./test/scale_free/49_original_graph
+[Run] Done in 7.73s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.272169 seconds
+
+[Valgrind] ==53677==     in use at exit: 20,018,704 bytes in 6,029 blocks
+[Valgrind] ==53677==   total heap usage: 6,034 allocs, 5 frees, 20,031,936 bytes allocated
+
+[Run] LAD grp=50 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp50_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/50_subgraph_10 -t ./test/scale_free/50_original_graph
+[Run] Done in 3.33s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 2.980177 seconds
+
+[Valgrind] ==53683==     in use at exit: 10,590,540 bytes in 3,529 blocks
+[Valgrind] ==53683==   total heap usage: 3,534 allocs, 5 frees, 10,603,772 bytes allocated
+
+[Run] LAD grp=50 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp50_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/50_subgraph_20 -t ./test/scale_free/50_original_graph
+[Run] Done in 3.76s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 3.336597 seconds
+
+[Valgrind] ==53689==     in use at exit: 12,253,116 bytes in 4,029 blocks
+[Valgrind] ==53689==   total heap usage: 4,034 allocs, 5 frees, 12,266,348 bytes allocated
+
+[Run] LAD grp=50 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp50_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/50_subgraph_60 -t ./test/scale_free/50_original_graph
+[Run] Done in 7.65s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.149898 seconds
+
+[Valgrind] ==53695==     in use at exit: 20,173,036 bytes in 6,029 blocks
+[Valgrind] ==53695==   total heap usage: 6,034 allocs, 5 frees, 20,186,268 bytes allocated
+
+[Run] LAD grp=51 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp51_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/51_subgraph_10 -t ./test/scale_free/51_original_graph
+[Run] Done in 16.42s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 15.992847 seconds
+
+[Valgrind] ==53702==     in use at exit: 10,669,296 bytes in 3,529 blocks
+[Valgrind] ==53702==   total heap usage: 3,534 allocs, 5 frees, 10,682,528 bytes allocated
+
+[Run] LAD grp=51 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp51_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/51_subgraph_20 -t ./test/scale_free/51_original_graph
+[Run] Done in 3.76s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 3.343350 seconds
+
+[Valgrind] ==53720==     in use at exit: 12,233,848 bytes in 4,029 blocks
+[Valgrind] ==53720==   total heap usage: 4,034 allocs, 5 frees, 12,247,080 bytes allocated
+
+[Run] LAD grp=51 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp51_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/51_subgraph_60 -t ./test/scale_free/51_original_graph
+[Run] Done in 7.88s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.448798 seconds
+
+[Valgrind] ==53726==     in use at exit: 20,130,392 bytes in 6,029 blocks
+[Valgrind] ==53726==   total heap usage: 6,034 allocs, 5 frees, 20,143,624 bytes allocated
+
+[Run] LAD grp=52 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp52_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/52_subgraph_10 -t ./test/scale_free/52_original_graph
+[Run] Done in 21.05s
+Run completed: 1 solutions; 2 fail nodes; 28 nodes; 20.648704 seconds
+
+[Valgrind] ==53732==     in use at exit: 10,633,420 bytes in 3,529 blocks
+[Valgrind] ==53732==   total heap usage: 3,534 allocs, 5 frees, 10,646,652 bytes allocated
+
+[Run] LAD grp=52 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp52_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/52_subgraph_20 -t ./test/scale_free/52_original_graph
+[Run] Done in 3.82s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 3.439030 seconds
+
+[Valgrind] ==53744==     in use at exit: 12,313,644 bytes in 4,029 blocks
+[Valgrind] ==53744==   total heap usage: 4,034 allocs, 5 frees, 12,326,876 bytes allocated
+
+[Run] LAD grp=52 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp52_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/52_subgraph_60 -t ./test/scale_free/52_original_graph
+[Run] Done in 7.68s
+Run completed: 1 solutions; 0 fail nodes; 11 nodes; 7.260880 seconds
+
+[Valgrind] ==53750==     in use at exit: 20,133,880 bytes in 6,029 blocks
+[Valgrind] ==53750==   total heap usage: 6,034 allocs, 5 frees, 20,147,112 bytes allocated
+
+[Run] LAD grp=53 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp53_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/53_subgraph_10 -t ./test/scale_free/53_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=53 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp53_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/53_subgraph_20 -t ./test/scale_free/53_original_graph
+[Run] Done in 4.09s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 3.682661 seconds
+
+[Valgrind] ==53786==     in use at exit: 12,269,892 bytes in 4,029 blocks
+[Valgrind] ==53786==   total heap usage: 4,034 allocs, 5 frees, 12,283,124 bytes allocated
+
+[Run] LAD grp=53 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp53_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/53_subgraph_60 -t ./test/scale_free/53_original_graph
+[Run] Done in 8.03s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 7.547007 seconds
+
+[Valgrind] ==53797==     in use at exit: 20,069,100 bytes in 6,029 blocks
+[Valgrind] ==53797==   total heap usage: 6,034 allocs, 5 frees, 20,082,332 bytes allocated
+
+[Run] LAD grp=54 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp54_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/54_subgraph_10 -t ./test/scale_free/54_original_graph
+[Run] Done in 15.83s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 15.455991 seconds
+
+[Valgrind] ==53804==     in use at exit: 10,581,484 bytes in 3,529 blocks
+[Valgrind] ==53804==   total heap usage: 3,534 allocs, 5 frees, 10,594,716 bytes allocated
+
+[Run] LAD grp=54 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp54_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/54_subgraph_20 -t ./test/scale_free/54_original_graph
+[Run] Done in 3.84s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 3.466637 seconds
+
+[Valgrind] ==53811==     in use at exit: 12,307,812 bytes in 4,029 blocks
+[Valgrind] ==53811==   total heap usage: 4,034 allocs, 5 frees, 12,321,044 bytes allocated
+
+[Run] LAD grp=54 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp54_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/54_subgraph_60 -t ./test/scale_free/54_original_graph
+[Run] Done in 7.73s
+Run completed: 1 solutions; 0 fail nodes; 12 nodes; 7.279504 seconds
+
+[Valgrind] ==53817==     in use at exit: 20,024,736 bytes in 6,029 blocks
+[Valgrind] ==53817==   total heap usage: 6,034 allocs, 5 frees, 20,037,968 bytes allocated
+
+[Run] LAD grp=55 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp55_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/55_subgraph_10 -t ./test/scale_free/55_original_graph
+[Run] Done in 36.73s
+Run completed: 1 solutions; 3 fail nodes; 41 nodes; 36.288561 seconds
+
+[Valgrind] ==53823==     in use at exit: 10,647,280 bytes in 3,529 blocks
+[Valgrind] ==53823==   total heap usage: 3,534 allocs, 5 frees, 10,660,512 bytes allocated
+
+[Run] LAD grp=55 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp55_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/55_subgraph_20 -t ./test/scale_free/55_original_graph
+[Run] Done in 4.17s
+Run completed: 1 solutions; 0 fail nodes; 38 nodes; 3.744808 seconds
+
+[Valgrind] ==53841==     in use at exit: 12,179,012 bytes in 4,029 blocks
+[Valgrind] ==53841==   total heap usage: 4,034 allocs, 5 frees, 12,192,244 bytes allocated
+
+[Run] LAD grp=55 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp55_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/55_subgraph_60 -t ./test/scale_free/55_original_graph
+[Run] Done in 8.08s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 7.639279 seconds
+
+[Valgrind] ==53847==     in use at exit: 20,091,040 bytes in 6,029 blocks
+[Valgrind] ==53847==   total heap usage: 6,034 allocs, 5 frees, 20,104,272 bytes allocated
+
+[Run] LAD grp=56 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp56_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/56_subgraph_10 -t ./test/scale_free/56_original_graph
+[Run] Done in 12.96s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 12.572833 seconds
+
+[Valgrind] ==53853==     in use at exit: 10,600,452 bytes in 3,529 blocks
+[Valgrind] ==53853==   total heap usage: 3,534 allocs, 5 frees, 10,613,684 bytes allocated
+
+[Run] LAD grp=56 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp56_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/56_subgraph_20 -t ./test/scale_free/56_original_graph
+[Run] Done in 3.73s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 3.348745 seconds
+
+[Valgrind] ==53862==     in use at exit: 12,303,964 bytes in 4,029 blocks
+[Valgrind] ==53862==   total heap usage: 4,034 allocs, 5 frees, 12,317,196 bytes allocated
+
+[Run] LAD grp=56 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp56_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/56_subgraph_60 -t ./test/scale_free/56_original_graph
+[Run] Done in 7.72s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 7.296358 seconds
+
+[Valgrind] ==53868==     in use at exit: 20,093,236 bytes in 6,029 blocks
+[Valgrind] ==53868==   total heap usage: 6,034 allocs, 5 frees, 20,106,468 bytes allocated
+
+[Run] LAD grp=57 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp57_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/57_subgraph_10 -t ./test/scale_free/57_original_graph
+[Run] Done in 20.76s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 20.358438 seconds
+
+[Valgrind] ==53874==     in use at exit: 10,619,448 bytes in 3,529 blocks
+[Valgrind] ==53874==   total heap usage: 3,534 allocs, 5 frees, 10,632,680 bytes allocated
+
+[Run] LAD grp=57 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp57_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/57_subgraph_20 -t ./test/scale_free/57_original_graph
+[Run] Done in 27.64s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 27.187862 seconds
+
+[Valgrind] ==53881==     in use at exit: 12,302,876 bytes in 4,029 blocks
+[Valgrind] ==53881==   total heap usage: 4,034 allocs, 5 frees, 12,316,108 bytes allocated
+
+[Run] LAD grp=57 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp57_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/57_subgraph_60 -t ./test/scale_free/57_original_graph
+[Run] Done in 8.92s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 8.444020 seconds
+
+[Valgrind] ==53898==     in use at exit: 20,259,920 bytes in 6,029 blocks
+[Valgrind] ==53898==   total heap usage: 6,034 allocs, 5 frees, 20,273,152 bytes allocated
+
+[Run] LAD grp=58 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp58_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/58_subgraph_10 -t ./test/scale_free/58_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=58 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp58_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/58_subgraph_20 -t ./test/scale_free/58_original_graph
+[Run] Done in 25.89s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 25.446366 seconds
+
+[Valgrind] ==53952==     in use at exit: 12,190,680 bytes in 4,029 blocks
+[Valgrind] ==53952==   total heap usage: 4,034 allocs, 5 frees, 12,203,912 bytes allocated
+
+[Run] LAD grp=58 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp58_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/58_subgraph_60 -t ./test/scale_free/58_original_graph
+[Run] Done in 8.54s
+Run completed: 1 solutions; 0 fail nodes; 12 nodes; 8.081223 seconds
+
+[Valgrind] ==53974==     in use at exit: 20,117,568 bytes in 6,029 blocks
+[Valgrind] ==53974==   total heap usage: 6,034 allocs, 5 frees, 20,130,800 bytes allocated
+
+[Run] LAD grp=59 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp59_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/59_subgraph_10 -t ./test/scale_free/59_original_graph
+[Run] Done in 23.95s
+Run completed: 1 solutions; 1 fail nodes; 22 nodes; 23.578612 seconds
+
+[Valgrind] ==53980==     in use at exit: 10,667,504 bytes in 3,529 blocks
+[Valgrind] ==53980==   total heap usage: 3,534 allocs, 5 frees, 10,680,736 bytes allocated
+
+[Run] LAD grp=59 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp59_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/59_subgraph_20 -t ./test/scale_free/59_original_graph
+[Run] Done in 3.64s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 3.268841 seconds
+
+[Valgrind] ==53988==     in use at exit: 12,238,892 bytes in 4,029 blocks
+[Valgrind] ==53988==   total heap usage: 4,034 allocs, 5 frees, 12,252,124 bytes allocated
+
+[Run] LAD grp=59 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp59_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/59_subgraph_60 -t ./test/scale_free/59_original_graph
+[Run] Done in 7.24s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 6.811949 seconds
+
+[Valgrind] ==53994==     in use at exit: 20,075,892 bytes in 6,029 blocks
+[Valgrind] ==53994==   total heap usage: 6,034 allocs, 5 frees, 20,089,124 bytes allocated
+
+[Run] LAD grp=60 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp60_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/60_subgraph_10 -t ./test/scale_free/60_original_graph
+[Run] Done in 18.29s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 17.913290 seconds
+
+[Valgrind] ==54001==     in use at exit: 10,641,708 bytes in 3,529 blocks
+[Valgrind] ==54001==   total heap usage: 3,534 allocs, 5 frees, 10,654,940 bytes allocated
+
+[Run] LAD grp=60 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp60_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/60_subgraph_20 -t ./test/scale_free/60_original_graph
+[Run] Done in 3.57s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 3.189456 seconds
+
+[Valgrind] ==54007==     in use at exit: 12,117,328 bytes in 4,029 blocks
+[Valgrind] ==54007==   total heap usage: 4,034 allocs, 5 frees, 12,130,560 bytes allocated
+
+[Run] LAD grp=60 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp60_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/60_subgraph_60 -t ./test/scale_free/60_original_graph
+[Run] Done in 7.67s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.252578 seconds
+
+[Valgrind] ==54013==     in use at exit: 20,037,164 bytes in 6,029 blocks
+[Valgrind] ==54013==   total heap usage: 6,034 allocs, 5 frees, 20,050,396 bytes allocated
+
+[Run] LAD grp=61 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp61_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/61_subgraph_10 -t ./test/scale_free/61_original_graph
+[Run] Done in 17.49s
+Run completed: 1 solutions; 1 fail nodes; 31 nodes; 17.099042 seconds
+
+[Valgrind] ==54019==     in use at exit: 10,599,740 bytes in 3,529 blocks
+[Valgrind] ==54019==   total heap usage: 3,534 allocs, 5 frees, 10,612,972 bytes allocated
+
+[Run] LAD grp=61 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp61_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/61_subgraph_20 -t ./test/scale_free/61_original_graph
+[Run] Done in 3.97s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 3.511254 seconds
+
+[Valgrind] ==54035==     in use at exit: 12,109,940 bytes in 4,029 blocks
+[Valgrind] ==54035==   total heap usage: 4,034 allocs, 5 frees, 12,123,172 bytes allocated
+
+[Run] LAD grp=61 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp61_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/61_subgraph_60 -t ./test/scale_free/61_original_graph
+[Run] Done in 8.30s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.824881 seconds
+
+[Valgrind] ==54041==     in use at exit: 20,003,544 bytes in 6,029 blocks
+[Valgrind] ==54041==   total heap usage: 6,034 allocs, 5 frees, 20,016,776 bytes allocated
+
+[Run] LAD grp=62 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp62_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/62_subgraph_10 -t ./test/scale_free/62_original_graph
+[Run] Done in 15.15s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 14.760267 seconds
+
+[Valgrind] ==54048==     in use at exit: 10,627,884 bytes in 3,529 blocks
+[Valgrind] ==54048==   total heap usage: 3,534 allocs, 5 frees, 10,641,116 bytes allocated
+
+[Run] LAD grp=62 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp62_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/62_subgraph_20 -t ./test/scale_free/62_original_graph
+[Run] Done in 3.90s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 3.515692 seconds
+
+[Valgrind] ==54059==     in use at exit: 12,225,836 bytes in 4,029 blocks
+[Valgrind] ==54059==   total heap usage: 4,034 allocs, 5 frees, 12,239,068 bytes allocated
+
+[Run] LAD grp=62 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp62_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/62_subgraph_60 -t ./test/scale_free/62_original_graph
+[Run] Done in 7.69s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.267522 seconds
+
+[Valgrind] ==54065==     in use at exit: 20,069,904 bytes in 6,029 blocks
+[Valgrind] ==54065==   total heap usage: 6,034 allocs, 5 frees, 20,083,136 bytes allocated
+
+[Run] LAD grp=63 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp63_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/63_subgraph_10 -t ./test/scale_free/63_original_graph
+[Run] Done in 17.15s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 16.777148 seconds
+
+[Valgrind] ==54072==     in use at exit: 10,639,008 bytes in 3,529 blocks
+[Valgrind] ==54072==   total heap usage: 3,534 allocs, 5 frees, 10,652,240 bytes allocated
+
+[Run] LAD grp=63 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp63_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/63_subgraph_20 -t ./test/scale_free/63_original_graph
+[Run] Done in 3.77s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 3.376922 seconds
+
+[Valgrind] ==54090==     in use at exit: 12,227,616 bytes in 4,029 blocks
+[Valgrind] ==54090==   total heap usage: 4,034 allocs, 5 frees, 12,240,848 bytes allocated
+
+[Run] LAD grp=63 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp63_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/63_subgraph_60 -t ./test/scale_free/63_original_graph
+[Run] Done in 7.74s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.318858 seconds
+
+[Valgrind] ==54096==     in use at exit: 20,003,452 bytes in 6,029 blocks
+[Valgrind] ==54096==   total heap usage: 6,034 allocs, 5 frees, 20,016,684 bytes allocated
+
+[Run] LAD grp=64 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp64_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/64_subgraph_10 -t ./test/scale_free/64_original_graph
+[Run] Done in 30.29s
+Run completed: 1 solutions; 4 fail nodes; 30 nodes; 29.900559 seconds
+
+[Valgrind] ==54104==     in use at exit: 10,655,220 bytes in 3,529 blocks
+[Valgrind] ==54104==   total heap usage: 3,534 allocs, 5 frees, 10,668,452 bytes allocated
+
+[Run] LAD grp=64 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp64_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/64_subgraph_20 -t ./test/scale_free/64_original_graph
+[Run] Done in 21.81s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 21.408110 seconds
+
+[Valgrind] ==54129==     in use at exit: 12,175,368 bytes in 4,029 blocks
+[Valgrind] ==54129==   total heap usage: 4,034 allocs, 5 frees, 12,188,600 bytes allocated
+
+[Run] LAD grp=64 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp64_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/64_subgraph_60 -t ./test/scale_free/64_original_graph
+[Run] Done in 7.53s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.069527 seconds
+
+[Valgrind] ==54136==     in use at exit: 20,132,848 bytes in 6,029 blocks
+[Valgrind] ==54136==   total heap usage: 6,034 allocs, 5 frees, 20,146,080 bytes allocated
+
+[Run] LAD grp=65 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp65_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/65_subgraph_10 -t ./test/scale_free/65_original_graph
+[Run] Done in 23.70s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 23.327657 seconds
+
+[Valgrind] ==54142==     in use at exit: 10,647,500 bytes in 3,529 blocks
+[Valgrind] ==54142==   total heap usage: 3,534 allocs, 5 frees, 10,660,732 bytes allocated
+
+[Run] LAD grp=65 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp65_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/65_subgraph_20 -t ./test/scale_free/65_original_graph
+[Run] Done in 20.89s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 20.499494 seconds
+
+[Valgrind] ==54148==     in use at exit: 12,208,520 bytes in 4,029 blocks
+[Valgrind] ==54148==   total heap usage: 4,034 allocs, 5 frees, 12,221,752 bytes allocated
+
+[Run] LAD grp=65 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp65_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/65_subgraph_60 -t ./test/scale_free/65_original_graph
+[Run] Done in 8.40s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.895568 seconds
+
+[Valgrind] ==54156==     in use at exit: 20,051,972 bytes in 6,029 blocks
+[Valgrind] ==54156==   total heap usage: 6,034 allocs, 5 frees, 20,065,204 bytes allocated
+
+[Run] LAD grp=66 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp66_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/66_subgraph_10 -t ./test/scale_free/66_original_graph
+[Run] Done in 49.69s
+Run completed: 1 solutions; 17 fail nodes; 46 nodes; 49.261230 seconds
+
+[Valgrind] ==54174==     in use at exit: 10,680,176 bytes in 3,529 blocks
+[Valgrind] ==54174==   total heap usage: 3,534 allocs, 5 frees, 10,693,408 bytes allocated
+
+[Run] LAD grp=66 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp66_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/66_subgraph_20 -t ./test/scale_free/66_original_graph
+[Run] Done in 3.65s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 3.239514 seconds
+
+[Valgrind] ==54187==     in use at exit: 12,217,860 bytes in 4,029 blocks
+[Valgrind] ==54187==   total heap usage: 4,034 allocs, 5 frees, 12,231,092 bytes allocated
+
+[Run] LAD grp=66 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp66_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/66_subgraph_60 -t ./test/scale_free/66_original_graph
+[Run] Done in 7.56s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 7.121878 seconds
+
+[Valgrind] ==54194==     in use at exit: 20,015,660 bytes in 6,029 blocks
+[Valgrind] ==54194==   total heap usage: 6,034 allocs, 5 frees, 20,028,892 bytes allocated
+
+[Run] LAD grp=67 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp67_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/67_subgraph_10 -t ./test/scale_free/67_original_graph
+[Run] Done in 52.46s
+Run completed: 1 solutions; 10 fail nodes; 45 nodes; 52.002421 seconds
+
+[Valgrind] ==54201==     in use at exit: 10,740,532 bytes in 3,529 blocks
+[Valgrind] ==54201==   total heap usage: 3,534 allocs, 5 frees, 10,753,764 bytes allocated
+
+[Run] LAD grp=67 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp67_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/67_subgraph_20 -t ./test/scale_free/67_original_graph
+[Run] Done in 28.27s
+Run completed: 1 solutions; 0 fail nodes; 33 nodes; 27.858692 seconds
+
+[Valgrind] ==54230==     in use at exit: 12,280,996 bytes in 4,029 blocks
+[Valgrind] ==54230==   total heap usage: 4,034 allocs, 5 frees, 12,294,228 bytes allocated
+
+[Run] LAD grp=67 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp67_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/67_subgraph_60 -t ./test/scale_free/67_original_graph
+[Run] Done in 7.86s
+Run completed: 1 solutions; 0 fail nodes; 12 nodes; 7.414821 seconds
+
+[Valgrind] ==54245==     in use at exit: 20,038,024 bytes in 6,029 blocks
+[Valgrind] ==54245==   total heap usage: 6,034 allocs, 5 frees, 20,051,256 bytes allocated
+
+[Run] LAD grp=68 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp68_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/68_subgraph_10 -t ./test/scale_free/68_original_graph
+[Run] Done in 28.81s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 28.408884 seconds
+
+[Valgrind] ==54251==     in use at exit: 10,667,196 bytes in 3,529 blocks
+[Valgrind] ==54251==   total heap usage: 3,534 allocs, 5 frees, 10,680,428 bytes allocated
+
+[Run] LAD grp=68 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp68_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/68_subgraph_20 -t ./test/scale_free/68_original_graph
+[Run] Done in 4.32s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 3.893589 seconds
+
+[Valgrind] ==54273==     in use at exit: 12,318,348 bytes in 4,029 blocks
+[Valgrind] ==54273==   total heap usage: 4,034 allocs, 5 frees, 12,331,580 bytes allocated
+
+[Run] LAD grp=68 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp68_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/68_subgraph_60 -t ./test/scale_free/68_original_graph
+[Run] Done in 8.39s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 7.930353 seconds
+
+[Valgrind] ==54279==     in use at exit: 20,066,596 bytes in 6,029 blocks
+[Valgrind] ==54279==   total heap usage: 6,034 allocs, 5 frees, 20,079,828 bytes allocated
+
+[Run] LAD grp=69 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp69_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/69_subgraph_10 -t ./test/scale_free/69_original_graph
+[Run] Done in 50.23s
+Run completed: 1 solutions; 8 fail nodes; 34 nodes; 49.839868 seconds
+
+[Valgrind] ==54287==     in use at exit: 10,729,052 bytes in 3,529 blocks
+[Valgrind] ==54287==   total heap usage: 3,534 allocs, 5 frees, 10,742,284 bytes allocated
+
+[Run] LAD grp=69 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp69_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/69_subgraph_20 -t ./test/scale_free/69_original_graph
+[Run] Done in 3.97s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 3.568115 seconds
+
+[Valgrind] ==54307==     in use at exit: 12,228,588 bytes in 4,029 blocks
+[Valgrind] ==54307==   total heap usage: 4,034 allocs, 5 frees, 12,241,820 bytes allocated
+
+[Run] LAD grp=69 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp69_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/69_subgraph_60 -t ./test/scale_free/69_original_graph
+[Run] Done in 7.76s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.303429 seconds
+
+[Valgrind] ==54313==     in use at exit: 20,034,828 bytes in 6,029 blocks
+[Valgrind] ==54313==   total heap usage: 6,034 allocs, 5 frees, 20,048,060 bytes allocated
+
+[Run] LAD grp=70 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp70_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/70_subgraph_10 -t ./test/scale_free/70_original_graph
+[Run] Done in 23.23s
+Run completed: 1 solutions; 5 fail nodes; 35 nodes; 22.782973 seconds
+
+[Valgrind] ==54321==     in use at exit: 10,631,492 bytes in 3,529 blocks
+[Valgrind] ==54321==   total heap usage: 3,534 allocs, 5 frees, 10,644,724 bytes allocated
+
+[Run] LAD grp=70 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp70_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/70_subgraph_20 -t ./test/scale_free/70_original_graph
+[Run] Done in 23.18s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 22.739145 seconds
+
+[Valgrind] ==54343==     in use at exit: 12,287,556 bytes in 4,029 blocks
+[Valgrind] ==54343==   total heap usage: 4,034 allocs, 5 frees, 12,300,788 bytes allocated
+
+[Run] LAD grp=70 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp70_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/70_subgraph_60 -t ./test/scale_free/70_original_graph
+[Run] Done in 7.62s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.197219 seconds
+
+[Valgrind] ==54354==     in use at exit: 20,077,720 bytes in 6,029 blocks
+[Valgrind] ==54354==   total heap usage: 6,034 allocs, 5 frees, 20,090,952 bytes allocated
+
+[Run] LAD grp=71 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp71_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/71_subgraph_10 -t ./test/scale_free/71_original_graph
+[Run] Done in 18.14s
+Run completed: 1 solutions; 2 fail nodes; 24 nodes; 17.767495 seconds
+
+[Valgrind] ==54360==     in use at exit: 10,585,040 bytes in 3,529 blocks
+[Valgrind] ==54360==   total heap usage: 3,534 allocs, 5 frees, 10,598,272 bytes allocated
+
+[Run] LAD grp=71 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp71_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/71_subgraph_20 -t ./test/scale_free/71_original_graph
+[Run] Done in 3.59s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 3.195402 seconds
+
+[Valgrind] ==54369==     in use at exit: 12,209,608 bytes in 4,029 blocks
+[Valgrind] ==54369==   total heap usage: 4,034 allocs, 5 frees, 12,222,840 bytes allocated
+
+[Run] LAD grp=71 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp71_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/71_subgraph_60 -t ./test/scale_free/71_original_graph
+[Run] Done in 8.38s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 7.953827 seconds
+
+[Valgrind] ==54375==     in use at exit: 20,088,884 bytes in 6,029 blocks
+[Valgrind] ==54375==   total heap usage: 6,034 allocs, 5 frees, 20,102,116 bytes allocated
+
+[Run] LAD grp=72 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp72_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/72_subgraph_10 -t ./test/scale_free/72_original_graph
+[Run] Done in 14.41s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 14.013651 seconds
+
+[Valgrind] ==54386==     in use at exit: 10,577,920 bytes in 3,529 blocks
+[Valgrind] ==54386==   total heap usage: 3,534 allocs, 5 frees, 10,591,152 bytes allocated
+
+[Run] LAD grp=72 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp72_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/72_subgraph_20 -t ./test/scale_free/72_original_graph
+[Run] Done in 26.10s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 25.710656 seconds
+
+[Valgrind] ==54394==     in use at exit: 12,305,052 bytes in 4,029 blocks
+[Valgrind] ==54394==   total heap usage: 4,034 allocs, 5 frees, 12,318,284 bytes allocated
+
+[Run] LAD grp=72 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp72_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/72_subgraph_60 -t ./test/scale_free/72_original_graph
+[Run] Done in 8.08s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.645138 seconds
+
+[Valgrind] ==54412==     in use at exit: 20,026,044 bytes in 6,029 blocks
+[Valgrind] ==54412==   total heap usage: 6,034 allocs, 5 frees, 20,039,276 bytes allocated
+
+[Run] LAD grp=73 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp73_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/73_subgraph_10 -t ./test/scale_free/73_original_graph
+[Run] Done in 45.29s
+Run completed: 1 solutions; 5 fail nodes; 31 nodes; 44.912803 seconds
+
+[Valgrind] ==54418==     in use at exit: 10,670,196 bytes in 3,529 blocks
+[Valgrind] ==54418==   total heap usage: 3,534 allocs, 5 frees, 10,683,428 bytes allocated
+
+[Run] LAD grp=73 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp73_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/73_subgraph_20 -t ./test/scale_free/73_original_graph
+[Run] Done in 21.94s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 21.506581 seconds
+
+[Valgrind] ==54431==     in use at exit: 12,239,512 bytes in 4,029 blocks
+[Valgrind] ==54431==   total heap usage: 4,034 allocs, 5 frees, 12,252,744 bytes allocated
+
+[Run] LAD grp=73 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp73_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/73_subgraph_60 -t ./test/scale_free/73_original_graph
+[Run] Done in 9.11s
+Run completed: 1 solutions; 0 fail nodes; 11 nodes; 8.601942 seconds
+
+[Valgrind] ==54449==     in use at exit: 19,995,848 bytes in 6,029 blocks
+[Valgrind] ==54449==   total heap usage: 6,034 allocs, 5 frees, 20,009,080 bytes allocated
+
+[Run] LAD grp=74 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp74_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/74_subgraph_10 -t ./test/scale_free/74_original_graph
+[Run] Done in 20.13s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 19.743597 seconds
+
+[Valgrind] ==54455==     in use at exit: 10,612,816 bytes in 3,529 blocks
+[Valgrind] ==54455==   total heap usage: 3,534 allocs, 5 frees, 10,626,048 bytes allocated
+
+[Run] LAD grp=74 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp74_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/74_subgraph_20 -t ./test/scale_free/74_original_graph
+[Run] Done in 26.86s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 26.458311 seconds
+
+[Valgrind] ==54469==     in use at exit: 12,232,048 bytes in 4,029 blocks
+[Valgrind] ==54469==   total heap usage: 4,034 allocs, 5 frees, 12,245,280 bytes allocated
+
+[Run] LAD grp=74 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp74_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/74_subgraph_60 -t ./test/scale_free/74_original_graph
+[Run] Done in 7.70s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.249909 seconds
+
+[Valgrind] ==54485==     in use at exit: 20,001,172 bytes in 6,029 blocks
+[Valgrind] ==54485==   total heap usage: 6,034 allocs, 5 frees, 20,014,404 bytes allocated
+
+[Run] LAD grp=75 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp75_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/75_subgraph_10 -t ./test/scale_free/75_original_graph
+[Run] Done in 17.34s
+Run completed: 1 solutions; 2 fail nodes; 25 nodes; 16.977638 seconds
+
+[Valgrind] ==54491==     in use at exit: 10,568,992 bytes in 3,529 blocks
+[Valgrind] ==54491==   total heap usage: 3,534 allocs, 5 frees, 10,582,224 bytes allocated
+
+[Run] LAD grp=75 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp75_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/75_subgraph_20 -t ./test/scale_free/75_original_graph
+[Run] Done in 25.13s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 24.720453 seconds
+
+[Valgrind] ==54503==     in use at exit: 12,236,756 bytes in 4,029 blocks
+[Valgrind] ==54503==   total heap usage: 4,034 allocs, 5 frees, 12,249,988 bytes allocated
+
+[Run] LAD grp=75 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp75_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/75_subgraph_60 -t ./test/scale_free/75_original_graph
+[Run] Done in 7.57s
+Run completed: 1 solutions; 0 fail nodes; 10 nodes; 7.128784 seconds
+
+[Valgrind] ==54524==     in use at exit: 20,156,736 bytes in 6,029 blocks
+[Valgrind] ==54524==   total heap usage: 6,034 allocs, 5 frees, 20,169,968 bytes allocated
+
+[Run] LAD grp=76 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp76_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/76_subgraph_10 -t ./test/scale_free/76_original_graph
+[Run] Done in 35.60s
+Run completed: 1 solutions; 3 fail nodes; 25 nodes; 35.179597 seconds
+
+[Valgrind] ==54531==     in use at exit: 10,715,640 bytes in 3,529 blocks
+[Valgrind] ==54531==   total heap usage: 3,534 allocs, 5 frees, 10,728,872 bytes allocated
+
+[Run] LAD grp=76 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp76_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/76_subgraph_20 -t ./test/scale_free/76_original_graph
+[Run] Done in 23.53s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 23.115671 seconds
+
+[Valgrind] ==54542==     in use at exit: 12,283,636 bytes in 4,029 blocks
+[Valgrind] ==54542==   total heap usage: 4,034 allocs, 5 frees, 12,296,868 bytes allocated
+
+[Run] LAD grp=76 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp76_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/76_subgraph_60 -t ./test/scale_free/76_original_graph
+[Run] Done in 8.12s
+Run completed: 1 solutions; 0 fail nodes; 10 nodes; 7.630875 seconds
+
+[Valgrind] ==54551==     in use at exit: 19,971,808 bytes in 6,029 blocks
+[Valgrind] ==54551==   total heap usage: 6,034 allocs, 5 frees, 19,985,040 bytes allocated
+
+[Run] LAD grp=77 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp77_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/77_subgraph_10 -t ./test/scale_free/77_original_graph
+[Run] Done in 14.30s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 13.891369 seconds
+
+[Valgrind] ==54572==     in use at exit: 10,547,736 bytes in 3,529 blocks
+[Valgrind] ==54572==   total heap usage: 3,534 allocs, 5 frees, 10,560,968 bytes allocated
+
+[Run] LAD grp=77 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp77_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/77_subgraph_20 -t ./test/scale_free/77_original_graph
+[Run] Done in 27.56s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 27.081743 seconds
+
+[Valgrind] ==54582==     in use at exit: 12,316,996 bytes in 4,029 blocks
+[Valgrind] ==54582==   total heap usage: 4,034 allocs, 5 frees, 12,330,228 bytes allocated
+
+[Run] LAD grp=77 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp77_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/77_subgraph_60 -t ./test/scale_free/77_original_graph
+[Run] Done in 7.79s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.344379 seconds
+
+[Valgrind] ==54589==     in use at exit: 19,959,152 bytes in 6,029 blocks
+[Valgrind] ==54589==   total heap usage: 6,034 allocs, 5 frees, 19,972,384 bytes allocated
+
+[Run] LAD grp=78 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp78_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/78_subgraph_10 -t ./test/scale_free/78_original_graph
+[Run] Done in 17.83s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 17.448893 seconds
+
+[Valgrind] ==54600==     in use at exit: 10,643,592 bytes in 3,529 blocks
+[Valgrind] ==54600==   total heap usage: 3,534 allocs, 5 frees, 10,656,824 bytes allocated
+
+[Run] LAD grp=78 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp78_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/78_subgraph_20 -t ./test/scale_free/78_original_graph
+[Run] Done in 24.36s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 23.954410 seconds
+
+[Valgrind] ==54607==     in use at exit: 12,299,204 bytes in 4,029 blocks
+[Valgrind] ==54607==   total heap usage: 4,034 allocs, 5 frees, 12,312,436 bytes allocated
+
+[Run] LAD grp=78 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp78_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/78_subgraph_60 -t ./test/scale_free/78_original_graph
+[Run] Done in 9.20s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 8.717351 seconds
+
+[Valgrind] ==54631==     in use at exit: 20,065,944 bytes in 6,029 blocks
+[Valgrind] ==54631==   total heap usage: 6,034 allocs, 5 frees, 20,079,176 bytes allocated
+
+[Run] LAD grp=79 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp79_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/79_subgraph_10 -t ./test/scale_free/79_original_graph
+[Run] Done in 17.03s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 16.634084 seconds
+
+[Valgrind] ==54639==     in use at exit: 10,627,408 bytes in 3,529 blocks
+[Valgrind] ==54639==   total heap usage: 3,534 allocs, 5 frees, 10,640,640 bytes allocated
+
+[Run] LAD grp=79 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp79_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/79_subgraph_20 -t ./test/scale_free/79_original_graph
+[Run] Done in 3.93s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 3.517371 seconds
+
+[Valgrind] ==54645==     in use at exit: 12,226,168 bytes in 4,029 blocks
+[Valgrind] ==54645==   total heap usage: 4,034 allocs, 5 frees, 12,239,400 bytes allocated
+
+[Run] LAD grp=79 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp79_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/79_subgraph_60 -t ./test/scale_free/79_original_graph
+[Run] Done in 7.66s
+Run completed: 1 solutions; 0 fail nodes; 11 nodes; 7.203148 seconds
+
+[Valgrind] ==54656==     in use at exit: 20,073,272 bytes in 6,029 blocks
+[Valgrind] ==54656==   total heap usage: 6,034 allocs, 5 frees, 20,086,504 bytes allocated
+
+[Run] LAD grp=80 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp80_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/80_subgraph_10 -t ./test/scale_free/80_original_graph
+[Run] Done in 23.41s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 22.979883 seconds
+
+[Valgrind] ==54664==     in use at exit: 10,655,668 bytes in 3,529 blocks
+[Valgrind] ==54664==   total heap usage: 3,534 allocs, 5 frees, 10,668,900 bytes allocated
+
+[Run] LAD grp=80 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp80_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/80_subgraph_20 -t ./test/scale_free/80_original_graph
+[Run] Done in 3.75s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 3.356903 seconds
+
+[Valgrind] ==54679==     in use at exit: 12,215,424 bytes in 4,029 blocks
+[Valgrind] ==54679==   total heap usage: 4,034 allocs, 5 frees, 12,228,656 bytes allocated
+
+[Run] LAD grp=80 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp80_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/80_subgraph_60 -t ./test/scale_free/80_original_graph
+[Run] Done in 8.04s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.586887 seconds
+
+[Valgrind] ==54690==     in use at exit: 20,080,812 bytes in 6,029 blocks
+[Valgrind] ==54690==   total heap usage: 6,034 allocs, 5 frees, 20,094,044 bytes allocated
+
+[Run] LAD grp=81 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp81_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/81_subgraph_10 -t ./test/scale_free/81_original_graph
+[Run] Done in 30.11s
+Run completed: 1 solutions; 2 fail nodes; 24 nodes; 29.689952 seconds
+
+[Valgrind] ==54700==     in use at exit: 10,681,016 bytes in 3,529 blocks
+[Valgrind] ==54700==   total heap usage: 3,534 allocs, 5 frees, 10,694,248 bytes allocated
+
+[Run] LAD grp=81 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp81_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/81_subgraph_20 -t ./test/scale_free/81_original_graph
+[Run] Done in 3.75s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 3.353380 seconds
+
+[Valgrind] ==54716==     in use at exit: 12,157,396 bytes in 4,029 blocks
+[Valgrind] ==54716==   total heap usage: 4,034 allocs, 5 frees, 12,170,628 bytes allocated
+
+[Run] LAD grp=81 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp81_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/81_subgraph_60 -t ./test/scale_free/81_original_graph
+[Run] Done in 7.69s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.261462 seconds
+
+[Valgrind] ==54723==     in use at exit: 20,068,576 bytes in 6,029 blocks
+[Valgrind] ==54723==   total heap usage: 6,034 allocs, 5 frees, 20,081,808 bytes allocated
+
+[Run] LAD grp=82 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp82_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/82_subgraph_10 -t ./test/scale_free/82_original_graph
+[Run] Done in 36.33s
+Run completed: 1 solutions; 2 fail nodes; 28 nodes; 35.950987 seconds
+
+[Valgrind] ==54729==     in use at exit: 10,645,956 bytes in 3,529 blocks
+[Valgrind] ==54729==   total heap usage: 3,534 allocs, 5 frees, 10,659,188 bytes allocated
+
+[Run] LAD grp=82 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp82_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/82_subgraph_20 -t ./test/scale_free/82_original_graph
+[Run] Done in 3.75s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 3.343397 seconds
+
+[Valgrind] ==54736==     in use at exit: 12,229,004 bytes in 4,029 blocks
+[Valgrind] ==54736==   total heap usage: 4,034 allocs, 5 frees, 12,242,236 bytes allocated
+
+[Run] LAD grp=82 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp82_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/82_subgraph_60 -t ./test/scale_free/82_original_graph
+[Run] Done in 8.20s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 7.750581 seconds
+
+[Valgrind] ==54742==     in use at exit: 20,079,028 bytes in 6,029 blocks
+[Valgrind] ==54742==   total heap usage: 6,034 allocs, 5 frees, 20,092,260 bytes allocated
+
+[Run] LAD grp=83 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp83_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/83_subgraph_10 -t ./test/scale_free/83_original_graph
+[Run] Done in 28.25s
+Run completed: 1 solutions; 3 fail nodes; 28 nodes; 27.855907 seconds
+
+[Valgrind] ==54748==     in use at exit: 10,667,032 bytes in 3,529 blocks
+[Valgrind] ==54748==   total heap usage: 3,534 allocs, 5 frees, 10,680,264 bytes allocated
+
+[Run] LAD grp=83 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp83_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/83_subgraph_20 -t ./test/scale_free/83_original_graph
+[Run] Done in 25.53s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 25.094983 seconds
+
+[Valgrind] ==54765==     in use at exit: 12,304,764 bytes in 4,029 blocks
+[Valgrind] ==54765==   total heap usage: 4,034 allocs, 5 frees, 12,317,996 bytes allocated
+
+[Run] LAD grp=83 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp83_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/83_subgraph_60 -t ./test/scale_free/83_original_graph
+[Run] Done in 7.05s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 6.617250 seconds
+
+[Valgrind] ==54771==     in use at exit: 20,084,288 bytes in 6,029 blocks
+[Valgrind] ==54771==   total heap usage: 6,034 allocs, 5 frees, 20,097,520 bytes allocated
+
+[Run] LAD grp=84 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp84_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/84_subgraph_10 -t ./test/scale_free/84_original_graph
+[Run] Done in 30.75s
+Run completed: 1 solutions; 4 fail nodes; 28 nodes; 30.359050 seconds
+
+[Valgrind] ==54777==     in use at exit: 10,634,920 bytes in 3,529 blocks
+[Valgrind] ==54777==   total heap usage: 3,534 allocs, 5 frees, 10,648,152 bytes allocated
+
+[Run] LAD grp=84 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp84_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/84_subgraph_20 -t ./test/scale_free/84_original_graph
+[Run] Done in 3.77s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 3.369414 seconds
+
+[Valgrind] ==54784==     in use at exit: 12,324,924 bytes in 4,029 blocks
+[Valgrind] ==54784==   total heap usage: 4,034 allocs, 5 frees, 12,338,156 bytes allocated
+
+[Run] LAD grp=84 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp84_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/84_subgraph_60 -t ./test/scale_free/84_original_graph
+[Run] Done in 7.55s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.104953 seconds
+
+[Valgrind] ==54790==     in use at exit: 20,008,152 bytes in 6,029 blocks
+[Valgrind] ==54790==   total heap usage: 6,034 allocs, 5 frees, 20,021,384 bytes allocated
+
+[Run] LAD grp=85 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp85_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/85_subgraph_10 -t ./test/scale_free/85_original_graph
+[Run] Done in 8.57s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 8.151552 seconds
+
+[Valgrind] ==54796==     in use at exit: 10,545,808 bytes in 3,529 blocks
+[Valgrind] ==54796==   total heap usage: 3,534 allocs, 5 frees, 10,559,040 bytes allocated
+
+[Run] LAD grp=85 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp85_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/85_subgraph_20 -t ./test/scale_free/85_original_graph
+[Run] Done in 4.57s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 4.099380 seconds
+
+[Valgrind] ==54819==     in use at exit: 12,167,432 bytes in 4,029 blocks
+[Valgrind] ==54819==   total heap usage: 4,034 allocs, 5 frees, 12,180,664 bytes allocated
+
+[Run] LAD grp=85 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp85_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/85_subgraph_60 -t ./test/scale_free/85_original_graph
+[Run] Done in 8.67s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 8.187488 seconds
+
+[Valgrind] ==54826==     in use at exit: 19,976,016 bytes in 6,029 blocks
+[Valgrind] ==54826==   total heap usage: 6,034 allocs, 5 frees, 19,989,248 bytes allocated
+
+[Run] LAD grp=86 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp86_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/86_subgraph_10 -t ./test/scale_free/86_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=86 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp86_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/86_subgraph_20 -t ./test/scale_free/86_original_graph
+[Run] Done in 4.01s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 3.616756 seconds
+
+[Valgrind] ==54848==     in use at exit: 12,325,416 bytes in 4,029 blocks
+[Valgrind] ==54848==   total heap usage: 4,034 allocs, 5 frees, 12,338,648 bytes allocated
+
+[Run] LAD grp=86 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp86_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/86_subgraph_60 -t ./test/scale_free/86_original_graph
+[Run] Done in 7.30s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 6.876231 seconds
+
+[Valgrind] ==54854==     in use at exit: 20,041,636 bytes in 6,029 blocks
+[Valgrind] ==54854==   total heap usage: 6,034 allocs, 5 frees, 20,054,868 bytes allocated
+
+[Run] LAD grp=87 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp87_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/87_subgraph_10 -t ./test/scale_free/87_original_graph
+[Run] Done in 20.66s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 20.274753 seconds
+
+[Valgrind] ==54860==     in use at exit: 10,634,532 bytes in 3,529 blocks
+[Valgrind] ==54860==   total heap usage: 3,534 allocs, 5 frees, 10,647,764 bytes allocated
+
+[Run] LAD grp=87 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp87_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/87_subgraph_20 -t ./test/scale_free/87_original_graph
+[Run] Done in 16.39s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 15.987414 seconds
+
+[Valgrind] ==54885==     in use at exit: 12,166,768 bytes in 4,029 blocks
+[Valgrind] ==54885==   total heap usage: 4,034 allocs, 5 frees, 12,180,000 bytes allocated
+
+[Run] LAD grp=87 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp87_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/87_subgraph_60 -t ./test/scale_free/87_original_graph
+[Run] Done in 7.50s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.065584 seconds
+
+[Valgrind] ==54894==     in use at exit: 20,096,592 bytes in 6,029 blocks
+[Valgrind] ==54894==   total heap usage: 6,034 allocs, 5 frees, 20,109,824 bytes allocated
+
+[Run] LAD grp=88 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp88_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/88_subgraph_10 -t ./test/scale_free/88_original_graph
+[Run] Done in 21.08s
+Run completed: 1 solutions; 2 fail nodes; 42 nodes; 20.700051 seconds
+
+[Valgrind] ==54900==     in use at exit: 10,648,924 bytes in 3,529 blocks
+[Valgrind] ==54900==   total heap usage: 3,534 allocs, 5 frees, 10,662,156 bytes allocated
+
+[Run] LAD grp=88 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp88_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/88_subgraph_20 -t ./test/scale_free/88_original_graph
+[Run] Done in 36.06s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 35.622893 seconds
+
+[Valgrind] ==54917==     in use at exit: 12,371,316 bytes in 4,029 blocks
+[Valgrind] ==54917==   total heap usage: 4,034 allocs, 5 frees, 12,384,548 bytes allocated
+
+[Run] LAD grp=88 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp88_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/88_subgraph_60 -t ./test/scale_free/88_original_graph
+[Run] Done in 8.13s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 7.671697 seconds
+
+[Valgrind] ==54936==     in use at exit: 20,123,988 bytes in 6,029 blocks
+[Valgrind] ==54936==   total heap usage: 6,034 allocs, 5 frees, 20,137,220 bytes allocated
+
+[Run] LAD grp=89 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp89_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/89_subgraph_10 -t ./test/scale_free/89_original_graph
+[Run] Done in 21.96s
+Run completed: 1 solutions; 1 fail nodes; 34 nodes; 21.567749 seconds
+
+[Valgrind] ==54950==     in use at exit: 10,664,644 bytes in 3,529 blocks
+[Valgrind] ==54950==   total heap usage: 3,534 allocs, 5 frees, 10,677,876 bytes allocated
+
+[Run] LAD grp=89 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp89_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/89_subgraph_20 -t ./test/scale_free/89_original_graph
+[Run] Done in 3.76s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 3.362460 seconds
+
+[Valgrind] ==54965==     in use at exit: 12,179,212 bytes in 4,029 blocks
+[Valgrind] ==54965==   total heap usage: 4,034 allocs, 5 frees, 12,192,444 bytes allocated
+
+[Run] LAD grp=89 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp89_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/89_subgraph_60 -t ./test/scale_free/89_original_graph
+[Run] Done in 7.79s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.351826 seconds
+
+[Valgrind] ==54984==     in use at exit: 20,076,388 bytes in 6,029 blocks
+[Valgrind] ==54984==   total heap usage: 6,034 allocs, 5 frees, 20,089,620 bytes allocated
+
+[Run] LAD grp=90 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp90_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/90_subgraph_10 -t ./test/scale_free/90_original_graph
+[Run] Done in 16.40s
+Run completed: 1 solutions; 2 fail nodes; 34 nodes; 16.043096 seconds
+
+[Valgrind] ==54997==     in use at exit: 10,631,664 bytes in 3,529 blocks
+[Valgrind] ==54997==   total heap usage: 3,534 allocs, 5 frees, 10,644,896 bytes allocated
+
+[Run] LAD grp=90 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp90_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/90_subgraph_20 -t ./test/scale_free/90_original_graph
+[Run] Done in 3.49s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 3.126586 seconds
+
+[Valgrind] ==55004==     in use at exit: 12,138,640 bytes in 4,029 blocks
+[Valgrind] ==55004==   total heap usage: 4,034 allocs, 5 frees, 12,151,872 bytes allocated
+
+[Run] LAD grp=90 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp90_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/90_subgraph_60 -t ./test/scale_free/90_original_graph
+[Run] Done in 7.89s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 7.440159 seconds
+
+[Valgrind] ==55010==     in use at exit: 20,080,920 bytes in 6,029 blocks
+[Valgrind] ==55010==   total heap usage: 6,034 allocs, 5 frees, 20,094,152 bytes allocated
+
+[Run] LAD grp=91 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp91_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/91_subgraph_10 -t ./test/scale_free/91_original_graph
+[Run] Done in 16.22s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 15.842737 seconds
+
+[Valgrind] ==55021==     in use at exit: 10,562,460 bytes in 3,529 blocks
+[Valgrind] ==55021==   total heap usage: 3,534 allocs, 5 frees, 10,575,692 bytes allocated
+
+[Run] LAD grp=91 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp91_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/91_subgraph_20 -t ./test/scale_free/91_original_graph
+[Run] Done in 24.58s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 24.131489 seconds
+
+[Valgrind] ==55044==     in use at exit: 12,294,044 bytes in 4,029 blocks
+[Valgrind] ==55044==   total heap usage: 4,034 allocs, 5 frees, 12,307,276 bytes allocated
+
+[Run] LAD grp=91 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp91_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/91_subgraph_60 -t ./test/scale_free/91_original_graph
+[Run] Done in 7.55s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 7.105039 seconds
+
+[Valgrind] ==55057==     in use at exit: 20,053,912 bytes in 6,029 blocks
+[Valgrind] ==55057==   total heap usage: 6,034 allocs, 5 frees, 20,067,144 bytes allocated
+
+[Run] LAD grp=92 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp92_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/92_subgraph_10 -t ./test/scale_free/92_original_graph
+[Run] Done in 29.29s
+Run completed: 1 solutions; 2 fail nodes; 25 nodes; 28.911018 seconds
+
+[Valgrind] ==55063==     in use at exit: 10,684,300 bytes in 3,529 blocks
+[Valgrind] ==55063==   total heap usage: 3,534 allocs, 5 frees, 10,697,532 bytes allocated
+
+[Run] LAD grp=92 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp92_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/92_subgraph_20 -t ./test/scale_free/92_original_graph
+[Run] Done in 3.96s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 3.562649 seconds
+
+[Valgrind] ==55071==     in use at exit: 12,223,660 bytes in 4,029 blocks
+[Valgrind] ==55071==   total heap usage: 4,034 allocs, 5 frees, 12,236,892 bytes allocated
+
+[Run] LAD grp=92 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp92_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/92_subgraph_60 -t ./test/scale_free/92_original_graph
+[Run] Done in 7.44s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 6.996013 seconds
+
+[Valgrind] ==55077==     in use at exit: 20,036,676 bytes in 6,029 blocks
+[Valgrind] ==55077==   total heap usage: 6,034 allocs, 5 frees, 20,049,908 bytes allocated
+
+[Run] LAD grp=93 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp93_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/93_subgraph_10 -t ./test/scale_free/93_original_graph
+[Run] Done in 21.44s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 21.027810 seconds
+
+[Valgrind] ==55083==     in use at exit: 10,664,332 bytes in 3,529 blocks
+[Valgrind] ==55083==   total heap usage: 3,534 allocs, 5 frees, 10,677,564 bytes allocated
+
+[Run] LAD grp=93 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp93_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/93_subgraph_20 -t ./test/scale_free/93_original_graph
+[Run] Done in 27.75s
+Run completed: 1 solutions; 0 fail nodes; 38 nodes; 27.302774 seconds
+
+[Valgrind] ==55099==     in use at exit: 12,301,796 bytes in 4,029 blocks
+[Valgrind] ==55099==   total heap usage: 4,034 allocs, 5 frees, 12,315,028 bytes allocated
+
+[Run] LAD grp=93 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp93_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/93_subgraph_60 -t ./test/scale_free/93_original_graph
+[Run] Done in 7.81s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.361898 seconds
+
+[Valgrind] ==55111==     in use at exit: 20,055,768 bytes in 6,029 blocks
+[Valgrind] ==55111==   total heap usage: 6,034 allocs, 5 frees, 20,069,000 bytes allocated
+
+[Run] LAD grp=94 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp94_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/94_subgraph_10 -t ./test/scale_free/94_original_graph
+[Run] Done in 19.68s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 19.317873 seconds
+
+[Valgrind] ==55118==     in use at exit: 10,643,772 bytes in 3,529 blocks
+[Valgrind] ==55118==   total heap usage: 3,534 allocs, 5 frees, 10,657,004 bytes allocated
+
+[Run] LAD grp=94 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp94_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/94_subgraph_20 -t ./test/scale_free/94_original_graph
+[Run] Done in 3.92s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 3.534592 seconds
+
+[Valgrind] ==55132==     in use at exit: 12,241,836 bytes in 4,029 blocks
+[Valgrind] ==55132==   total heap usage: 4,034 allocs, 5 frees, 12,255,068 bytes allocated
+
+[Run] LAD grp=94 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp94_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/94_subgraph_60 -t ./test/scale_free/94_original_graph
+[Run] Done in 7.60s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 7.161391 seconds
+
+[Valgrind] ==55138==     in use at exit: 20,054,044 bytes in 6,029 blocks
+[Valgrind] ==55138==   total heap usage: 6,034 allocs, 5 frees, 20,067,276 bytes allocated
+
+[Run] LAD grp=95 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp95_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/95_subgraph_10 -t ./test/scale_free/95_original_graph
+[Run] Done in 18.98s
+Run completed: 1 solutions; 1 fail nodes; 27 nodes; 18.562299 seconds
+
+[Valgrind] ==55146==     in use at exit: 10,624,768 bytes in 3,529 blocks
+[Valgrind] ==55146==   total heap usage: 3,534 allocs, 5 frees, 10,638,000 bytes allocated
+
+[Run] LAD grp=95 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp95_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/95_subgraph_20 -t ./test/scale_free/95_original_graph
+[Run] Done in 32.38s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 31.946585 seconds
+
+[Valgrind] ==55163==     in use at exit: 12,360,788 bytes in 4,029 blocks
+[Valgrind] ==55163==   total heap usage: 4,034 allocs, 5 frees, 12,374,020 bytes allocated
+
+[Run] LAD grp=95 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp95_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/95_subgraph_60 -t ./test/scale_free/95_original_graph
+[Run] Done in 7.86s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 7.434467 seconds
+
+[Valgrind] ==55195==     in use at exit: 20,041,160 bytes in 6,029 blocks
+[Valgrind] ==55195==   total heap usage: 6,034 allocs, 5 frees, 20,054,392 bytes allocated
+
+[Run] LAD grp=96 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp96_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/96_subgraph_10 -t ./test/scale_free/96_original_graph
+[Run] Done in 13.16s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 12.758587 seconds
+
+[Valgrind] ==55201==     in use at exit: 10,547,548 bytes in 3,529 blocks
+[Valgrind] ==55201==   total heap usage: 3,534 allocs, 5 frees, 10,560,780 bytes allocated
+
+[Run] LAD grp=96 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp96_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/96_subgraph_20 -t ./test/scale_free/96_original_graph
+[Run] Done in 22.11s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 21.713120 seconds
+
+[Valgrind] ==55207==     in use at exit: 12,246,344 bytes in 4,029 blocks
+[Valgrind] ==55207==   total heap usage: 4,034 allocs, 5 frees, 12,259,576 bytes allocated
+
+[Run] LAD grp=96 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp96_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/96_subgraph_60 -t ./test/scale_free/96_original_graph
+[Run] Done in 7.48s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.039689 seconds
+
+[Valgrind] ==55228==     in use at exit: 20,036,412 bytes in 6,029 blocks
+[Valgrind] ==55228==   total heap usage: 6,034 allocs, 5 frees, 20,049,644 bytes allocated
+
+[Run] LAD grp=97 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp97_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/97_subgraph_10 -t ./test/scale_free/97_original_graph
+[Run] Done in 40.41s
+Run completed: 1 solutions; 5 fail nodes; 35 nodes; 40.007596 seconds
+
+[Valgrind] ==55240==     in use at exit: 10,694,020 bytes in 3,529 blocks
+[Valgrind] ==55240==   total heap usage: 3,534 allocs, 5 frees, 10,707,252 bytes allocated
+
+[Run] LAD grp=97 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp97_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/97_subgraph_20 -t ./test/scale_free/97_original_graph
+[Run] Done in 24.74s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 24.325714 seconds
+
+[Valgrind] ==55277==     in use at exit: 12,322,072 bytes in 4,029 blocks
+[Valgrind] ==55277==   total heap usage: 4,034 allocs, 5 frees, 12,335,304 bytes allocated
+
+[Run] LAD grp=97 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp97_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/97_subgraph_60 -t ./test/scale_free/97_original_graph
+[Run] Done in 7.67s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.206117 seconds
+
+[Valgrind] ==55296==     in use at exit: 20,162,956 bytes in 6,029 blocks
+[Valgrind] ==55296==   total heap usage: 6,034 allocs, 5 frees, 20,176,188 bytes allocated
+
+[Run] LAD grp=98 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp98_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/98_subgraph_10 -t ./test/scale_free/98_original_graph
+[Run] Done in 23.13s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 22.741121 seconds
+
+[Valgrind] ==55303==     in use at exit: 10,617,952 bytes in 3,529 blocks
+[Valgrind] ==55303==   total heap usage: 3,534 allocs, 5 frees, 10,631,184 bytes allocated
+
+[Run] LAD grp=98 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp98_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/98_subgraph_20 -t ./test/scale_free/98_original_graph
+[Run] Done in 25.08s
+Run completed: 1 solutions; 0 fail nodes; 33 nodes; 24.661684 seconds
+
+[Valgrind] ==55315==     in use at exit: 12,295,804 bytes in 4,029 blocks
+[Valgrind] ==55315==   total heap usage: 4,034 allocs, 5 frees, 12,309,036 bytes allocated
+
+[Run] LAD grp=98 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp98_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/98_subgraph_60 -t ./test/scale_free/98_original_graph
+[Run] Done in 8.14s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 7.694462 seconds
+
+[Valgrind] ==55332==     in use at exit: 20,073,148 bytes in 6,029 blocks
+[Valgrind] ==55332==   total heap usage: 6,034 allocs, 5 frees, 20,086,380 bytes allocated
+
+[Run] LAD grp=99 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp99_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/99_subgraph_10 -t ./test/scale_free/99_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=99 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp99_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/99_subgraph_20 -t ./test/scale_free/99_original_graph
+[Run] Done in 25.36s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 24.912438 seconds
+
+[Valgrind] ==55387==     in use at exit: 12,293,384 bytes in 4,029 blocks
+[Valgrind] ==55387==   total heap usage: 4,034 allocs, 5 frees, 12,306,616 bytes allocated
+
+[Run] LAD grp=99 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp99_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/99_subgraph_60 -t ./test/scale_free/99_original_graph
+[Run] Done in 7.56s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.071689 seconds
+
+[Valgrind] ==55400==     in use at exit: 20,107,236 bytes in 6,029 blocks
+[Valgrind] ==55400==   total heap usage: 6,034 allocs, 5 frees, 20,120,468 bytes allocated
+
+[Run] LAD grp=100 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp100_lvl10.log ./main -s 60 -f -i -p ./test/scale_free/100_subgraph_10 -t ./test/scale_free/100_original_graph
+[Run] Done in 25.46s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 25.051639 seconds
+
+[Valgrind] ==55406==     in use at exit: 10,677,084 bytes in 3,529 blocks
+[Valgrind] ==55406==   total heap usage: 3,534 allocs, 5 frees, 10,690,316 bytes allocated
+
+[Run] LAD grp=100 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp100_lvl20.log ./main -s 60 -f -i -p ./test/scale_free/100_subgraph_20 -t ./test/scale_free/100_original_graph
+[Run] Done in 3.80s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 3.401962 seconds
+
+[Valgrind] ==55415==     in use at exit: 12,235,760 bytes in 4,029 blocks
+[Valgrind] ==55415==   total heap usage: 4,034 allocs, 5 frees, 12,248,992 bytes allocated
+
+[Run] LAD grp=100 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_scale_free_grp100_lvl60.log ./main -s 60 -f -i -p ./test/scale_free/100_subgraph_60 -t ./test/scale_free/100_original_graph
+[Run] Done in 7.91s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.447358 seconds
+
+[Valgrind] ==55425==     in use at exit: 20,022,720 bytes in 6,029 blocks
+[Valgrind] ==55425==   total heap usage: 6,034 allocs, 5 frees, 20,035,952 bytes allocated
+=== END   LAD (scale_free) ===

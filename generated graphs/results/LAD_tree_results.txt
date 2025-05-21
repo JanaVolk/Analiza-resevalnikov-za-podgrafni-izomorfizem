@@ -1,0 +1,2403 @@
+=== START LAD (tree) ===
+[Run] LAD (tree) groups: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+
+[Run] LAD grp=1 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp1_lvl10.log ./main -s 60 -f -i -p ./test/tree/1_subgraph_10 -t ./test/tree/1_original_graph
+[Run] Done in 5.52s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 5.015493 seconds
+
+[Valgrind] ==45248==     in use at exit: 10,331,468 bytes in 3,529 blocks
+[Valgrind] ==45248==   total heap usage: 3,534 allocs, 5 frees, 10,344,700 bytes allocated
+
+[Run] LAD grp=1 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp1_lvl20.log ./main -s 60 -f -i -p ./test/tree/1_subgraph_20 -t ./test/tree/1_original_graph
+[Run] Done in 6.02s
+Run completed: 1 solutions; 0 fail nodes; 43 nodes; 5.595376 seconds
+
+[Valgrind] ==45273==     in use at exit: 11,765,296 bytes in 4,029 blocks
+[Valgrind] ==45273==   total heap usage: 4,034 allocs, 5 frees, 11,778,528 bytes allocated
+
+[Run] LAD grp=1 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp1_lvl60.log ./main -s 60 -f -i -p ./test/tree/1_subgraph_60 -t ./test/tree/1_original_graph
+[Run] Done in 12.64s
+Run completed: 1 solutions; 0 fail nodes; 74 nodes; 12.177571 seconds
+
+[Valgrind] ==45280==     in use at exit: 19,505,580 bytes in 6,029 blocks
+[Valgrind] ==45280==   total heap usage: 6,034 allocs, 5 frees, 19,518,812 bytes allocated
+
+[Run] LAD grp=2 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp2_lvl10.log ./main -s 60 -f -i -p ./test/tree/2_subgraph_10 -t ./test/tree/2_original_graph
+[Run] Done in 5.07s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 4.654660 seconds
+
+[Valgrind] ==45286==     in use at exit: 10,350,484 bytes in 3,529 blocks
+[Valgrind] ==45286==   total heap usage: 3,534 allocs, 5 frees, 10,363,716 bytes allocated
+
+[Run] LAD grp=2 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp2_lvl20.log ./main -s 60 -f -i -p ./test/tree/2_subgraph_20 -t ./test/tree/2_original_graph
+[Run] Done in 5.64s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 5.158499 seconds
+
+[Valgrind] ==45292==     in use at exit: 11,846,572 bytes in 4,029 blocks
+[Valgrind] ==45292==   total heap usage: 4,034 allocs, 5 frees, 11,859,804 bytes allocated
+
+[Run] LAD grp=2 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp2_lvl60.log ./main -s 60 -f -i -p ./test/tree/2_subgraph_60 -t ./test/tree/2_original_graph
+[Run] Done in 12.84s
+Run completed: 1 solutions; 0 fail nodes; 64 nodes; 12.331075 seconds
+
+[Valgrind] ==45313==     in use at exit: 19,583,612 bytes in 6,029 blocks
+[Valgrind] ==45313==   total heap usage: 6,034 allocs, 5 frees, 19,596,844 bytes allocated
+
+[Run] LAD grp=3 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp3_lvl10.log ./main -s 60 -f -i -p ./test/tree/3_subgraph_10 -t ./test/tree/3_original_graph
+[Run] Done in 3.19s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 2.801219 seconds
+
+[Valgrind] ==45319==     in use at exit: 10,327,780 bytes in 3,529 blocks
+[Valgrind] ==45319==   total heap usage: 3,534 allocs, 5 frees, 10,341,012 bytes allocated
+
+[Run] LAD grp=3 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp3_lvl20.log ./main -s 60 -f -i -p ./test/tree/3_subgraph_20 -t ./test/tree/3_original_graph
+[Run] Done in 4.81s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 4.412458 seconds
+
+[Valgrind] ==45325==     in use at exit: 11,832,568 bytes in 4,029 blocks
+[Valgrind] ==45325==   total heap usage: 4,034 allocs, 5 frees, 11,845,800 bytes allocated
+
+[Run] LAD grp=3 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp3_lvl60.log ./main -s 60 -f -i -p ./test/tree/3_subgraph_60 -t ./test/tree/3_original_graph
+[Run] Done in 13.12s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 12.582509 seconds
+
+[Valgrind] ==45331==     in use at exit: 19,513,532 bytes in 6,029 blocks
+[Valgrind] ==45331==   total heap usage: 6,034 allocs, 5 frees, 19,526,764 bytes allocated
+
+[Run] LAD grp=4 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp4_lvl10.log ./main -s 60 -f -i -p ./test/tree/4_subgraph_10 -t ./test/tree/4_original_graph
+[Run] Done in 5.25s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 4.742335 seconds
+
+[Valgrind] ==45352==     in use at exit: 10,358,556 bytes in 3,529 blocks
+[Valgrind] ==45352==   total heap usage: 3,534 allocs, 5 frees, 10,371,788 bytes allocated
+
+[Run] LAD grp=4 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp4_lvl20.log ./main -s 60 -f -i -p ./test/tree/4_subgraph_20 -t ./test/tree/4_original_graph
+[Run] Done in 6.14s
+Run completed: 1 solutions; 0 fail nodes; 39 nodes; 5.711072 seconds
+
+[Valgrind] ==45358==     in use at exit: 11,779,292 bytes in 4,029 blocks
+[Valgrind] ==45358==   total heap usage: 4,034 allocs, 5 frees, 11,792,524 bytes allocated
+
+[Run] LAD grp=4 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp4_lvl60.log ./main -s 60 -f -i -p ./test/tree/4_subgraph_60 -t ./test/tree/4_original_graph
+[Run] Done in 13.09s
+Run completed: 1 solutions; 0 fail nodes; 60 nodes; 12.522628 seconds
+
+[Valgrind] ==45364==     in use at exit: 19,514,524 bytes in 6,029 blocks
+[Valgrind] ==45364==   total heap usage: 6,034 allocs, 5 frees, 19,527,756 bytes allocated
+
+[Run] LAD grp=5 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp5_lvl10.log ./main -s 60 -f -i -p ./test/tree/5_subgraph_10 -t ./test/tree/5_original_graph
+[Run] Done in 5.17s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 4.769378 seconds
+
+[Valgrind] ==45380==     in use at exit: 10,312,904 bytes in 3,529 blocks
+[Valgrind] ==45380==   total heap usage: 3,534 allocs, 5 frees, 10,326,136 bytes allocated
+
+[Run] LAD grp=5 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp5_lvl20.log ./main -s 60 -f -i -p ./test/tree/5_subgraph_20 -t ./test/tree/5_original_graph
+[Run] Done in 5.43s
+Run completed: 1 solutions; 0 fail nodes; 33 nodes; 5.014800 seconds
+
+[Valgrind] ==45386==     in use at exit: 11,775,648 bytes in 4,029 blocks
+[Valgrind] ==45386==   total heap usage: 4,034 allocs, 5 frees, 11,788,880 bytes allocated
+
+[Run] LAD grp=5 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp5_lvl60.log ./main -s 60 -f -i -p ./test/tree/5_subgraph_60 -t ./test/tree/5_original_graph
+[Run] Done in 12.07s
+Run completed: 1 solutions; 0 fail nodes; 69 nodes; 11.592738 seconds
+
+[Valgrind] ==45392==     in use at exit: 19,478,716 bytes in 6,029 blocks
+[Valgrind] ==45392==   total heap usage: 6,034 allocs, 5 frees, 19,491,948 bytes allocated
+
+[Run] LAD grp=6 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp6_lvl10.log ./main -s 60 -f -i -p ./test/tree/6_subgraph_10 -t ./test/tree/6_original_graph
+[Run] Done in 6.36s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 5.965712 seconds
+
+[Valgrind] ==45398==     in use at exit: 10,332,680 bytes in 3,529 blocks
+[Valgrind] ==45398==   total heap usage: 3,534 allocs, 5 frees, 10,345,912 bytes allocated
+
+[Run] LAD grp=6 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp6_lvl20.log ./main -s 60 -f -i -p ./test/tree/6_subgraph_20 -t ./test/tree/6_original_graph
+[Run] Done in 6.74s
+Run completed: 1 solutions; 0 fail nodes; 40 nodes; 6.249339 seconds
+
+[Valgrind] ==45405==     in use at exit: 11,844,408 bytes in 4,029 blocks
+[Valgrind] ==45405==   total heap usage: 4,034 allocs, 5 frees, 11,857,640 bytes allocated
+
+[Run] LAD grp=6 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp6_lvl60.log ./main -s 60 -f -i -p ./test/tree/6_subgraph_60 -t ./test/tree/6_original_graph
+[Run] Done in 11.78s
+Run completed: 1 solutions; 0 fail nodes; 78 nodes; 11.255313 seconds
+
+[Valgrind] ==45427==     in use at exit: 19,445,840 bytes in 6,029 blocks
+[Valgrind] ==45427==   total heap usage: 6,034 allocs, 5 frees, 19,459,072 bytes allocated
+
+[Run] LAD grp=7 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp7_lvl10.log ./main -s 60 -f -i -p ./test/tree/7_subgraph_10 -t ./test/tree/7_original_graph
+[Run] Done in 5.99s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 5.619269 seconds
+
+[Valgrind] ==45433==     in use at exit: 10,302,124 bytes in 3,529 blocks
+[Valgrind] ==45433==   total heap usage: 3,534 allocs, 5 frees, 10,315,356 bytes allocated
+
+[Run] LAD grp=7 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp7_lvl20.log ./main -s 60 -f -i -p ./test/tree/7_subgraph_20 -t ./test/tree/7_original_graph
+[Run] Done in 9.18s
+Run completed: 1 solutions; 0 fail nodes; 52 nodes; 8.730541 seconds
+
+[Valgrind] ==45439==     in use at exit: 11,764,352 bytes in 4,029 blocks
+[Valgrind] ==45439==   total heap usage: 4,034 allocs, 5 frees, 11,777,584 bytes allocated
+
+[Run] LAD grp=7 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp7_lvl60.log ./main -s 60 -f -i -p ./test/tree/7_subgraph_60 -t ./test/tree/7_original_graph
+[Run] Done in 13.23s
+Run completed: 1 solutions; 0 fail nodes; 73 nodes; 12.721839 seconds
+
+[Valgrind] ==45445==     in use at exit: 19,442,544 bytes in 6,029 blocks
+[Valgrind] ==45445==   total heap usage: 6,034 allocs, 5 frees, 19,455,776 bytes allocated
+
+[Run] LAD grp=8 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp8_lvl10.log ./main -s 60 -f -i -p ./test/tree/8_subgraph_10 -t ./test/tree/8_original_graph
+[Run] Done in 6.16s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 5.747074 seconds
+
+[Valgrind] ==45466==     in use at exit: 10,348,344 bytes in 3,529 blocks
+[Valgrind] ==45466==   total heap usage: 3,534 allocs, 5 frees, 10,361,576 bytes allocated
+
+[Run] LAD grp=8 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp8_lvl20.log ./main -s 60 -f -i -p ./test/tree/8_subgraph_20 -t ./test/tree/8_original_graph
+[Run] Done in 6.52s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 6.063901 seconds
+
+[Valgrind] ==45482==     in use at exit: 11,860,324 bytes in 4,029 blocks
+[Valgrind] ==45482==   total heap usage: 4,034 allocs, 5 frees, 11,873,556 bytes allocated
+
+[Run] LAD grp=8 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp8_lvl60.log ./main -s 60 -f -i -p ./test/tree/8_subgraph_60 -t ./test/tree/8_original_graph
+[Run] Done in 13.14s
+Run completed: 1 solutions; 0 fail nodes; 74 nodes; 12.614840 seconds
+
+[Valgrind] ==45488==     in use at exit: 19,527,724 bytes in 6,029 blocks
+[Valgrind] ==45488==   total heap usage: 6,034 allocs, 5 frees, 19,540,956 bytes allocated
+
+[Run] LAD grp=9 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp9_lvl10.log ./main -s 60 -f -i -p ./test/tree/9_subgraph_10 -t ./test/tree/9_original_graph
+[Run] Done in 3.89s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 3.439870 seconds
+
+[Valgrind] ==45494==     in use at exit: 10,353,252 bytes in 3,529 blocks
+[Valgrind] ==45494==   total heap usage: 3,534 allocs, 5 frees, 10,366,484 bytes allocated
+
+[Run] LAD grp=9 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp9_lvl20.log ./main -s 60 -f -i -p ./test/tree/9_subgraph_20 -t ./test/tree/9_original_graph
+[Run] Done in 6.11s
+Run completed: 1 solutions; 0 fail nodes; 33 nodes; 5.640845 seconds
+
+[Valgrind] ==45517==     in use at exit: 11,820,792 bytes in 4,029 blocks
+[Valgrind] ==45517==   total heap usage: 4,034 allocs, 5 frees, 11,834,024 bytes allocated
+
+[Run] LAD grp=9 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp9_lvl60.log ./main -s 60 -f -i -p ./test/tree/9_subgraph_60 -t ./test/tree/9_original_graph
+[Run] Done in 11.21s
+Run completed: 1 solutions; 0 fail nodes; 81 nodes; 10.725303 seconds
+
+[Valgrind] ==45523==     in use at exit: 19,437,368 bytes in 6,029 blocks
+[Valgrind] ==45523==   total heap usage: 6,034 allocs, 5 frees, 19,450,600 bytes allocated
+
+[Run] LAD grp=10 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp10_lvl10.log ./main -s 60 -f -i -p ./test/tree/10_subgraph_10 -t ./test/tree/10_original_graph
+[Run] Done in 5.55s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 5.161878 seconds
+
+[Valgrind] ==45529==     in use at exit: 10,364,976 bytes in 3,529 blocks
+[Valgrind] ==45529==   total heap usage: 3,534 allocs, 5 frees, 10,378,208 bytes allocated
+
+[Run] LAD grp=10 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp10_lvl20.log ./main -s 60 -f -i -p ./test/tree/10_subgraph_20 -t ./test/tree/10_original_graph
+[Run] Done in 5.21s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 4.809612 seconds
+
+[Valgrind] ==45535==     in use at exit: 11,813,560 bytes in 4,029 blocks
+[Valgrind] ==45535==   total heap usage: 4,034 allocs, 5 frees, 11,826,792 bytes allocated
+
+[Run] LAD grp=10 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp10_lvl60.log ./main -s 60 -f -i -p ./test/tree/10_subgraph_60 -t ./test/tree/10_original_graph
+[Run] Done in 14.19s
+Run completed: 1 solutions; 0 fail nodes; 70 nodes; 13.727886 seconds
+
+[Valgrind] ==45541==     in use at exit: 19,517,528 bytes in 6,029 blocks
+[Valgrind] ==45541==   total heap usage: 6,034 allocs, 5 frees, 19,530,760 bytes allocated
+
+[Run] LAD grp=11 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp11_lvl10.log ./main -s 60 -f -i -p ./test/tree/11_subgraph_10 -t ./test/tree/11_original_graph
+[Run] Done in 4.99s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 4.596591 seconds
+
+[Valgrind] ==45563==     in use at exit: 10,347,700 bytes in 3,529 blocks
+[Valgrind] ==45563==   total heap usage: 3,534 allocs, 5 frees, 10,360,932 bytes allocated
+
+[Run] LAD grp=11 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp11_lvl20.log ./main -s 60 -f -i -p ./test/tree/11_subgraph_20 -t ./test/tree/11_original_graph
+[Run] Done in 6.51s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 6.086116 seconds
+
+[Valgrind] ==45569==     in use at exit: 11,856,464 bytes in 4,029 blocks
+[Valgrind] ==45569==   total heap usage: 4,034 allocs, 5 frees, 11,869,696 bytes allocated
+
+[Run] LAD grp=11 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp11_lvl60.log ./main -s 60 -f -i -p ./test/tree/11_subgraph_60 -t ./test/tree/11_original_graph
+[Run] Done in 11.41s
+Run completed: 1 solutions; 0 fail nodes; 72 nodes; 10.853809 seconds
+
+[Valgrind] ==45575==     in use at exit: 19,423,340 bytes in 6,029 blocks
+[Valgrind] ==45575==   total heap usage: 6,034 allocs, 5 frees, 19,436,572 bytes allocated
+
+[Run] LAD grp=12 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp12_lvl10.log ./main -s 60 -f -i -p ./test/tree/12_subgraph_10 -t ./test/tree/12_original_graph
+[Run] Done in 5.14s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 4.668353 seconds
+
+[Valgrind] ==45591==     in use at exit: 10,327,908 bytes in 3,529 blocks
+[Valgrind] ==45591==   total heap usage: 3,534 allocs, 5 frees, 10,341,140 bytes allocated
+
+[Run] LAD grp=12 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp12_lvl20.log ./main -s 60 -f -i -p ./test/tree/12_subgraph_20 -t ./test/tree/12_original_graph
+[Run] Done in 7.15s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 6.641026 seconds
+
+[Valgrind] ==45612==     in use at exit: 11,832,668 bytes in 4,029 blocks
+[Valgrind] ==45612==   total heap usage: 4,034 allocs, 5 frees, 11,845,900 bytes allocated
+
+[Run] LAD grp=12 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp12_lvl60.log ./main -s 60 -f -i -p ./test/tree/12_subgraph_60 -t ./test/tree/12_original_graph
+[Run] Done in 12.71s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 12.204258 seconds
+
+[Valgrind] ==45618==     in use at exit: 19,500,576 bytes in 6,029 blocks
+[Valgrind] ==45618==   total heap usage: 6,034 allocs, 5 frees, 19,513,808 bytes allocated
+
+[Run] LAD grp=13 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp13_lvl10.log ./main -s 60 -f -i -p ./test/tree/13_subgraph_10 -t ./test/tree/13_original_graph
+[Run] Done in 3.46s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 3.069345 seconds
+
+[Valgrind] ==45625==     in use at exit: 10,308,768 bytes in 3,529 blocks
+[Valgrind] ==45625==   total heap usage: 3,534 allocs, 5 frees, 10,322,000 bytes allocated
+
+[Run] LAD grp=13 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp13_lvl20.log ./main -s 60 -f -i -p ./test/tree/13_subgraph_20 -t ./test/tree/13_original_graph
+[Run] Done in 5.25s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 4.813930 seconds
+
+[Valgrind] ==45631==     in use at exit: 11,812,332 bytes in 4,029 blocks
+[Valgrind] ==45631==   total heap usage: 4,034 allocs, 5 frees, 11,825,564 bytes allocated
+
+[Run] LAD grp=13 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp13_lvl60.log ./main -s 60 -f -i -p ./test/tree/13_subgraph_60 -t ./test/tree/13_original_graph
+[Run] Done in 13.70s
+Run completed: 1 solutions; 0 fail nodes; 77 nodes; 13.138097 seconds
+
+[Valgrind] ==45637==     in use at exit: 19,425,964 bytes in 6,029 blocks
+[Valgrind] ==45637==   total heap usage: 6,034 allocs, 5 frees, 19,439,196 bytes allocated
+
+[Run] LAD grp=14 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp14_lvl10.log ./main -s 60 -f -i -p ./test/tree/14_subgraph_10 -t ./test/tree/14_original_graph
+[Run] Done in 4.25s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 3.852219 seconds
+
+[Valgrind] ==45658==     in use at exit: 10,290,848 bytes in 3,529 blocks
+[Valgrind] ==45658==   total heap usage: 3,534 allocs, 5 frees, 10,304,080 bytes allocated
+
+[Run] LAD grp=14 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp14_lvl20.log ./main -s 60 -f -i -p ./test/tree/14_subgraph_20 -t ./test/tree/14_original_graph
+[Run] Done in 5.64s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 5.181872 seconds
+
+[Valgrind] ==45664==     in use at exit: 11,750,688 bytes in 4,029 blocks
+[Valgrind] ==45664==   total heap usage: 4,034 allocs, 5 frees, 11,763,920 bytes allocated
+
+[Run] LAD grp=14 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp14_lvl60.log ./main -s 60 -f -i -p ./test/tree/14_subgraph_60 -t ./test/tree/14_original_graph
+[Run] Done in 11.65s
+Run completed: 1 solutions; 0 fail nodes; 76 nodes; 11.140875 seconds
+
+[Valgrind] ==45670==     in use at exit: 19,422,836 bytes in 6,029 blocks
+[Valgrind] ==45670==   total heap usage: 6,034 allocs, 5 frees, 19,436,068 bytes allocated
+
+[Run] LAD grp=15 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp15_lvl10.log ./main -s 60 -f -i -p ./test/tree/15_subgraph_10 -t ./test/tree/15_original_graph
+[Run] Done in 3.50s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 3.112936 seconds
+
+[Valgrind] ==45676==     in use at exit: 10,308,192 bytes in 3,529 blocks
+[Valgrind] ==45676==   total heap usage: 3,534 allocs, 5 frees, 10,321,424 bytes allocated
+
+[Run] LAD grp=15 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp15_lvl20.log ./main -s 60 -f -i -p ./test/tree/15_subgraph_20 -t ./test/tree/15_original_graph
+[Run] Done in 5.51s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 5.024817 seconds
+
+[Valgrind] ==45682==     in use at exit: 11,767,804 bytes in 4,029 blocks
+[Valgrind] ==45682==   total heap usage: 4,034 allocs, 5 frees, 11,781,036 bytes allocated
+
+[Run] LAD grp=15 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp15_lvl60.log ./main -s 60 -f -i -p ./test/tree/15_subgraph_60 -t ./test/tree/15_original_graph
+[Run] Done in 13.26s
+Run completed: 1 solutions; 0 fail nodes; 71 nodes; 12.781633 seconds
+
+[Valgrind] ==45703==     in use at exit: 19,501,672 bytes in 6,029 blocks
+[Valgrind] ==45703==   total heap usage: 6,034 allocs, 5 frees, 19,514,904 bytes allocated
+
+[Run] LAD grp=16 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp16_lvl10.log ./main -s 60 -f -i -p ./test/tree/16_subgraph_10 -t ./test/tree/16_original_graph
+[Run] Done in 7.80s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.372281 seconds
+
+[Valgrind] ==45719==     in use at exit: 10,344,820 bytes in 3,529 blocks
+[Valgrind] ==45719==   total heap usage: 3,534 allocs, 5 frees, 10,358,052 bytes allocated
+
+[Run] LAD grp=16 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp16_lvl20.log ./main -s 60 -f -i -p ./test/tree/16_subgraph_20 -t ./test/tree/16_original_graph
+[Run] Done in 5.58s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 5.139640 seconds
+
+[Valgrind] ==45726==     in use at exit: 11,826,620 bytes in 4,029 blocks
+[Valgrind] ==45726==   total heap usage: 4,034 allocs, 5 frees, 11,839,852 bytes allocated
+
+[Run] LAD grp=16 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp16_lvl60.log ./main -s 60 -f -i -p ./test/tree/16_subgraph_60 -t ./test/tree/16_original_graph
+[Run] Done in 13.73s
+Run completed: 1 solutions; 0 fail nodes; 68 nodes; 13.203113 seconds
+
+[Valgrind] ==45732==     in use at exit: 19,467,444 bytes in 6,029 blocks
+[Valgrind] ==45732==   total heap usage: 6,034 allocs, 5 frees, 19,480,676 bytes allocated
+
+[Run] LAD grp=17 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp17_lvl10.log ./main -s 60 -f -i -p ./test/tree/17_subgraph_10 -t ./test/tree/17_original_graph
+[Run] Done in 7.96s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 7.550076 seconds
+
+[Valgrind] ==45753==     in use at exit: 10,349,712 bytes in 3,529 blocks
+[Valgrind] ==45753==   total heap usage: 3,534 allocs, 5 frees, 10,362,944 bytes allocated
+
+[Run] LAD grp=17 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp17_lvl20.log ./main -s 60 -f -i -p ./test/tree/17_subgraph_20 -t ./test/tree/17_original_graph
+[Run] Done in 5.27s
+Run completed: 1 solutions; 0 fail nodes; 33 nodes; 4.839412 seconds
+
+[Valgrind] ==45759==     in use at exit: 11,800,772 bytes in 4,029 blocks
+[Valgrind] ==45759==   total heap usage: 4,034 allocs, 5 frees, 11,814,004 bytes allocated
+
+[Run] LAD grp=17 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp17_lvl60.log ./main -s 60 -f -i -p ./test/tree/17_subgraph_60 -t ./test/tree/17_original_graph
+[Run] Done in 11.95s
+Run completed: 1 solutions; 0 fail nodes; 59 nodes; 11.487437 seconds
+
+[Valgrind] ==45765==     in use at exit: 19,494,588 bytes in 6,029 blocks
+[Valgrind] ==45765==   total heap usage: 6,034 allocs, 5 frees, 19,507,820 bytes allocated
+
+[Run] LAD grp=18 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp18_lvl10.log ./main -s 60 -f -i -p ./test/tree/18_subgraph_10 -t ./test/tree/18_original_graph
+[Run] Done in 7.18s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 6.783150 seconds
+
+[Valgrind] ==45771==     in use at exit: 10,395,172 bytes in 3,529 blocks
+[Valgrind] ==45771==   total heap usage: 3,534 allocs, 5 frees, 10,408,404 bytes allocated
+
+[Run] LAD grp=18 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp18_lvl20.log ./main -s 60 -f -i -p ./test/tree/18_subgraph_20 -t ./test/tree/18_original_graph
+[Run] Done in 6.50s
+Run completed: 1 solutions; 0 fail nodes; 39 nodes; 6.060127 seconds
+
+[Valgrind] ==45792==     in use at exit: 11,797,076 bytes in 4,029 blocks
+[Valgrind] ==45792==   total heap usage: 4,034 allocs, 5 frees, 11,810,308 bytes allocated
+
+[Run] LAD grp=18 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp18_lvl60.log ./main -s 60 -f -i -p ./test/tree/18_subgraph_60 -t ./test/tree/18_original_graph
+[Run] Done in 11.72s
+Run completed: 1 solutions; 0 fail nodes; 87 nodes; 11.248338 seconds
+
+[Valgrind] ==45798==     in use at exit: 19,486,440 bytes in 6,029 blocks
+[Valgrind] ==45798==   total heap usage: 6,034 allocs, 5 frees, 19,499,672 bytes allocated
+
+[Run] LAD grp=19 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp19_lvl10.log ./main -s 60 -f -i -p ./test/tree/19_subgraph_10 -t ./test/tree/19_original_graph
+[Run] Done in 3.74s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 3.343747 seconds
+
+[Valgrind] ==45804==     in use at exit: 10,334,696 bytes in 3,529 blocks
+[Valgrind] ==45804==   total heap usage: 3,534 allocs, 5 frees, 10,347,928 bytes allocated
+
+[Run] LAD grp=19 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp19_lvl20.log ./main -s 60 -f -i -p ./test/tree/19_subgraph_20 -t ./test/tree/19_original_graph
+[Run] Done in 7.54s
+Run completed: 1 solutions; 0 fail nodes; 43 nodes; 7.104724 seconds
+
+[Valgrind] ==45810==     in use at exit: 11,788,644 bytes in 4,029 blocks
+[Valgrind] ==45810==   total heap usage: 4,034 allocs, 5 frees, 11,801,876 bytes allocated
+
+[Run] LAD grp=19 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp19_lvl60.log ./main -s 60 -f -i -p ./test/tree/19_subgraph_60 -t ./test/tree/19_original_graph
+[Run] Done in 15.16s
+Run completed: 1 solutions; 0 fail nodes; 99 nodes; 14.595936 seconds
+
+[Valgrind] ==45816==     in use at exit: 19,503,436 bytes in 6,029 blocks
+[Valgrind] ==45816==   total heap usage: 6,034 allocs, 5 frees, 19,516,668 bytes allocated
+
+[Run] LAD grp=20 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp20_lvl10.log ./main -s 60 -f -i -p ./test/tree/20_subgraph_10 -t ./test/tree/20_original_graph
+[Run] Done in 5.36s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 4.968092 seconds
+
+[Valgrind] ==45847==     in use at exit: 10,347,684 bytes in 3,529 blocks
+[Valgrind] ==45847==   total heap usage: 3,534 allocs, 5 frees, 10,360,916 bytes allocated
+
+[Run] LAD grp=20 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp20_lvl20.log ./main -s 60 -f -i -p ./test/tree/20_subgraph_20 -t ./test/tree/20_original_graph
+[Run] Done in 5.74s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 5.324561 seconds
+
+[Valgrind] ==45853==     in use at exit: 11,798,920 bytes in 4,029 blocks
+[Valgrind] ==45853==   total heap usage: 4,034 allocs, 5 frees, 11,812,152 bytes allocated
+
+[Run] LAD grp=20 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp20_lvl60.log ./main -s 60 -f -i -p ./test/tree/20_subgraph_60 -t ./test/tree/20_original_graph
+[Run] Done in 12.58s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 12.084760 seconds
+
+[Valgrind] ==45859==     in use at exit: 19,527,036 bytes in 6,029 blocks
+[Valgrind] ==45859==   total heap usage: 6,034 allocs, 5 frees, 19,540,268 bytes allocated
+
+[Run] LAD grp=21 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp21_lvl10.log ./main -s 60 -f -i -p ./test/tree/21_subgraph_10 -t ./test/tree/21_original_graph
+[Run] Done in 7.79s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.383318 seconds
+
+[Valgrind] ==45866==     in use at exit: 10,390,148 bytes in 3,529 blocks
+[Valgrind] ==45866==   total heap usage: 3,534 allocs, 5 frees, 10,403,380 bytes allocated
+
+[Run] LAD grp=21 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp21_lvl20.log ./main -s 60 -f -i -p ./test/tree/21_subgraph_20 -t ./test/tree/21_original_graph
+[Run] Done in 9.65s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 9.212620 seconds
+
+[Valgrind] ==45887==     in use at exit: 11,860,264 bytes in 4,029 blocks
+[Valgrind] ==45887==   total heap usage: 4,034 allocs, 5 frees, 11,873,496 bytes allocated
+
+[Run] LAD grp=21 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp21_lvl60.log ./main -s 60 -f -i -p ./test/tree/21_subgraph_60 -t ./test/tree/21_original_graph
+[Run] Done in 11.91s
+Run completed: 1 solutions; 0 fail nodes; 52 nodes; 11.416665 seconds
+
+[Valgrind] ==45893==     in use at exit: 19,580,056 bytes in 6,029 blocks
+[Valgrind] ==45893==   total heap usage: 6,034 allocs, 5 frees, 19,593,288 bytes allocated
+
+[Run] LAD grp=22 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp22_lvl10.log ./main -s 60 -f -i -p ./test/tree/22_subgraph_10 -t ./test/tree/22_original_graph
+[Run] Done in 5.51s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 5.125247 seconds
+
+[Valgrind] ==45900==     in use at exit: 10,359,260 bytes in 3,529 blocks
+[Valgrind] ==45900==   total heap usage: 3,534 allocs, 5 frees, 10,372,492 bytes allocated
+
+[Run] LAD grp=22 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp22_lvl20.log ./main -s 60 -f -i -p ./test/tree/22_subgraph_20 -t ./test/tree/22_original_graph
+[Run] Done in 10.28s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 9.807070 seconds
+
+[Valgrind] ==45906==     in use at exit: 11,822,896 bytes in 4,029 blocks
+[Valgrind] ==45906==   total heap usage: 4,034 allocs, 5 frees, 11,836,128 bytes allocated
+
+[Run] LAD grp=22 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp22_lvl60.log ./main -s 60 -f -i -p ./test/tree/22_subgraph_60 -t ./test/tree/22_original_graph
+[Run] Done in 12.33s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 11.818840 seconds
+
+[Valgrind] ==45927==     in use at exit: 19,464,500 bytes in 6,029 blocks
+[Valgrind] ==45927==   total heap usage: 6,034 allocs, 5 frees, 19,477,732 bytes allocated
+
+[Run] LAD grp=23 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp23_lvl10.log ./main -s 60 -f -i -p ./test/tree/23_subgraph_10 -t ./test/tree/23_original_graph
+[Run] Done in 4.53s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 4.124563 seconds
+
+[Valgrind] ==45944==     in use at exit: 10,328,676 bytes in 3,529 blocks
+[Valgrind] ==45944==   total heap usage: 3,534 allocs, 5 frees, 10,341,908 bytes allocated
+
+[Run] LAD grp=23 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp23_lvl20.log ./main -s 60 -f -i -p ./test/tree/23_subgraph_20 -t ./test/tree/23_original_graph
+[Run] Done in 8.52s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 8.121927 seconds
+
+[Valgrind] ==45950==     in use at exit: 11,876,848 bytes in 4,029 blocks
+[Valgrind] ==45950==   total heap usage: 4,034 allocs, 5 frees, 11,890,080 bytes allocated
+
+[Run] LAD grp=23 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp23_lvl60.log ./main -s 60 -f -i -p ./test/tree/23_subgraph_60 -t ./test/tree/23_original_graph
+[Run] Done in 14.08s
+Run completed: 1 solutions; 0 fail nodes; 52 nodes; 13.595018 seconds
+
+[Valgrind] ==45956==     in use at exit: 19,561,744 bytes in 6,029 blocks
+[Valgrind] ==45956==   total heap usage: 6,034 allocs, 5 frees, 19,574,976 bytes allocated
+
+[Run] LAD grp=24 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp24_lvl10.log ./main -s 60 -f -i -p ./test/tree/24_subgraph_10 -t ./test/tree/24_original_graph
+[Run] Done in 3.32s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 2.940522 seconds
+
+[Valgrind] ==45978==     in use at exit: 10,335,740 bytes in 3,529 blocks
+[Valgrind] ==45978==   total heap usage: 3,534 allocs, 5 frees, 10,348,972 bytes allocated
+
+[Run] LAD grp=24 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp24_lvl20.log ./main -s 60 -f -i -p ./test/tree/24_subgraph_20 -t ./test/tree/24_original_graph
+[Run] Done in 4.89s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 4.480148 seconds
+
+[Valgrind] ==45984==     in use at exit: 11,826,024 bytes in 4,029 blocks
+[Valgrind] ==45984==   total heap usage: 4,034 allocs, 5 frees, 11,839,256 bytes allocated
+
+[Run] LAD grp=24 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp24_lvl60.log ./main -s 60 -f -i -p ./test/tree/24_subgraph_60 -t ./test/tree/24_original_graph
+[Run] Done in 11.76s
+Run completed: 1 solutions; 0 fail nodes; 70 nodes; 11.269221 seconds
+
+[Valgrind] ==45990==     in use at exit: 19,510,512 bytes in 6,029 blocks
+[Valgrind] ==45990==   total heap usage: 6,034 allocs, 5 frees, 19,523,744 bytes allocated
+
+[Run] LAD grp=25 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp25_lvl10.log ./main -s 60 -f -i -p ./test/tree/25_subgraph_10 -t ./test/tree/25_original_graph
+[Run] Done in 7.35s
+Run completed: 1 solutions; 0 fail nodes; 9 nodes; 6.940967 seconds
+
+[Valgrind] ==45996==     in use at exit: 10,348,188 bytes in 3,529 blocks
+[Valgrind] ==45996==   total heap usage: 3,534 allocs, 5 frees, 10,361,420 bytes allocated
+
+[Run] LAD grp=25 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp25_lvl20.log ./main -s 60 -f -i -p ./test/tree/25_subgraph_20 -t ./test/tree/25_original_graph
+[Run] Done in 5.88s
+Run completed: 1 solutions; 0 fail nodes; 39 nodes; 5.443311 seconds
+
+[Valgrind] ==46017==     in use at exit: 11,787,412 bytes in 4,029 blocks
+[Valgrind] ==46017==   total heap usage: 4,034 allocs, 5 frees, 11,800,644 bytes allocated
+
+[Run] LAD grp=25 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp25_lvl60.log ./main -s 60 -f -i -p ./test/tree/25_subgraph_60 -t ./test/tree/25_original_graph
+[Run] Done in 11.84s
+Run completed: 1 solutions; 0 fail nodes; 68 nodes; 11.381677 seconds
+
+[Valgrind] ==46036==     in use at exit: 19,488,220 bytes in 6,029 blocks
+[Valgrind] ==46036==   total heap usage: 6,034 allocs, 5 frees, 19,501,452 bytes allocated
+
+[Run] LAD grp=26 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp26_lvl10.log ./main -s 60 -f -i -p ./test/tree/26_subgraph_10 -t ./test/tree/26_original_graph
+[Run] Done in 5.73s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 5.350155 seconds
+
+[Valgrind] ==46042==     in use at exit: 10,350,268 bytes in 3,529 blocks
+[Valgrind] ==46042==   total heap usage: 3,534 allocs, 5 frees, 10,363,500 bytes allocated
+
+[Run] LAD grp=26 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp26_lvl20.log ./main -s 60 -f -i -p ./test/tree/26_subgraph_20 -t ./test/tree/26_original_graph
+[Run] Done in 4.27s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 3.834199 seconds
+
+[Valgrind] ==46048==     in use at exit: 11,822,916 bytes in 4,029 blocks
+[Valgrind] ==46048==   total heap usage: 4,034 allocs, 5 frees, 11,836,148 bytes allocated
+
+[Run] LAD grp=26 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp26_lvl60.log ./main -s 60 -f -i -p ./test/tree/26_subgraph_60 -t ./test/tree/26_original_graph
+[Run] Done in 14.45s
+Run completed: 1 solutions; 0 fail nodes; 70 nodes; 13.934999 seconds
+
+[Valgrind] ==46054==     in use at exit: 19,476,188 bytes in 6,029 blocks
+[Valgrind] ==46054==   total heap usage: 6,034 allocs, 5 frees, 19,489,420 bytes allocated
+
+[Run] LAD grp=27 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp27_lvl10.log ./main -s 60 -f -i -p ./test/tree/27_subgraph_10 -t ./test/tree/27_original_graph
+[Run] Done in 3.70s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 3.268100 seconds
+
+[Valgrind] ==46086==     in use at exit: 10,295,224 bytes in 3,529 blocks
+[Valgrind] ==46086==   total heap usage: 3,534 allocs, 5 frees, 10,308,456 bytes allocated
+
+[Run] LAD grp=27 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp27_lvl20.log ./main -s 60 -f -i -p ./test/tree/27_subgraph_20 -t ./test/tree/27_original_graph
+[Run] Done in 5.21s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 4.800794 seconds
+
+[Valgrind] ==46092==     in use at exit: 11,774,076 bytes in 4,029 blocks
+[Valgrind] ==46092==   total heap usage: 4,034 allocs, 5 frees, 11,787,308 bytes allocated
+
+[Run] LAD grp=27 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp27_lvl60.log ./main -s 60 -f -i -p ./test/tree/27_subgraph_60 -t ./test/tree/27_original_graph
+[Run] Done in 11.52s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 11.062317 seconds
+
+[Valgrind] ==46098==     in use at exit: 19,439,556 bytes in 6,029 blocks
+[Valgrind] ==46098==   total heap usage: 6,034 allocs, 5 frees, 19,452,788 bytes allocated
+
+[Run] LAD grp=28 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp28_lvl10.log ./main -s 60 -f -i -p ./test/tree/28_subgraph_10 -t ./test/tree/28_original_graph
+[Run] Done in 9.46s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 8.985306 seconds
+
+[Valgrind] ==46104==     in use at exit: 10,358,700 bytes in 3,529 blocks
+[Valgrind] ==46104==   total heap usage: 3,534 allocs, 5 frees, 10,371,932 bytes allocated
+
+[Run] LAD grp=28 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp28_lvl20.log ./main -s 60 -f -i -p ./test/tree/28_subgraph_20 -t ./test/tree/28_original_graph
+[Run] Done in 6.42s
+Run completed: 1 solutions; 0 fail nodes; 47 nodes; 5.967641 seconds
+
+[Valgrind] ==46125==     in use at exit: 11,757,548 bytes in 4,029 blocks
+[Valgrind] ==46125==   total heap usage: 4,034 allocs, 5 frees, 11,770,780 bytes allocated
+
+[Run] LAD grp=28 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp28_lvl60.log ./main -s 60 -f -i -p ./test/tree/28_subgraph_60 -t ./test/tree/28_original_graph
+[Run] Done in 11.45s
+Run completed: 1 solutions; 0 fail nodes; 72 nodes; 10.964880 seconds
+
+[Valgrind] ==46131==     in use at exit: 19,463,408 bytes in 6,029 blocks
+[Valgrind] ==46131==   total heap usage: 6,034 allocs, 5 frees, 19,476,640 bytes allocated
+
+[Run] LAD grp=29 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp29_lvl10.log ./main -s 60 -f -i -p ./test/tree/29_subgraph_10 -t ./test/tree/29_original_graph
+[Run] Done in 3.63s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 3.247550 seconds
+
+[Valgrind] ==46137==     in use at exit: 10,322,404 bytes in 3,529 blocks
+[Valgrind] ==46137==   total heap usage: 3,534 allocs, 5 frees, 10,335,636 bytes allocated
+
+[Run] LAD grp=29 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp29_lvl20.log ./main -s 60 -f -i -p ./test/tree/29_subgraph_20 -t ./test/tree/29_original_graph
+[Run] Done in 4.86s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 4.456714 seconds
+
+[Valgrind] ==46143==     in use at exit: 11,809,800 bytes in 4,029 blocks
+[Valgrind] ==46143==   total heap usage: 4,034 allocs, 5 frees, 11,823,032 bytes allocated
+
+[Run] LAD grp=29 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp29_lvl60.log ./main -s 60 -f -i -p ./test/tree/29_subgraph_60 -t ./test/tree/29_original_graph
+[Run] Done in 12.19s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 11.700589 seconds
+
+[Valgrind] ==46149==     in use at exit: 19,453,144 bytes in 6,029 blocks
+[Valgrind] ==46149==   total heap usage: 6,034 allocs, 5 frees, 19,466,376 bytes allocated
+
+[Run] LAD grp=30 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp30_lvl10.log ./main -s 60 -f -i -p ./test/tree/30_subgraph_10 -t ./test/tree/30_original_graph
+[Run] Done in 4.09s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 3.714297 seconds
+
+[Valgrind] ==46155==     in use at exit: 10,274,540 bytes in 3,529 blocks
+[Valgrind] ==46155==   total heap usage: 3,534 allocs, 5 frees, 10,287,772 bytes allocated
+
+[Run] LAD grp=30 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp30_lvl20.log ./main -s 60 -f -i -p ./test/tree/30_subgraph_20 -t ./test/tree/30_original_graph
+[Run] Done in 5.48s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 5.072305 seconds
+
+[Valgrind] ==46161==     in use at exit: 11,814,576 bytes in 4,029 blocks
+[Valgrind] ==46161==   total heap usage: 4,034 allocs, 5 frees, 11,827,808 bytes allocated
+
+[Run] LAD grp=30 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp30_lvl60.log ./main -s 60 -f -i -p ./test/tree/30_subgraph_60 -t ./test/tree/30_original_graph
+[Run] Done in 14.45s
+Run completed: 1 solutions; 0 fail nodes; 64 nodes; 13.878682 seconds
+
+[Valgrind] ==46168==     in use at exit: 19,543,972 bytes in 6,029 blocks
+[Valgrind] ==46168==   total heap usage: 6,034 allocs, 5 frees, 19,557,204 bytes allocated
+
+[Run] LAD grp=31 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp31_lvl10.log ./main -s 60 -f -i -p ./test/tree/31_subgraph_10 -t ./test/tree/31_original_graph
+[Run] Done in 4.50s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 4.016698 seconds
+
+[Valgrind] ==46206==     in use at exit: 10,359,464 bytes in 3,529 blocks
+[Valgrind] ==46206==   total heap usage: 3,534 allocs, 5 frees, 10,372,696 bytes allocated
+
+[Run] LAD grp=31 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp31_lvl20.log ./main -s 60 -f -i -p ./test/tree/31_subgraph_20 -t ./test/tree/31_original_graph
+[Run] Done in 5.62s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 5.205831 seconds
+
+[Valgrind] ==46212==     in use at exit: 11,804,276 bytes in 4,029 blocks
+[Valgrind] ==46212==   total heap usage: 4,034 allocs, 5 frees, 11,817,508 bytes allocated
+
+[Run] LAD grp=31 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp31_lvl60.log ./main -s 60 -f -i -p ./test/tree/31_subgraph_60 -t ./test/tree/31_original_graph
+[Run] Done in 11.81s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 11.341487 seconds
+
+[Valgrind] ==46218==     in use at exit: 19,493,544 bytes in 6,029 blocks
+[Valgrind] ==46218==   total heap usage: 6,034 allocs, 5 frees, 19,506,776 bytes allocated
+
+[Run] LAD grp=32 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp32_lvl10.log ./main -s 60 -f -i -p ./test/tree/32_subgraph_10 -t ./test/tree/32_original_graph
+[Run] Done in 9.88s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 9.445021 seconds
+
+[Valgrind] ==46224==     in use at exit: 10,375,532 bytes in 3,529 blocks
+[Valgrind] ==46224==   total heap usage: 3,534 allocs, 5 frees, 10,388,764 bytes allocated
+
+[Run] LAD grp=32 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp32_lvl20.log ./main -s 60 -f -i -p ./test/tree/32_subgraph_20 -t ./test/tree/32_original_graph
+[Run] Done in 8.50s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 8.054765 seconds
+
+[Valgrind] ==46247==     in use at exit: 11,757,500 bytes in 4,029 blocks
+[Valgrind] ==46247==   total heap usage: 4,034 allocs, 5 frees, 11,770,732 bytes allocated
+
+[Run] LAD grp=32 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp32_lvl60.log ./main -s 60 -f -i -p ./test/tree/32_subgraph_60 -t ./test/tree/32_original_graph
+[Run] Done in 12.18s
+Run completed: 1 solutions; 0 fail nodes; 76 nodes; 11.707987 seconds
+
+[Valgrind] ==46253==     in use at exit: 19,467,344 bytes in 6,029 blocks
+[Valgrind] ==46253==   total heap usage: 6,034 allocs, 5 frees, 19,480,576 bytes allocated
+
+[Run] LAD grp=33 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp33_lvl10.log ./main -s 60 -f -i -p ./test/tree/33_subgraph_10 -t ./test/tree/33_original_graph
+[Run] Done in 3.89s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 3.516721 seconds
+
+[Valgrind] ==46261==     in use at exit: 10,327,852 bytes in 3,529 blocks
+[Valgrind] ==46261==   total heap usage: 3,534 allocs, 5 frees, 10,341,084 bytes allocated
+
+[Run] LAD grp=33 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp33_lvl20.log ./main -s 60 -f -i -p ./test/tree/33_subgraph_20 -t ./test/tree/33_original_graph
+[Run] Done in 5.48s
+Run completed: 1 solutions; 0 fail nodes; 40 nodes; 5.017017 seconds
+
+[Valgrind] ==46267==     in use at exit: 11,825,208 bytes in 4,029 blocks
+[Valgrind] ==46267==   total heap usage: 4,034 allocs, 5 frees, 11,838,440 bytes allocated
+
+[Run] LAD grp=33 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp33_lvl60.log ./main -s 60 -f -i -p ./test/tree/33_subgraph_60 -t ./test/tree/33_original_graph
+[Run] Done in 13.49s
+Run completed: 1 solutions; 0 fail nodes; 53 nodes; 13.006981 seconds
+
+[Valgrind] ==46275==     in use at exit: 19,560,568 bytes in 6,029 blocks
+[Valgrind] ==46275==   total heap usage: 6,034 allocs, 5 frees, 19,573,800 bytes allocated
+
+[Run] LAD grp=34 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp34_lvl10.log ./main -s 60 -f -i -p ./test/tree/34_subgraph_10 -t ./test/tree/34_original_graph
+[Run] Done in 7.43s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.020676 seconds
+
+[Valgrind] ==46296==     in use at exit: 10,344,864 bytes in 3,529 blocks
+[Valgrind] ==46296==   total heap usage: 3,534 allocs, 5 frees, 10,358,096 bytes allocated
+
+[Run] LAD grp=34 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp34_lvl20.log ./main -s 60 -f -i -p ./test/tree/34_subgraph_20 -t ./test/tree/34_original_graph
+[Run] Done in 5.60s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 5.143174 seconds
+
+[Valgrind] ==46314==     in use at exit: 11,822,836 bytes in 4,029 blocks
+[Valgrind] ==46314==   total heap usage: 4,034 allocs, 5 frees, 11,836,068 bytes allocated
+
+[Run] LAD grp=34 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp34_lvl60.log ./main -s 60 -f -i -p ./test/tree/34_subgraph_60 -t ./test/tree/34_original_graph
+[Run] Done in 13.02s
+Run completed: 1 solutions; 0 fail nodes; 72 nodes; 12.511990 seconds
+
+[Valgrind] ==46322==     in use at exit: 19,631,420 bytes in 6,029 blocks
+[Valgrind] ==46322==   total heap usage: 6,034 allocs, 5 frees, 19,644,652 bytes allocated
+
+[Run] LAD grp=35 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp35_lvl10.log ./main -s 60 -f -i -p ./test/tree/35_subgraph_10 -t ./test/tree/35_original_graph
+[Run] Done in 3.91s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 3.450521 seconds
+
+[Valgrind] ==46329==     in use at exit: 10,353,680 bytes in 3,529 blocks
+[Valgrind] ==46329==   total heap usage: 3,534 allocs, 5 frees, 10,366,912 bytes allocated
+
+[Run] LAD grp=35 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp35_lvl20.log ./main -s 60 -f -i -p ./test/tree/35_subgraph_20 -t ./test/tree/35_original_graph
+[Run] Done in 5.23s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 4.776007 seconds
+
+[Valgrind] ==46349==     in use at exit: 11,822,488 bytes in 4,029 blocks
+[Valgrind] ==46349==   total heap usage: 4,034 allocs, 5 frees, 11,835,720 bytes allocated
+
+[Run] LAD grp=35 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp35_lvl60.log ./main -s 60 -f -i -p ./test/tree/35_subgraph_60 -t ./test/tree/35_original_graph
+[Run] Done in 11.32s
+Run completed: 1 solutions; 0 fail nodes; 84 nodes; 10.851370 seconds
+
+[Valgrind] ==46356==     in use at exit: 19,455,968 bytes in 6,029 blocks
+[Valgrind] ==46356==   total heap usage: 6,034 allocs, 5 frees, 19,469,200 bytes allocated
+
+[Run] LAD grp=36 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp36_lvl10.log ./main -s 60 -f -i -p ./test/tree/36_subgraph_10 -t ./test/tree/36_original_graph
+[Run] Done in 5.96s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 5.560360 seconds
+
+[Valgrind] ==46362==     in use at exit: 10,336,292 bytes in 3,529 blocks
+[Valgrind] ==46362==   total heap usage: 3,534 allocs, 5 frees, 10,349,524 bytes allocated
+
+[Run] LAD grp=36 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp36_lvl20.log ./main -s 60 -f -i -p ./test/tree/36_subgraph_20 -t ./test/tree/36_original_graph
+[Run] Done in 5.04s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 4.601381 seconds
+
+[Valgrind] ==46368==     in use at exit: 11,818,924 bytes in 4,029 blocks
+[Valgrind] ==46368==   total heap usage: 4,034 allocs, 5 frees, 11,832,156 bytes allocated
+
+[Run] LAD grp=36 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp36_lvl60.log ./main -s 60 -f -i -p ./test/tree/36_subgraph_60 -t ./test/tree/36_original_graph
+[Run] Done in 13.43s
+Run completed: 1 solutions; 0 fail nodes; 83 nodes; 12.965366 seconds
+
+[Valgrind] ==46374==     in use at exit: 19,479,564 bytes in 6,029 blocks
+[Valgrind] ==46374==   total heap usage: 6,034 allocs, 5 frees, 19,492,796 bytes allocated
+
+[Run] LAD grp=37 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp37_lvl10.log ./main -s 60 -f -i -p ./test/tree/37_subgraph_10 -t ./test/tree/37_original_graph
+[Run] Done in 3.74s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 3.367804 seconds
+
+[Valgrind] ==46397==     in use at exit: 10,321,996 bytes in 3,529 blocks
+[Valgrind] ==46397==   total heap usage: 3,534 allocs, 5 frees, 10,335,228 bytes allocated
+
+[Run] LAD grp=37 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp37_lvl20.log ./main -s 60 -f -i -p ./test/tree/37_subgraph_20 -t ./test/tree/37_original_graph
+[Run] Done in 5.49s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 5.087776 seconds
+
+[Valgrind] ==46404==     in use at exit: 11,801,084 bytes in 4,029 blocks
+[Valgrind] ==46404==   total heap usage: 4,034 allocs, 5 frees, 11,814,316 bytes allocated
+
+[Run] LAD grp=37 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp37_lvl60.log ./main -s 60 -f -i -p ./test/tree/37_subgraph_60 -t ./test/tree/37_original_graph
+[Run] Done in 11.28s
+Run completed: 1 solutions; 0 fail nodes; 74 nodes; 10.792273 seconds
+
+[Valgrind] ==46410==     in use at exit: 19,491,376 bytes in 6,029 blocks
+[Valgrind] ==46410==   total heap usage: 6,034 allocs, 5 frees, 19,504,608 bytes allocated
+
+[Run] LAD grp=38 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp38_lvl10.log ./main -s 60 -f -i -p ./test/tree/38_subgraph_10 -t ./test/tree/38_original_graph
+[Run] Done in 5.10s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 4.720397 seconds
+
+[Valgrind] ==46421==     in use at exit: 10,363,932 bytes in 3,529 blocks
+[Valgrind] ==46421==   total heap usage: 3,534 allocs, 5 frees, 10,377,164 bytes allocated
+
+[Run] LAD grp=38 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp38_lvl20.log ./main -s 60 -f -i -p ./test/tree/38_subgraph_20 -t ./test/tree/38_original_graph
+[Run] Done in 12.08s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 11.606916 seconds
+
+[Valgrind] ==46437==     in use at exit: 11,842,348 bytes in 4,029 blocks
+[Valgrind] ==46437==   total heap usage: 4,034 allocs, 5 frees, 11,855,580 bytes allocated
+
+[Run] LAD grp=38 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp38_lvl60.log ./main -s 60 -f -i -p ./test/tree/38_subgraph_60 -t ./test/tree/38_original_graph
+[Run] Done in 12.61s
+Run completed: 1 solutions; 0 fail nodes; 65 nodes; 12.119413 seconds
+
+[Valgrind] ==46460==     in use at exit: 19,496,864 bytes in 6,029 blocks
+[Valgrind] ==46460==   total heap usage: 6,034 allocs, 5 frees, 19,510,096 bytes allocated
+
+[Run] LAD grp=39 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp39_lvl10.log ./main -s 60 -f -i -p ./test/tree/39_subgraph_10 -t ./test/tree/39_original_graph
+[Run] Done in 7.45s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.079945 seconds
+
+[Valgrind] ==46466==     in use at exit: 10,350,728 bytes in 3,529 blocks
+[Valgrind] ==46466==   total heap usage: 3,534 allocs, 5 frees, 10,363,960 bytes allocated
+
+[Run] LAD grp=39 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp39_lvl20.log ./main -s 60 -f -i -p ./test/tree/39_subgraph_20 -t ./test/tree/39_original_graph
+[Run] Done in 7.49s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 7.012495 seconds
+
+[Valgrind] ==46472==     in use at exit: 11,851,016 bytes in 4,029 blocks
+[Valgrind] ==46472==   total heap usage: 4,034 allocs, 5 frees, 11,864,248 bytes allocated
+
+[Run] LAD grp=39 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp39_lvl60.log ./main -s 60 -f -i -p ./test/tree/39_subgraph_60 -t ./test/tree/39_original_graph
+[Run] Done in 12.63s
+Run completed: 1 solutions; 0 fail nodes; 87 nodes; 12.127098 seconds
+
+[Valgrind] ==46493==     in use at exit: 19,487,052 bytes in 6,029 blocks
+[Valgrind] ==46493==   total heap usage: 6,034 allocs, 5 frees, 19,500,284 bytes allocated
+
+[Run] LAD grp=40 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp40_lvl10.log ./main -s 60 -f -i -p ./test/tree/40_subgraph_10 -t ./test/tree/40_original_graph
+[Run] Done in 4.46s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 4.046748 seconds
+
+[Valgrind] ==46503==     in use at exit: 10,332,548 bytes in 3,529 blocks
+[Valgrind] ==46503==   total heap usage: 3,534 allocs, 5 frees, 10,345,780 bytes allocated
+
+[Run] LAD grp=40 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp40_lvl20.log ./main -s 60 -f -i -p ./test/tree/40_subgraph_20 -t ./test/tree/40_original_graph
+[Run] Done in 5.17s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 4.743686 seconds
+
+[Valgrind] ==46510==     in use at exit: 11,842,292 bytes in 4,029 blocks
+[Valgrind] ==46510==   total heap usage: 4,034 allocs, 5 frees, 11,855,524 bytes allocated
+
+[Run] LAD grp=40 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp40_lvl60.log ./main -s 60 -f -i -p ./test/tree/40_subgraph_60 -t ./test/tree/40_original_graph
+[Run] Done in 13.21s
+Run completed: 1 solutions; 0 fail nodes; 85 nodes; 12.693112 seconds
+
+[Valgrind] ==46518==     in use at exit: 19,468,580 bytes in 6,029 blocks
+[Valgrind] ==46518==   total heap usage: 6,034 allocs, 5 frees, 19,481,812 bytes allocated
+
+[Run] LAD grp=41 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp41_lvl10.log ./main -s 60 -f -i -p ./test/tree/41_subgraph_10 -t ./test/tree/41_original_graph
+[Run] Done in 5.94s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 5.502794 seconds
+
+[Valgrind] ==46539==     in use at exit: 10,298,860 bytes in 3,529 blocks
+[Valgrind] ==46539==   total heap usage: 3,534 allocs, 5 frees, 10,312,092 bytes allocated
+
+[Run] LAD grp=41 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp41_lvl20.log ./main -s 60 -f -i -p ./test/tree/41_subgraph_20 -t ./test/tree/41_original_graph
+[Run] Done in 5.72s
+Run completed: 1 solutions; 0 fail nodes; 41 nodes; 5.299626 seconds
+
+[Valgrind] ==46545==     in use at exit: 11,791,216 bytes in 4,029 blocks
+[Valgrind] ==46545==   total heap usage: 4,034 allocs, 5 frees, 11,804,448 bytes allocated
+
+[Run] LAD grp=41 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp41_lvl60.log ./main -s 60 -f -i -p ./test/tree/41_subgraph_60 -t ./test/tree/41_original_graph
+[Run] Done in 13.42s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 12.920575 seconds
+
+[Valgrind] ==46551==     in use at exit: 19,398,724 bytes in 6,029 blocks
+[Valgrind] ==46551==   total heap usage: 6,034 allocs, 5 frees, 19,411,956 bytes allocated
+
+[Run] LAD grp=42 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp42_lvl10.log ./main -s 60 -f -i -p ./test/tree/42_subgraph_10 -t ./test/tree/42_original_graph
+[Run] Done in 5.58s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 5.173723 seconds
+
+[Valgrind] ==46569==     in use at exit: 10,349,332 bytes in 3,529 blocks
+[Valgrind] ==46569==   total heap usage: 3,534 allocs, 5 frees, 10,362,564 bytes allocated
+
+[Run] LAD grp=42 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp42_lvl20.log ./main -s 60 -f -i -p ./test/tree/42_subgraph_20 -t ./test/tree/42_original_graph
+[Run] Done in 4.93s
+Run completed: 1 solutions; 0 fail nodes; 33 nodes; 4.463887 seconds
+
+[Valgrind] ==46575==     in use at exit: 11,812,436 bytes in 4,029 blocks
+[Valgrind] ==46575==   total heap usage: 4,034 allocs, 5 frees, 11,825,668 bytes allocated
+
+[Run] LAD grp=42 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp42_lvl60.log ./main -s 60 -f -i -p ./test/tree/42_subgraph_60 -t ./test/tree/42_original_graph
+[Run] Done in 13.20s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 12.699006 seconds
+
+[Valgrind] ==46596==     in use at exit: 19,477,876 bytes in 6,029 blocks
+[Valgrind] ==46596==   total heap usage: 6,034 allocs, 5 frees, 19,491,108 bytes allocated
+
+[Run] LAD grp=43 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp43_lvl10.log ./main -s 60 -f -i -p ./test/tree/43_subgraph_10 -t ./test/tree/43_original_graph
+[Run] Done in 4.45s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 4.064194 seconds
+
+[Valgrind] ==46604==     in use at exit: 10,346,844 bytes in 3,529 blocks
+[Valgrind] ==46604==   total heap usage: 3,534 allocs, 5 frees, 10,360,076 bytes allocated
+
+[Run] LAD grp=43 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp43_lvl20.log ./main -s 60 -f -i -p ./test/tree/43_subgraph_20 -t ./test/tree/43_original_graph
+[Run] Done in 5.81s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 5.392640 seconds
+
+[Valgrind] ==46610==     in use at exit: 11,803,564 bytes in 4,029 blocks
+[Valgrind] ==46610==   total heap usage: 4,034 allocs, 5 frees, 11,816,796 bytes allocated
+
+[Run] LAD grp=43 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp43_lvl60.log ./main -s 60 -f -i -p ./test/tree/43_subgraph_60 -t ./test/tree/43_original_graph
+[Run] Done in 13.30s
+Run completed: 1 solutions; 0 fail nodes; 73 nodes; 12.772898 seconds
+
+[Valgrind] ==46618==     in use at exit: 19,547,964 bytes in 6,029 blocks
+[Valgrind] ==46618==   total heap usage: 6,034 allocs, 5 frees, 19,561,196 bytes allocated
+
+[Run] LAD grp=44 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp44_lvl10.log ./main -s 60 -f -i -p ./test/tree/44_subgraph_10 -t ./test/tree/44_original_graph
+[Run] Done in 5.94s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 5.518542 seconds
+
+[Valgrind] ==46639==     in use at exit: 10,352,660 bytes in 3,529 blocks
+[Valgrind] ==46639==   total heap usage: 3,534 allocs, 5 frees, 10,365,892 bytes allocated
+
+[Run] LAD grp=44 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp44_lvl20.log ./main -s 60 -f -i -p ./test/tree/44_subgraph_20 -t ./test/tree/44_original_graph
+[Run] Done in 7.60s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 7.192933 seconds
+
+[Valgrind] ==46649==     in use at exit: 11,807,352 bytes in 4,029 blocks
+[Valgrind] ==46649==   total heap usage: 4,034 allocs, 5 frees, 11,820,584 bytes allocated
+
+[Run] LAD grp=44 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp44_lvl60.log ./main -s 60 -f -i -p ./test/tree/44_subgraph_60 -t ./test/tree/44_original_graph
+[Run] Done in 11.98s
+Run completed: 1 solutions; 0 fail nodes; 92 nodes; 11.510396 seconds
+
+[Valgrind] ==46655==     in use at exit: 19,471,116 bytes in 6,029 blocks
+[Valgrind] ==46655==   total heap usage: 6,034 allocs, 5 frees, 19,484,348 bytes allocated
+
+[Run] LAD grp=45 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp45_lvl10.log ./main -s 60 -f -i -p ./test/tree/45_subgraph_10 -t ./test/tree/45_original_graph
+[Run] Done in 3.81s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 3.412815 seconds
+
+[Valgrind] ==46663==     in use at exit: 10,330,844 bytes in 3,529 blocks
+[Valgrind] ==46663==   total heap usage: 3,534 allocs, 5 frees, 10,344,076 bytes allocated
+
+[Run] LAD grp=45 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp45_lvl20.log ./main -s 60 -f -i -p ./test/tree/45_subgraph_20 -t ./test/tree/45_original_graph
+[Run] Done in 6.76s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 6.301567 seconds
+
+[Valgrind] ==46672==     in use at exit: 11,849,540 bytes in 4,029 blocks
+[Valgrind] ==46672==   total heap usage: 4,034 allocs, 5 frees, 11,862,772 bytes allocated
+
+[Run] LAD grp=45 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp45_lvl60.log ./main -s 60 -f -i -p ./test/tree/45_subgraph_60 -t ./test/tree/45_original_graph
+[Run] Done in 13.85s
+Run completed: 1 solutions; 0 fail nodes; 64 nodes; 13.307831 seconds
+
+[Valgrind] ==46703==     in use at exit: 19,514,016 bytes in 6,029 blocks
+[Valgrind] ==46703==   total heap usage: 6,034 allocs, 5 frees, 19,527,248 bytes allocated
+
+[Run] LAD grp=46 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp46_lvl10.log ./main -s 60 -f -i -p ./test/tree/46_subgraph_10 -t ./test/tree/46_original_graph
+[Run] Done in 7.93s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 7.517973 seconds
+
+[Valgrind] ==46709==     in use at exit: 10,354,588 bytes in 3,529 blocks
+[Valgrind] ==46709==   total heap usage: 3,534 allocs, 5 frees, 10,367,820 bytes allocated
+
+[Run] LAD grp=46 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp46_lvl20.log ./main -s 60 -f -i -p ./test/tree/46_subgraph_20 -t ./test/tree/46_original_graph
+[Run] Done in 4.29s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 3.896013 seconds
+
+[Valgrind] ==46716==     in use at exit: 11,813,020 bytes in 4,029 blocks
+[Valgrind] ==46716==   total heap usage: 4,034 allocs, 5 frees, 11,826,252 bytes allocated
+
+[Run] LAD grp=46 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp46_lvl60.log ./main -s 60 -f -i -p ./test/tree/46_subgraph_60 -t ./test/tree/46_original_graph
+[Run] Done in 13.00s
+Run completed: 1 solutions; 0 fail nodes; 70 nodes; 12.488662 seconds
+
+[Valgrind] ==46724==     in use at exit: 19,516,388 bytes in 6,029 blocks
+[Valgrind] ==46724==   total heap usage: 6,034 allocs, 5 frees, 19,529,620 bytes allocated
+
+[Run] LAD grp=47 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp47_lvl10.log ./main -s 60 -f -i -p ./test/tree/47_subgraph_10 -t ./test/tree/47_original_graph
+[Run] Done in 3.91s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 3.493807 seconds
+
+[Valgrind] ==46749==     in use at exit: 10,373,944 bytes in 3,529 blocks
+[Valgrind] ==46749==   total heap usage: 3,534 allocs, 5 frees, 10,387,176 bytes allocated
+
+[Run] LAD grp=47 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp47_lvl20.log ./main -s 60 -f -i -p ./test/tree/47_subgraph_20 -t ./test/tree/47_original_graph
+[Run] Done in 4.88s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 4.472512 seconds
+
+[Valgrind] ==46755==     in use at exit: 11,833,348 bytes in 4,029 blocks
+[Valgrind] ==46755==   total heap usage: 4,034 allocs, 5 frees, 11,846,580 bytes allocated
+
+[Run] LAD grp=47 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp47_lvl60.log ./main -s 60 -f -i -p ./test/tree/47_subgraph_60 -t ./test/tree/47_original_graph
+[Run] Done in 11.51s
+Run completed: 1 solutions; 0 fail nodes; 77 nodes; 11.046822 seconds
+
+[Valgrind] ==46780==     in use at exit: 19,513,576 bytes in 6,029 blocks
+[Valgrind] ==46780==   total heap usage: 6,034 allocs, 5 frees, 19,526,808 bytes allocated
+
+[Run] LAD grp=48 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp48_lvl10.log ./main -s 60 -f -i -p ./test/tree/48_subgraph_10 -t ./test/tree/48_original_graph
+[Run] Done in 6.03s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 5.650317 seconds
+
+[Valgrind] ==46788==     in use at exit: 10,355,116 bytes in 3,529 blocks
+[Valgrind] ==46788==   total heap usage: 3,534 allocs, 5 frees, 10,368,348 bytes allocated
+
+[Run] LAD grp=48 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp48_lvl20.log ./main -s 60 -f -i -p ./test/tree/48_subgraph_20 -t ./test/tree/48_original_graph
+[Run] Done in 6.55s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 6.082982 seconds
+
+[Valgrind] ==46796==     in use at exit: 11,850,552 bytes in 4,029 blocks
+[Valgrind] ==46796==   total heap usage: 4,034 allocs, 5 frees, 11,863,784 bytes allocated
+
+[Run] LAD grp=48 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp48_lvl60.log ./main -s 60 -f -i -p ./test/tree/48_subgraph_60 -t ./test/tree/48_original_graph
+[Run] Done in 12.75s
+Run completed: 1 solutions; 0 fail nodes; 83 nodes; 12.239682 seconds
+
+[Valgrind] ==46819==     in use at exit: 19,477,184 bytes in 6,029 blocks
+[Valgrind] ==46819==   total heap usage: 6,034 allocs, 5 frees, 19,490,416 bytes allocated
+
+[Run] LAD grp=49 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp49_lvl10.log ./main -s 60 -f -i -p ./test/tree/49_subgraph_10 -t ./test/tree/49_original_graph
+[Run] Done in 4.25s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 3.841388 seconds
+
+[Valgrind] ==46825==     in use at exit: 10,326,464 bytes in 3,529 blocks
+[Valgrind] ==46825==   total heap usage: 3,534 allocs, 5 frees, 10,339,696 bytes allocated
+
+[Run] LAD grp=49 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp49_lvl20.log ./main -s 60 -f -i -p ./test/tree/49_subgraph_20 -t ./test/tree/49_original_graph
+[Run] Done in 4.72s
+Run completed: 1 solutions; 0 fail nodes; 37 nodes; 4.242756 seconds
+
+[Valgrind] ==46833==     in use at exit: 11,824,936 bytes in 4,029 blocks
+[Valgrind] ==46833==   total heap usage: 4,034 allocs, 5 frees, 11,838,168 bytes allocated
+
+[Run] LAD grp=49 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp49_lvl60.log ./main -s 60 -f -i -p ./test/tree/49_subgraph_60 -t ./test/tree/49_original_graph
+[Run] Done in 12.39s
+Run completed: 1 solutions; 0 fail nodes; 72 nodes; 11.908294 seconds
+
+[Valgrind] ==46849==     in use at exit: 19,470,288 bytes in 6,029 blocks
+[Valgrind] ==46849==   total heap usage: 6,034 allocs, 5 frees, 19,483,520 bytes allocated
+
+[Run] LAD grp=50 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp50_lvl10.log ./main -s 60 -f -i -p ./test/tree/50_subgraph_10 -t ./test/tree/50_original_graph
+[Run] Done in 4.41s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 4.028807 seconds
+
+[Valgrind] ==46855==     in use at exit: 10,334,520 bytes in 3,529 blocks
+[Valgrind] ==46855==   total heap usage: 3,534 allocs, 5 frees, 10,347,752 bytes allocated
+
+[Run] LAD grp=50 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp50_lvl20.log ./main -s 60 -f -i -p ./test/tree/50_subgraph_20 -t ./test/tree/50_original_graph
+[Run] Done in 4.11s
+Run completed: 1 solutions; 0 fail nodes; 38 nodes; 3.694558 seconds
+
+[Valgrind] ==46861==     in use at exit: 11,778,864 bytes in 4,029 blocks
+[Valgrind] ==46861==   total heap usage: 4,034 allocs, 5 frees, 11,792,096 bytes allocated
+
+[Run] LAD grp=50 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp50_lvl60.log ./main -s 60 -f -i -p ./test/tree/50_subgraph_60 -t ./test/tree/50_original_graph
+[Run] Done in 12.28s
+Run completed: 1 solutions; 0 fail nodes; 75 nodes; 11.808589 seconds
+
+[Valgrind] ==46873==     in use at exit: 19,456,524 bytes in 6,029 blocks
+[Valgrind] ==46873==   total heap usage: 6,034 allocs, 5 frees, 19,469,756 bytes allocated
+
+[Run] LAD grp=51 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp51_lvl10.log ./main -s 60 -f -i -p ./test/tree/51_subgraph_10 -t ./test/tree/51_original_graph
+[Run] Done in 10.30s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 9.844851 seconds
+
+[Valgrind] ==46883==     in use at exit: 10,349,032 bytes in 3,529 blocks
+[Valgrind] ==46883==   total heap usage: 3,534 allocs, 5 frees, 10,362,264 bytes allocated
+
+[Run] LAD grp=51 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp51_lvl20.log ./main -s 60 -f -i -p ./test/tree/51_subgraph_20 -t ./test/tree/51_original_graph
+[Run] Done in 4.88s
+Run completed: 1 solutions; 0 fail nodes; 45 nodes; 4.419061 seconds
+
+[Valgrind] ==46906==     in use at exit: 11,809,708 bytes in 4,029 blocks
+[Valgrind] ==46906==   total heap usage: 4,034 allocs, 5 frees, 11,822,940 bytes allocated
+
+[Run] LAD grp=51 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp51_lvl60.log ./main -s 60 -f -i -p ./test/tree/51_subgraph_60 -t ./test/tree/51_original_graph
+[Run] Done in 12.02s
+Run completed: 1 solutions; 0 fail nodes; 72 nodes; 11.559083 seconds
+
+[Valgrind] ==46912==     in use at exit: 19,458,348 bytes in 6,029 blocks
+[Valgrind] ==46912==   total heap usage: 6,034 allocs, 5 frees, 19,471,580 bytes allocated
+
+[Run] LAD grp=52 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp52_lvl10.log ./main -s 60 -f -i -p ./test/tree/52_subgraph_10 -t ./test/tree/52_original_graph
+[Run] Done in 8.02s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 7.571366 seconds
+
+[Valgrind] ==46918==     in use at exit: 10,340,372 bytes in 3,529 blocks
+[Valgrind] ==46918==   total heap usage: 3,534 allocs, 5 frees, 10,353,604 bytes allocated
+
+[Run] LAD grp=52 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp52_lvl20.log ./main -s 60 -f -i -p ./test/tree/52_subgraph_20 -t ./test/tree/52_original_graph
+[Run] Done in 8.15s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 7.666834 seconds
+
+[Valgrind] ==46927==     in use at exit: 11,855,876 bytes in 4,029 blocks
+[Valgrind] ==46927==   total heap usage: 4,034 allocs, 5 frees, 11,869,108 bytes allocated
+
+[Run] LAD grp=52 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp52_lvl60.log ./main -s 60 -f -i -p ./test/tree/52_subgraph_60 -t ./test/tree/52_original_graph
+[Run] Done in 14.61s
+Run completed: 1 solutions; 0 fail nodes; 77 nodes; 14.055443 seconds
+
+[Valgrind] ==46948==     in use at exit: 19,627,052 bytes in 6,029 blocks
+[Valgrind] ==46948==   total heap usage: 6,034 allocs, 5 frees, 19,640,284 bytes allocated
+
+[Run] LAD grp=53 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp53_lvl10.log ./main -s 60 -f -i -p ./test/tree/53_subgraph_10 -t ./test/tree/53_original_graph
+[Run] Done in 7.03s
+Run completed: 1 solutions; 0 fail nodes; 11 nodes; 6.593815 seconds
+
+[Valgrind] ==46966==     in use at exit: 10,370,776 bytes in 3,529 blocks
+[Valgrind] ==46966==   total heap usage: 3,534 allocs, 5 frees, 10,384,008 bytes allocated
+
+[Run] LAD grp=53 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp53_lvl20.log ./main -s 60 -f -i -p ./test/tree/53_subgraph_20 -t ./test/tree/53_original_graph
+[Run] Done in 5.61s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 5.143946 seconds
+
+[Valgrind] ==46972==     in use at exit: 11,771,576 bytes in 4,029 blocks
+[Valgrind] ==46972==   total heap usage: 4,034 allocs, 5 frees, 11,784,808 bytes allocated
+
+[Run] LAD grp=53 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp53_lvl60.log ./main -s 60 -f -i -p ./test/tree/53_subgraph_60 -t ./test/tree/53_original_graph
+[Run] Done in 12.95s
+Run completed: 1 solutions; 0 fail nodes; 84 nodes; 12.486507 seconds
+
+[Valgrind] ==46978==     in use at exit: 19,393,660 bytes in 6,029 blocks
+[Valgrind] ==46978==   total heap usage: 6,034 allocs, 5 frees, 19,406,892 bytes allocated
+
+[Run] LAD grp=54 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp54_lvl10.log ./main -s 60 -f -i -p ./test/tree/54_subgraph_10 -t ./test/tree/54_original_graph
+[Run] Done in 6.34s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 5.958657 seconds
+
+[Valgrind] ==47001==     in use at exit: 10,360,164 bytes in 3,529 blocks
+[Valgrind] ==47001==   total heap usage: 3,534 allocs, 5 frees, 10,373,396 bytes allocated
+
+[Run] LAD grp=54 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp54_lvl20.log ./main -s 60 -f -i -p ./test/tree/54_subgraph_20 -t ./test/tree/54_original_graph
+[Run] Done in 9.43s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 9.023288 seconds
+
+[Valgrind] ==47007==     in use at exit: 11,857,288 bytes in 4,029 blocks
+[Valgrind] ==47007==   total heap usage: 4,034 allocs, 5 frees, 11,870,520 bytes allocated
+
+[Run] LAD grp=54 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp54_lvl60.log ./main -s 60 -f -i -p ./test/tree/54_subgraph_60 -t ./test/tree/54_original_graph
+[Run] Done in 11.35s
+Run completed: 1 solutions; 0 fail nodes; 57 nodes; 10.878820 seconds
+
+[Valgrind] ==47015==     in use at exit: 19,512,408 bytes in 6,029 blocks
+[Valgrind] ==47015==   total heap usage: 6,034 allocs, 5 frees, 19,525,640 bytes allocated
+
+[Run] LAD grp=55 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp55_lvl10.log ./main -s 60 -f -i -p ./test/tree/55_subgraph_10 -t ./test/tree/55_original_graph
+[Run] Done in 4.35s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 3.906813 seconds
+
+[Valgrind] ==47024==     in use at exit: 10,336,492 bytes in 3,529 blocks
+[Valgrind] ==47024==   total heap usage: 3,534 allocs, 5 frees, 10,349,724 bytes allocated
+
+[Run] LAD grp=55 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp55_lvl20.log ./main -s 60 -f -i -p ./test/tree/55_subgraph_20 -t ./test/tree/55_original_graph
+[Run] Done in 7.46s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 7.009592 seconds
+
+[Valgrind] ==47047==     in use at exit: 11,841,000 bytes in 4,029 blocks
+[Valgrind] ==47047==   total heap usage: 4,034 allocs, 5 frees, 11,854,232 bytes allocated
+
+[Run] LAD grp=55 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp55_lvl60.log ./main -s 60 -f -i -p ./test/tree/55_subgraph_60 -t ./test/tree/55_original_graph
+[Run] Done in 11.52s
+Run completed: 1 solutions; 0 fail nodes; 74 nodes; 11.025173 seconds
+
+[Valgrind] ==47056==     in use at exit: 19,439,060 bytes in 6,029 blocks
+[Valgrind] ==47056==   total heap usage: 6,034 allocs, 5 frees, 19,452,292 bytes allocated
+
+[Run] LAD grp=56 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp56_lvl10.log ./main -s 60 -f -i -p ./test/tree/56_subgraph_10 -t ./test/tree/56_original_graph
+[Run] Done in 6.74s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 6.340512 seconds
+
+[Valgrind] ==47064==     in use at exit: 10,368,832 bytes in 3,529 blocks
+[Valgrind] ==47064==   total heap usage: 3,534 allocs, 5 frees, 10,382,064 bytes allocated
+
+[Run] LAD grp=56 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp56_lvl20.log ./main -s 60 -f -i -p ./test/tree/56_subgraph_20 -t ./test/tree/56_original_graph
+[Run] Done in 6.33s
+Run completed: 1 solutions; 0 fail nodes; 39 nodes; 5.899796 seconds
+
+[Valgrind] ==47072==     in use at exit: 11,805,980 bytes in 4,029 blocks
+[Valgrind] ==47072==   total heap usage: 4,034 allocs, 5 frees, 11,819,212 bytes allocated
+
+[Run] LAD grp=56 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp56_lvl60.log ./main -s 60 -f -i -p ./test/tree/56_subgraph_60 -t ./test/tree/56_original_graph
+[Run] Done in 14.04s
+Run completed: 1 solutions; 0 fail nodes; 73 nodes; 13.534401 seconds
+
+[Valgrind] ==47094==     in use at exit: 19,501,128 bytes in 6,029 blocks
+[Valgrind] ==47094==   total heap usage: 6,034 allocs, 5 frees, 19,514,360 bytes allocated
+
+[Run] LAD grp=57 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp57_lvl10.log ./main -s 60 -f -i -p ./test/tree/57_subgraph_10 -t ./test/tree/57_original_graph
+[Run] Done in 3.50s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 3.134869 seconds
+
+[Valgrind] ==47116==     in use at exit: 10,371,932 bytes in 3,529 blocks
+[Valgrind] ==47116==   total heap usage: 3,534 allocs, 5 frees, 10,385,164 bytes allocated
+
+[Run] LAD grp=57 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp57_lvl20.log ./main -s 60 -f -i -p ./test/tree/57_subgraph_20 -t ./test/tree/57_original_graph
+[Run] Done in 6.00s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 5.600319 seconds
+
+[Valgrind] ==47122==     in use at exit: 11,790,180 bytes in 4,029 blocks
+[Valgrind] ==47122==   total heap usage: 4,034 allocs, 5 frees, 11,803,412 bytes allocated
+
+[Run] LAD grp=57 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp57_lvl60.log ./main -s 60 -f -i -p ./test/tree/57_subgraph_60 -t ./test/tree/57_original_graph
+[Run] Done in 11.92s
+Run completed: 1 solutions; 0 fail nodes; 77 nodes; 11.459087 seconds
+
+[Valgrind] ==47128==     in use at exit: 19,517,580 bytes in 6,029 blocks
+[Valgrind] ==47128==   total heap usage: 6,034 allocs, 5 frees, 19,530,812 bytes allocated
+
+[Run] LAD grp=58 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp58_lvl10.log ./main -s 60 -f -i -p ./test/tree/58_subgraph_10 -t ./test/tree/58_original_graph
+[Run] Done in 8.59s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 8.127937 seconds
+
+[Valgrind] ==47136==     in use at exit: 10,321,260 bytes in 3,529 blocks
+[Valgrind] ==47136==   total heap usage: 3,534 allocs, 5 frees, 10,334,492 bytes allocated
+
+[Run] LAD grp=58 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp58_lvl20.log ./main -s 60 -f -i -p ./test/tree/58_subgraph_20 -t ./test/tree/58_original_graph
+[Run] Done in 5.66s
+Run completed: 1 solutions; 0 fail nodes; 42 nodes; 5.253848 seconds
+
+[Valgrind] ==47157==     in use at exit: 11,801,600 bytes in 4,029 blocks
+[Valgrind] ==47157==   total heap usage: 4,034 allocs, 5 frees, 11,814,832 bytes allocated
+
+[Run] LAD grp=58 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp58_lvl60.log ./main -s 60 -f -i -p ./test/tree/58_subgraph_60 -t ./test/tree/58_original_graph
+[Run] Done in 12.23s
+Run completed: 1 solutions; 0 fail nodes; 78 nodes; 11.762724 seconds
+
+[Valgrind] ==47163==     in use at exit: 19,466,188 bytes in 6,029 blocks
+[Valgrind] ==47163==   total heap usage: 6,034 allocs, 5 frees, 19,479,420 bytes allocated
+
+[Run] LAD grp=59 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp59_lvl10.log ./main -s 60 -f -i -p ./test/tree/59_subgraph_10 -t ./test/tree/59_original_graph
+[Run] Done in 7.12s
+Run completed: 1 solutions; 0 fail nodes; 13 nodes; 6.740575 seconds
+
+[Valgrind] ==47169==     in use at exit: 10,372,356 bytes in 3,529 blocks
+[Valgrind] ==47169==   total heap usage: 3,534 allocs, 5 frees, 10,385,588 bytes allocated
+
+[Run] LAD grp=59 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp59_lvl20.log ./main -s 60 -f -i -p ./test/tree/59_subgraph_20 -t ./test/tree/59_original_graph
+[Run] Done in 12.54s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 12.118757 seconds
+
+[Valgrind] ==47177==     in use at exit: 11,838,052 bytes in 4,029 blocks
+[Valgrind] ==47177==   total heap usage: 4,034 allocs, 5 frees, 11,851,284 bytes allocated
+
+[Run] LAD grp=59 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp59_lvl60.log ./main -s 60 -f -i -p ./test/tree/59_subgraph_60 -t ./test/tree/59_original_graph
+[Run] Done in 12.62s
+Run completed: 1 solutions; 0 fail nodes; 66 nodes; 12.099737 seconds
+
+[Valgrind] ==47199==     in use at exit: 19,441,628 bytes in 6,029 blocks
+[Valgrind] ==47199==   total heap usage: 6,034 allocs, 5 frees, 19,454,860 bytes allocated
+
+[Run] LAD grp=60 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp60_lvl10.log ./main -s 60 -f -i -p ./test/tree/60_subgraph_10 -t ./test/tree/60_original_graph
+[Run] Done in 4.60s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 4.165808 seconds
+
+[Valgrind] ==47217==     in use at exit: 10,337,424 bytes in 3,529 blocks
+[Valgrind] ==47217==   total heap usage: 3,534 allocs, 5 frees, 10,350,656 bytes allocated
+
+[Run] LAD grp=60 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp60_lvl20.log ./main -s 60 -f -i -p ./test/tree/60_subgraph_20 -t ./test/tree/60_original_graph
+[Run] Done in 6.36s
+Run completed: 1 solutions; 0 fail nodes; 46 nodes; 5.917072 seconds
+
+[Valgrind] ==47223==     in use at exit: 11,791,768 bytes in 4,029 blocks
+[Valgrind] ==47223==   total heap usage: 4,034 allocs, 5 frees, 11,805,000 bytes allocated
+
+[Run] LAD grp=60 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp60_lvl60.log ./main -s 60 -f -i -p ./test/tree/60_subgraph_60 -t ./test/tree/60_original_graph
+[Run] Done in 14.87s
+Run completed: 1 solutions; 0 fail nodes; 83 nodes; 14.401449 seconds
+
+[Valgrind] ==47229==     in use at exit: 19,490,828 bytes in 6,029 blocks
+[Valgrind] ==47229==   total heap usage: 6,034 allocs, 5 frees, 19,504,060 bytes allocated
+
+[Run] LAD grp=61 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp61_lvl10.log ./main -s 60 -f -i -p ./test/tree/61_subgraph_10 -t ./test/tree/61_original_graph
+[Run] Done in 3.78s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 3.379303 seconds
+
+[Valgrind] ==47255==     in use at exit: 10,306,840 bytes in 3,529 blocks
+[Valgrind] ==47255==   total heap usage: 3,534 allocs, 5 frees, 10,320,072 bytes allocated
+
+[Run] LAD grp=61 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp61_lvl20.log ./main -s 60 -f -i -p ./test/tree/61_subgraph_20 -t ./test/tree/61_original_graph
+[Run] Done in 7.72s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 7.302885 seconds
+
+[Valgrind] ==47263==     in use at exit: 11,844,780 bytes in 4,029 blocks
+[Valgrind] ==47263==   total heap usage: 4,034 allocs, 5 frees, 11,858,012 bytes allocated
+
+[Run] LAD grp=61 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp61_lvl60.log ./main -s 60 -f -i -p ./test/tree/61_subgraph_60 -t ./test/tree/61_original_graph
+[Run] Done in 11.02s
+Run completed: 1 solutions; 0 fail nodes; 81 nodes; 10.574254 seconds
+
+[Valgrind] ==47269==     in use at exit: 19,398,960 bytes in 6,029 blocks
+[Valgrind] ==47269==   total heap usage: 6,034 allocs, 5 frees, 19,412,192 bytes allocated
+
+[Run] LAD grp=62 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp62_lvl10.log ./main -s 60 -f -i -p ./test/tree/62_subgraph_10 -t ./test/tree/62_original_graph
+[Run] Done in 7.26s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 6.883374 seconds
+
+[Valgrind] ==47286==     in use at exit: 10,337,436 bytes in 3,529 blocks
+[Valgrind] ==47286==   total heap usage: 3,534 allocs, 5 frees, 10,350,668 bytes allocated
+
+[Run] LAD grp=62 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp62_lvl20.log ./main -s 60 -f -i -p ./test/tree/62_subgraph_20 -t ./test/tree/62_original_graph
+[Run] Done in 5.54s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 5.117627 seconds
+
+[Valgrind] ==47309==     in use at exit: 11,759,880 bytes in 4,029 blocks
+[Valgrind] ==47309==   total heap usage: 4,034 allocs, 5 frees, 11,773,112 bytes allocated
+
+[Run] LAD grp=62 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp62_lvl60.log ./main -s 60 -f -i -p ./test/tree/62_subgraph_60 -t ./test/tree/62_original_graph
+[Run] Done in 12.22s
+Run completed: 1 solutions; 0 fail nodes; 74 nodes; 11.741595 seconds
+
+[Valgrind] ==47317==     in use at exit: 19,442,284 bytes in 6,029 blocks
+[Valgrind] ==47317==   total heap usage: 6,034 allocs, 5 frees, 19,455,516 bytes allocated
+
+[Run] LAD grp=63 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp63_lvl10.log ./main -s 60 -f -i -p ./test/tree/63_subgraph_10 -t ./test/tree/63_original_graph
+[Run] Done in 5.39s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 5.005640 seconds
+
+[Valgrind] ==47324==     in use at exit: 10,365,132 bytes in 3,529 blocks
+[Valgrind] ==47324==   total heap usage: 3,534 allocs, 5 frees, 10,378,364 bytes allocated
+
+[Run] LAD grp=63 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp63_lvl20.log ./main -s 60 -f -i -p ./test/tree/63_subgraph_20 -t ./test/tree/63_original_graph
+[Run] Done in 4.42s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 3.961179 seconds
+
+[Valgrind] ==47330==     in use at exit: 11,810,896 bytes in 4,029 blocks
+[Valgrind] ==47330==   total heap usage: 4,034 allocs, 5 frees, 11,824,128 bytes allocated
+
+[Run] LAD grp=63 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp63_lvl60.log ./main -s 60 -f -i -p ./test/tree/63_subgraph_60 -t ./test/tree/63_original_graph
+[Run] Done in 14.48s
+Run completed: 1 solutions; 0 fail nodes; 57 nodes; 13.968188 seconds
+
+[Valgrind] ==47336==     in use at exit: 19,592,784 bytes in 6,029 blocks
+[Valgrind] ==47336==   total heap usage: 6,034 allocs, 5 frees, 19,606,016 bytes allocated
+
+[Run] LAD grp=64 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp64_lvl10.log ./main -s 60 -f -i -p ./test/tree/64_subgraph_10 -t ./test/tree/64_original_graph
+[Run] Done in 3.69s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 3.289873 seconds
+
+[Valgrind] ==47373==     in use at exit: 10,320,624 bytes in 3,529 blocks
+[Valgrind] ==47373==   total heap usage: 3,534 allocs, 5 frees, 10,333,856 bytes allocated
+
+[Run] LAD grp=64 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp64_lvl20.log ./main -s 60 -f -i -p ./test/tree/64_subgraph_20 -t ./test/tree/64_original_graph
+[Run] Done in 5.48s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 5.085628 seconds
+
+[Valgrind] ==47379==     in use at exit: 11,802,744 bytes in 4,029 blocks
+[Valgrind] ==47379==   total heap usage: 4,034 allocs, 5 frees, 11,815,976 bytes allocated
+
+[Run] LAD grp=64 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp64_lvl60.log ./main -s 60 -f -i -p ./test/tree/64_subgraph_60 -t ./test/tree/64_original_graph
+[Run] Done in 12.94s
+Run completed: 1 solutions; 0 fail nodes; 45 nodes; 12.481460 seconds
+
+[Valgrind] ==47386==     in use at exit: 19,574,488 bytes in 6,029 blocks
+[Valgrind] ==47386==   total heap usage: 6,034 allocs, 5 frees, 19,587,720 bytes allocated
+
+[Run] LAD grp=65 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp65_lvl10.log ./main -s 60 -f -i -p ./test/tree/65_subgraph_10 -t ./test/tree/65_original_graph
+[Run] Done in 3.35s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 2.834385 seconds
+
+[Valgrind] ==47396==     in use at exit: 10,303,636 bytes in 3,529 blocks
+[Valgrind] ==47396==   total heap usage: 3,534 allocs, 5 frees, 10,316,868 bytes allocated
+
+[Run] LAD grp=65 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp65_lvl20.log ./main -s 60 -f -i -p ./test/tree/65_subgraph_20 -t ./test/tree/65_original_graph
+[Run] Done in 8.39s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 7.945640 seconds
+
+[Valgrind] ==47417==     in use at exit: 11,783,244 bytes in 4,029 blocks
+[Valgrind] ==47417==   total heap usage: 4,034 allocs, 5 frees, 11,796,476 bytes allocated
+
+[Run] LAD grp=65 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp65_lvl60.log ./main -s 60 -f -i -p ./test/tree/65_subgraph_60 -t ./test/tree/65_original_graph
+[Run] Done in 11.46s
+Run completed: 1 solutions; 0 fail nodes; 84 nodes; 10.983875 seconds
+
+[Valgrind] ==47423==     in use at exit: 19,455,712 bytes in 6,029 blocks
+[Valgrind] ==47423==   total heap usage: 6,034 allocs, 5 frees, 19,468,944 bytes allocated
+
+[Run] LAD grp=66 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp66_lvl10.log ./main -s 60 -f -i -p ./test/tree/66_subgraph_10 -t ./test/tree/66_original_graph
+[Run] Done in 3.01s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 2.613102 seconds
+
+[Valgrind] ==47431==     in use at exit: 10,346,420 bytes in 3,529 blocks
+[Valgrind] ==47431==   total heap usage: 3,534 allocs, 5 frees, 10,359,652 bytes allocated
+
+[Run] LAD grp=66 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp66_lvl20.log ./main -s 60 -f -i -p ./test/tree/66_subgraph_20 -t ./test/tree/66_original_graph
+[Run] Done in 4.57s
+Run completed: 1 solutions; 0 fail nodes; 43 nodes; 4.146750 seconds
+
+[Valgrind] ==47439==     in use at exit: 11,752,276 bytes in 4,029 blocks
+[Valgrind] ==47439==   total heap usage: 4,034 allocs, 5 frees, 11,765,508 bytes allocated
+
+[Run] LAD grp=66 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp66_lvl60.log ./main -s 60 -f -i -p ./test/tree/66_subgraph_60 -t ./test/tree/66_original_graph
+[Run] Done in 13.42s
+Run completed: 1 solutions; 0 fail nodes; 91 nodes; 12.850827 seconds
+
+[Valgrind] ==47445==     in use at exit: 19,468,824 bytes in 6,029 blocks
+[Valgrind] ==47445==   total heap usage: 6,034 allocs, 5 frees, 19,482,056 bytes allocated
+
+[Run] LAD grp=67 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp67_lvl10.log ./main -s 60 -f -i -p ./test/tree/67_subgraph_10 -t ./test/tree/67_original_graph
+[Run] Done in 3.70s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 3.302307 seconds
+
+[Valgrind] ==47468==     in use at exit: 10,352,128 bytes in 3,529 blocks
+[Valgrind] ==47468==   total heap usage: 3,534 allocs, 5 frees, 10,365,360 bytes allocated
+
+[Run] LAD grp=67 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp67_lvl20.log ./main -s 60 -f -i -p ./test/tree/67_subgraph_20 -t ./test/tree/67_original_graph
+[Run] Done in 5.74s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 5.342389 seconds
+
+[Valgrind] ==47474==     in use at exit: 11,850,992 bytes in 4,029 blocks
+[Valgrind] ==47474==   total heap usage: 4,034 allocs, 5 frees, 11,864,224 bytes allocated
+
+[Run] LAD grp=67 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp67_lvl60.log ./main -s 60 -f -i -p ./test/tree/67_subgraph_60 -t ./test/tree/67_original_graph
+[Run] Done in 13.90s
+Run completed: 1 solutions; 0 fail nodes; 57 nodes; 13.342781 seconds
+
+[Valgrind] ==47484==     in use at exit: 19,584,488 bytes in 6,029 blocks
+[Valgrind] ==47484==   total heap usage: 6,034 allocs, 5 frees, 19,597,720 bytes allocated
+
+[Run] LAD grp=68 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp68_lvl10.log ./main -s 60 -f -i -p ./test/tree/68_subgraph_10 -t ./test/tree/68_original_graph
+[Run] Done in 9.53s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 9.048704 seconds
+
+[Valgrind] ==47501==     in use at exit: 10,395,204 bytes in 3,529 blocks
+[Valgrind] ==47501==   total heap usage: 3,534 allocs, 5 frees, 10,408,436 bytes allocated
+
+[Run] LAD grp=68 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp68_lvl20.log ./main -s 60 -f -i -p ./test/tree/68_subgraph_20 -t ./test/tree/68_original_graph
+[Run] Done in 7.16s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 6.658005 seconds
+
+[Valgrind] ==47522==     in use at exit: 11,788,792 bytes in 4,029 blocks
+[Valgrind] ==47522==   total heap usage: 4,034 allocs, 5 frees, 11,802,024 bytes allocated
+
+[Run] LAD grp=68 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp68_lvl60.log ./main -s 60 -f -i -p ./test/tree/68_subgraph_60 -t ./test/tree/68_original_graph
+[Run] Done in 12.69s
+Run completed: 1 solutions; 0 fail nodes; 59 nodes; 12.213466 seconds
+
+[Valgrind] ==47528==     in use at exit: 19,576,320 bytes in 6,029 blocks
+[Valgrind] ==47528==   total heap usage: 6,034 allocs, 5 frees, 19,589,552 bytes allocated
+
+[Run] LAD grp=69 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp69_lvl10.log ./main -s 60 -f -i -p ./test/tree/69_subgraph_10 -t ./test/tree/69_original_graph
+[Run] Done in 5.98s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 5.598639 seconds
+
+[Valgrind] ==47536==     in use at exit: 10,370,376 bytes in 3,529 blocks
+[Valgrind] ==47536==   total heap usage: 3,534 allocs, 5 frees, 10,383,608 bytes allocated
+
+[Run] LAD grp=69 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp69_lvl20.log ./main -s 60 -f -i -p ./test/tree/69_subgraph_20 -t ./test/tree/69_original_graph
+[Run] Done in 4.67s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 4.226698 seconds
+
+[Valgrind] ==47544==     in use at exit: 11,840,824 bytes in 4,029 blocks
+[Valgrind] ==47544==   total heap usage: 4,034 allocs, 5 frees, 11,854,056 bytes allocated
+
+[Run] LAD grp=69 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp69_lvl60.log ./main -s 60 -f -i -p ./test/tree/69_subgraph_60 -t ./test/tree/69_original_graph
+[Run] Done in 13.15s
+Run completed: 1 solutions; 0 fail nodes; 65 nodes; 12.681125 seconds
+
+[Valgrind] ==47551==     in use at exit: 19,576,468 bytes in 6,029 blocks
+[Valgrind] ==47551==   total heap usage: 6,034 allocs, 5 frees, 19,589,700 bytes allocated
+
+[Run] LAD grp=70 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp70_lvl10.log ./main -s 60 -f -i -p ./test/tree/70_subgraph_10 -t ./test/tree/70_original_graph
+[Run] Done in 3.06s
+Run completed: 1 solutions; 0 fail nodes; 22 nodes; 2.673871 seconds
+
+[Valgrind] ==47579==     in use at exit: 10,316,132 bytes in 3,529 blocks
+[Valgrind] ==47579==   total heap usage: 3,534 allocs, 5 frees, 10,329,364 bytes allocated
+
+[Run] LAD grp=70 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp70_lvl20.log ./main -s 60 -f -i -p ./test/tree/70_subgraph_20 -t ./test/tree/70_original_graph
+[Run] Done in 6.64s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 6.242742 seconds
+
+[Valgrind] ==47587==     in use at exit: 11,816,744 bytes in 4,029 blocks
+[Valgrind] ==47587==   total heap usage: 4,034 allocs, 5 frees, 11,829,976 bytes allocated
+
+[Run] LAD grp=70 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp70_lvl60.log ./main -s 60 -f -i -p ./test/tree/70_subgraph_60 -t ./test/tree/70_original_graph
+[Run] Done in 11.46s
+Run completed: 1 solutions; 0 fail nodes; 78 nodes; 10.983938 seconds
+
+[Valgrind] ==47594==     in use at exit: 19,466,988 bytes in 6,029 blocks
+[Valgrind] ==47594==   total heap usage: 6,034 allocs, 5 frees, 19,480,220 bytes allocated
+
+[Run] LAD grp=71 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp71_lvl10.log ./main -s 60 -f -i -p ./test/tree/71_subgraph_10 -t ./test/tree/71_original_graph
+[Run] Done in 4.88s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 4.442032 seconds
+
+[Valgrind] ==47600==     in use at exit: 10,353,148 bytes in 3,529 blocks
+[Valgrind] ==47600==   total heap usage: 3,534 allocs, 5 frees, 10,366,380 bytes allocated
+
+[Run] LAD grp=71 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp71_lvl20.log ./main -s 60 -f -i -p ./test/tree/71_subgraph_20 -t ./test/tree/71_original_graph
+[Run] Done in 7.08s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 6.603611 seconds
+
+[Valgrind] ==47623==     in use at exit: 11,847,504 bytes in 4,029 blocks
+[Valgrind] ==47623==   total heap usage: 4,034 allocs, 5 frees, 11,860,736 bytes allocated
+
+[Run] LAD grp=71 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp71_lvl60.log ./main -s 60 -f -i -p ./test/tree/71_subgraph_60 -t ./test/tree/71_original_graph
+[Run] Done in 12.71s
+Run completed: 1 solutions; 0 fail nodes; 59 nodes; 12.212383 seconds
+
+[Valgrind] ==47641==     in use at exit: 19,543,828 bytes in 6,029 blocks
+[Valgrind] ==47641==   total heap usage: 6,034 allocs, 5 frees, 19,557,060 bytes allocated
+
+[Run] LAD grp=72 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp72_lvl10.log ./main -s 60 -f -i -p ./test/tree/72_subgraph_10 -t ./test/tree/72_original_graph
+[Run] Done in 4.49s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 4.089003 seconds
+
+[Valgrind] ==47650==     in use at exit: 10,368,204 bytes in 3,529 blocks
+[Valgrind] ==47650==   total heap usage: 3,534 allocs, 5 frees, 10,381,436 bytes allocated
+
+[Run] LAD grp=72 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp72_lvl20.log ./main -s 60 -f -i -p ./test/tree/72_subgraph_20 -t ./test/tree/72_original_graph
+[Run] Done in 5.26s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 4.851599 seconds
+
+[Valgrind] ==47656==     in use at exit: 11,784,408 bytes in 4,029 blocks
+[Valgrind] ==47656==   total heap usage: 4,034 allocs, 5 frees, 11,797,640 bytes allocated
+
+[Run] LAD grp=72 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp72_lvl60.log ./main -s 60 -f -i -p ./test/tree/72_subgraph_60 -t ./test/tree/72_original_graph
+[Run] Done in 13.96s
+Run completed: 1 solutions; 0 fail nodes; 69 nodes; 13.487772 seconds
+
+[Valgrind] ==47664==     in use at exit: 19,519,656 bytes in 6,029 blocks
+[Valgrind] ==47664==   total heap usage: 6,034 allocs, 5 frees, 19,532,888 bytes allocated
+
+[Run] LAD grp=73 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp73_lvl10.log ./main -s 60 -f -i -p ./test/tree/73_subgraph_10 -t ./test/tree/73_original_graph
+[Run] Done in 3.65s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 3.260524 seconds
+
+[Valgrind] ==47687==     in use at exit: 10,341,980 bytes in 3,529 blocks
+[Valgrind] ==47687==   total heap usage: 3,534 allocs, 5 frees, 10,355,212 bytes allocated
+
+[Run] LAD grp=73 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp73_lvl20.log ./main -s 60 -f -i -p ./test/tree/73_subgraph_20 -t ./test/tree/73_original_graph
+[Run] Done in 4.58s
+Run completed: 1 solutions; 0 fail nodes; 36 nodes; 4.179590 seconds
+
+[Valgrind] ==47695==     in use at exit: 11,774,096 bytes in 4,029 blocks
+[Valgrind] ==47695==   total heap usage: 4,034 allocs, 5 frees, 11,787,328 bytes allocated
+
+[Run] LAD grp=73 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp73_lvl60.log ./main -s 60 -f -i -p ./test/tree/73_subgraph_60 -t ./test/tree/73_original_graph
+[Run] Done in 13.36s
+Run completed: 1 solutions; 0 fail nodes; 69 nodes; 12.915239 seconds
+
+[Valgrind] ==47703==     in use at exit: 19,485,292 bytes in 6,029 blocks
+[Valgrind] ==47703==   total heap usage: 6,034 allocs, 5 frees, 19,498,524 bytes allocated
+
+[Run] LAD grp=74 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp74_lvl10.log ./main -s 60 -f -i -p ./test/tree/74_subgraph_10 -t ./test/tree/74_original_graph
+[Run] Done in 4.38s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 3.912092 seconds
+
+[Valgrind] ==47712==     in use at exit: 10,361,652 bytes in 3,529 blocks
+[Valgrind] ==47712==   total heap usage: 3,534 allocs, 5 frees, 10,374,884 bytes allocated
+
+[Run] LAD grp=74 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp74_lvl20.log ./main -s 60 -f -i -p ./test/tree/74_subgraph_20 -t ./test/tree/74_original_graph
+[Run] Done in 5.07s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 4.591479 seconds
+
+[Valgrind] ==47733==     in use at exit: 11,793,516 bytes in 4,029 blocks
+[Valgrind] ==47733==   total heap usage: 4,034 allocs, 5 frees, 11,806,748 bytes allocated
+
+[Run] LAD grp=74 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp74_lvl60.log ./main -s 60 -f -i -p ./test/tree/74_subgraph_60 -t ./test/tree/74_original_graph
+[Run] Done in 12.25s
+Run completed: 1 solutions; 0 fail nodes; 70 nodes; 11.728632 seconds
+
+[Valgrind] ==47739==     in use at exit: 19,474,608 bytes in 6,029 blocks
+[Valgrind] ==47739==   total heap usage: 6,034 allocs, 5 frees, 19,487,840 bytes allocated
+
+[Run] LAD grp=75 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp75_lvl10.log ./main -s 60 -f -i -p ./test/tree/75_subgraph_10 -t ./test/tree/75_original_graph
+[Run] Done in 4.09s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 3.724078 seconds
+
+[Valgrind] ==47751==     in use at exit: 10,319,912 bytes in 3,529 blocks
+[Valgrind] ==47751==   total heap usage: 3,534 allocs, 5 frees, 10,333,144 bytes allocated
+
+[Run] LAD grp=75 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp75_lvl20.log ./main -s 60 -f -i -p ./test/tree/75_subgraph_20 -t ./test/tree/75_original_graph
+[Run] Done in 6.59s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 6.140618 seconds
+
+[Valgrind] ==47757==     in use at exit: 11,761,604 bytes in 4,029 blocks
+[Valgrind] ==47757==   total heap usage: 4,034 allocs, 5 frees, 11,774,836 bytes allocated
+
+[Run] LAD grp=75 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp75_lvl60.log ./main -s 60 -f -i -p ./test/tree/75_subgraph_60 -t ./test/tree/75_original_graph
+[Run] Done in 14.01s
+Run completed: 1 solutions; 0 fail nodes; 68 nodes; 13.445470 seconds
+
+[Valgrind] ==47774==     in use at exit: 19,546,032 bytes in 6,029 blocks
+[Valgrind] ==47774==   total heap usage: 6,034 allocs, 5 frees, 19,559,264 bytes allocated
+
+[Run] LAD grp=76 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp76_lvl10.log ./main -s 60 -f -i -p ./test/tree/76_subgraph_10 -t ./test/tree/76_original_graph
+[Run] Done in 3.27s
+Run completed: 1 solutions; 0 fail nodes; 21 nodes; 2.880262 seconds
+
+[Valgrind] ==47797==     in use at exit: 10,368,412 bytes in 3,529 blocks
+[Valgrind] ==47797==   total heap usage: 3,534 allocs, 5 frees, 10,381,644 bytes allocated
+
+[Run] LAD grp=76 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp76_lvl20.log ./main -s 60 -f -i -p ./test/tree/76_subgraph_20 -t ./test/tree/76_original_graph
+[Run] Done in 5.80s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 5.394181 seconds
+
+[Valgrind] ==47803==     in use at exit: 11,819,052 bytes in 4,029 blocks
+[Valgrind] ==47803==   total heap usage: 4,034 allocs, 5 frees, 11,832,284 bytes allocated
+
+[Run] LAD grp=76 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp76_lvl60.log ./main -s 60 -f -i -p ./test/tree/76_subgraph_60 -t ./test/tree/76_original_graph
+[Run] Done in 12.71s
+Run completed: 1 solutions; 0 fail nodes; 68 nodes; 12.224657 seconds
+
+[Valgrind] ==47811==     in use at exit: 19,542,696 bytes in 6,029 blocks
+[Valgrind] ==47811==   total heap usage: 6,034 allocs, 5 frees, 19,555,928 bytes allocated
+
+[Run] LAD grp=77 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp77_lvl10.log ./main -s 60 -f -i -p ./test/tree/77_subgraph_10 -t ./test/tree/77_original_graph
+[Run] Done in 3.01s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 2.629463 seconds
+
+[Valgrind] ==47821==     in use at exit: 10,306,312 bytes in 3,529 blocks
+[Valgrind] ==47821==   total heap usage: 3,534 allocs, 5 frees, 10,319,544 bytes allocated
+
+[Run] LAD grp=77 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp77_lvl20.log ./main -s 60 -f -i -p ./test/tree/77_subgraph_20 -t ./test/tree/77_original_graph
+[Run] Done in 6.14s
+Run completed: 1 solutions; 0 fail nodes; 52 nodes; 5.659380 seconds
+
+[Valgrind] ==47827==     in use at exit: 11,787,920 bytes in 4,029 blocks
+[Valgrind] ==47827==   total heap usage: 4,034 allocs, 5 frees, 11,801,152 bytes allocated
+
+[Run] LAD grp=77 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp77_lvl60.log ./main -s 60 -f -i -p ./test/tree/77_subgraph_60 -t ./test/tree/77_original_graph
+[Run] Done in 13.30s
+Run completed: 1 solutions; 0 fail nodes; 94 nodes; 12.805017 seconds
+
+[Valgrind] ==47848==     in use at exit: 19,473,920 bytes in 6,029 blocks
+[Valgrind] ==47848==   total heap usage: 6,034 allocs, 5 frees, 19,487,152 bytes allocated
+
+[Run] LAD grp=78 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp78_lvl10.log ./main -s 60 -f -i -p ./test/tree/78_subgraph_10 -t ./test/tree/78_original_graph
+[Run] Done in 3.89s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 3.506885 seconds
+
+[Valgrind] ==47856==     in use at exit: 10,304,124 bytes in 3,529 blocks
+[Valgrind] ==47856==   total heap usage: 3,534 allocs, 5 frees, 10,317,356 bytes allocated
+
+[Run] LAD grp=78 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp78_lvl20.log ./main -s 60 -f -i -p ./test/tree/78_subgraph_20 -t ./test/tree/78_original_graph
+[Run] Done in 4.99s
+Run completed: 1 solutions; 0 fail nodes; 40 nodes; 4.579599 seconds
+
+[Valgrind] ==47864==     in use at exit: 11,791,896 bytes in 4,029 blocks
+[Valgrind] ==47864==   total heap usage: 4,034 allocs, 5 frees, 11,805,128 bytes allocated
+
+[Run] LAD grp=78 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp78_lvl60.log ./main -s 60 -f -i -p ./test/tree/78_subgraph_60 -t ./test/tree/78_original_graph
+[Run] Done in 12.66s
+Run completed: 1 solutions; 0 fail nodes; 70 nodes; 12.095785 seconds
+
+[Valgrind] ==47872==     in use at exit: 19,426,608 bytes in 6,029 blocks
+[Valgrind] ==47872==   total heap usage: 6,034 allocs, 5 frees, 19,439,840 bytes allocated
+
+[Run] LAD grp=79 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp79_lvl10.log ./main -s 60 -f -i -p ./test/tree/79_subgraph_10 -t ./test/tree/79_original_graph
+[Run] Done in 5.12s
+Run completed: 1 solutions; 0 fail nodes; 17 nodes; 4.708456 seconds
+
+[Valgrind] ==47878==     in use at exit: 10,390,152 bytes in 3,529 blocks
+[Valgrind] ==47878==   total heap usage: 3,534 allocs, 5 frees, 10,403,384 bytes allocated
+
+[Run] LAD grp=79 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp79_lvl20.log ./main -s 60 -f -i -p ./test/tree/79_subgraph_20 -t ./test/tree/79_original_graph
+[Run] Done in 5.39s
+Run completed: 1 solutions; 0 fail nodes; 32 nodes; 4.915639 seconds
+
+[Valgrind] ==47884==     in use at exit: 11,865,248 bytes in 4,029 blocks
+[Valgrind] ==47884==   total heap usage: 4,034 allocs, 5 frees, 11,878,480 bytes allocated
+
+[Run] LAD grp=79 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp79_lvl60.log ./main -s 60 -f -i -p ./test/tree/79_subgraph_60 -t ./test/tree/79_original_graph
+[Run] Done in 13.85s
+Run completed: 1 solutions; 0 fail nodes; 62 nodes; 13.357243 seconds
+
+[Valgrind] ==47902==     in use at exit: 19,568,076 bytes in 6,029 blocks
+[Valgrind] ==47902==   total heap usage: 6,034 allocs, 5 frees, 19,581,308 bytes allocated
+
+[Run] LAD grp=80 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp80_lvl10.log ./main -s 60 -f -i -p ./test/tree/80_subgraph_10 -t ./test/tree/80_original_graph
+[Run] Done in 7.48s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 7.014281 seconds
+
+[Valgrind] ==47911==     in use at exit: 10,332,316 bytes in 3,529 blocks
+[Valgrind] ==47911==   total heap usage: 3,534 allocs, 5 frees, 10,345,548 bytes allocated
+
+[Run] LAD grp=80 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp80_lvl20.log ./main -s 60 -f -i -p ./test/tree/80_subgraph_20 -t ./test/tree/80_original_graph
+[Run] Done in 5.26s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 4.816176 seconds
+
+[Valgrind] ==47936==     in use at exit: 11,859,552 bytes in 4,029 blocks
+[Valgrind] ==47936==   total heap usage: 4,034 allocs, 5 frees, 11,872,784 bytes allocated
+
+[Run] LAD grp=80 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp80_lvl60.log ./main -s 60 -f -i -p ./test/tree/80_subgraph_60 -t ./test/tree/80_original_graph
+[Run] Done in 11.98s
+Run completed: 1 solutions; 0 fail nodes; 51 nodes; 11.503097 seconds
+
+[Valgrind] ==47942==     in use at exit: 19,559,484 bytes in 6,029 blocks
+[Valgrind] ==47942==   total heap usage: 6,034 allocs, 5 frees, 19,572,716 bytes allocated
+
+[Run] LAD grp=81 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp81_lvl10.log ./main -s 60 -f -i -p ./test/tree/81_subgraph_10 -t ./test/tree/81_original_graph
+[Run] Done in 3.96s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 3.574808 seconds
+
+[Valgrind] ==47952==     in use at exit: 10,384,728 bytes in 3,529 blocks
+[Valgrind] ==47952==   total heap usage: 3,534 allocs, 5 frees, 10,397,960 bytes allocated
+
+[Run] LAD grp=81 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp81_lvl20.log ./main -s 60 -f -i -p ./test/tree/81_subgraph_20 -t ./test/tree/81_original_graph
+[Run] Done in 15.56s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 15.106584 seconds
+
+[Valgrind] ==47959==     in use at exit: 11,849,820 bytes in 4,029 blocks
+[Valgrind] ==47959==   total heap usage: 4,034 allocs, 5 frees, 11,863,052 bytes allocated
+
+[Run] LAD grp=81 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp81_lvl60.log ./main -s 60 -f -i -p ./test/tree/81_subgraph_60 -t ./test/tree/81_original_graph
+[Run] Done in 11.91s
+Run completed: 1 solutions; 0 fail nodes; 83 nodes; 11.425777 seconds
+
+[Valgrind] ==47982==     in use at exit: 19,537,220 bytes in 6,029 blocks
+[Valgrind] ==47982==   total heap usage: 6,034 allocs, 5 frees, 19,550,452 bytes allocated
+
+[Run] LAD grp=82 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp82_lvl10.log ./main -s 60 -f -i -p ./test/tree/82_subgraph_10 -t ./test/tree/82_original_graph
+[Run] Done in 7.83s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 7.458145 seconds
+
+[Valgrind] ==47990==     in use at exit: 10,364,712 bytes in 3,529 blocks
+[Valgrind] ==47990==   total heap usage: 3,534 allocs, 5 frees, 10,377,944 bytes allocated
+
+[Run] LAD grp=82 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp82_lvl20.log ./main -s 60 -f -i -p ./test/tree/82_subgraph_20 -t ./test/tree/82_original_graph
+[Run] Done in 4.81s
+Run completed: 1 solutions; 0 fail nodes; 34 nodes; 4.402898 seconds
+
+[Valgrind] ==48001==     in use at exit: 11,776,772 bytes in 4,029 blocks
+[Valgrind] ==48001==   total heap usage: 4,034 allocs, 5 frees, 11,790,004 bytes allocated
+
+[Run] LAD grp=82 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp82_lvl60.log ./main -s 60 -f -i -p ./test/tree/82_subgraph_60 -t ./test/tree/82_original_graph
+[Run] Done in 14.28s
+Run completed: 1 solutions; 0 fail nodes; 75 nodes; 13.746756 seconds
+
+[Valgrind] ==48010==     in use at exit: 19,490,860 bytes in 6,029 blocks
+[Valgrind] ==48010==   total heap usage: 6,034 allocs, 5 frees, 19,504,092 bytes allocated
+
+[Run] LAD grp=83 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp83_lvl10.log ./main -s 60 -f -i -p ./test/tree/83_subgraph_10 -t ./test/tree/83_original_graph
+[Run] Done in 3.49s
+Run completed: 1 solutions; 0 fail nodes; 27 nodes; 3.035972 seconds
+
+[Valgrind] ==48045==     in use at exit: 10,288,532 bytes in 3,529 blocks
+[Valgrind] ==48045==   total heap usage: 3,534 allocs, 5 frees, 10,301,764 bytes allocated
+
+[Run] LAD grp=83 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp83_lvl20.log ./main -s 60 -f -i -p ./test/tree/83_subgraph_20 -t ./test/tree/83_original_graph
+[Run] Done in 4.16s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 3.720240 seconds
+
+[Valgrind] ==48051==     in use at exit: 11,825,932 bytes in 4,029 blocks
+[Valgrind] ==48051==   total heap usage: 4,034 allocs, 5 frees, 11,839,164 bytes allocated
+
+[Run] LAD grp=83 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp83_lvl60.log ./main -s 60 -f -i -p ./test/tree/83_subgraph_60 -t ./test/tree/83_original_graph
+[Run] Done in 11.45s
+Run completed: 1 solutions; 0 fail nodes; 68 nodes; 10.999345 seconds
+
+[Valgrind] ==48057==     in use at exit: 19,454,288 bytes in 6,029 blocks
+[Valgrind] ==48057==   total heap usage: 6,034 allocs, 5 frees, 19,467,520 bytes allocated
+
+[Run] LAD grp=84 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp84_lvl10.log ./main -s 60 -f -i -p ./test/tree/84_subgraph_10 -t ./test/tree/84_original_graph
+[Run] Done in 3.82s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 3.442799 seconds
+
+[Valgrind] ==48063==     in use at exit: 10,360,492 bytes in 3,529 blocks
+[Valgrind] ==48063==   total heap usage: 3,534 allocs, 5 frees, 10,373,724 bytes allocated
+
+[Run] LAD grp=84 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp84_lvl20.log ./main -s 60 -f -i -p ./test/tree/84_subgraph_20 -t ./test/tree/84_original_graph
+[Run] Done in 9.10s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 8.664526 seconds
+
+[Valgrind] ==48069==     in use at exit: 11,820,944 bytes in 4,029 blocks
+[Valgrind] ==48069==   total heap usage: 4,034 allocs, 5 frees, 11,834,176 bytes allocated
+
+[Run] LAD grp=84 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp84_lvl60.log ./main -s 60 -f -i -p ./test/tree/84_subgraph_60 -t ./test/tree/84_original_graph
+[Run] Done in 12.54s
+Run completed: 1 solutions; 0 fail nodes; 73 nodes; 12.049311 seconds
+
+[Valgrind] ==48094==     in use at exit: 19,482,416 bytes in 6,029 blocks
+[Valgrind] ==48094==   total heap usage: 6,034 allocs, 5 frees, 19,495,648 bytes allocated
+
+[Run] LAD grp=85 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp85_lvl10.log ./main -s 60 -f -i -p ./test/tree/85_subgraph_10 -t ./test/tree/85_original_graph
+[Run] Done in 5.48s
+Run completed: 1 solutions; 0 fail nodes; 18 nodes; 5.089963 seconds
+
+[Valgrind] ==48103==     in use at exit: 10,359,120 bytes in 3,529 blocks
+[Valgrind] ==48103==   total heap usage: 3,534 allocs, 5 frees, 10,372,352 bytes allocated
+
+[Run] LAD grp=85 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp85_lvl20.log ./main -s 60 -f -i -p ./test/tree/85_subgraph_20 -t ./test/tree/85_original_graph
+[Run] Done in 5.18s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 4.754998 seconds
+
+[Valgrind] ==48109==     in use at exit: 11,823,372 bytes in 4,029 blocks
+[Valgrind] ==48109==   total heap usage: 4,034 allocs, 5 frees, 11,836,604 bytes allocated
+
+[Run] LAD grp=85 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp85_lvl60.log ./main -s 60 -f -i -p ./test/tree/85_subgraph_60 -t ./test/tree/85_original_graph
+[Run] Done in 12.34s
+Run completed: 1 solutions; 0 fail nodes; 50 nodes; 11.778682 seconds
+
+[Valgrind] ==48115==     in use at exit: 19,504,080 bytes in 6,029 blocks
+[Valgrind] ==48115==   total heap usage: 6,034 allocs, 5 frees, 19,517,312 bytes allocated
+
+[Run] LAD grp=86 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp86_lvl10.log ./main -s 60 -f -i -p ./test/tree/86_subgraph_10 -t ./test/tree/86_original_graph
+[Run] Done in 6.88s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 6.483556 seconds
+
+[Valgrind] ==48136==     in use at exit: 10,356,584 bytes in 3,529 blocks
+[Valgrind] ==48136==   total heap usage: 3,534 allocs, 5 frees, 10,369,816 bytes allocated
+
+[Run] LAD grp=86 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp86_lvl20.log ./main -s 60 -f -i -p ./test/tree/86_subgraph_20 -t ./test/tree/86_original_graph
+[Run] Done in 5.90s
+Run completed: 1 solutions; 0 fail nodes; 42 nodes; 5.458534 seconds
+
+[Valgrind] ==48144==     in use at exit: 11,848,832 bytes in 4,029 blocks
+[Valgrind] ==48144==   total heap usage: 4,034 allocs, 5 frees, 11,862,064 bytes allocated
+
+[Run] LAD grp=86 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp86_lvl60.log ./main -s 60 -f -i -p ./test/tree/86_subgraph_60 -t ./test/tree/86_original_graph
+[Run] Done in 13.96s
+Run completed: 1 solutions; 0 fail nodes; 70 nodes; 13.456029 seconds
+
+[Valgrind] ==48162==     in use at exit: 19,481,280 bytes in 6,029 blocks
+[Valgrind] ==48162==   total heap usage: 6,034 allocs, 5 frees, 19,494,512 bytes allocated
+
+[Run] LAD grp=87 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp87_lvl10.log ./main -s 60 -f -i -p ./test/tree/87_subgraph_10 -t ./test/tree/87_original_graph
+[Run] Done in 7.41s
+Run completed: 1 solutions; 0 fail nodes; 14 nodes; 6.966591 seconds
+
+[Valgrind] ==48170==     in use at exit: 10,392,380 bytes in 3,529 blocks
+[Valgrind] ==48170==   total heap usage: 3,534 allocs, 5 frees, 10,405,612 bytes allocated
+
+[Run] LAD grp=87 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp87_lvl20.log ./main -s 60 -f -i -p ./test/tree/87_subgraph_20 -t ./test/tree/87_original_graph
+[Run] Done in 8.02s
+Run completed: 1 solutions; 0 fail nodes; 42 nodes; 7.539724 seconds
+
+[Valgrind] ==48193==     in use at exit: 11,795,164 bytes in 4,029 blocks
+[Valgrind] ==48193==   total heap usage: 4,034 allocs, 5 frees, 11,808,396 bytes allocated
+
+[Run] LAD grp=87 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp87_lvl60.log ./main -s 60 -f -i -p ./test/tree/87_subgraph_60 -t ./test/tree/87_original_graph
+[Run] Done in 11.68s
+Run completed: 1 solutions; 0 fail nodes; 81 nodes; 11.179440 seconds
+
+[Valgrind] ==48201==     in use at exit: 19,491,936 bytes in 6,029 blocks
+[Valgrind] ==48201==   total heap usage: 6,034 allocs, 5 frees, 19,505,168 bytes allocated
+
+[Run] LAD grp=88 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp88_lvl10.log ./main -s 60 -f -i -p ./test/tree/88_subgraph_10 -t ./test/tree/88_original_graph
+[Run] Done in 4.19s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 3.792271 seconds
+
+[Valgrind] ==48211==     in use at exit: 10,299,036 bytes in 3,529 blocks
+[Valgrind] ==48211==   total heap usage: 3,534 allocs, 5 frees, 10,312,268 bytes allocated
+
+[Run] LAD grp=88 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp88_lvl20.log ./main -s 60 -f -i -p ./test/tree/88_subgraph_20 -t ./test/tree/88_original_graph
+[Run] Done in 7.56s
+Run completed: 1 solutions; 0 fail nodes; 41 nodes; 7.093218 seconds
+
+[Valgrind] ==48217==     in use at exit: 11,784,160 bytes in 4,029 blocks
+[Valgrind] ==48217==   total heap usage: 4,034 allocs, 5 frees, 11,797,392 bytes allocated
+
+[Run] LAD grp=88 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp88_lvl60.log ./main -s 60 -f -i -p ./test/tree/88_subgraph_60 -t ./test/tree/88_original_graph
+[Run] Done in 13.58s
+Run completed: 1 solutions; 0 fail nodes; 77 nodes; 13.048412 seconds
+
+[Valgrind] ==48232==     in use at exit: 19,468,652 bytes in 6,029 blocks
+[Valgrind] ==48232==   total heap usage: 6,034 allocs, 5 frees, 19,481,884 bytes allocated
+
+[Run] LAD grp=89 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp89_lvl10.log ./main -s 60 -f -i -p ./test/tree/89_subgraph_10 -t ./test/tree/89_original_graph
+[Run] Done in 4.76s
+Run completed: 1 solutions; 0 fail nodes; 29 nodes; 4.369393 seconds
+
+[Valgrind] ==48246==     in use at exit: 10,346,700 bytes in 3,529 blocks
+[Valgrind] ==48246==   total heap usage: 3,534 allocs, 5 frees, 10,359,932 bytes allocated
+
+[Run] LAD grp=89 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp89_lvl20.log ./main -s 60 -f -i -p ./test/tree/89_subgraph_20 -t ./test/tree/89_original_graph
+[Run] Done in 5.42s
+Run completed: 1 solutions; 0 fail nodes; 62 nodes; 4.987746 seconds
+
+[Valgrind] ==48253==     in use at exit: 11,756,560 bytes in 4,029 blocks
+[Valgrind] ==48253==   total heap usage: 4,034 allocs, 5 frees, 11,769,792 bytes allocated
+
+[Run] LAD grp=89 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp89_lvl60.log ./main -s 60 -f -i -p ./test/tree/89_subgraph_60 -t ./test/tree/89_original_graph
+[Run] Done in 11.40s
+Run completed: 1 solutions; 0 fail nodes; 84 nodes; 10.929187 seconds
+
+[Valgrind] ==48260==     in use at exit: 19,440,780 bytes in 6,029 blocks
+[Valgrind] ==48260==   total heap usage: 6,034 allocs, 5 frees, 19,454,012 bytes allocated
+
+[Run] LAD grp=90 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp90_lvl10.log ./main -s 60 -f -i -p ./test/tree/90_subgraph_10 -t ./test/tree/90_original_graph
+[Run] Done in 12.16s
+Run completed: 1 solutions; 0 fail nodes; 19 nodes; 11.734963 seconds
+
+[Valgrind] ==48268==     in use at exit: 10,354,260 bytes in 3,529 blocks
+[Valgrind] ==48268==   total heap usage: 3,534 allocs, 5 frees, 10,367,492 bytes allocated
+
+[Run] LAD grp=90 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp90_lvl20.log ./main -s 60 -f -i -p ./test/tree/90_subgraph_20 -t ./test/tree/90_original_graph
+[Run] Done in 5.61s
+Run completed: 1 solutions; 0 fail nodes; 38 nodes; 5.182091 seconds
+
+[Valgrind] ==48301==     in use at exit: 11,746,756 bytes in 4,029 blocks
+[Valgrind] ==48301==   total heap usage: 4,034 allocs, 5 frees, 11,759,988 bytes allocated
+
+[Run] LAD grp=90 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp90_lvl60.log ./main -s 60 -f -i -p ./test/tree/90_subgraph_60 -t ./test/tree/90_original_graph
+[Run] Done in 11.63s
+Run completed: 1 solutions; 0 fail nodes; 72 nodes; 11.155840 seconds
+
+[Valgrind] ==48307==     in use at exit: 19,445,520 bytes in 6,029 blocks
+[Valgrind] ==48307==   total heap usage: 6,034 allocs, 5 frees, 19,458,752 bytes allocated
+
+[Run] LAD grp=91 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp91_lvl10.log ./main -s 60 -f -i -p ./test/tree/91_subgraph_10 -t ./test/tree/91_original_graph
+[Run] Done in 5.37s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 4.998628 seconds
+
+[Valgrind] ==48313==     in use at exit: 10,312,244 bytes in 3,529 blocks
+[Valgrind] ==48313==   total heap usage: 3,534 allocs, 5 frees, 10,325,476 bytes allocated
+
+[Run] LAD grp=91 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp91_lvl20.log ./main -s 60 -f -i -p ./test/tree/91_subgraph_20 -t ./test/tree/91_original_graph
+[Run] Done in 7.34s
+Run completed: 1 solutions; 0 fail nodes; 43 nodes; 6.849825 seconds
+
+[Valgrind] ==48321==     in use at exit: 11,820,792 bytes in 4,029 blocks
+[Valgrind] ==48321==   total heap usage: 4,034 allocs, 5 frees, 11,834,024 bytes allocated
+
+[Run] LAD grp=91 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp91_lvl60.log ./main -s 60 -f -i -p ./test/tree/91_subgraph_60 -t ./test/tree/91_original_graph
+[Run] Done in 13.12s
+Run completed: 1 solutions; 0 fail nodes; 84 nodes; 12.618992 seconds
+
+[Valgrind] ==48344==     in use at exit: 19,437,984 bytes in 6,029 blocks
+[Valgrind] ==48344==   total heap usage: 6,034 allocs, 5 frees, 19,451,216 bytes allocated
+
+[Run] LAD grp=92 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp92_lvl10.log ./main -s 60 -f -i -p ./test/tree/92_subgraph_10 -t ./test/tree/92_original_graph
+[Run] Done in 9.70s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 9.305764 seconds
+
+[Valgrind] ==48354==     in use at exit: 10,365,968 bytes in 3,529 blocks
+[Valgrind] ==48354==   total heap usage: 3,534 allocs, 5 frees, 10,379,200 bytes allocated
+
+[Run] LAD grp=92 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp92_lvl20.log ./main -s 60 -f -i -p ./test/tree/92_subgraph_20 -t ./test/tree/92_original_graph
+[Run] Done in 6.47s
+Run completed: 1 solutions; 0 fail nodes; 39 nodes; 6.055280 seconds
+
+[Valgrind] ==48362==     in use at exit: 11,815,852 bytes in 4,029 blocks
+[Valgrind] ==48362==   total heap usage: 4,034 allocs, 5 frees, 11,829,084 bytes allocated
+
+[Run] LAD grp=92 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp92_lvl60.log ./main -s 60 -f -i -p ./test/tree/92_subgraph_60 -t ./test/tree/92_original_graph
+[Run] Done in 14.11s
+Run completed: 1 solutions; 0 fail nodes; 91 nodes; 13.613074 seconds
+
+[Valgrind] ==48368==     in use at exit: 19,441,000 bytes in 6,029 blocks
+[Valgrind] ==48368==   total heap usage: 6,034 allocs, 5 frees, 19,454,232 bytes allocated
+
+[Run] LAD grp=93 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp93_lvl10.log ./main -s 60 -f -i -p ./test/tree/93_subgraph_10 -t ./test/tree/93_original_graph
+[Run] Done in 3.61s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 3.206302 seconds
+
+[Valgrind] ==48389==     in use at exit: 10,317,024 bytes in 3,529 blocks
+[Valgrind] ==48389==   total heap usage: 3,534 allocs, 5 frees, 10,330,256 bytes allocated
+
+[Run] LAD grp=93 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp93_lvl20.log ./main -s 60 -f -i -p ./test/tree/93_subgraph_20 -t ./test/tree/93_original_graph
+[Run] Done in 4.89s
+Run completed: 1 solutions; 0 fail nodes; 43 nodes; 4.434007 seconds
+
+[Valgrind] ==48397==     in use at exit: 11,781,748 bytes in 4,029 blocks
+[Valgrind] ==48397==   total heap usage: 4,034 allocs, 5 frees, 11,794,980 bytes allocated
+
+[Run] LAD grp=93 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp93_lvl60.log ./main -s 60 -f -i -p ./test/tree/93_subgraph_60 -t ./test/tree/93_original_graph
+[Run] Done in 13.51s
+Run completed: 1 solutions; 0 fail nodes; 60 nodes; 12.984480 seconds
+
+[Valgrind] ==48409==     in use at exit: 19,526,752 bytes in 6,029 blocks
+[Valgrind] ==48409==   total heap usage: 6,034 allocs, 5 frees, 19,539,984 bytes allocated
+
+[Run] LAD grp=94 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp94_lvl10.log ./main -s 60 -f -i -p ./test/tree/94_subgraph_10 -t ./test/tree/94_original_graph
+[Run] Done in 5.50s
+Run completed: 1 solutions; 0 fail nodes; 20 nodes; 5.049455 seconds
+
+[Valgrind] ==48425==     in use at exit: 10,319,120 bytes in 3,529 blocks
+[Valgrind] ==48425==   total heap usage: 3,534 allocs, 5 frees, 10,332,352 bytes allocated
+
+[Run] LAD grp=94 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp94_lvl20.log ./main -s 60 -f -i -p ./test/tree/94_subgraph_20 -t ./test/tree/94_original_graph
+[Run] Done in 12.18s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 11.677067 seconds
+
+[Valgrind] ==48448==     in use at exit: 11,807,920 bytes in 4,029 blocks
+[Valgrind] ==48448==   total heap usage: 4,034 allocs, 5 frees, 11,821,152 bytes allocated
+
+[Run] LAD grp=94 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp94_lvl60.log ./main -s 60 -f -i -p ./test/tree/94_subgraph_60 -t ./test/tree/94_original_graph
+[Run] Done in 12.58s
+Run completed: 1 solutions; 0 fail nodes; 66 nodes; 12.086807 seconds
+
+[Valgrind] ==48457==     in use at exit: 19,474,232 bytes in 6,029 blocks
+[Valgrind] ==48457==   total heap usage: 6,034 allocs, 5 frees, 19,487,464 bytes allocated
+
+[Run] LAD grp=95 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp95_lvl10.log ./main -s 60 -f -i -p ./test/tree/95_subgraph_10 -t ./test/tree/95_original_graph
+[Run] Done in 4.76s
+Run completed: 1 solutions; 0 fail nodes; 16 nodes; 4.375243 seconds
+
+[Valgrind] ==48465==     in use at exit: 10,363,140 bytes in 3,529 blocks
+[Valgrind] ==48465==   total heap usage: 3,534 allocs, 5 frees, 10,376,372 bytes allocated
+
+[Run] LAD grp=95 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp95_lvl20.log ./main -s 60 -f -i -p ./test/tree/95_subgraph_20 -t ./test/tree/95_original_graph
+[Run] Done in 7.00s
+Run completed: 1 solutions; 0 fail nodes; 25 nodes; 6.487608 seconds
+
+[Valgrind] ==48471==     in use at exit: 11,824,636 bytes in 4,029 blocks
+[Valgrind] ==48471==   total heap usage: 4,034 allocs, 5 frees, 11,837,868 bytes allocated
+
+[Run] LAD grp=95 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp95_lvl60.log ./main -s 60 -f -i -p ./test/tree/95_subgraph_60 -t ./test/tree/95_original_graph
+[Run] Done in 12.02s
+Run completed: 1 solutions; 0 fail nodes; 79 nodes; 11.529404 seconds
+
+[Valgrind] ==48494==     in use at exit: 19,462,540 bytes in 6,029 blocks
+[Valgrind] ==48494==   total heap usage: 6,034 allocs, 5 frees, 19,475,772 bytes allocated
+
+[Run] LAD grp=96 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp96_lvl10.log ./main -s 60 -f -i -p ./test/tree/96_subgraph_10 -t ./test/tree/96_original_graph
+[Run] Done in 4.05s
+Run completed: 1 solutions; 0 fail nodes; 28 nodes; 3.656477 seconds
+
+[Valgrind] ==48504==     in use at exit: 10,322,372 bytes in 3,529 blocks
+[Valgrind] ==48504==   total heap usage: 3,534 allocs, 5 frees, 10,335,604 bytes allocated
+
+[Run] LAD grp=96 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp96_lvl20.log ./main -s 60 -f -i -p ./test/tree/96_subgraph_20 -t ./test/tree/96_original_graph
+[Run] Done in 5.67s
+Run completed: 1 solutions; 0 fail nodes; 33 nodes; 5.248912 seconds
+
+[Valgrind] ==48512==     in use at exit: 11,857,536 bytes in 4,029 blocks
+[Valgrind] ==48512==   total heap usage: 4,034 allocs, 5 frees, 11,870,768 bytes allocated
+
+[Run] LAD grp=96 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp96_lvl60.log ./main -s 60 -f -i -p ./test/tree/96_subgraph_60 -t ./test/tree/96_original_graph
+[Run] Done in 12.39s
+Run completed: 1 solutions; 0 fail nodes; 67 nodes; 11.845051 seconds
+
+[Valgrind] ==48520==     in use at exit: 19,491,188 bytes in 6,029 blocks
+[Valgrind] ==48520==   total heap usage: 6,034 allocs, 5 frees, 19,504,420 bytes allocated
+
+[Run] LAD grp=97 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp97_lvl10.log ./main -s 60 -f -i -p ./test/tree/97_subgraph_10 -t ./test/tree/97_original_graph
+[Run] Done in 5.37s
+Run completed: 1 solutions; 0 fail nodes; 26 nodes; 4.918199 seconds
+
+[Valgrind] ==48543==     in use at exit: 10,313,712 bytes in 3,529 blocks
+[Valgrind] ==48543==   total heap usage: 3,534 allocs, 5 frees, 10,326,944 bytes allocated
+
+[Run] LAD grp=97 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp97_lvl20.log ./main -s 60 -f -i -p ./test/tree/97_subgraph_20 -t ./test/tree/97_original_graph
+[Run] Done in 5.17s
+Run completed: 1 solutions; 0 fail nodes; 37 nodes; 4.708296 seconds
+
+[Valgrind] ==48560==     in use at exit: 11,800,504 bytes in 4,029 blocks
+[Valgrind] ==48560==   total heap usage: 4,034 allocs, 5 frees, 11,813,736 bytes allocated
+
+[Run] LAD grp=97 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp97_lvl60.log ./main -s 60 -f -i -p ./test/tree/97_subgraph_60 -t ./test/tree/97_original_graph
+[Run] Done in 12.54s
+Run completed: 1 solutions; 0 fail nodes; 86 nodes; 12.055819 seconds
+
+[Valgrind] ==48566==     in use at exit: 19,483,900 bytes in 6,029 blocks
+[Valgrind] ==48566==   total heap usage: 6,034 allocs, 5 frees, 19,497,132 bytes allocated
+
+[Run] LAD grp=98 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp98_lvl10.log ./main -s 60 -f -i -p ./test/tree/98_subgraph_10 -t ./test/tree/98_original_graph
+[Run] Done in 6.50s
+Run completed: 1 solutions; 0 fail nodes; 24 nodes; 6.087133 seconds
+
+[Valgrind] ==48572==     in use at exit: 10,360,208 bytes in 3,529 blocks
+[Valgrind] ==48572==   total heap usage: 3,534 allocs, 5 frees, 10,373,440 bytes allocated
+
+[Run] LAD grp=98 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp98_lvl20.log ./main -s 60 -f -i -p ./test/tree/98_subgraph_20 -t ./test/tree/98_original_graph
+[Run] Done in 5.93s
+Run completed: 1 solutions; 0 fail nodes; 35 nodes; 5.465043 seconds
+
+[Valgrind] ==48578==     in use at exit: 11,804,984 bytes in 4,029 blocks
+[Valgrind] ==48578==   total heap usage: 4,034 allocs, 5 frees, 11,818,216 bytes allocated
+
+[Run] LAD grp=98 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp98_lvl60.log ./main -s 60 -f -i -p ./test/tree/98_subgraph_60 -t ./test/tree/98_original_graph
+[Run] Done in 12.40s
+Run completed: 1 solutions; 0 fail nodes; 81 nodes; 11.933000 seconds
+
+[Valgrind] ==48599==     in use at exit: 19,495,592 bytes in 6,029 blocks
+[Valgrind] ==48599==   total heap usage: 6,034 allocs, 5 frees, 19,508,824 bytes allocated
+
+[Run] LAD grp=99 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp99_lvl10.log ./main -s 60 -f -i -p ./test/tree/99_subgraph_10 -t ./test/tree/99_original_graph
+[Run] Done in 2.83s
+Run completed: 1 solutions; 0 fail nodes; 15 nodes; 2.452370 seconds
+
+[Valgrind] ==48622==     in use at exit: 10,329,968 bytes in 3,529 blocks
+[Valgrind] ==48622==   total heap usage: 3,534 allocs, 5 frees, 10,343,200 bytes allocated
+
+[Run] LAD grp=99 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp99_lvl20.log ./main -s 60 -f -i -p ./test/tree/99_subgraph_20 -t ./test/tree/99_original_graph
+[Run] Done in 8.69s
+Run completed: 1 solutions; 0 fail nodes; 31 nodes; 8.274625 seconds
+
+[Valgrind] ==48628==     in use at exit: 11,828,812 bytes in 4,029 blocks
+[Valgrind] ==48628==   total heap usage: 4,034 allocs, 5 frees, 11,842,044 bytes allocated
+
+[Run] LAD grp=99 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp99_lvl60.log ./main -s 60 -f -i -p ./test/tree/99_subgraph_60 -t ./test/tree/99_original_graph
+[Run] Done in 13.67s
+Run completed: 1 solutions; 0 fail nodes; 68 nodes; 13.177339 seconds
+
+[Valgrind] ==48634==     in use at exit: 19,527,416 bytes in 6,029 blocks
+[Valgrind] ==48634==   total heap usage: 6,034 allocs, 5 frees, 19,540,648 bytes allocated
+
+[Run] LAD grp=100 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp100_lvl10.log ./main -s 60 -f -i -p ./test/tree/100_subgraph_10 -t ./test/tree/100_original_graph
+[Run] Done in 6.65s
+Run completed: 1 solutions; 0 fail nodes; 23 nodes; 6.259456 seconds
+
+[Valgrind] ==48655==     in use at exit: 10,368,196 bytes in 3,529 blocks
+[Valgrind] ==48655==   total heap usage: 3,534 allocs, 5 frees, 10,381,428 bytes allocated
+
+[Run] LAD grp=100 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp100_lvl20.log ./main -s 60 -f -i -p ./test/tree/100_subgraph_20 -t ./test/tree/100_original_graph
+[Run] Done in 6.84s
+Run completed: 1 solutions; 0 fail nodes; 30 nodes; 6.423641 seconds
+
+[Valgrind] ==48661==     in use at exit: 11,850,840 bytes in 4,029 blocks
+[Valgrind] ==48661==   total heap usage: 4,034 allocs, 5 frees, 11,864,072 bytes allocated
+
+[Run] LAD grp=100 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_tree_grp100_lvl60.log ./main -s 60 -f -i -p ./test/tree/100_subgraph_60 -t ./test/tree/100_original_graph
+[Run] Done in 12.91s
+Run completed: 1 solutions; 0 fail nodes; 78 nodes; 12.405215 seconds
+
+[Valgrind] ==48669==     in use at exit: 19,543,336 bytes in 6,029 blocks
+[Valgrind] ==48669==   total heap usage: 6,034 allocs, 5 frees, 19,556,568 bytes allocated
+=== END   LAD (tree) ===

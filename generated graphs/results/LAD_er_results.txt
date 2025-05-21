@@ -1,0 +1,1295 @@
+=== START LAD (er) ===
+[Run] LAD (er) groups: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+
+[Run] LAD grp=1 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp1_lvl10.log ./main -s 60 -f -i -p ./test/er/1_subgraph_10 -t ./test/er/1_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=1 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp1_lvl20.log ./main -s 60 -f -i -p ./test/er/1_subgraph_20 -t ./test/er/1_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=1 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp1_lvl60.log ./main -s 60 -f -i -p ./test/er/1_subgraph_60 -t ./test/er/1_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=2 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp2_lvl10.log ./main -s 60 -f -i -p ./test/er/2_subgraph_10 -t ./test/er/2_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.05s)
+
+[Run] LAD grp=2 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp2_lvl20.log ./main -s 60 -f -i -p ./test/er/2_subgraph_20 -t ./test/er/2_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=2 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp2_lvl60.log ./main -s 60 -f -i -p ./test/er/2_subgraph_60 -t ./test/er/2_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=3 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp3_lvl10.log ./main -s 60 -f -i -p ./test/er/3_subgraph_10 -t ./test/er/3_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=3 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp3_lvl20.log ./main -s 60 -f -i -p ./test/er/3_subgraph_20 -t ./test/er/3_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=3 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp3_lvl60.log ./main -s 60 -f -i -p ./test/er/3_subgraph_60 -t ./test/er/3_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=4 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp4_lvl10.log ./main -s 60 -f -i -p ./test/er/4_subgraph_10 -t ./test/er/4_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=4 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp4_lvl20.log ./main -s 60 -f -i -p ./test/er/4_subgraph_20 -t ./test/er/4_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=4 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp4_lvl60.log ./main -s 60 -f -i -p ./test/er/4_subgraph_60 -t ./test/er/4_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=5 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp5_lvl10.log ./main -s 60 -f -i -p ./test/er/5_subgraph_10 -t ./test/er/5_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=5 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp5_lvl20.log ./main -s 60 -f -i -p ./test/er/5_subgraph_20 -t ./test/er/5_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=5 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp5_lvl60.log ./main -s 60 -f -i -p ./test/er/5_subgraph_60 -t ./test/er/5_original_graph
+[Run] Done in 56.07s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 55.477974 seconds
+
+[Valgrind] ==9498==     in use at exit: 28,993,044 bytes in 6,029 blocks
+[Valgrind] ==9498==   total heap usage: 6,034 allocs, 5 frees, 29,006,276 bytes allocated
+
+[Run] LAD grp=6 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp6_lvl10.log ./main -s 60 -f -i -p ./test/er/6_subgraph_10 -t ./test/er/6_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=6 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp6_lvl20.log ./main -s 60 -f -i -p ./test/er/6_subgraph_20 -t ./test/er/6_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=6 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp6_lvl60.log ./main -s 60 -f -i -p ./test/er/6_subgraph_60 -t ./test/er/6_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=7 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp7_lvl10.log ./main -s 60 -f -i -p ./test/er/7_subgraph_10 -t ./test/er/7_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=7 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp7_lvl20.log ./main -s 60 -f -i -p ./test/er/7_subgraph_20 -t ./test/er/7_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=7 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp7_lvl60.log ./main -s 60 -f -i -p ./test/er/7_subgraph_60 -t ./test/er/7_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=8 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp8_lvl10.log ./main -s 60 -f -i -p ./test/er/8_subgraph_10 -t ./test/er/8_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=8 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp8_lvl20.log ./main -s 60 -f -i -p ./test/er/8_subgraph_20 -t ./test/er/8_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=8 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp8_lvl60.log ./main -s 60 -f -i -p ./test/er/8_subgraph_60 -t ./test/er/8_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=9 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp9_lvl10.log ./main -s 60 -f -i -p ./test/er/9_subgraph_10 -t ./test/er/9_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=9 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp9_lvl20.log ./main -s 60 -f -i -p ./test/er/9_subgraph_20 -t ./test/er/9_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=9 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp9_lvl60.log ./main -s 60 -f -i -p ./test/er/9_subgraph_60 -t ./test/er/9_original_graph
+[Run] Done in 8.22s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 7.703108 seconds
+
+[Valgrind] ==9654==     in use at exit: 28,646,880 bytes in 6,029 blocks
+[Valgrind] ==9654==   total heap usage: 6,034 allocs, 5 frees, 28,660,112 bytes allocated
+
+[Run] LAD grp=10 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp10_lvl10.log ./main -s 60 -f -i -p ./test/er/10_subgraph_10 -t ./test/er/10_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=10 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp10_lvl20.log ./main -s 60 -f -i -p ./test/er/10_subgraph_20 -t ./test/er/10_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=10 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp10_lvl60.log ./main -s 60 -f -i -p ./test/er/10_subgraph_60 -t ./test/er/10_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=11 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp11_lvl10.log ./main -s 60 -f -i -p ./test/er/11_subgraph_10 -t ./test/er/11_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=11 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp11_lvl20.log ./main -s 60 -f -i -p ./test/er/11_subgraph_20 -t ./test/er/11_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=11 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp11_lvl60.log ./main -s 60 -f -i -p ./test/er/11_subgraph_60 -t ./test/er/11_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=12 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp12_lvl10.log ./main -s 60 -f -i -p ./test/er/12_subgraph_10 -t ./test/er/12_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=12 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp12_lvl20.log ./main -s 60 -f -i -p ./test/er/12_subgraph_20 -t ./test/er/12_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=12 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp12_lvl60.log ./main -s 60 -f -i -p ./test/er/12_subgraph_60 -t ./test/er/12_original_graph
+[Run] Done in 14.03s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 13.490746 seconds
+
+[Valgrind] ==9752==     in use at exit: 28,981,652 bytes in 6,029 blocks
+[Valgrind] ==9752==   total heap usage: 6,034 allocs, 5 frees, 28,994,884 bytes allocated
+
+[Run] LAD grp=13 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp13_lvl10.log ./main -s 60 -f -i -p ./test/er/13_subgraph_10 -t ./test/er/13_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=13 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp13_lvl20.log ./main -s 60 -f -i -p ./test/er/13_subgraph_20 -t ./test/er/13_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=13 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp13_lvl60.log ./main -s 60 -f -i -p ./test/er/13_subgraph_60 -t ./test/er/13_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=14 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp14_lvl10.log ./main -s 60 -f -i -p ./test/er/14_subgraph_10 -t ./test/er/14_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=14 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp14_lvl20.log ./main -s 60 -f -i -p ./test/er/14_subgraph_20 -t ./test/er/14_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=14 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp14_lvl60.log ./main -s 60 -f -i -p ./test/er/14_subgraph_60 -t ./test/er/14_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=15 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp15_lvl10.log ./main -s 60 -f -i -p ./test/er/15_subgraph_10 -t ./test/er/15_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=15 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp15_lvl20.log ./main -s 60 -f -i -p ./test/er/15_subgraph_20 -t ./test/er/15_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=15 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp15_lvl60.log ./main -s 60 -f -i -p ./test/er/15_subgraph_60 -t ./test/er/15_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=16 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp16_lvl10.log ./main -s 60 -f -i -p ./test/er/16_subgraph_10 -t ./test/er/16_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=16 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp16_lvl20.log ./main -s 60 -f -i -p ./test/er/16_subgraph_20 -t ./test/er/16_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=16 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp16_lvl60.log ./main -s 60 -f -i -p ./test/er/16_subgraph_60 -t ./test/er/16_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=17 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp17_lvl10.log ./main -s 60 -f -i -p ./test/er/17_subgraph_10 -t ./test/er/17_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=17 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp17_lvl20.log ./main -s 60 -f -i -p ./test/er/17_subgraph_20 -t ./test/er/17_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=17 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp17_lvl60.log ./main -s 60 -f -i -p ./test/er/17_subgraph_60 -t ./test/er/17_original_graph
+[Run] Done in 21.58s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 20.981219 seconds
+
+[Valgrind] ==9919==     in use at exit: 28,864,020 bytes in 6,029 blocks
+[Valgrind] ==9919==   total heap usage: 6,034 allocs, 5 frees, 28,877,252 bytes allocated
+
+[Run] LAD grp=18 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp18_lvl10.log ./main -s 60 -f -i -p ./test/er/18_subgraph_10 -t ./test/er/18_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=18 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp18_lvl20.log ./main -s 60 -f -i -p ./test/er/18_subgraph_20 -t ./test/er/18_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=18 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp18_lvl60.log ./main -s 60 -f -i -p ./test/er/18_subgraph_60 -t ./test/er/18_original_graph
+[Run] Done in 56.85s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 56.320437 seconds
+
+[Valgrind] ==9954==     in use at exit: 28,228,888 bytes in 6,029 blocks
+[Valgrind] ==9954==   total heap usage: 6,034 allocs, 5 frees, 28,242,120 bytes allocated
+
+[Run] LAD grp=19 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp19_lvl10.log ./main -s 60 -f -i -p ./test/er/19_subgraph_10 -t ./test/er/19_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=19 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp19_lvl20.log ./main -s 60 -f -i -p ./test/er/19_subgraph_20 -t ./test/er/19_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=19 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp19_lvl60.log ./main -s 60 -f -i -p ./test/er/19_subgraph_60 -t ./test/er/19_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=20 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp20_lvl10.log ./main -s 60 -f -i -p ./test/er/20_subgraph_10 -t ./test/er/20_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.01s)
+
+[Run] LAD grp=20 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp20_lvl20.log ./main -s 60 -f -i -p ./test/er/20_subgraph_20 -t ./test/er/20_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=20 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp20_lvl60.log ./main -s 60 -f -i -p ./test/er/20_subgraph_60 -t ./test/er/20_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=21 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp21_lvl10.log ./main -s 60 -f -i -p ./test/er/21_subgraph_10 -t ./test/er/21_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=21 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp21_lvl20.log ./main -s 60 -f -i -p ./test/er/21_subgraph_20 -t ./test/er/21_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=21 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp21_lvl60.log ./main -s 60 -f -i -p ./test/er/21_subgraph_60 -t ./test/er/21_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=22 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp22_lvl10.log ./main -s 60 -f -i -p ./test/er/22_subgraph_10 -t ./test/er/22_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=22 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp22_lvl20.log ./main -s 60 -f -i -p ./test/er/22_subgraph_20 -t ./test/er/22_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=22 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp22_lvl60.log ./main -s 60 -f -i -p ./test/er/22_subgraph_60 -t ./test/er/22_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=23 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp23_lvl10.log ./main -s 60 -f -i -p ./test/er/23_subgraph_10 -t ./test/er/23_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=23 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp23_lvl20.log ./main -s 60 -f -i -p ./test/er/23_subgraph_20 -t ./test/er/23_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=23 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp23_lvl60.log ./main -s 60 -f -i -p ./test/er/23_subgraph_60 -t ./test/er/23_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=24 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp24_lvl10.log ./main -s 60 -f -i -p ./test/er/24_subgraph_10 -t ./test/er/24_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.02s)
+
+[Run] LAD grp=24 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp24_lvl20.log ./main -s 60 -f -i -p ./test/er/24_subgraph_20 -t ./test/er/24_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=24 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp24_lvl60.log ./main -s 60 -f -i -p ./test/er/24_subgraph_60 -t ./test/er/24_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.01s)
+
+[Run] LAD grp=25 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp25_lvl10.log ./main -s 60 -f -i -p ./test/er/25_subgraph_10 -t ./test/er/25_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=25 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp25_lvl20.log ./main -s 60 -f -i -p ./test/er/25_subgraph_20 -t ./test/er/25_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=25 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp25_lvl60.log ./main -s 60 -f -i -p ./test/er/25_subgraph_60 -t ./test/er/25_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=26 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp26_lvl10.log ./main -s 60 -f -i -p ./test/er/26_subgraph_10 -t ./test/er/26_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=26 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp26_lvl20.log ./main -s 60 -f -i -p ./test/er/26_subgraph_20 -t ./test/er/26_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=26 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp26_lvl60.log ./main -s 60 -f -i -p ./test/er/26_subgraph_60 -t ./test/er/26_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=27 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp27_lvl10.log ./main -s 60 -f -i -p ./test/er/27_subgraph_10 -t ./test/er/27_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=27 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp27_lvl20.log ./main -s 60 -f -i -p ./test/er/27_subgraph_20 -t ./test/er/27_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=27 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp27_lvl60.log ./main -s 60 -f -i -p ./test/er/27_subgraph_60 -t ./test/er/27_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=28 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp28_lvl10.log ./main -s 60 -f -i -p ./test/er/28_subgraph_10 -t ./test/er/28_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=28 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp28_lvl20.log ./main -s 60 -f -i -p ./test/er/28_subgraph_20 -t ./test/er/28_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=28 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp28_lvl60.log ./main -s 60 -f -i -p ./test/er/28_subgraph_60 -t ./test/er/28_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=29 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp29_lvl10.log ./main -s 60 -f -i -p ./test/er/29_subgraph_10 -t ./test/er/29_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=29 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp29_lvl20.log ./main -s 60 -f -i -p ./test/er/29_subgraph_20 -t ./test/er/29_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=29 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp29_lvl60.log ./main -s 60 -f -i -p ./test/er/29_subgraph_60 -t ./test/er/29_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=30 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp30_lvl10.log ./main -s 60 -f -i -p ./test/er/30_subgraph_10 -t ./test/er/30_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=30 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp30_lvl20.log ./main -s 60 -f -i -p ./test/er/30_subgraph_20 -t ./test/er/30_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.01s)
+
+[Run] LAD grp=30 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp30_lvl60.log ./main -s 60 -f -i -p ./test/er/30_subgraph_60 -t ./test/er/30_original_graph
+[Run] Done in 12.76s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 12.234645 seconds
+
+[Valgrind] ==10408==     in use at exit: 28,792,304 bytes in 6,029 blocks
+[Valgrind] ==10408==   total heap usage: 6,034 allocs, 5 frees, 28,805,536 bytes allocated
+
+[Run] LAD grp=31 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp31_lvl10.log ./main -s 60 -f -i -p ./test/er/31_subgraph_10 -t ./test/er/31_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.05s)
+
+[Run] LAD grp=31 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp31_lvl20.log ./main -s 60 -f -i -p ./test/er/31_subgraph_20 -t ./test/er/31_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=31 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp31_lvl60.log ./main -s 60 -f -i -p ./test/er/31_subgraph_60 -t ./test/er/31_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=32 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp32_lvl10.log ./main -s 60 -f -i -p ./test/er/32_subgraph_10 -t ./test/er/32_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=32 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp32_lvl20.log ./main -s 60 -f -i -p ./test/er/32_subgraph_20 -t ./test/er/32_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=32 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp32_lvl60.log ./main -s 60 -f -i -p ./test/er/32_subgraph_60 -t ./test/er/32_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=33 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp33_lvl10.log ./main -s 60 -f -i -p ./test/er/33_subgraph_10 -t ./test/er/33_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=33 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp33_lvl20.log ./main -s 60 -f -i -p ./test/er/33_subgraph_20 -t ./test/er/33_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=33 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp33_lvl60.log ./main -s 60 -f -i -p ./test/er/33_subgraph_60 -t ./test/er/33_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=34 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp34_lvl10.log ./main -s 60 -f -i -p ./test/er/34_subgraph_10 -t ./test/er/34_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=34 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp34_lvl20.log ./main -s 60 -f -i -p ./test/er/34_subgraph_20 -t ./test/er/34_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=34 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp34_lvl60.log ./main -s 60 -f -i -p ./test/er/34_subgraph_60 -t ./test/er/34_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=35 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp35_lvl10.log ./main -s 60 -f -i -p ./test/er/35_subgraph_10 -t ./test/er/35_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=35 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp35_lvl20.log ./main -s 60 -f -i -p ./test/er/35_subgraph_20 -t ./test/er/35_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=35 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp35_lvl60.log ./main -s 60 -f -i -p ./test/er/35_subgraph_60 -t ./test/er/35_original_graph
+[Run] Done in 26.35s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 25.710095 seconds
+
+[Valgrind] ==10577==     in use at exit: 28,443,572 bytes in 6,029 blocks
+[Valgrind] ==10577==   total heap usage: 6,034 allocs, 5 frees, 28,456,804 bytes allocated
+
+[Run] LAD grp=36 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp36_lvl10.log ./main -s 60 -f -i -p ./test/er/36_subgraph_10 -t ./test/er/36_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=36 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp36_lvl20.log ./main -s 60 -f -i -p ./test/er/36_subgraph_20 -t ./test/er/36_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=36 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp36_lvl60.log ./main -s 60 -f -i -p ./test/er/36_subgraph_60 -t ./test/er/36_original_graph
+[Run] Done in 20.25s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 19.698742 seconds
+
+[Valgrind] ==10607==     in use at exit: 28,761,240 bytes in 6,029 blocks
+[Valgrind] ==10607==   total heap usage: 6,034 allocs, 5 frees, 28,774,472 bytes allocated
+
+[Run] LAD grp=37 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp37_lvl10.log ./main -s 60 -f -i -p ./test/er/37_subgraph_10 -t ./test/er/37_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=37 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp37_lvl20.log ./main -s 60 -f -i -p ./test/er/37_subgraph_20 -t ./test/er/37_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=37 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp37_lvl60.log ./main -s 60 -f -i -p ./test/er/37_subgraph_60 -t ./test/er/37_original_graph
+[Run] Done in 30.39s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 29.866634 seconds
+
+[Valgrind] ==10636==     in use at exit: 28,465,868 bytes in 6,029 blocks
+[Valgrind] ==10636==   total heap usage: 6,034 allocs, 5 frees, 28,479,100 bytes allocated
+
+[Run] LAD grp=38 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp38_lvl10.log ./main -s 60 -f -i -p ./test/er/38_subgraph_10 -t ./test/er/38_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=38 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp38_lvl20.log ./main -s 60 -f -i -p ./test/er/38_subgraph_20 -t ./test/er/38_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=38 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp38_lvl60.log ./main -s 60 -f -i -p ./test/er/38_subgraph_60 -t ./test/er/38_original_graph
+[Run] Done in 32.21s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 31.653753 seconds
+
+[Valgrind] ==10676==     in use at exit: 28,570,244 bytes in 6,029 blocks
+[Valgrind] ==10676==   total heap usage: 6,034 allocs, 5 frees, 28,583,476 bytes allocated
+
+[Run] LAD grp=39 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp39_lvl10.log ./main -s 60 -f -i -p ./test/er/39_subgraph_10 -t ./test/er/39_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=39 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp39_lvl20.log ./main -s 60 -f -i -p ./test/er/39_subgraph_20 -t ./test/er/39_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=39 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp39_lvl60.log ./main -s 60 -f -i -p ./test/er/39_subgraph_60 -t ./test/er/39_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=40 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp40_lvl10.log ./main -s 60 -f -i -p ./test/er/40_subgraph_10 -t ./test/er/40_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=40 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp40_lvl20.log ./main -s 60 -f -i -p ./test/er/40_subgraph_20 -t ./test/er/40_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=40 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp40_lvl60.log ./main -s 60 -f -i -p ./test/er/40_subgraph_60 -t ./test/er/40_original_graph
+[Run] Done in 21.55s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 21.023809 seconds
+
+[Valgrind] ==10750==     in use at exit: 28,768,172 bytes in 6,029 blocks
+[Valgrind] ==10750==   total heap usage: 6,034 allocs, 5 frees, 28,781,404 bytes allocated
+
+[Run] LAD grp=41 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp41_lvl10.log ./main -s 60 -f -i -p ./test/er/41_subgraph_10 -t ./test/er/41_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=41 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp41_lvl20.log ./main -s 60 -f -i -p ./test/er/41_subgraph_20 -t ./test/er/41_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=41 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp41_lvl60.log ./main -s 60 -f -i -p ./test/er/41_subgraph_60 -t ./test/er/41_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=42 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp42_lvl10.log ./main -s 60 -f -i -p ./test/er/42_subgraph_10 -t ./test/er/42_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=42 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp42_lvl20.log ./main -s 60 -f -i -p ./test/er/42_subgraph_20 -t ./test/er/42_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=42 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp42_lvl60.log ./main -s 60 -f -i -p ./test/er/42_subgraph_60 -t ./test/er/42_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=43 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp43_lvl10.log ./main -s 60 -f -i -p ./test/er/43_subgraph_10 -t ./test/er/43_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=43 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp43_lvl20.log ./main -s 60 -f -i -p ./test/er/43_subgraph_20 -t ./test/er/43_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=43 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp43_lvl60.log ./main -s 60 -f -i -p ./test/er/43_subgraph_60 -t ./test/er/43_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=44 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp44_lvl10.log ./main -s 60 -f -i -p ./test/er/44_subgraph_10 -t ./test/er/44_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=44 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp44_lvl20.log ./main -s 60 -f -i -p ./test/er/44_subgraph_20 -t ./test/er/44_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=44 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp44_lvl60.log ./main -s 60 -f -i -p ./test/er/44_subgraph_60 -t ./test/er/44_original_graph
+[Run] Done in 59.19s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 58.536492 seconds
+
+[Valgrind] ==10891==     in use at exit: 28,687,144 bytes in 6,029 blocks
+[Valgrind] ==10891==   total heap usage: 6,034 allocs, 5 frees, 28,700,376 bytes allocated
+
+[Run] LAD grp=45 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp45_lvl10.log ./main -s 60 -f -i -p ./test/er/45_subgraph_10 -t ./test/er/45_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=45 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp45_lvl20.log ./main -s 60 -f -i -p ./test/er/45_subgraph_20 -t ./test/er/45_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=45 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp45_lvl60.log ./main -s 60 -f -i -p ./test/er/45_subgraph_60 -t ./test/er/45_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=46 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp46_lvl10.log ./main -s 60 -f -i -p ./test/er/46_subgraph_10 -t ./test/er/46_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=46 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp46_lvl20.log ./main -s 60 -f -i -p ./test/er/46_subgraph_20 -t ./test/er/46_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=46 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp46_lvl60.log ./main -s 60 -f -i -p ./test/er/46_subgraph_60 -t ./test/er/46_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=47 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp47_lvl10.log ./main -s 60 -f -i -p ./test/er/47_subgraph_10 -t ./test/er/47_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=47 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp47_lvl20.log ./main -s 60 -f -i -p ./test/er/47_subgraph_20 -t ./test/er/47_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=47 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp47_lvl60.log ./main -s 60 -f -i -p ./test/er/47_subgraph_60 -t ./test/er/47_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=48 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp48_lvl10.log ./main -s 60 -f -i -p ./test/er/48_subgraph_10 -t ./test/er/48_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=48 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp48_lvl20.log ./main -s 60 -f -i -p ./test/er/48_subgraph_20 -t ./test/er/48_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=48 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp48_lvl60.log ./main -s 60 -f -i -p ./test/er/48_subgraph_60 -t ./test/er/48_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=49 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp49_lvl10.log ./main -s 60 -f -i -p ./test/er/49_subgraph_10 -t ./test/er/49_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=49 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp49_lvl20.log ./main -s 60 -f -i -p ./test/er/49_subgraph_20 -t ./test/er/49_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=49 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp49_lvl60.log ./main -s 60 -f -i -p ./test/er/49_subgraph_60 -t ./test/er/49_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=50 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp50_lvl10.log ./main -s 60 -f -i -p ./test/er/50_subgraph_10 -t ./test/er/50_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=50 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp50_lvl20.log ./main -s 60 -f -i -p ./test/er/50_subgraph_20 -t ./test/er/50_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=50 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp50_lvl60.log ./main -s 60 -f -i -p ./test/er/50_subgraph_60 -t ./test/er/50_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=51 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp51_lvl10.log ./main -s 60 -f -i -p ./test/er/51_subgraph_10 -t ./test/er/51_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=51 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp51_lvl20.log ./main -s 60 -f -i -p ./test/er/51_subgraph_20 -t ./test/er/51_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=51 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp51_lvl60.log ./main -s 60 -f -i -p ./test/er/51_subgraph_60 -t ./test/er/51_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=52 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp52_lvl10.log ./main -s 60 -f -i -p ./test/er/52_subgraph_10 -t ./test/er/52_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=52 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp52_lvl20.log ./main -s 60 -f -i -p ./test/er/52_subgraph_20 -t ./test/er/52_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.01s)
+
+[Run] LAD grp=52 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp52_lvl60.log ./main -s 60 -f -i -p ./test/er/52_subgraph_60 -t ./test/er/52_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=53 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp53_lvl10.log ./main -s 60 -f -i -p ./test/er/53_subgraph_10 -t ./test/er/53_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=53 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp53_lvl20.log ./main -s 60 -f -i -p ./test/er/53_subgraph_20 -t ./test/er/53_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=53 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp53_lvl60.log ./main -s 60 -f -i -p ./test/er/53_subgraph_60 -t ./test/er/53_original_graph
+[Run] Done in 9.31s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 8.740430 seconds
+
+[Valgrind] ==11213==     in use at exit: 28,711,644 bytes in 6,029 blocks
+[Valgrind] ==11213==   total heap usage: 6,034 allocs, 5 frees, 28,724,876 bytes allocated
+
+[Run] LAD grp=54 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp54_lvl10.log ./main -s 60 -f -i -p ./test/er/54_subgraph_10 -t ./test/er/54_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=54 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp54_lvl20.log ./main -s 60 -f -i -p ./test/er/54_subgraph_20 -t ./test/er/54_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=54 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp54_lvl60.log ./main -s 60 -f -i -p ./test/er/54_subgraph_60 -t ./test/er/54_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=55 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp55_lvl10.log ./main -s 60 -f -i -p ./test/er/55_subgraph_10 -t ./test/er/55_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=55 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp55_lvl20.log ./main -s 60 -f -i -p ./test/er/55_subgraph_20 -t ./test/er/55_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=55 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp55_lvl60.log ./main -s 60 -f -i -p ./test/er/55_subgraph_60 -t ./test/er/55_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=56 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp56_lvl10.log ./main -s 60 -f -i -p ./test/er/56_subgraph_10 -t ./test/er/56_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=56 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp56_lvl20.log ./main -s 60 -f -i -p ./test/er/56_subgraph_20 -t ./test/er/56_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=56 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp56_lvl60.log ./main -s 60 -f -i -p ./test/er/56_subgraph_60 -t ./test/er/56_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=57 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp57_lvl10.log ./main -s 60 -f -i -p ./test/er/57_subgraph_10 -t ./test/er/57_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=57 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp57_lvl20.log ./main -s 60 -f -i -p ./test/er/57_subgraph_20 -t ./test/er/57_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=57 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp57_lvl60.log ./main -s 60 -f -i -p ./test/er/57_subgraph_60 -t ./test/er/57_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.05s)
+
+[Run] LAD grp=58 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp58_lvl10.log ./main -s 60 -f -i -p ./test/er/58_subgraph_10 -t ./test/er/58_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=58 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp58_lvl20.log ./main -s 60 -f -i -p ./test/er/58_subgraph_20 -t ./test/er/58_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=58 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp58_lvl60.log ./main -s 60 -f -i -p ./test/er/58_subgraph_60 -t ./test/er/58_original_graph
+[Run] Done in 11.71s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 11.182790 seconds
+
+[Valgrind] ==11368==     in use at exit: 28,774,928 bytes in 6,029 blocks
+[Valgrind] ==11368==   total heap usage: 6,034 allocs, 5 frees, 28,788,160 bytes allocated
+
+[Run] LAD grp=59 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp59_lvl10.log ./main -s 60 -f -i -p ./test/er/59_subgraph_10 -t ./test/er/59_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=59 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp59_lvl20.log ./main -s 60 -f -i -p ./test/er/59_subgraph_20 -t ./test/er/59_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.02s)
+
+[Run] LAD grp=59 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp59_lvl60.log ./main -s 60 -f -i -p ./test/er/59_subgraph_60 -t ./test/er/59_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=60 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp60_lvl10.log ./main -s 60 -f -i -p ./test/er/60_subgraph_10 -t ./test/er/60_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=60 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp60_lvl20.log ./main -s 60 -f -i -p ./test/er/60_subgraph_20 -t ./test/er/60_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=60 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp60_lvl60.log ./main -s 60 -f -i -p ./test/er/60_subgraph_60 -t ./test/er/60_original_graph
+[Run] Done in 32.85s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 32.276880 seconds
+
+[Valgrind] ==11453==     in use at exit: 29,203,888 bytes in 6,029 blocks
+[Valgrind] ==11453==   total heap usage: 6,034 allocs, 5 frees, 29,217,120 bytes allocated
+
+[Run] LAD grp=61 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp61_lvl10.log ./main -s 60 -f -i -p ./test/er/61_subgraph_10 -t ./test/er/61_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=61 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp61_lvl20.log ./main -s 60 -f -i -p ./test/er/61_subgraph_20 -t ./test/er/61_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=61 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp61_lvl60.log ./main -s 60 -f -i -p ./test/er/61_subgraph_60 -t ./test/er/61_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=62 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp62_lvl10.log ./main -s 60 -f -i -p ./test/er/62_subgraph_10 -t ./test/er/62_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=62 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp62_lvl20.log ./main -s 60 -f -i -p ./test/er/62_subgraph_20 -t ./test/er/62_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=62 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp62_lvl60.log ./main -s 60 -f -i -p ./test/er/62_subgraph_60 -t ./test/er/62_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=63 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp63_lvl10.log ./main -s 60 -f -i -p ./test/er/63_subgraph_10 -t ./test/er/63_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=63 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp63_lvl20.log ./main -s 60 -f -i -p ./test/er/63_subgraph_20 -t ./test/er/63_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=63 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp63_lvl60.log ./main -s 60 -f -i -p ./test/er/63_subgraph_60 -t ./test/er/63_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=64 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp64_lvl10.log ./main -s 60 -f -i -p ./test/er/64_subgraph_10 -t ./test/er/64_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=64 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp64_lvl20.log ./main -s 60 -f -i -p ./test/er/64_subgraph_20 -t ./test/er/64_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=64 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp64_lvl60.log ./main -s 60 -f -i -p ./test/er/64_subgraph_60 -t ./test/er/64_original_graph
+[Run] Done in 8.29s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 7.749205 seconds
+
+[Valgrind] ==11594==     in use at exit: 28,861,100 bytes in 6,029 blocks
+[Valgrind] ==11594==   total heap usage: 6,034 allocs, 5 frees, 28,874,332 bytes allocated
+
+[Run] LAD grp=65 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp65_lvl10.log ./main -s 60 -f -i -p ./test/er/65_subgraph_10 -t ./test/er/65_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=65 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp65_lvl20.log ./main -s 60 -f -i -p ./test/er/65_subgraph_20 -t ./test/er/65_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.01s)
+
+[Run] LAD grp=65 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp65_lvl60.log ./main -s 60 -f -i -p ./test/er/65_subgraph_60 -t ./test/er/65_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=66 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp66_lvl10.log ./main -s 60 -f -i -p ./test/er/66_subgraph_10 -t ./test/er/66_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=66 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp66_lvl20.log ./main -s 60 -f -i -p ./test/er/66_subgraph_20 -t ./test/er/66_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=66 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp66_lvl60.log ./main -s 60 -f -i -p ./test/er/66_subgraph_60 -t ./test/er/66_original_graph
+[Run] Done in 43.55s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 42.941781 seconds
+
+[Valgrind] ==11650==     in use at exit: 27,710,492 bytes in 6,029 blocks
+[Valgrind] ==11650==   total heap usage: 6,034 allocs, 5 frees, 27,723,724 bytes allocated
+
+[Run] LAD grp=67 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp67_lvl10.log ./main -s 60 -f -i -p ./test/er/67_subgraph_10 -t ./test/er/67_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=67 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp67_lvl20.log ./main -s 60 -f -i -p ./test/er/67_subgraph_20 -t ./test/er/67_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=67 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp67_lvl60.log ./main -s 60 -f -i -p ./test/er/67_subgraph_60 -t ./test/er/67_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=68 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp68_lvl10.log ./main -s 60 -f -i -p ./test/er/68_subgraph_10 -t ./test/er/68_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=68 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp68_lvl20.log ./main -s 60 -f -i -p ./test/er/68_subgraph_20 -t ./test/er/68_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=68 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp68_lvl60.log ./main -s 60 -f -i -p ./test/er/68_subgraph_60 -t ./test/er/68_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=69 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp69_lvl10.log ./main -s 60 -f -i -p ./test/er/69_subgraph_10 -t ./test/er/69_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=69 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp69_lvl20.log ./main -s 60 -f -i -p ./test/er/69_subgraph_20 -t ./test/er/69_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=69 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp69_lvl60.log ./main -s 60 -f -i -p ./test/er/69_subgraph_60 -t ./test/er/69_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.01s)
+
+[Run] LAD grp=70 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp70_lvl10.log ./main -s 60 -f -i -p ./test/er/70_subgraph_10 -t ./test/er/70_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=70 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp70_lvl20.log ./main -s 60 -f -i -p ./test/er/70_subgraph_20 -t ./test/er/70_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=70 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp70_lvl60.log ./main -s 60 -f -i -p ./test/er/70_subgraph_60 -t ./test/er/70_original_graph
+[Run] Done in 35.99s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 35.382454 seconds
+
+[Valgrind] ==11796==     in use at exit: 28,813,440 bytes in 6,029 blocks
+[Valgrind] ==11796==   total heap usage: 6,034 allocs, 5 frees, 28,826,672 bytes allocated
+
+[Run] LAD grp=71 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp71_lvl10.log ./main -s 60 -f -i -p ./test/er/71_subgraph_10 -t ./test/er/71_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=71 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp71_lvl20.log ./main -s 60 -f -i -p ./test/er/71_subgraph_20 -t ./test/er/71_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=71 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp71_lvl60.log ./main -s 60 -f -i -p ./test/er/71_subgraph_60 -t ./test/er/71_original_graph
+[Run] Done in 39.93s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 39.276079 seconds
+
+[Valgrind] ==11853==     in use at exit: 28,648,836 bytes in 6,029 blocks
+[Valgrind] ==11853==   total heap usage: 6,034 allocs, 5 frees, 28,662,068 bytes allocated
+
+[Run] LAD grp=72 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp72_lvl10.log ./main -s 60 -f -i -p ./test/er/72_subgraph_10 -t ./test/er/72_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=72 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp72_lvl20.log ./main -s 60 -f -i -p ./test/er/72_subgraph_20 -t ./test/er/72_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=72 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp72_lvl60.log ./main -s 60 -f -i -p ./test/er/72_subgraph_60 -t ./test/er/72_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=73 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp73_lvl10.log ./main -s 60 -f -i -p ./test/er/73_subgraph_10 -t ./test/er/73_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=73 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp73_lvl20.log ./main -s 60 -f -i -p ./test/er/73_subgraph_20 -t ./test/er/73_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=73 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp73_lvl60.log ./main -s 60 -f -i -p ./test/er/73_subgraph_60 -t ./test/er/73_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=74 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp74_lvl10.log ./main -s 60 -f -i -p ./test/er/74_subgraph_10 -t ./test/er/74_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=74 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp74_lvl20.log ./main -s 60 -f -i -p ./test/er/74_subgraph_20 -t ./test/er/74_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=74 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp74_lvl60.log ./main -s 60 -f -i -p ./test/er/74_subgraph_60 -t ./test/er/74_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=75 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp75_lvl10.log ./main -s 60 -f -i -p ./test/er/75_subgraph_10 -t ./test/er/75_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=75 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp75_lvl20.log ./main -s 60 -f -i -p ./test/er/75_subgraph_20 -t ./test/er/75_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=75 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp75_lvl60.log ./main -s 60 -f -i -p ./test/er/75_subgraph_60 -t ./test/er/75_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=76 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp76_lvl10.log ./main -s 60 -f -i -p ./test/er/76_subgraph_10 -t ./test/er/76_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=76 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp76_lvl20.log ./main -s 60 -f -i -p ./test/er/76_subgraph_20 -t ./test/er/76_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=76 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp76_lvl60.log ./main -s 60 -f -i -p ./test/er/76_subgraph_60 -t ./test/er/76_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=77 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp77_lvl10.log ./main -s 60 -f -i -p ./test/er/77_subgraph_10 -t ./test/er/77_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=77 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp77_lvl20.log ./main -s 60 -f -i -p ./test/er/77_subgraph_20 -t ./test/er/77_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=77 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp77_lvl60.log ./main -s 60 -f -i -p ./test/er/77_subgraph_60 -t ./test/er/77_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=78 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp78_lvl10.log ./main -s 60 -f -i -p ./test/er/78_subgraph_10 -t ./test/er/78_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=78 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp78_lvl20.log ./main -s 60 -f -i -p ./test/er/78_subgraph_20 -t ./test/er/78_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=78 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp78_lvl60.log ./main -s 60 -f -i -p ./test/er/78_subgraph_60 -t ./test/er/78_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] LAD grp=79 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp79_lvl10.log ./main -s 60 -f -i -p ./test/er/79_subgraph_10 -t ./test/er/79_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=79 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp79_lvl20.log ./main -s 60 -f -i -p ./test/er/79_subgraph_20 -t ./test/er/79_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=79 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp79_lvl60.log ./main -s 60 -f -i -p ./test/er/79_subgraph_60 -t ./test/er/79_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=80 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp80_lvl10.log ./main -s 60 -f -i -p ./test/er/80_subgraph_10 -t ./test/er/80_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=80 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp80_lvl20.log ./main -s 60 -f -i -p ./test/er/80_subgraph_20 -t ./test/er/80_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=80 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp80_lvl60.log ./main -s 60 -f -i -p ./test/er/80_subgraph_60 -t ./test/er/80_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=81 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp81_lvl10.log ./main -s 60 -f -i -p ./test/er/81_subgraph_10 -t ./test/er/81_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=81 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp81_lvl20.log ./main -s 60 -f -i -p ./test/er/81_subgraph_20 -t ./test/er/81_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=81 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp81_lvl60.log ./main -s 60 -f -i -p ./test/er/81_subgraph_60 -t ./test/er/81_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=82 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp82_lvl10.log ./main -s 60 -f -i -p ./test/er/82_subgraph_10 -t ./test/er/82_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=82 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp82_lvl20.log ./main -s 60 -f -i -p ./test/er/82_subgraph_20 -t ./test/er/82_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=82 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp82_lvl60.log ./main -s 60 -f -i -p ./test/er/82_subgraph_60 -t ./test/er/82_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=83 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp83_lvl10.log ./main -s 60 -f -i -p ./test/er/83_subgraph_10 -t ./test/er/83_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=83 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp83_lvl20.log ./main -s 60 -f -i -p ./test/er/83_subgraph_20 -t ./test/er/83_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=83 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp83_lvl60.log ./main -s 60 -f -i -p ./test/er/83_subgraph_60 -t ./test/er/83_original_graph
+[Run] Done in 41.18s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 40.666025 seconds
+
+[Valgrind] ==12343==     in use at exit: 28,553,964 bytes in 6,029 blocks
+[Valgrind] ==12343==   total heap usage: 6,034 allocs, 5 frees, 28,567,196 bytes allocated
+
+[Run] LAD grp=84 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp84_lvl10.log ./main -s 60 -f -i -p ./test/er/84_subgraph_10 -t ./test/er/84_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=84 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp84_lvl20.log ./main -s 60 -f -i -p ./test/er/84_subgraph_20 -t ./test/er/84_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=84 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp84_lvl60.log ./main -s 60 -f -i -p ./test/er/84_subgraph_60 -t ./test/er/84_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=85 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp85_lvl10.log ./main -s 60 -f -i -p ./test/er/85_subgraph_10 -t ./test/er/85_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=85 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp85_lvl20.log ./main -s 60 -f -i -p ./test/er/85_subgraph_20 -t ./test/er/85_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=85 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp85_lvl60.log ./main -s 60 -f -i -p ./test/er/85_subgraph_60 -t ./test/er/85_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=86 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp86_lvl10.log ./main -s 60 -f -i -p ./test/er/86_subgraph_10 -t ./test/er/86_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=86 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp86_lvl20.log ./main -s 60 -f -i -p ./test/er/86_subgraph_20 -t ./test/er/86_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=86 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp86_lvl60.log ./main -s 60 -f -i -p ./test/er/86_subgraph_60 -t ./test/er/86_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=87 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp87_lvl10.log ./main -s 60 -f -i -p ./test/er/87_subgraph_10 -t ./test/er/87_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=87 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp87_lvl20.log ./main -s 60 -f -i -p ./test/er/87_subgraph_20 -t ./test/er/87_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=87 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp87_lvl60.log ./main -s 60 -f -i -p ./test/er/87_subgraph_60 -t ./test/er/87_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=88 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp88_lvl10.log ./main -s 60 -f -i -p ./test/er/88_subgraph_10 -t ./test/er/88_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=88 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp88_lvl20.log ./main -s 60 -f -i -p ./test/er/88_subgraph_20 -t ./test/er/88_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=88 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp88_lvl60.log ./main -s 60 -f -i -p ./test/er/88_subgraph_60 -t ./test/er/88_original_graph
+[Run] Done in 27.91s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 27.341826 seconds
+
+[Valgrind] ==15054==     in use at exit: 29,047,584 bytes in 6,029 blocks
+[Valgrind] ==15054==   total heap usage: 6,034 allocs, 5 frees, 29,060,816 bytes allocated
+
+[Run] LAD grp=89 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp89_lvl10.log ./main -s 60 -f -i -p ./test/er/89_subgraph_10 -t ./test/er/89_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=89 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp89_lvl20.log ./main -s 60 -f -i -p ./test/er/89_subgraph_20 -t ./test/er/89_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=89 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp89_lvl60.log ./main -s 60 -f -i -p ./test/er/89_subgraph_60 -t ./test/er/89_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=90 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp90_lvl10.log ./main -s 60 -f -i -p ./test/er/90_subgraph_10 -t ./test/er/90_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=90 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp90_lvl20.log ./main -s 60 -f -i -p ./test/er/90_subgraph_20 -t ./test/er/90_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=90 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp90_lvl60.log ./main -s 60 -f -i -p ./test/er/90_subgraph_60 -t ./test/er/90_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=91 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp91_lvl10.log ./main -s 60 -f -i -p ./test/er/91_subgraph_10 -t ./test/er/91_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.02s)
+
+[Run] LAD grp=91 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp91_lvl20.log ./main -s 60 -f -i -p ./test/er/91_subgraph_20 -t ./test/er/91_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=91 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp91_lvl60.log ./main -s 60 -f -i -p ./test/er/91_subgraph_60 -t ./test/er/91_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=92 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp92_lvl10.log ./main -s 60 -f -i -p ./test/er/92_subgraph_10 -t ./test/er/92_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=92 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp92_lvl20.log ./main -s 60 -f -i -p ./test/er/92_subgraph_20 -t ./test/er/92_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=92 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp92_lvl60.log ./main -s 60 -f -i -p ./test/er/92_subgraph_60 -t ./test/er/92_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] LAD grp=93 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp93_lvl10.log ./main -s 60 -f -i -p ./test/er/93_subgraph_10 -t ./test/er/93_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=93 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp93_lvl20.log ./main -s 60 -f -i -p ./test/er/93_subgraph_20 -t ./test/er/93_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.00s)
+
+[Run] LAD grp=93 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp93_lvl60.log ./main -s 60 -f -i -p ./test/er/93_subgraph_60 -t ./test/er/93_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=94 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp94_lvl10.log ./main -s 60 -f -i -p ./test/er/94_subgraph_10 -t ./test/er/94_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=94 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp94_lvl20.log ./main -s 60 -f -i -p ./test/er/94_subgraph_20 -t ./test/er/94_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=94 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp94_lvl60.log ./main -s 60 -f -i -p ./test/er/94_subgraph_60 -t ./test/er/94_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=95 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp95_lvl10.log ./main -s 60 -f -i -p ./test/er/95_subgraph_10 -t ./test/er/95_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=95 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp95_lvl20.log ./main -s 60 -f -i -p ./test/er/95_subgraph_20 -t ./test/er/95_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=95 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp95_lvl60.log ./main -s 60 -f -i -p ./test/er/95_subgraph_60 -t ./test/er/95_original_graph
+[Run] Done in 8.59s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 8.022210 seconds
+
+[Valgrind] ==15430==     in use at exit: 28,076,168 bytes in 6,029 blocks
+[Valgrind] ==15430==   total heap usage: 6,034 allocs, 5 frees, 28,089,400 bytes allocated
+
+[Run] LAD grp=96 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp96_lvl10.log ./main -s 60 -f -i -p ./test/er/96_subgraph_10 -t ./test/er/96_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=96 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp96_lvl20.log ./main -s 60 -f -i -p ./test/er/96_subgraph_20 -t ./test/er/96_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=96 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp96_lvl60.log ./main -s 60 -f -i -p ./test/er/96_subgraph_60 -t ./test/er/96_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=97 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp97_lvl10.log ./main -s 60 -f -i -p ./test/er/97_subgraph_10 -t ./test/er/97_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=97 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp97_lvl20.log ./main -s 60 -f -i -p ./test/er/97_subgraph_20 -t ./test/er/97_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] LAD grp=97 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp97_lvl60.log ./main -s 60 -f -i -p ./test/er/97_subgraph_60 -t ./test/er/97_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=98 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp98_lvl10.log ./main -s 60 -f -i -p ./test/er/98_subgraph_10 -t ./test/er/98_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.00s)
+
+[Run] LAD grp=98 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp98_lvl20.log ./main -s 60 -f -i -p ./test/er/98_subgraph_20 -t ./test/er/98_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=98 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp98_lvl60.log ./main -s 60 -f -i -p ./test/er/98_subgraph_60 -t ./test/er/98_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=99 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp99_lvl10.log ./main -s 60 -f -i -p ./test/er/99_subgraph_10 -t ./test/er/99_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=99 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp99_lvl20.log ./main -s 60 -f -i -p ./test/er/99_subgraph_20 -t ./test/er/99_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=99 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp99_lvl60.log ./main -s 60 -f -i -p ./test/er/99_subgraph_60 -t ./test/er/99_original_graph
+[Run] Done in 15.25s
+Run completed: 1 solutions; 0 fail nodes; 2 nodes; 14.683827 seconds
+
+[Valgrind] ==16299==     in use at exit: 28,969,588 bytes in 6,029 blocks
+[Valgrind] ==16299==   total heap usage: 6,034 allocs, 5 frees, 28,982,820 bytes allocated
+
+[Run] LAD grp=100 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp100_lvl10.log ./main -s 60 -f -i -p ./test/er/100_subgraph_10 -t ./test/er/100_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=100 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp100_lvl20.log ./main -s 60 -f -i -p ./test/er/100_subgraph_20 -t ./test/er/100_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] LAD grp=100 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_er_grp100_lvl60.log ./main -s 60 -f -i -p ./test/er/100_subgraph_60 -t ./test/er/100_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+=== END   LAD (er) ===

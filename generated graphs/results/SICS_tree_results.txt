@@ -1,0 +1,2331 @@
+=== START SICS (tree) ===
+[Run] SICS (tree) groups: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+
+[Run] SICS grp=1 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp1_lvl10.log ./a.out ./test/tree/1_subgraph_10 ./test/tree/1_original_graph
+[Run] Done in 20.89s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4886 ms
+
+[Valgrind] ==19636==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19636==   total heap usage: 13,215 allocs, 13,215 frees, 1,774,784 bytes allocated
+
+[Run] SICS grp=1 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp1_lvl20.log ./a.out ./test/tree/1_subgraph_20 ./test/tree/1_original_graph
+[Run] Done in 18.11s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4831 ms
+
+[Valgrind] ==19644==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19644==   total heap usage: 28,637 allocs, 28,637 frees, 4,197,704 bytes allocated
+
+[Run] SICS grp=1 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp1_lvl60.log ./a.out ./test/tree/1_subgraph_60 ./test/tree/1_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=2 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp2_lvl10.log ./a.out ./test/tree/2_subgraph_10 ./test/tree/2_original_graph
+[Run] Done in 23.69s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6733 ms
+
+[Valgrind] ==19669==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19669==   total heap usage: 13,257 allocs, 13,257 frees, 1,774,760 bytes allocated
+
+[Run] SICS grp=2 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp2_lvl20.log ./a.out ./test/tree/2_subgraph_20 ./test/tree/2_original_graph
+[Run] Done in 22.58s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 10149 ms
+
+[Valgrind] ==19677==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19677==   total heap usage: 28,691 allocs, 28,691 frees, 4,197,752 bytes allocated
+
+[Run] SICS grp=2 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp2_lvl60.log ./a.out ./test/tree/2_subgraph_60 ./test/tree/2_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=3 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp3_lvl10.log ./a.out ./test/tree/3_subgraph_10 ./test/tree/3_original_graph
+[Run] Done in 16.82s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 3328 ms
+
+[Valgrind] ==19711==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19711==   total heap usage: 13,237 allocs, 13,237 frees, 1,774,544 bytes allocated
+
+[Run] SICS grp=3 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp3_lvl20.log ./a.out ./test/tree/3_subgraph_20 ./test/tree/3_original_graph
+[Run] Done in 17.77s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6785 ms
+
+[Valgrind] ==19719==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19719==   total heap usage: 28,677 allocs, 28,677 frees, 4,197,520 bytes allocated
+
+[Run] SICS grp=3 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp3_lvl60.log ./a.out ./test/tree/3_subgraph_60 ./test/tree/3_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=4 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp4_lvl10.log ./a.out ./test/tree/4_subgraph_10 ./test/tree/4_original_graph
+[Run] Done in 20.75s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5409 ms
+
+[Valgrind] ==19749==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19749==   total heap usage: 13,207 allocs, 13,207 frees, 1,774,560 bytes allocated
+
+[Run] SICS grp=4 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp4_lvl20.log ./a.out ./test/tree/4_subgraph_20 ./test/tree/4_original_graph
+[Run] Done in 26.37s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8192 ms
+
+[Valgrind] ==19755==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19755==   total heap usage: 28,623 allocs, 28,623 frees, 4,197,472 bytes allocated
+
+[Run] SICS grp=4 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp4_lvl60.log ./a.out ./test/tree/4_subgraph_60 ./test/tree/4_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=5 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp5_lvl10.log ./a.out ./test/tree/5_subgraph_10 ./test/tree/5_original_graph
+[Run] Done in 22.14s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6571 ms
+
+[Valgrind] ==19796==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19796==   total heap usage: 13,221 allocs, 13,221 frees, 1,774,752 bytes allocated
+
+[Run] SICS grp=5 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp5_lvl20.log ./a.out ./test/tree/5_subgraph_20 ./test/tree/5_original_graph
+[Run] Done in 18.18s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4313 ms
+
+[Valgrind] ==19802==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19802==   total heap usage: 28,659 allocs, 28,659 frees, 4,197,744 bytes allocated
+
+[Run] SICS grp=5 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp5_lvl60.log ./a.out ./test/tree/5_subgraph_60 ./test/tree/5_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=6 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp6_lvl10.log ./a.out ./test/tree/6_subgraph_10 ./test/tree/6_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=6 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp6_lvl20.log ./a.out ./test/tree/6_subgraph_20 ./test/tree/6_original_graph
+[Run] Done in 19.54s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5021 ms
+
+[Valgrind] ==19856==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19856==   total heap usage: 28,649 allocs, 28,649 frees, 4,197,776 bytes allocated
+
+[Run] SICS grp=6 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp6_lvl60.log ./a.out ./test/tree/6_subgraph_60 ./test/tree/6_original_graph
+[Run] Done in 45.75s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 31287 ms
+
+[Valgrind] ==19862==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19862==   total heap usage: 190,349 allocs, 190,349 frees, 29,914,672 bytes allocated
+
+[Run] SICS grp=7 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp7_lvl10.log ./a.out ./test/tree/7_subgraph_10 ./test/tree/7_original_graph
+[Run] Done in 19.07s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4488 ms
+
+[Valgrind] ==19882==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19882==   total heap usage: 13,217 allocs, 13,217 frees, 1,774,912 bytes allocated
+
+[Run] SICS grp=7 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp7_lvl20.log ./a.out ./test/tree/7_subgraph_20 ./test/tree/7_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=7 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp7_lvl60.log ./a.out ./test/tree/7_subgraph_60 ./test/tree/7_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=8 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp8_lvl10.log ./a.out ./test/tree/8_subgraph_10 ./test/tree/8_original_graph
+[Run] Done in 23.78s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4236 ms
+
+[Valgrind] ==19926==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19926==   total heap usage: 13,211 allocs, 13,211 frees, 1,774,616 bytes allocated
+
+[Run] SICS grp=8 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp8_lvl20.log ./a.out ./test/tree/8_subgraph_20 ./test/tree/8_original_graph
+[Run] Done in 22.68s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 10197 ms
+
+[Valgrind] ==19937==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19937==   total heap usage: 28,641 allocs, 28,641 frees, 4,197,488 bytes allocated
+
+[Run] SICS grp=8 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp8_lvl60.log ./a.out ./test/tree/8_subgraph_60 ./test/tree/8_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=9 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp9_lvl10.log ./a.out ./test/tree/9_subgraph_10 ./test/tree/9_original_graph
+[Run] Done in 22.45s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4717 ms
+
+[Valgrind] ==19968==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19968==   total heap usage: 13,219 allocs, 13,219 frees, 1,774,704 bytes allocated
+
+[Run] SICS grp=9 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp9_lvl20.log ./a.out ./test/tree/9_subgraph_20 ./test/tree/9_original_graph
+[Run] Done in 26.51s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8903 ms
+
+[Valgrind] ==19986==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19986==   total heap usage: 28,643 allocs, 28,643 frees, 4,197,608 bytes allocated
+
+[Run] SICS grp=9 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp9_lvl60.log ./a.out ./test/tree/9_subgraph_60 ./test/tree/9_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=10 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp10_lvl10.log ./a.out ./test/tree/10_subgraph_10 ./test/tree/10_original_graph
+[Run] Done in 20.99s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 3603 ms
+
+[Valgrind] ==20004==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20004==   total heap usage: 13,231 allocs, 13,231 frees, 1,774,776 bytes allocated
+
+[Run] SICS grp=10 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp10_lvl20.log ./a.out ./test/tree/10_subgraph_20 ./test/tree/10_original_graph
+[Run] Done in 22.79s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6621 ms
+
+[Valgrind] ==20024==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20024==   total heap usage: 28,659 allocs, 28,659 frees, 4,197,736 bytes allocated
+
+[Run] SICS grp=10 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp10_lvl60.log ./a.out ./test/tree/10_subgraph_60 ./test/tree/10_original_graph
+[Run] Done in 45.90s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 27624 ms
+
+[Valgrind] ==20033==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20033==   total heap usage: 190,379 allocs, 190,379 frees, 29,914,600 bytes allocated
+
+[Run] SICS grp=11 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp11_lvl10.log ./a.out ./test/tree/11_subgraph_10 ./test/tree/11_original_graph
+[Run] Done in 22.06s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6071 ms
+
+[Valgrind] ==20041==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20041==   total heap usage: 13,215 allocs, 13,215 frees, 1,774,656 bytes allocated
+
+[Run] SICS grp=11 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp11_lvl20.log ./a.out ./test/tree/11_subgraph_20 ./test/tree/11_original_graph
+[Run] Done in 23.46s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8666 ms
+
+[Valgrind] ==20059==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20059==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,632 bytes allocated
+
+[Run] SICS grp=11 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp11_lvl60.log ./a.out ./test/tree/11_subgraph_60 ./test/tree/11_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=12 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp12_lvl10.log ./a.out ./test/tree/12_subgraph_10 ./test/tree/12_original_graph
+[Run] Done in 18.85s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 3283 ms
+
+[Valgrind] ==20098==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20098==   total heap usage: 13,207 allocs, 13,207 frees, 1,774,624 bytes allocated
+
+[Run] SICS grp=12 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp12_lvl20.log ./a.out ./test/tree/12_subgraph_20 ./test/tree/12_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=12 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp12_lvl60.log ./a.out ./test/tree/12_subgraph_60 ./test/tree/12_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=13 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp13_lvl10.log ./a.out ./test/tree/13_subgraph_10 ./test/tree/13_original_graph
+[Run] Done in 26.29s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6246 ms
+
+[Valgrind] ==20143==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20143==   total heap usage: 13,219 allocs, 13,219 frees, 1,774,832 bytes allocated
+
+[Run] SICS grp=13 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp13_lvl20.log ./a.out ./test/tree/13_subgraph_20 ./test/tree/13_original_graph
+[Run] Done in 28.65s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 10125 ms
+
+[Valgrind] ==20152==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20152==   total heap usage: 28,655 allocs, 28,655 frees, 4,197,712 bytes allocated
+
+[Run] SICS grp=13 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp13_lvl60.log ./a.out ./test/tree/13_subgraph_60 ./test/tree/13_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=14 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp14_lvl10.log ./a.out ./test/tree/14_subgraph_10 ./test/tree/14_original_graph
+[Run] Done in 26.22s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5939 ms
+
+[Valgrind] ==20183==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20183==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,800 bytes allocated
+
+[Run] SICS grp=14 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp14_lvl20.log ./a.out ./test/tree/14_subgraph_20 ./test/tree/14_original_graph
+[Run] Done in 27.12s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7573 ms
+
+[Valgrind] ==20201==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20201==   total heap usage: 28,655 allocs, 28,655 frees, 4,197,760 bytes allocated
+
+[Run] SICS grp=14 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp14_lvl60.log ./a.out ./test/tree/14_subgraph_60 ./test/tree/14_original_graph
+[Run] Done in 36.19s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 21899 ms
+
+[Valgrind] ==20209==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20209==   total heap usage: 190,373 allocs, 190,373 frees, 29,914,648 bytes allocated
+
+[Run] SICS grp=15 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp15_lvl10.log ./a.out ./test/tree/15_subgraph_10 ./test/tree/15_original_graph
+[Run] Done in 25.40s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6259 ms
+
+[Valgrind] ==20236==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20236==   total heap usage: 13,253 allocs, 13,253 frees, 1,774,792 bytes allocated
+
+[Run] SICS grp=15 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp15_lvl20.log ./a.out ./test/tree/15_subgraph_20 ./test/tree/15_original_graph
+[Run] Done in 28.91s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13927 ms
+
+[Valgrind] ==20259==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20259==   total heap usage: 28,685 allocs, 28,685 frees, 4,197,760 bytes allocated
+
+[Run] SICS grp=15 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp15_lvl60.log ./a.out ./test/tree/15_subgraph_60 ./test/tree/15_original_graph
+[Run] Done in 47.10s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 27947 ms
+
+[Valgrind] ==20270==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20270==   total heap usage: 190,425 allocs, 190,425 frees, 29,914,624 bytes allocated
+
+[Run] SICS grp=16 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp16_lvl10.log ./a.out ./test/tree/16_subgraph_10 ./test/tree/16_original_graph
+[Run] Done in 17.13s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5419 ms
+
+[Valgrind] ==20282==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20282==   total heap usage: 13,241 allocs, 13,241 frees, 1,774,880 bytes allocated
+
+[Run] SICS grp=16 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp16_lvl20.log ./a.out ./test/tree/16_subgraph_20 ./test/tree/16_original_graph
+[Run] Done in 37.54s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 17158 ms
+
+[Valgrind] ==20298==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20298==   total heap usage: 28,667 allocs, 28,667 frees, 4,197,856 bytes allocated
+
+[Run] SICS grp=16 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp16_lvl60.log ./a.out ./test/tree/16_subgraph_60 ./test/tree/16_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=17 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp17_lvl10.log ./a.out ./test/tree/17_subgraph_10 ./test/tree/17_original_graph
+[Run] Done in 28.60s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9666 ms
+
+[Valgrind] ==20337==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20337==   total heap usage: 13,253 allocs, 13,253 frees, 1,774,896 bytes allocated
+
+[Run] SICS grp=17 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp17_lvl20.log ./a.out ./test/tree/17_subgraph_20 ./test/tree/17_original_graph
+[Run] Done in 24.36s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9380 ms
+
+[Valgrind] ==20348==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20348==   total heap usage: 28,683 allocs, 28,683 frees, 4,197,968 bytes allocated
+
+[Run] SICS grp=17 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp17_lvl60.log ./a.out ./test/tree/17_subgraph_60 ./test/tree/17_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=18 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp18_lvl10.log ./a.out ./test/tree/18_subgraph_10 ./test/tree/18_original_graph
+[Run] Done in 22.15s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5150 ms
+
+[Valgrind] ==20384==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20384==   total heap usage: 13,237 allocs, 13,237 frees, 1,774,896 bytes allocated
+
+[Run] SICS grp=18 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp18_lvl20.log ./a.out ./test/tree/18_subgraph_20 ./test/tree/18_original_graph
+[Run] Done in 20.50s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4117 ms
+
+[Valgrind] ==20397==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20397==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,880 bytes allocated
+
+[Run] SICS grp=18 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp18_lvl60.log ./a.out ./test/tree/18_subgraph_60 ./test/tree/18_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=19 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp19_lvl10.log ./a.out ./test/tree/19_subgraph_10 ./test/tree/19_original_graph
+[Run] Done in 21.86s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5879 ms
+
+[Valgrind] ==20437==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20437==   total heap usage: 13,227 allocs, 13,227 frees, 1,774,728 bytes allocated
+
+[Run] SICS grp=19 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp19_lvl20.log ./a.out ./test/tree/19_subgraph_20 ./test/tree/19_original_graph
+[Run] Done in 19.00s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7157 ms
+
+[Valgrind] ==20447==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20447==   total heap usage: 28,647 allocs, 28,647 frees, 4,197,648 bytes allocated
+
+[Run] SICS grp=19 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp19_lvl60.log ./a.out ./test/tree/19_subgraph_60 ./test/tree/19_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=20 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp20_lvl10.log ./a.out ./test/tree/20_subgraph_10 ./test/tree/20_original_graph
+[Run] Done in 18.14s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5633 ms
+
+[Valgrind] ==20488==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20488==   total heap usage: 13,227 allocs, 13,227 frees, 1,774,712 bytes allocated
+
+[Run] SICS grp=20 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp20_lvl20.log ./a.out ./test/tree/20_subgraph_20 ./test/tree/20_original_graph
+[Run] Done in 26.81s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8640 ms
+
+[Valgrind] ==20496==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20496==   total heap usage: 28,649 allocs, 28,649 frees, 4,197,640 bytes allocated
+
+[Run] SICS grp=20 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp20_lvl60.log ./a.out ./test/tree/20_subgraph_60 ./test/tree/20_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=21 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp21_lvl10.log ./a.out ./test/tree/21_subgraph_10 ./test/tree/21_original_graph
+[Run] Done in 21.50s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5631 ms
+
+[Valgrind] ==20536==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20536==   total heap usage: 13,259 allocs, 13,259 frees, 1,774,760 bytes allocated
+
+[Run] SICS grp=21 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp21_lvl20.log ./a.out ./test/tree/21_subgraph_20 ./test/tree/21_original_graph
+[Run] Done in 25.53s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8709 ms
+
+[Valgrind] ==20554==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20554==   total heap usage: 28,689 allocs, 28,689 frees, 4,197,688 bytes allocated
+
+[Run] SICS grp=21 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp21_lvl60.log ./a.out ./test/tree/21_subgraph_60 ./test/tree/21_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=22 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp22_lvl10.log ./a.out ./test/tree/22_subgraph_10 ./test/tree/22_original_graph
+[Run] Done in 25.24s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5667 ms
+
+[Valgrind] ==20621==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20621==   total heap usage: 13,191 allocs, 13,191 frees, 1,774,440 bytes allocated
+
+[Run] SICS grp=22 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp22_lvl20.log ./a.out ./test/tree/22_subgraph_20 ./test/tree/22_original_graph
+[Run] Done in 21.31s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5953 ms
+
+[Valgrind] ==20629==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20629==   total heap usage: 28,617 allocs, 28,617 frees, 4,197,352 bytes allocated
+
+[Run] SICS grp=22 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp22_lvl60.log ./a.out ./test/tree/22_subgraph_60 ./test/tree/22_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=23 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp23_lvl10.log ./a.out ./test/tree/23_subgraph_10 ./test/tree/23_original_graph
+[Run] Done in 18.86s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5444 ms
+
+[Valgrind] ==20660==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20660==   total heap usage: 13,253 allocs, 13,253 frees, 1,774,608 bytes allocated
+
+[Run] SICS grp=23 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp23_lvl20.log ./a.out ./test/tree/23_subgraph_20 ./test/tree/23_original_graph
+[Run] Done in 17.56s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8234 ms
+
+[Valgrind] ==20667==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20667==   total heap usage: 28,697 allocs, 28,697 frees, 4,197,544 bytes allocated
+
+[Run] SICS grp=23 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp23_lvl60.log ./a.out ./test/tree/23_subgraph_60 ./test/tree/23_original_graph
+[Run] Done in 45.60s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 27397 ms
+
+[Valgrind] ==20676==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20676==   total heap usage: 190,417 allocs, 190,417 frees, 29,914,320 bytes allocated
+
+[Run] SICS grp=24 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp24_lvl10.log ./a.out ./test/tree/24_subgraph_10 ./test/tree/24_original_graph
+[Run] Done in 15.50s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 1476 ms
+
+[Valgrind] ==20702==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20702==   total heap usage: 13,201 allocs, 13,201 frees, 1,774,680 bytes allocated
+
+[Run] SICS grp=24 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp24_lvl20.log ./a.out ./test/tree/24_subgraph_20 ./test/tree/24_original_graph
+[Run] Done in 27.89s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12226 ms
+
+[Valgrind] ==20708==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20708==   total heap usage: 28,629 allocs, 28,629 frees, 4,197,624 bytes allocated
+
+[Run] SICS grp=24 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp24_lvl60.log ./a.out ./test/tree/24_subgraph_60 ./test/tree/24_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=25 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp25_lvl10.log ./a.out ./test/tree/25_subgraph_10 ./test/tree/25_original_graph
+[Run] Done in 17.92s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6101 ms
+
+[Valgrind] ==20734==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20734==   total heap usage: 13,229 allocs, 13,229 frees, 1,774,672 bytes allocated
+
+[Run] SICS grp=25 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp25_lvl20.log ./a.out ./test/tree/25_subgraph_20 ./test/tree/25_original_graph
+[Run] Done in 24.33s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8293 ms
+
+[Valgrind] ==20740==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20740==   total heap usage: 28,647 allocs, 28,647 frees, 4,197,600 bytes allocated
+
+[Run] SICS grp=25 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp25_lvl60.log ./a.out ./test/tree/25_subgraph_60 ./test/tree/25_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=26 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp26_lvl10.log ./a.out ./test/tree/26_subgraph_10 ./test/tree/26_original_graph
+[Run] Done in 15.55s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4047 ms
+
+[Valgrind] ==20771==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20771==   total heap usage: 13,209 allocs, 13,209 frees, 1,774,640 bytes allocated
+
+[Run] SICS grp=26 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp26_lvl20.log ./a.out ./test/tree/26_subgraph_20 ./test/tree/26_original_graph
+[Run] Done in 21.95s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7674 ms
+
+[Valgrind] ==20781==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20781==   total heap usage: 28,639 allocs, 28,639 frees, 4,197,704 bytes allocated
+
+[Run] SICS grp=26 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp26_lvl60.log ./a.out ./test/tree/26_subgraph_60 ./test/tree/26_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=27 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp27_lvl10.log ./a.out ./test/tree/27_subgraph_10 ./test/tree/27_original_graph
+[Run] Done in 23.40s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6668 ms
+
+[Valgrind] ==20809==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20809==   total heap usage: 13,187 allocs, 13,187 frees, 1,774,608 bytes allocated
+
+[Run] SICS grp=27 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp27_lvl20.log ./a.out ./test/tree/27_subgraph_20 ./test/tree/27_original_graph
+[Run] Done in 26.15s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9220 ms
+
+[Valgrind] ==20818==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20818==   total heap usage: 28,617 allocs, 28,617 frees, 4,197,480 bytes allocated
+
+[Run] SICS grp=27 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp27_lvl60.log ./a.out ./test/tree/27_subgraph_60 ./test/tree/27_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=28 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp28_lvl10.log ./a.out ./test/tree/28_subgraph_10 ./test/tree/28_original_graph
+[Run] Done in 27.16s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6513 ms
+
+[Valgrind] ==20845==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20845==   total heap usage: 13,237 allocs, 13,237 frees, 1,774,776 bytes allocated
+
+[Run] SICS grp=28 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp28_lvl20.log ./a.out ./test/tree/28_subgraph_20 ./test/tree/28_original_graph
+[Run] Done in 44.29s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 24971 ms
+
+[Valgrind] ==20854==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20854==   total heap usage: 28,653 allocs, 28,653 frees, 4,197,824 bytes allocated
+
+[Run] SICS grp=28 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp28_lvl60.log ./a.out ./test/tree/28_subgraph_60 ./test/tree/28_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=29 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp29_lvl10.log ./a.out ./test/tree/29_subgraph_10 ./test/tree/29_original_graph
+[Run] Done in 25.49s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4017 ms
+
+[Valgrind] ==20896==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20896==   total heap usage: 13,227 allocs, 13,227 frees, 1,774,872 bytes allocated
+
+[Run] SICS grp=29 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp29_lvl20.log ./a.out ./test/tree/29_subgraph_20 ./test/tree/29_original_graph
+[Run] Done in 26.64s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8539 ms
+
+[Valgrind] ==20908==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20908==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,800 bytes allocated
+
+[Run] SICS grp=29 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp29_lvl60.log ./a.out ./test/tree/29_subgraph_60 ./test/tree/29_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=30 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp30_lvl10.log ./a.out ./test/tree/30_subgraph_10 ./test/tree/30_original_graph
+[Run] Done in 21.88s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5236 ms
+
+[Valgrind] ==20948==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20948==   total heap usage: 13,213 allocs, 13,213 frees, 1,774,456 bytes allocated
+
+[Run] SICS grp=30 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp30_lvl20.log ./a.out ./test/tree/30_subgraph_20 ./test/tree/30_original_graph
+[Run] Done in 29.05s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9961 ms
+
+[Valgrind] ==20956==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20956==   total heap usage: 28,639 allocs, 28,639 frees, 4,197,296 bytes allocated
+
+[Run] SICS grp=30 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp30_lvl60.log ./a.out ./test/tree/30_subgraph_60 ./test/tree/30_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=31 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp31_lvl10.log ./a.out ./test/tree/31_subgraph_10 ./test/tree/31_original_graph
+[Run] Done in 21.01s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4255 ms
+
+[Valgrind] ==20989==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20989==   total heap usage: 13,221 allocs, 13,221 frees, 1,774,720 bytes allocated
+
+[Run] SICS grp=31 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp31_lvl20.log ./a.out ./test/tree/31_subgraph_20 ./test/tree/31_original_graph
+[Run] Done in 19.69s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11270 ms
+
+[Valgrind] ==20997==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20997==   total heap usage: 28,647 allocs, 28,647 frees, 4,197,720 bytes allocated
+
+[Run] SICS grp=31 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp31_lvl60.log ./a.out ./test/tree/31_subgraph_60 ./test/tree/31_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=32 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp32_lvl10.log ./a.out ./test/tree/32_subgraph_10 ./test/tree/32_original_graph
+[Run] Done in 59.57s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 46498 ms
+
+[Valgrind] ==21048==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21048==   total heap usage: 13,257 allocs, 13,257 frees, 1,774,752 bytes allocated
+
+[Run] SICS grp=32 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp32_lvl20.log ./a.out ./test/tree/32_subgraph_20 ./test/tree/32_original_graph
+[Run] Done in 18.76s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6722 ms
+
+[Valgrind] ==21068==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21068==   total heap usage: 28,671 allocs, 28,671 frees, 4,197,640 bytes allocated
+
+[Run] SICS grp=32 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp32_lvl60.log ./a.out ./test/tree/32_subgraph_60 ./test/tree/32_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=33 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp33_lvl10.log ./a.out ./test/tree/33_subgraph_10 ./test/tree/33_original_graph
+[Run] Done in 20.61s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4486 ms
+
+[Valgrind] ==21104==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21104==   total heap usage: 13,243 allocs, 13,243 frees, 1,774,640 bytes allocated
+
+[Run] SICS grp=33 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp33_lvl20.log ./a.out ./test/tree/33_subgraph_20 ./test/tree/33_original_graph
+[Run] Done in 36.76s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13912 ms
+
+[Valgrind] ==21114==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21114==   total heap usage: 28,673 allocs, 28,673 frees, 4,197,552 bytes allocated
+
+[Run] SICS grp=33 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp33_lvl60.log ./a.out ./test/tree/33_subgraph_60 ./test/tree/33_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=34 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp34_lvl10.log ./a.out ./test/tree/34_subgraph_10 ./test/tree/34_original_graph
+[Run] Done in 22.48s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6814 ms
+
+[Valgrind] ==21156==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21156==   total heap usage: 13,255 allocs, 13,255 frees, 1,774,736 bytes allocated
+
+[Run] SICS grp=34 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp34_lvl20.log ./a.out ./test/tree/34_subgraph_20 ./test/tree/34_original_graph
+[Run] Done in 26.42s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13959 ms
+
+[Valgrind] ==21164==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21164==   total heap usage: 28,681 allocs, 28,681 frees, 4,197,704 bytes allocated
+
+[Run] SICS grp=34 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp34_lvl60.log ./a.out ./test/tree/34_subgraph_60 ./test/tree/34_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=35 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp35_lvl10.log ./a.out ./test/tree/35_subgraph_10 ./test/tree/35_original_graph
+[Run] Done in 27.11s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5265 ms
+
+[Valgrind] ==21223==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21223==   total heap usage: 13,211 allocs, 13,211 frees, 1,774,680 bytes allocated
+
+[Run] SICS grp=35 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp35_lvl20.log ./a.out ./test/tree/35_subgraph_20 ./test/tree/35_original_graph
+[Run] Done in 28.82s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9811 ms
+
+[Valgrind] ==21231==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21231==   total heap usage: 28,637 allocs, 28,637 frees, 4,197,616 bytes allocated
+
+[Run] SICS grp=35 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp35_lvl60.log ./a.out ./test/tree/35_subgraph_60 ./test/tree/35_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=36 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp36_lvl10.log ./a.out ./test/tree/36_subgraph_10 ./test/tree/36_original_graph
+[Run] Done in 27.84s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7695 ms
+
+[Valgrind] ==21281==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21281==   total heap usage: 13,219 allocs, 13,219 frees, 1,774,792 bytes allocated
+
+[Run] SICS grp=36 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp36_lvl20.log ./a.out ./test/tree/36_subgraph_20 ./test/tree/36_original_graph
+[Run] Done in 24.96s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6341 ms
+
+[Valgrind] ==21307==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21307==   total heap usage: 28,649 allocs, 28,649 frees, 4,197,816 bytes allocated
+
+[Run] SICS grp=36 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp36_lvl60.log ./a.out ./test/tree/36_subgraph_60 ./test/tree/36_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=37 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp37_lvl10.log ./a.out ./test/tree/37_subgraph_10 ./test/tree/37_original_graph
+[Run] Done in 24.39s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 2761 ms
+
+[Valgrind] ==21355==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21355==   total heap usage: 13,239 allocs, 13,239 frees, 1,774,656 bytes allocated
+
+[Run] SICS grp=37 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp37_lvl20.log ./a.out ./test/tree/37_subgraph_20 ./test/tree/37_original_graph
+[Run] Done in 26.83s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14037 ms
+
+[Valgrind] ==21366==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21366==   total heap usage: 28,673 allocs, 28,673 frees, 4,197,648 bytes allocated
+
+[Run] SICS grp=37 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp37_lvl60.log ./a.out ./test/tree/37_subgraph_60 ./test/tree/37_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=38 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp38_lvl10.log ./a.out ./test/tree/38_subgraph_10 ./test/tree/38_original_graph
+[Run] Done in 19.22s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 3456 ms
+
+[Valgrind] ==21410==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21410==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,688 bytes allocated
+
+[Run] SICS grp=38 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp38_lvl20.log ./a.out ./test/tree/38_subgraph_20 ./test/tree/38_original_graph
+[Run] Done in 23.47s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8571 ms
+
+[Valgrind] ==21416==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21416==   total heap usage: 28,651 allocs, 28,651 frees, 4,197,520 bytes allocated
+
+[Run] SICS grp=38 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp38_lvl60.log ./a.out ./test/tree/38_subgraph_60 ./test/tree/38_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=39 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp39_lvl10.log ./a.out ./test/tree/39_subgraph_10 ./test/tree/39_original_graph
+[Run] Done in 17.84s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7098 ms
+
+[Valgrind] ==21448==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21448==   total heap usage: 13,239 allocs, 13,239 frees, 1,774,768 bytes allocated
+
+[Run] SICS grp=39 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp39_lvl20.log ./a.out ./test/tree/39_subgraph_20 ./test/tree/39_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=39 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp39_lvl60.log ./a.out ./test/tree/39_subgraph_60 ./test/tree/39_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=40 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp40_lvl10.log ./a.out ./test/tree/40_subgraph_10 ./test/tree/40_original_graph
+[Run] Done in 24.01s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5645 ms
+
+[Valgrind] ==21495==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21495==   total heap usage: 13,231 allocs, 13,231 frees, 1,774,608 bytes allocated
+
+[Run] SICS grp=40 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp40_lvl20.log ./a.out ./test/tree/40_subgraph_20 ./test/tree/40_original_graph
+[Run] Done in 29.17s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6966 ms
+
+[Valgrind] ==21512==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21512==   total heap usage: 28,671 allocs, 28,671 frees, 4,197,608 bytes allocated
+
+[Run] SICS grp=40 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp40_lvl60.log ./a.out ./test/tree/40_subgraph_60 ./test/tree/40_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=41 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp41_lvl10.log ./a.out ./test/tree/41_subgraph_10 ./test/tree/41_original_graph
+[Run] Done in 27.65s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6242 ms
+
+[Valgrind] ==21538==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21538==   total heap usage: 13,239 allocs, 13,239 frees, 1,774,920 bytes allocated
+
+[Run] SICS grp=41 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp41_lvl20.log ./a.out ./test/tree/41_subgraph_20 ./test/tree/41_original_graph
+[Run] Done in 25.57s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 10675 ms
+
+[Valgrind] ==21545==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21545==   total heap usage: 28,671 allocs, 28,671 frees, 4,197,824 bytes allocated
+
+[Run] SICS grp=41 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp41_lvl60.log ./a.out ./test/tree/41_subgraph_60 ./test/tree/41_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=42 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp42_lvl10.log ./a.out ./test/tree/42_subgraph_10 ./test/tree/42_original_graph
+[Run] Done in 22.67s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5757 ms
+
+[Valgrind] ==21573==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21573==   total heap usage: 13,195 allocs, 13,195 frees, 1,774,648 bytes allocated
+
+[Run] SICS grp=42 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp42_lvl20.log ./a.out ./test/tree/42_subgraph_20 ./test/tree/42_original_graph
+[Run] Done in 31.28s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12998 ms
+
+[Valgrind] ==21587==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21587==   total heap usage: 28,615 allocs, 28,615 frees, 4,197,544 bytes allocated
+
+[Run] SICS grp=42 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp42_lvl60.log ./a.out ./test/tree/42_subgraph_60 ./test/tree/42_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=43 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp43_lvl10.log ./a.out ./test/tree/43_subgraph_10 ./test/tree/43_original_graph
+[Run] Done in 26.48s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7609 ms
+
+[Valgrind] ==21619==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21619==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,640 bytes allocated
+
+[Run] SICS grp=43 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp43_lvl20.log ./a.out ./test/tree/43_subgraph_20 ./test/tree/43_original_graph
+[Run] Done in 36.50s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14995 ms
+
+[Valgrind] ==21638==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21638==   total heap usage: 28,649 allocs, 28,649 frees, 4,197,576 bytes allocated
+
+[Run] SICS grp=43 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp43_lvl60.log ./a.out ./test/tree/43_subgraph_60 ./test/tree/43_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=44 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp44_lvl10.log ./a.out ./test/tree/44_subgraph_10 ./test/tree/44_original_graph
+[Run] Done in 23.48s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 1355 ms
+
+[Valgrind] ==21673==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21673==   total heap usage: 13,249 allocs, 13,249 frees, 1,774,944 bytes allocated
+
+[Run] SICS grp=44 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp44_lvl20.log ./a.out ./test/tree/44_subgraph_20 ./test/tree/44_original_graph
+[Run] Done in 22.91s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7696 ms
+
+[Valgrind] ==21682==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21682==   total heap usage: 28,677 allocs, 28,677 frees, 4,197,912 bytes allocated
+
+[Run] SICS grp=44 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp44_lvl60.log ./a.out ./test/tree/44_subgraph_60 ./test/tree/44_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=45 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp45_lvl10.log ./a.out ./test/tree/45_subgraph_10 ./test/tree/45_original_graph
+[Run] Done in 22.69s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7086 ms
+
+[Valgrind] ==21706==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21706==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,640 bytes allocated
+
+[Run] SICS grp=45 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp45_lvl20.log ./a.out ./test/tree/45_subgraph_20 ./test/tree/45_original_graph
+[Run] Done in 33.59s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9782 ms
+
+[Valgrind] ==21729==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21729==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,560 bytes allocated
+
+[Run] SICS grp=45 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp45_lvl60.log ./a.out ./test/tree/45_subgraph_60 ./test/tree/45_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=46 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp46_lvl10.log ./a.out ./test/tree/46_subgraph_10 ./test/tree/46_original_graph
+[Run] Done in 32.53s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6567 ms
+
+[Valgrind] ==21760==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21760==   total heap usage: 13,215 allocs, 13,215 frees, 1,774,520 bytes allocated
+
+[Run] SICS grp=46 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp46_lvl20.log ./a.out ./test/tree/46_subgraph_20 ./test/tree/46_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=46 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp46_lvl60.log ./a.out ./test/tree/46_subgraph_60 ./test/tree/46_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=47 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp47_lvl10.log ./a.out ./test/tree/47_subgraph_10 ./test/tree/47_original_graph
+[Run] Done in 32.14s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6948 ms
+
+[Valgrind] ==21834==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21834==   total heap usage: 13,225 allocs, 13,225 frees, 1,774,568 bytes allocated
+
+[Run] SICS grp=47 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp47_lvl20.log ./a.out ./test/tree/47_subgraph_20 ./test/tree/47_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] SICS grp=47 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp47_lvl60.log ./a.out ./test/tree/47_subgraph_60 ./test/tree/47_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=48 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp48_lvl10.log ./a.out ./test/tree/48_subgraph_10 ./test/tree/48_original_graph
+[Run] Done in 20.36s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7334 ms
+
+[Valgrind] ==21882==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21882==   total heap usage: 13,221 allocs, 13,221 frees, 1,774,456 bytes allocated
+
+[Run] SICS grp=48 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp48_lvl20.log ./a.out ./test/tree/48_subgraph_20 ./test/tree/48_original_graph
+[Run] Done in 23.97s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6520 ms
+
+[Valgrind] ==21898==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21898==   total heap usage: 28,649 allocs, 28,649 frees, 4,197,376 bytes allocated
+
+[Run] SICS grp=48 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp48_lvl60.log ./a.out ./test/tree/48_subgraph_60 ./test/tree/48_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=49 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp49_lvl10.log ./a.out ./test/tree/49_subgraph_10 ./test/tree/49_original_graph
+[Run] Done in 38.09s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7857 ms
+
+[Valgrind] ==21935==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21935==   total heap usage: 13,235 allocs, 13,235 frees, 1,774,688 bytes allocated
+
+[Run] SICS grp=49 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp49_lvl20.log ./a.out ./test/tree/49_subgraph_20 ./test/tree/49_original_graph
+[Run] Done in 27.34s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4079 ms
+
+[Valgrind] ==21946==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21946==   total heap usage: 28,675 allocs, 28,675 frees, 4,197,704 bytes allocated
+
+[Run] SICS grp=49 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp49_lvl60.log ./a.out ./test/tree/49_subgraph_60 ./test/tree/49_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=50 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp50_lvl10.log ./a.out ./test/tree/50_subgraph_10 ./test/tree/50_original_graph
+[Run] Done in 37.37s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 20136 ms
+
+[Valgrind] ==21984==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21984==   total heap usage: 13,197 allocs, 13,197 frees, 1,774,544 bytes allocated
+
+[Run] SICS grp=50 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp50_lvl20.log ./a.out ./test/tree/50_subgraph_20 ./test/tree/50_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=50 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp50_lvl60.log ./a.out ./test/tree/50_subgraph_60 ./test/tree/50_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=51 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp51_lvl10.log ./a.out ./test/tree/51_subgraph_10 ./test/tree/51_original_graph
+[Run] Done in 26.86s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4566 ms
+
+[Valgrind] ==22046==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22046==   total heap usage: 13,219 allocs, 13,219 frees, 1,774,760 bytes allocated
+
+[Run] SICS grp=51 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp51_lvl20.log ./a.out ./test/tree/51_subgraph_20 ./test/tree/51_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=51 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp51_lvl60.log ./a.out ./test/tree/51_subgraph_60 ./test/tree/51_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=52 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp52_lvl10.log ./a.out ./test/tree/52_subgraph_10 ./test/tree/52_original_graph
+[Run] Done in 29.58s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8003 ms
+
+[Valgrind] ==22110==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22110==   total heap usage: 13,237 allocs, 13,237 frees, 1,774,568 bytes allocated
+
+[Run] SICS grp=52 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp52_lvl20.log ./a.out ./test/tree/52_subgraph_20 ./test/tree/52_original_graph
+[Run] Done in 27.93s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7585 ms
+
+[Valgrind] ==22133==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22133==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,408 bytes allocated
+
+[Run] SICS grp=52 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp52_lvl60.log ./a.out ./test/tree/52_subgraph_60 ./test/tree/52_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=53 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp53_lvl10.log ./a.out ./test/tree/53_subgraph_10 ./test/tree/53_original_graph
+[Run] Done in 36.85s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7974 ms
+
+[Valgrind] ==22174==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22174==   total heap usage: 13,227 allocs, 13,227 frees, 1,774,704 bytes allocated
+
+[Run] SICS grp=53 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp53_lvl20.log ./a.out ./test/tree/53_subgraph_20 ./test/tree/53_original_graph
+[Run] Done in 33.16s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11158 ms
+
+[Valgrind] ==22185==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22185==   total heap usage: 28,637 allocs, 28,637 frees, 4,197,568 bytes allocated
+
+[Run] SICS grp=53 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp53_lvl60.log ./a.out ./test/tree/53_subgraph_60 ./test/tree/53_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=54 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp54_lvl10.log ./a.out ./test/tree/54_subgraph_10 ./test/tree/54_original_graph
+[Run] Done in 22.70s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 3470 ms
+
+[Valgrind] ==22222==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22222==   total heap usage: 13,229 allocs, 13,229 frees, 1,774,624 bytes allocated
+
+[Run] SICS grp=54 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp54_lvl20.log ./a.out ./test/tree/54_subgraph_20 ./test/tree/54_original_graph
+[Run] Done in 34.94s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11761 ms
+
+[Valgrind] ==22235==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22235==   total heap usage: 28,671 allocs, 28,671 frees, 4,197,664 bytes allocated
+
+[Run] SICS grp=54 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp54_lvl60.log ./a.out ./test/tree/54_subgraph_60 ./test/tree/54_original_graph
+[Run] Done in 59.24s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 31262 ms
+
+[Valgrind] ==22257==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22257==   total heap usage: 190,381 allocs, 190,381 frees, 29,914,424 bytes allocated
+
+[Run] SICS grp=55 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp55_lvl10.log ./a.out ./test/tree/55_subgraph_10 ./test/tree/55_original_graph
+[Run] Done in 25.98s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6351 ms
+
+[Valgrind] ==22274==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22274==   total heap usage: 13,209 allocs, 13,209 frees, 1,774,728 bytes allocated
+
+[Run] SICS grp=55 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp55_lvl20.log ./a.out ./test/tree/55_subgraph_20 ./test/tree/55_original_graph
+[Run] Done in 34.74s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12956 ms
+
+[Valgrind] ==22291==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22291==   total heap usage: 28,645 allocs, 28,645 frees, 4,197,640 bytes allocated
+
+[Run] SICS grp=55 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp55_lvl60.log ./a.out ./test/tree/55_subgraph_60 ./test/tree/55_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=56 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp56_lvl10.log ./a.out ./test/tree/56_subgraph_10 ./test/tree/56_original_graph
+[Run] Done in 25.88s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5848 ms
+
+[Valgrind] ==22325==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22325==   total heap usage: 13,237 allocs, 13,237 frees, 1,774,680 bytes allocated
+
+[Run] SICS grp=56 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp56_lvl20.log ./a.out ./test/tree/56_subgraph_20 ./test/tree/56_original_graph
+[Run] Done in 58.44s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 39586 ms
+
+[Valgrind] ==22334==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22334==   total heap usage: 28,661 allocs, 28,661 frees, 4,197,584 bytes allocated
+
+[Run] SICS grp=56 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp56_lvl60.log ./a.out ./test/tree/56_subgraph_60 ./test/tree/56_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=57 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp57_lvl10.log ./a.out ./test/tree/57_subgraph_10 ./test/tree/57_original_graph
+[Run] Done in 30.25s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7386 ms
+
+[Valgrind] ==22363==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22363==   total heap usage: 13,211 allocs, 13,211 frees, 1,774,832 bytes allocated
+
+[Run] SICS grp=57 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp57_lvl20.log ./a.out ./test/tree/57_subgraph_20 ./test/tree/57_original_graph
+[Run] Done in 41.16s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14938 ms
+
+[Valgrind] ==22372==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22372==   total heap usage: 28,645 allocs, 28,645 frees, 4,197,888 bytes allocated
+
+[Run] SICS grp=57 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp57_lvl60.log ./a.out ./test/tree/57_subgraph_60 ./test/tree/57_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=58 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp58_lvl10.log ./a.out ./test/tree/58_subgraph_10 ./test/tree/58_original_graph
+[Run] Done in 32.28s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4834 ms
+
+[Valgrind] ==22419==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22419==   total heap usage: 13,251 allocs, 13,251 frees, 1,775,024 bytes allocated
+
+[Run] SICS grp=58 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp58_lvl20.log ./a.out ./test/tree/58_subgraph_20 ./test/tree/58_original_graph
+[Run] Done in 40.85s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12930 ms
+
+[Valgrind] ==22431==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22431==   total heap usage: 28,677 allocs, 28,677 frees, 4,197,992 bytes allocated
+
+[Run] SICS grp=58 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp58_lvl60.log ./a.out ./test/tree/58_subgraph_60 ./test/tree/58_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=59 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp59_lvl10.log ./a.out ./test/tree/59_subgraph_10 ./test/tree/59_original_graph
+[Run] Done in 33.55s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7858 ms
+
+[Valgrind] ==22475==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22475==   total heap usage: 13,243 allocs, 13,243 frees, 1,774,760 bytes allocated
+
+[Run] SICS grp=59 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp59_lvl20.log ./a.out ./test/tree/59_subgraph_20 ./test/tree/59_original_graph
+[Run] Done in 40.43s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12442 ms
+
+[Valgrind] ==22483==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22483==   total heap usage: 28,677 allocs, 28,677 frees, 4,197,736 bytes allocated
+
+[Run] SICS grp=59 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp59_lvl60.log ./a.out ./test/tree/59_subgraph_60 ./test/tree/59_original_graph
+[Run] Done in 46.55s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 25079 ms
+
+[Valgrind] ==22500==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22500==   total heap usage: 190,377 allocs, 190,377 frees, 29,914,496 bytes allocated
+
+[Run] SICS grp=60 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp60_lvl10.log ./a.out ./test/tree/60_subgraph_10 ./test/tree/60_original_graph
+[Run] Done in 39.72s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13239 ms
+
+[Valgrind] ==22515==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22515==   total heap usage: 13,195 allocs, 13,195 frees, 1,774,656 bytes allocated
+
+[Run] SICS grp=60 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp60_lvl20.log ./a.out ./test/tree/60_subgraph_20 ./test/tree/60_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=60 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp60_lvl60.log ./a.out ./test/tree/60_subgraph_60 ./test/tree/60_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=61 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp61_lvl10.log ./a.out ./test/tree/61_subgraph_10 ./test/tree/61_original_graph
+[Run] Done in 31.12s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6344 ms
+
+[Valgrind] ==22581==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22581==   total heap usage: 13,211 allocs, 13,211 frees, 1,774,704 bytes allocated
+
+[Run] SICS grp=61 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp61_lvl20.log ./a.out ./test/tree/61_subgraph_20 ./test/tree/61_original_graph
+[Run] Done in 39.93s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12247 ms
+
+[Valgrind] ==22587==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22587==   total heap usage: 28,665 allocs, 28,665 frees, 4,197,736 bytes allocated
+
+[Run] SICS grp=61 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp61_lvl60.log ./a.out ./test/tree/61_subgraph_60 ./test/tree/61_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=62 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp62_lvl10.log ./a.out ./test/tree/62_subgraph_10 ./test/tree/62_original_graph
+[Run] Done in 26.23s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5808 ms
+
+[Valgrind] ==22628==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22628==   total heap usage: 13,253 allocs, 13,253 frees, 1,774,864 bytes allocated
+
+[Run] SICS grp=62 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp62_lvl20.log ./a.out ./test/tree/62_subgraph_20 ./test/tree/62_original_graph
+[Run] Done in 45.98s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 20633 ms
+
+[Valgrind] ==22637==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22637==   total heap usage: 28,671 allocs, 28,671 frees, 4,197,736 bytes allocated
+
+[Run] SICS grp=62 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp62_lvl60.log ./a.out ./test/tree/62_subgraph_60 ./test/tree/62_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=63 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp63_lvl10.log ./a.out ./test/tree/63_subgraph_10 ./test/tree/63_original_graph
+[Run] Done in 36.98s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7538 ms
+
+[Valgrind] ==22666==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22666==   total heap usage: 13,235 allocs, 13,235 frees, 1,774,536 bytes allocated
+
+[Run] SICS grp=63 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp63_lvl20.log ./a.out ./test/tree/63_subgraph_20 ./test/tree/63_original_graph
+[Run] Done in 38.87s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 17215 ms
+
+[Valgrind] ==22682==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22682==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,472 bytes allocated
+
+[Run] SICS grp=63 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp63_lvl60.log ./a.out ./test/tree/63_subgraph_60 ./test/tree/63_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=64 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp64_lvl10.log ./a.out ./test/tree/64_subgraph_10 ./test/tree/64_original_graph
+[Run] Done in 33.01s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7972 ms
+
+[Valgrind] ==22709==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22709==   total heap usage: 13,237 allocs, 13,237 frees, 1,774,984 bytes allocated
+
+[Run] SICS grp=64 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp64_lvl20.log ./a.out ./test/tree/64_subgraph_20 ./test/tree/64_original_graph
+[Run] Done in 38.36s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9740 ms
+
+[Valgrind] ==22735==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22735==   total heap usage: 28,669 allocs, 28,669 frees, 4,197,904 bytes allocated
+
+[Run] SICS grp=64 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp64_lvl60.log ./a.out ./test/tree/64_subgraph_60 ./test/tree/64_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=65 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp65_lvl10.log ./a.out ./test/tree/65_subgraph_10 ./test/tree/65_original_graph
+[Run] Done in 21.16s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 3589 ms
+
+[Valgrind] ==22769==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22769==   total heap usage: 13,215 allocs, 13,215 frees, 1,774,840 bytes allocated
+
+[Run] SICS grp=65 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp65_lvl20.log ./a.out ./test/tree/65_subgraph_20 ./test/tree/65_original_graph
+[Run] Done in 41.35s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 15525 ms
+
+[Valgrind] ==22778==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22778==   total heap usage: 28,653 allocs, 28,653 frees, 4,197,768 bytes allocated
+
+[Run] SICS grp=65 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp65_lvl60.log ./a.out ./test/tree/65_subgraph_60 ./test/tree/65_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=66 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp66_lvl10.log ./a.out ./test/tree/66_subgraph_10 ./test/tree/66_original_graph
+[Run] Done in 27.62s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7217 ms
+
+[Valgrind] ==22824==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22824==   total heap usage: 13,219 allocs, 13,219 frees, 1,774,728 bytes allocated
+
+[Run] SICS grp=66 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp66_lvl20.log ./a.out ./test/tree/66_subgraph_20 ./test/tree/66_original_graph
+[Run] Done in 33.38s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12068 ms
+
+[Valgrind] ==22847==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22847==   total heap usage: 28,639 allocs, 28,639 frees, 4,197,688 bytes allocated
+
+[Run] SICS grp=66 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp66_lvl60.log ./a.out ./test/tree/66_subgraph_60 ./test/tree/66_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.12s)
+
+[Run] SICS grp=67 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp67_lvl10.log ./a.out ./test/tree/67_subgraph_10 ./test/tree/67_original_graph
+[Run] Done in 31.22s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5603 ms
+
+[Valgrind] ==22884==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22884==   total heap usage: 13,245 allocs, 13,245 frees, 1,774,584 bytes allocated
+
+[Run] SICS grp=67 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp67_lvl20.log ./a.out ./test/tree/67_subgraph_20 ./test/tree/67_original_graph
+[Run] Done in 38.59s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13634 ms
+
+[Valgrind] ==22899==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22899==   total heap usage: 28,677 allocs, 28,677 frees, 4,197,520 bytes allocated
+
+[Run] SICS grp=67 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp67_lvl60.log ./a.out ./test/tree/67_subgraph_60 ./test/tree/67_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=68 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp68_lvl10.log ./a.out ./test/tree/68_subgraph_10 ./test/tree/68_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=68 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp68_lvl20.log ./a.out ./test/tree/68_subgraph_20 ./test/tree/68_original_graph
+[Run] Done in 28.59s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12862 ms
+
+[Valgrind] ==22957==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22957==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,704 bytes allocated
+
+[Run] SICS grp=68 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp68_lvl60.log ./a.out ./test/tree/68_subgraph_60 ./test/tree/68_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=69 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp69_lvl10.log ./a.out ./test/tree/69_subgraph_10 ./test/tree/69_original_graph
+[Run] Done in 35.65s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11830 ms
+
+[Valgrind] ==22982==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22982==   total heap usage: 13,265 allocs, 13,265 frees, 1,774,952 bytes allocated
+
+[Run] SICS grp=69 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp69_lvl20.log ./a.out ./test/tree/69_subgraph_20 ./test/tree/69_original_graph
+[Run] Done in 38.80s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7415 ms
+
+[Valgrind] ==23001==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23001==   total heap usage: 28,685 allocs, 28,685 frees, 4,197,856 bytes allocated
+
+[Run] SICS grp=69 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp69_lvl60.log ./a.out ./test/tree/69_subgraph_60 ./test/tree/69_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=70 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp70_lvl10.log ./a.out ./test/tree/70_subgraph_10 ./test/tree/70_original_graph
+[Run] Done in 30.21s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5533 ms
+
+[Valgrind] ==23028==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23028==   total heap usage: 13,203 allocs, 13,203 frees, 1,774,592 bytes allocated
+
+[Run] SICS grp=70 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp70_lvl20.log ./a.out ./test/tree/70_subgraph_20 ./test/tree/70_original_graph
+[Run] Done in 38.64s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14907 ms
+
+[Valgrind] ==23040==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23040==   total heap usage: 28,645 allocs, 28,645 frees, 4,197,600 bytes allocated
+
+[Run] SICS grp=70 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp70_lvl60.log ./a.out ./test/tree/70_subgraph_60 ./test/tree/70_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=71 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp71_lvl10.log ./a.out ./test/tree/71_subgraph_10 ./test/tree/71_original_graph
+[Run] Done in 38.84s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12165 ms
+
+[Valgrind] ==23078==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23078==   total heap usage: 13,243 allocs, 13,243 frees, 1,774,592 bytes allocated
+
+[Run] SICS grp=71 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp71_lvl20.log ./a.out ./test/tree/71_subgraph_20 ./test/tree/71_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=71 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp71_lvl60.log ./a.out ./test/tree/71_subgraph_60 ./test/tree/71_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=72 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp72_lvl10.log ./a.out ./test/tree/72_subgraph_10 ./test/tree/72_original_graph
+[Run] Done in 29.74s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4898 ms
+
+[Valgrind] ==23123==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23123==   total heap usage: 13,217 allocs, 13,217 frees, 1,774,752 bytes allocated
+
+[Run] SICS grp=72 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp72_lvl20.log ./a.out ./test/tree/72_subgraph_20 ./test/tree/72_original_graph
+[Run] Done in 40.88s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 15746 ms
+
+[Valgrind] ==23154==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23154==   total heap usage: 28,641 allocs, 28,641 frees, 4,197,688 bytes allocated
+
+[Run] SICS grp=72 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp72_lvl60.log ./a.out ./test/tree/72_subgraph_60 ./test/tree/72_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] SICS grp=73 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp73_lvl10.log ./a.out ./test/tree/73_subgraph_10 ./test/tree/73_original_graph
+[Run] Done in 35.99s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8957 ms
+
+[Valgrind] ==23179==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23179==   total heap usage: 13,227 allocs, 13,227 frees, 1,774,776 bytes allocated
+
+[Run] SICS grp=73 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp73_lvl20.log ./a.out ./test/tree/73_subgraph_20 ./test/tree/73_original_graph
+[Run] Done in 40.57s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14639 ms
+
+[Valgrind] ==23188==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23188==   total heap usage: 28,647 allocs, 28,647 frees, 4,197,784 bytes allocated
+
+[Run] SICS grp=73 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp73_lvl60.log ./a.out ./test/tree/73_subgraph_60 ./test/tree/73_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=74 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp74_lvl10.log ./a.out ./test/tree/74_subgraph_10 ./test/tree/74_original_graph
+[Run] Done in 37.81s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5143 ms
+
+[Valgrind] ==23235==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23235==   total heap usage: 13,205 allocs, 13,205 frees, 1,774,480 bytes allocated
+
+[Run] SICS grp=74 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp74_lvl20.log ./a.out ./test/tree/74_subgraph_20 ./test/tree/74_original_graph
+[Run] Done in 40.79s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 10898 ms
+
+[Valgrind] ==23256==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23256==   total heap usage: 28,625 allocs, 28,625 frees, 4,197,448 bytes allocated
+
+[Run] SICS grp=74 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp74_lvl60.log ./a.out ./test/tree/74_subgraph_60 ./test/tree/74_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=75 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp75_lvl10.log ./a.out ./test/tree/75_subgraph_10 ./test/tree/75_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] SICS grp=75 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp75_lvl20.log ./a.out ./test/tree/75_subgraph_20 ./test/tree/75_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=75 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp75_lvl60.log ./a.out ./test/tree/75_subgraph_60 ./test/tree/75_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=76 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp76_lvl10.log ./a.out ./test/tree/76_subgraph_10 ./test/tree/76_original_graph
+[Run] Done in 31.84s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8935 ms
+
+[Valgrind] ==23332==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23332==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,528 bytes allocated
+
+[Run] SICS grp=76 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp76_lvl20.log ./a.out ./test/tree/76_subgraph_20 ./test/tree/76_original_graph
+[Run] Done in 41.10s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 18095 ms
+
+[Valgrind] ==23342==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23342==   total heap usage: 28,645 allocs, 28,645 frees, 4,197,432 bytes allocated
+
+[Run] SICS grp=76 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp76_lvl60.log ./a.out ./test/tree/76_subgraph_60 ./test/tree/76_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=77 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp77_lvl10.log ./a.out ./test/tree/77_subgraph_10 ./test/tree/77_original_graph
+[Run] Done in 39.30s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7025 ms
+
+[Valgrind] ==23371==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23371==   total heap usage: 13,205 allocs, 13,205 frees, 1,774,664 bytes allocated
+
+[Run] SICS grp=77 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp77_lvl20.log ./a.out ./test/tree/77_subgraph_20 ./test/tree/77_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.02s)
+
+[Run] SICS grp=77 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp77_lvl60.log ./a.out ./test/tree/77_subgraph_60 ./test/tree/77_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=78 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp78_lvl10.log ./a.out ./test/tree/78_subgraph_10 ./test/tree/78_original_graph
+[Run] Done in 35.01s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 2892 ms
+
+[Valgrind] ==23433==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23433==   total heap usage: 13,213 allocs, 13,213 frees, 1,774,680 bytes allocated
+
+[Run] SICS grp=78 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp78_lvl20.log ./a.out ./test/tree/78_subgraph_20 ./test/tree/78_original_graph
+[Run] Done in 57.16s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 30355 ms
+
+[Valgrind] ==23452==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23452==   total heap usage: 28,651 allocs, 28,651 frees, 4,197,712 bytes allocated
+
+[Run] SICS grp=78 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp78_lvl60.log ./a.out ./test/tree/78_subgraph_60 ./test/tree/78_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=79 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp79_lvl10.log ./a.out ./test/tree/79_subgraph_10 ./test/tree/79_original_graph
+[Run] Done in 33.60s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5265 ms
+
+[Valgrind] ==23491==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23491==   total heap usage: 13,249 allocs, 13,249 frees, 1,774,632 bytes allocated
+
+[Run] SICS grp=79 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp79_lvl20.log ./a.out ./test/tree/79_subgraph_20 ./test/tree/79_original_graph
+[Run] Done in 42.01s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 16863 ms
+
+[Valgrind] ==23503==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23503==   total heap usage: 28,681 allocs, 28,681 frees, 4,197,624 bytes allocated
+
+[Run] SICS grp=79 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp79_lvl60.log ./a.out ./test/tree/79_subgraph_60 ./test/tree/79_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] SICS grp=80 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp80_lvl10.log ./a.out ./test/tree/80_subgraph_10 ./test/tree/80_original_graph
+[Run] Done in 32.37s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9452 ms
+
+[Valgrind] ==23534==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23534==   total heap usage: 13,241 allocs, 13,241 frees, 1,774,704 bytes allocated
+
+[Run] SICS grp=80 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp80_lvl20.log ./a.out ./test/tree/80_subgraph_20 ./test/tree/80_original_graph
+[Run] Done in 49.57s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14267 ms
+
+[Valgrind] ==23553==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23553==   total heap usage: 28,683 allocs, 28,683 frees, 4,197,712 bytes allocated
+
+[Run] SICS grp=80 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp80_lvl60.log ./a.out ./test/tree/80_subgraph_60 ./test/tree/80_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] SICS grp=81 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp81_lvl10.log ./a.out ./test/tree/81_subgraph_10 ./test/tree/81_original_graph
+[Run] Done in 45.30s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14774 ms
+
+[Valgrind] ==23599==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23599==   total heap usage: 13,245 allocs, 13,245 frees, 1,774,712 bytes allocated
+
+[Run] SICS grp=81 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp81_lvl20.log ./a.out ./test/tree/81_subgraph_20 ./test/tree/81_original_graph
+[Run] Done in 45.11s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 16716 ms
+
+[Valgrind] ==23620==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23620==   total heap usage: 28,683 allocs, 28,683 frees, 4,197,688 bytes allocated
+
+[Run] SICS grp=81 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp81_lvl60.log ./a.out ./test/tree/81_subgraph_60 ./test/tree/81_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=82 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp82_lvl10.log ./a.out ./test/tree/82_subgraph_10 ./test/tree/82_original_graph
+[Run] Done in 35.43s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9965 ms
+
+[Valgrind] ==23650==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23650==   total heap usage: 13,235 allocs, 13,235 frees, 1,774,720 bytes allocated
+
+[Run] SICS grp=82 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp82_lvl20.log ./a.out ./test/tree/82_subgraph_20 ./test/tree/82_original_graph
+[Run] Done in 36.93s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9889 ms
+
+[Valgrind] ==23682==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23682==   total heap usage: 28,661 allocs, 28,661 frees, 4,197,712 bytes allocated
+
+[Run] SICS grp=82 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp82_lvl60.log ./a.out ./test/tree/82_subgraph_60 ./test/tree/82_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] SICS grp=83 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp83_lvl10.log ./a.out ./test/tree/83_subgraph_10 ./test/tree/83_original_graph
+[Run] Done in 36.43s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4261 ms
+
+[Valgrind] ==23719==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23719==   total heap usage: 13,219 allocs, 13,219 frees, 1,774,768 bytes allocated
+
+[Run] SICS grp=83 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp83_lvl20.log ./a.out ./test/tree/83_subgraph_20 ./test/tree/83_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=83 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp83_lvl60.log ./a.out ./test/tree/83_subgraph_60 ./test/tree/83_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=84 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp84_lvl10.log ./a.out ./test/tree/84_subgraph_10 ./test/tree/84_original_graph
+[Run] Done in 46.16s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9572 ms
+
+[Valgrind] ==23772==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23772==   total heap usage: 13,209 allocs, 13,209 frees, 1,774,704 bytes allocated
+
+[Run] SICS grp=84 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp84_lvl20.log ./a.out ./test/tree/84_subgraph_20 ./test/tree/84_original_graph
+[Run] Done in 36.92s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 15103 ms
+
+[Valgrind] ==23782==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23782==   total heap usage: 28,637 allocs, 28,637 frees, 4,197,632 bytes allocated
+
+[Run] SICS grp=84 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp84_lvl60.log ./a.out ./test/tree/84_subgraph_60 ./test/tree/84_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] SICS grp=85 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp85_lvl10.log ./a.out ./test/tree/85_subgraph_10 ./test/tree/85_original_graph
+[Run] Done in 44.72s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9135 ms
+
+[Valgrind] ==23839==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23839==   total heap usage: 13,247 allocs, 13,247 frees, 1,774,544 bytes allocated
+
+[Run] SICS grp=85 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp85_lvl20.log ./a.out ./test/tree/85_subgraph_20 ./test/tree/85_original_graph
+[Run] Done in 41.20s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 16167 ms
+
+[Valgrind] ==23863==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23863==   total heap usage: 28,675 allocs, 28,675 frees, 4,197,512 bytes allocated
+
+[Run] SICS grp=85 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp85_lvl60.log ./a.out ./test/tree/85_subgraph_60 ./test/tree/85_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=86 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp86_lvl10.log ./a.out ./test/tree/86_subgraph_10 ./test/tree/86_original_graph
+[Run] Done in 30.16s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6250 ms
+
+[Valgrind] ==23900==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23900==   total heap usage: 13,271 allocs, 13,271 frees, 1,774,832 bytes allocated
+
+[Run] SICS grp=86 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp86_lvl20.log ./a.out ./test/tree/86_subgraph_20 ./test/tree/86_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=86 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp86_lvl60.log ./a.out ./test/tree/86_subgraph_60 ./test/tree/86_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] SICS grp=87 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp87_lvl10.log ./a.out ./test/tree/87_subgraph_10 ./test/tree/87_original_graph
+[Run] Done in 39.83s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9466 ms
+
+[Valgrind] ==23961==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23961==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,792 bytes allocated
+
+[Run] SICS grp=87 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp87_lvl20.log ./a.out ./test/tree/87_subgraph_20 ./test/tree/87_original_graph
+[Run] Done in 43.49s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 14939 ms
+
+[Valgrind] ==23987==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==23987==   total heap usage: 28,629 allocs, 28,629 frees, 4,197,592 bytes allocated
+
+[Run] SICS grp=87 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp87_lvl60.log ./a.out ./test/tree/87_subgraph_60 ./test/tree/87_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.12s)
+
+[Run] SICS grp=88 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp88_lvl10.log ./a.out ./test/tree/88_subgraph_10 ./test/tree/88_original_graph
+[Run] Done in 42.47s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6784 ms
+
+[Valgrind] ==24695==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24695==   total heap usage: 13,205 allocs, 13,205 frees, 1,774,544 bytes allocated
+
+[Run] SICS grp=88 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp88_lvl20.log ./a.out ./test/tree/88_subgraph_20 ./test/tree/88_original_graph
+[Run] Done in 29.33s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5232 ms
+
+[Valgrind] ==24719==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24719==   total heap usage: 28,643 allocs, 28,643 frees, 4,197,536 bytes allocated
+
+[Run] SICS grp=88 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp88_lvl60.log ./a.out ./test/tree/88_subgraph_60 ./test/tree/88_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=89 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp89_lvl10.log ./a.out ./test/tree/89_subgraph_10 ./test/tree/89_original_graph
+[Run] Done in 41.98s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12206 ms
+
+[Valgrind] ==24758==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24758==   total heap usage: 13,243 allocs, 13,243 frees, 1,774,888 bytes allocated
+
+[Run] SICS grp=89 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp89_lvl20.log ./a.out ./test/tree/89_subgraph_20 ./test/tree/89_original_graph
+[Run] Done in 44.81s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 15798 ms
+
+[Valgrind] ==24785==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24785==   total heap usage: 28,659 allocs, 28,659 frees, 4,197,792 bytes allocated
+
+[Run] SICS grp=89 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp89_lvl60.log ./a.out ./test/tree/89_subgraph_60 ./test/tree/89_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=90 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp90_lvl10.log ./a.out ./test/tree/90_subgraph_10 ./test/tree/90_original_graph
+[Run] Done in 38.27s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6038 ms
+
+[Valgrind] ==24825==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24825==   total heap usage: 13,233 allocs, 13,233 frees, 1,774,712 bytes allocated
+
+[Run] SICS grp=90 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp90_lvl20.log ./a.out ./test/tree/90_subgraph_20 ./test/tree/90_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=90 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp90_lvl60.log ./a.out ./test/tree/90_subgraph_60 ./test/tree/90_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=91 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp91_lvl10.log ./a.out ./test/tree/91_subgraph_10 ./test/tree/91_original_graph
+[Run] Done in 42.76s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4377 ms
+
+[Valgrind] ==24895==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24895==   total heap usage: 13,211 allocs, 13,211 frees, 1,774,736 bytes allocated
+
+[Run] SICS grp=91 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp91_lvl20.log ./a.out ./test/tree/91_subgraph_20 ./test/tree/91_original_graph
+[Run] Done in 33.23s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 15173 ms
+
+[Valgrind] ==24904==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24904==   total heap usage: 28,645 allocs, 28,645 frees, 4,197,696 bytes allocated
+
+[Run] SICS grp=91 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp91_lvl60.log ./a.out ./test/tree/91_subgraph_60 ./test/tree/91_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] SICS grp=92 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp92_lvl10.log ./a.out ./test/tree/92_subgraph_10 ./test/tree/92_original_graph
+[Run] Done in 30.70s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11084 ms
+
+[Valgrind] ==24942==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24942==   total heap usage: 13,219 allocs, 13,219 frees, 1,774,624 bytes allocated
+
+[Run] SICS grp=92 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp92_lvl20.log ./a.out ./test/tree/92_subgraph_20 ./test/tree/92_original_graph
+[Run] Done in 50.31s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9895 ms
+
+[Valgrind] ==24970==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==24970==   total heap usage: 28,641 allocs, 28,641 frees, 4,197,504 bytes allocated
+
+[Run] SICS grp=92 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp92_lvl60.log ./a.out ./test/tree/92_subgraph_60 ./test/tree/92_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] SICS grp=93 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp93_lvl10.log ./a.out ./test/tree/93_subgraph_10 ./test/tree/93_original_graph
+[Run] Done in 27.74s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8101 ms
+
+[Valgrind] ==25004==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25004==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,792 bytes allocated
+
+[Run] SICS grp=93 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp93_lvl20.log ./a.out ./test/tree/93_subgraph_20 ./test/tree/93_original_graph
+[Run] Done in 38.39s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 16366 ms
+
+[Valgrind] ==25014==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25014==   total heap usage: 28,651 allocs, 28,651 frees, 4,197,800 bytes allocated
+
+[Run] SICS grp=93 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp93_lvl60.log ./a.out ./test/tree/93_subgraph_60 ./test/tree/93_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.12s)
+
+[Run] SICS grp=94 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp94_lvl10.log ./a.out ./test/tree/94_subgraph_10 ./test/tree/94_original_graph
+[Run] Done in 52.26s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 16164 ms
+
+[Valgrind] ==25047==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25047==   total heap usage: 13,241 allocs, 13,241 frees, 1,774,792 bytes allocated
+
+[Run] SICS grp=94 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp94_lvl20.log ./a.out ./test/tree/94_subgraph_20 ./test/tree/94_original_graph
+[Run] Done in 49.94s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 20062 ms
+
+[Valgrind] ==25071==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25071==   total heap usage: 28,679 allocs, 28,679 frees, 4,197,712 bytes allocated
+
+[Run] SICS grp=94 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp94_lvl60.log ./a.out ./test/tree/94_subgraph_60 ./test/tree/94_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=95 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp95_lvl10.log ./a.out ./test/tree/95_subgraph_10 ./test/tree/95_original_graph
+[Run] Done in 39.57s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 9157 ms
+
+[Valgrind] ==25125==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25125==   total heap usage: 13,213 allocs, 13,213 frees, 1,774,408 bytes allocated
+
+[Run] SICS grp=95 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp95_lvl20.log ./a.out ./test/tree/95_subgraph_20 ./test/tree/95_original_graph
+[Run] Done in 56.00s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 18768 ms
+
+[Valgrind] ==25137==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25137==   total heap usage: 28,657 allocs, 28,657 frees, 4,197,464 bytes allocated
+
+[Run] SICS grp=95 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp95_lvl60.log ./a.out ./test/tree/95_subgraph_60 ./test/tree/95_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=96 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp96_lvl10.log ./a.out ./test/tree/96_subgraph_10 ./test/tree/96_original_graph
+[Run] Done in 51.85s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11548 ms
+
+[Valgrind] ==25175==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25175==   total heap usage: 13,223 allocs, 13,223 frees, 1,774,560 bytes allocated
+
+[Run] SICS grp=96 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp96_lvl20.log ./a.out ./test/tree/96_subgraph_20 ./test/tree/96_original_graph
+[Run] Done in 56.60s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 21917 ms
+
+[Valgrind] ==25186==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25186==   total heap usage: 28,655 allocs, 28,655 frees, 4,197,456 bytes allocated
+
+[Run] SICS grp=96 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp96_lvl60.log ./a.out ./test/tree/96_subgraph_60 ./test/tree/96_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] SICS grp=97 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp97_lvl10.log ./a.out ./test/tree/97_subgraph_10 ./test/tree/97_original_graph
+[Run] Done in 45.25s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 8172 ms
+
+[Valgrind] ==25247==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25247==   total heap usage: 13,189 allocs, 13,189 frees, 1,774,704 bytes allocated
+
+[Run] SICS grp=97 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp97_lvl20.log ./a.out ./test/tree/97_subgraph_20 ./test/tree/97_original_graph
+[Run] Done in 55.99s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 21835 ms
+
+[Valgrind] ==25255==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25255==   total heap usage: 28,617 allocs, 28,617 frees, 4,197,624 bytes allocated
+
+[Run] SICS grp=97 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp97_lvl60.log ./a.out ./test/tree/97_subgraph_60 ./test/tree/97_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] SICS grp=98 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp98_lvl10.log ./a.out ./test/tree/98_subgraph_10 ./test/tree/98_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] SICS grp=98 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp98_lvl20.log ./a.out ./test/tree/98_subgraph_20 ./test/tree/98_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=98 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp98_lvl60.log ./a.out ./test/tree/98_subgraph_60 ./test/tree/98_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=99 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp99_lvl10.log ./a.out ./test/tree/99_subgraph_10 ./test/tree/99_original_graph
+[Run] Done in 52.10s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11375 ms
+
+[Valgrind] ==25368==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25368==   total heap usage: 13,251 allocs, 13,251 frees, 1,774,760 bytes allocated
+
+[Run] SICS grp=99 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp99_lvl20.log ./a.out ./test/tree/99_subgraph_20 ./test/tree/99_original_graph
+[Run] Done in 52.62s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13823 ms
+
+[Valgrind] ==25397==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25397==   total heap usage: 28,679 allocs, 28,679 frees, 4,197,624 bytes allocated
+
+[Run] SICS grp=99 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp99_lvl60.log ./a.out ./test/tree/99_subgraph_60 ./test/tree/99_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] SICS grp=100 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp100_lvl10.log ./a.out ./test/tree/100_subgraph_10 ./test/tree/100_original_graph
+[Run] Done in 51.10s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13087 ms
+
+[Valgrind] ==25447==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25447==   total heap usage: 13,231 allocs, 13,231 frees, 1,774,544 bytes allocated
+
+[Run] SICS grp=100 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp100_lvl20.log ./a.out ./test/tree/100_subgraph_20 ./test/tree/100_original_graph
+[Run] Done in 52.45s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 20571 ms
+
+[Valgrind] ==25477==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==25477==   total heap usage: 28,659 allocs, 28,659 frees, 4,197,456 bytes allocated
+
+[Run] SICS grp=100 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_tree_grp100_lvl60.log ./a.out ./test/tree/100_subgraph_60 ./test/tree/100_original_graph
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+=== END   SICS (tree) ===

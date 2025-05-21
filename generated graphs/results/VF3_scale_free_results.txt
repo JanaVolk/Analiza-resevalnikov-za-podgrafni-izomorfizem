@@ -1,0 +1,1827 @@
+=== START VF3 (scale_free) ===
+[Run] VF3 (scale_free) groups: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99']
+
+[Run] VF3 grp=0 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp0_lvl10.log ./bin/vf3 -u ./test/scale_free/0graph10.sub.grf ./test/scale_free/0graph.grf
+[Run] Done in 4.64s
+1 0.739477 0.739477
+
+[Valgrind] ==55439==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==55439==   total heap usage: 14,513 allocs, 14,313 frees, 774,844 bytes allocated
+
+[Run] VF3 grp=0 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp0_lvl20.log ./bin/vf3 -u ./test/scale_free/0graph20.sub.grf ./test/scale_free/0graph.grf
+[Run] Done in 4.09s
+1 0.308476 0.308476
+
+[Valgrind] ==55469==     in use at exit: 25,600 bytes in 800 blocks
+[Valgrind] ==55469==   total heap usage: 19,965 allocs, 19,165 frees, 968,940 bytes allocated
+
+[Run] VF3 grp=0 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp0_lvl60.log ./bin/vf3 -u ./test/scale_free/0graph60.sub.grf ./test/scale_free/0graph.grf
+[Run] Done in 3.83s
+1 0.33637 0.33637
+
+[Valgrind] ==55475==     in use at exit: 57,600 bytes in 1,800 blocks
+[Valgrind] ==55475==   total heap usage: 31,761 allocs, 29,961 frees, 1,376,820 bytes allocated
+
+[Run] VF3 grp=1 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp1_lvl10.log ./bin/vf3 -u ./test/scale_free/1graph10.sub.grf ./test/scale_free/1graph.grf
+[Run] Done in 3.62s
+1 0.26068 0.26068
+
+[Valgrind] ==55481==     in use at exit: 12,800 bytes in 400 blocks
+[Valgrind] ==55481==   total heap usage: 16,033 allocs, 15,633 frees, 855,608 bytes allocated
+
+[Run] VF3 grp=1 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp1_lvl20.log ./bin/vf3 -u ./test/scale_free/1graph20.sub.grf ./test/scale_free/1graph.grf
+[Run] Done in 25.89s
+1 23.1407 23.1407
+
+[Valgrind] ==55485==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==55485==   total heap usage: 15,497 allocs, 15,297 frees, 809,976 bytes allocated
+
+[Run] VF3 grp=1 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp1_lvl60.log ./bin/vf3 -u ./test/scale_free/1graph60.sub.grf ./test/scale_free/1graph.grf
+[Run] Done in 11.80s
+1 8.9008 8.9008
+
+[Valgrind] ==55505==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55505==   total heap usage: 23,201 allocs, 22,601 frees, 1,117,708 bytes allocated
+
+[Run] VF3 grp=2 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp2_lvl10.log ./bin/vf3 -u ./test/scale_free/2graph10.sub.grf ./test/scale_free/2graph.grf
+[Run] Done in 3.94s
+1 1.21665 1.21665
+
+[Valgrind] ==55514==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==55514==   total heap usage: 13,747 allocs, 13,647 frees, 740,672 bytes allocated
+
+[Run] VF3 grp=2 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp2_lvl20.log ./bin/vf3 -u ./test/scale_free/2graph20.sub.grf ./test/scale_free/2graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] VF3 grp=2 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp2_lvl60.log ./bin/vf3 -u ./test/scale_free/2graph60.sub.grf ./test/scale_free/2graph.grf
+[Run] Done in 4.49s
+1 0.589606 0.589606
+
+[Valgrind] ==55574==     in use at exit: 38,400 bytes in 1,200 blocks
+[Valgrind] ==55574==   total heap usage: 27,437 allocs, 26,237 frees, 1,245,716 bytes allocated
+
+[Run] VF3 grp=3 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp3_lvl10.log ./bin/vf3 -u ./test/scale_free/3graph10.sub.grf ./test/scale_free/3graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=3 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp3_lvl20.log ./bin/vf3 -u ./test/scale_free/3graph20.sub.grf ./test/scale_free/3graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=3 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp3_lvl60.log ./bin/vf3 -u ./test/scale_free/3graph60.sub.grf ./test/scale_free/3graph.grf
+[Run] Done in 4.60s
+1 0.302458 0.302458
+
+[Valgrind] ==55608==     in use at exit: 76,800 bytes in 2,400 blocks
+[Valgrind] ==55608==   total heap usage: 36,033 allocs, 33,633 frees, 1,511,248 bytes allocated
+
+[Run] VF3 grp=4 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp4_lvl10.log ./bin/vf3 -u ./test/scale_free/4graph10.sub.grf ./test/scale_free/4graph.grf
+[Run] Done in 4.04s
+1 0.503567 0.503567
+
+[Valgrind] ==55614==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==55614==   total heap usage: 14,533 allocs, 14,333 frees, 776,416 bytes allocated
+
+[Run] VF3 grp=4 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp4_lvl20.log ./bin/vf3 -u ./test/scale_free/4graph20.sub.grf ./test/scale_free/4graph.grf
+[Run] Done in 4.37s
+1 0.431239 0.431239
+
+[Valgrind] ==55620==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55620==   total heap usage: 18,453 allocs, 17,853 frees, 915,012 bytes allocated
+
+[Run] VF3 grp=4 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp4_lvl60.log ./bin/vf3 -u ./test/scale_free/4graph60.sub.grf ./test/scale_free/4graph.grf
+[Run] Done in 5.29s
+1 2.23588 2.23588
+
+[Valgrind] ==55628==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55628==   total heap usage: 23,189 allocs, 22,589 frees, 1,114,720 bytes allocated
+
+[Run] VF3 grp=5 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp5_lvl10.log ./bin/vf3 -u ./test/scale_free/5graph10.sub.grf ./test/scale_free/5graph.grf
+[Run] Done in 4.06s
+1 0.158042 0.158042
+
+[Valgrind] ==55634==     in use at exit: 22,400 bytes in 700 blocks
+[Valgrind] ==55634==   total heap usage: 18,299 allocs, 17,599 frees, 935,180 bytes allocated
+
+[Run] VF3 grp=5 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp5_lvl20.log ./bin/vf3 -u ./test/scale_free/5graph20.sub.grf ./test/scale_free/5graph.grf
+[Run] Done in 4.36s
+1 0.108648 0.108648
+
+[Valgrind] ==55637==     in use at exit: 64,000 bytes in 2,000 blocks
+[Valgrind] ==55637==   total heap usage: 28,749 allocs, 26,749 frees, 1,266,876 bytes allocated
+
+[Run] VF3 grp=5 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp5_lvl60.log ./bin/vf3 -u ./test/scale_free/5graph60.sub.grf ./test/scale_free/5graph.grf
+[Run] Done in 4.21s
+1 0.252119 0.252119
+
+[Valgrind] ==55642==     in use at exit: 76,800 bytes in 2,400 blocks
+[Valgrind] ==55642==   total heap usage: 36,045 allocs, 33,645 frees, 1,500,460 bytes allocated
+
+[Run] VF3 grp=6 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp6_lvl10.log ./bin/vf3 -u ./test/scale_free/6graph10.sub.grf ./test/scale_free/6graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.04s)
+
+[Run] VF3 grp=6 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp6_lvl20.log ./bin/vf3 -u ./test/scale_free/6graph20.sub.grf ./test/scale_free/6graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=6 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp6_lvl60.log ./bin/vf3 -u ./test/scale_free/6graph60.sub.grf ./test/scale_free/6graph.grf
+[Run] Done in 7.47s
+1 2.14933 2.14933
+
+[Valgrind] ==55689==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55689==   total heap usage: 23,201 allocs, 22,601 frees, 1,112,860 bytes allocated
+
+[Run] VF3 grp=7 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp7_lvl10.log ./bin/vf3 -u ./test/scale_free/7graph10.sub.grf ./test/scale_free/7graph.grf
+[Run] Done in 5.95s
+1 1.69823 1.69823
+
+[Valgrind] ==55695==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==55695==   total heap usage: 13,811 allocs, 13,711 frees, 740,960 bytes allocated
+
+[Run] VF3 grp=7 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp7_lvl20.log ./bin/vf3 -u ./test/scale_free/7graph20.sub.grf ./test/scale_free/7graph.grf
+[Run] Done in 6.80s
+1 2.28666 2.28666
+
+[Valgrind] ==55701==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==55701==   total heap usage: 15,549 allocs, 15,349 frees, 807,852 bytes allocated
+
+[Run] VF3 grp=7 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp7_lvl60.log ./bin/vf3 -u ./test/scale_free/7graph60.sub.grf ./test/scale_free/7graph.grf
+[Run] Done in 37.20s
+1 33.0343 33.0343
+
+[Valgrind] ==55716==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55716==   total heap usage: 23,221 allocs, 22,621 frees, 1,114,144 bytes allocated
+
+[Run] VF3 grp=8 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp8_lvl10.log ./bin/vf3 -u ./test/scale_free/8graph10.sub.grf ./test/scale_free/8graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=8 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp8_lvl20.log ./bin/vf3 -u ./test/scale_free/8graph20.sub.grf ./test/scale_free/8graph.grf
+[Run] Done in 6.48s
+1 0.816123 0.816123
+
+[Valgrind] ==55792==     in use at exit: 12,800 bytes in 400 blocks
+[Valgrind] ==55792==   total heap usage: 17,029 allocs, 16,629 frees, 859,860 bytes allocated
+
+[Run] VF3 grp=8 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp8_lvl60.log ./bin/vf3 -u ./test/scale_free/8graph60.sub.grf ./test/scale_free/8graph.grf
+[Run] Done in 6.13s
+1 1.14904 1.14904
+
+[Valgrind] ==55798==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55798==   total heap usage: 23,217 allocs, 22,617 frees, 1,114,060 bytes allocated
+
+[Run] VF3 grp=9 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp9_lvl10.log ./bin/vf3 -u ./test/scale_free/9graph10.sub.grf ./test/scale_free/9graph.grf
+[Run] Done in 16.51s
+1 11.76 11.76
+
+[Valgrind] ==55804==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==55804==   total heap usage: 13,771 allocs, 13,671 frees, 740,696 bytes allocated
+
+[Run] VF3 grp=9 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp9_lvl20.log ./bin/vf3 -u ./test/scale_free/9graph20.sub.grf ./test/scale_free/9graph.grf
+[Run] Done in 5.41s
+1 0.255904 0.255904
+
+[Valgrind] ==55810==     in use at exit: 25,600 bytes in 800 blocks
+[Valgrind] ==55810==   total heap usage: 19,985 allocs, 19,185 frees, 969,264 bytes allocated
+
+[Run] VF3 grp=9 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp9_lvl60.log ./bin/vf3 -u ./test/scale_free/9graph60.sub.grf ./test/scale_free/9graph.grf
+[Run] Done in 6.57s
+1 2.29359 2.29359
+
+[Valgrind] ==55816==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55816==   total heap usage: 23,189 allocs, 22,589 frees, 1,114,240 bytes allocated
+
+[Run] VF3 grp=10 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp10_lvl10.log ./bin/vf3 -u ./test/scale_free/10graph10.sub.grf ./test/scale_free/10graph.grf
+[Run] Done in 12.96s
+1 8.99047 8.99047
+
+[Valgrind] ==55822==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==55822==   total heap usage: 13,787 allocs, 13,687 frees, 741,512 bytes allocated
+
+[Run] VF3 grp=10 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp10_lvl20.log ./bin/vf3 -u ./test/scale_free/10graph20.sub.grf ./test/scale_free/10graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=10 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp10_lvl60.log ./bin/vf3 -u ./test/scale_free/10graph60.sub.grf ./test/scale_free/10graph.grf
+[Run] Done in 12.94s
+1 7.98173 7.98173
+
+[Valgrind] ==55853==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55853==   total heap usage: 23,205 allocs, 22,605 frees, 1,115,056 bytes allocated
+
+[Run] VF3 grp=11 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp11_lvl10.log ./bin/vf3 -u ./test/scale_free/11graph10.sub.grf ./test/scale_free/11graph.grf
+[Run] Done in 19.38s
+1 14.5959 14.5959
+
+[Valgrind] ==55859==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==55859==   total heap usage: 13,723 allocs, 13,623 frees, 740,696 bytes allocated
+
+[Run] VF3 grp=11 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp11_lvl20.log ./bin/vf3 -u ./test/scale_free/11graph20.sub.grf ./test/scale_free/11graph.grf
+[Run] Done in 6.51s
+1 0.674666 0.674666
+
+[Valgrind] ==55895==     in use at exit: 12,800 bytes in 400 blocks
+[Valgrind] ==55895==   total heap usage: 17,065 allocs, 16,665 frees, 868,680 bytes allocated
+
+[Run] VF3 grp=11 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp11_lvl60.log ./bin/vf3 -u ./test/scale_free/11graph60.sub.grf ./test/scale_free/11graph.grf
+[Run] Done in 7.25s
+1 1.80473 1.80473
+
+[Valgrind] ==55917==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55917==   total heap usage: 23,149 allocs, 22,549 frees, 1,114,600 bytes allocated
+
+[Run] VF3 grp=12 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp12_lvl10.log ./bin/vf3 -u ./test/scale_free/12graph10.sub.grf ./test/scale_free/12graph.grf
+[Run] Done in 38.45s
+1 33.2261 33.2261
+
+[Valgrind] ==55923==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==55923==   total heap usage: 13,735 allocs, 13,635 frees, 738,212 bytes allocated
+
+[Run] VF3 grp=12 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp12_lvl20.log ./bin/vf3 -u ./test/scale_free/12graph20.sub.grf ./test/scale_free/12graph.grf
+[Run] Done in 6.80s
+1 0.843953 0.843953
+
+[Valgrind] ==55955==     in use at exit: 12,800 bytes in 400 blocks
+[Valgrind] ==55955==   total heap usage: 17,009 allocs, 16,609 frees, 860,112 bytes allocated
+
+[Run] VF3 grp=12 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp12_lvl60.log ./bin/vf3 -u ./test/scale_free/12graph60.sub.grf ./test/scale_free/12graph.grf
+[Run] Done in 6.10s
+1 0.367155 0.367155
+
+[Valgrind] ==55962==     in use at exit: 57,600 bytes in 1,800 blocks
+[Valgrind] ==55962==   total heap usage: 31,749 allocs, 29,949 frees, 1,373,256 bytes allocated
+
+[Run] VF3 grp=13 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp13_lvl10.log ./bin/vf3 -u ./test/scale_free/13graph10.sub.grf ./test/scale_free/13graph.grf
+[Run] Done in 6.16s
+1 0.567987 0.567987
+
+[Valgrind] ==55970==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==55970==   total heap usage: 14,497 allocs, 14,297 frees, 772,588 bytes allocated
+
+[Run] VF3 grp=13 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp13_lvl20.log ./bin/vf3 -u ./test/scale_free/13graph20.sub.grf ./test/scale_free/13graph.grf
+[Run] Done in 6.13s
+1 1.05887 1.05887
+
+[Valgrind] ==55976==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==55976==   total heap usage: 15,609 allocs, 15,409 frees, 811,464 bytes allocated
+
+[Run] VF3 grp=13 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp13_lvl60.log ./bin/vf3 -u ./test/scale_free/13graph60.sub.grf ./test/scale_free/13graph.grf
+[Run] Done in 6.73s
+1 1.45914 1.45914
+
+[Valgrind] ==55983==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==55983==   total heap usage: 23,261 allocs, 22,661 frees, 1,116,856 bytes allocated
+
+[Run] VF3 grp=14 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp14_lvl10.log ./bin/vf3 -u ./test/scale_free/14graph10.sub.grf ./test/scale_free/14graph.grf
+[Run] Done in 6.53s
+1 0.801885 0.801885
+
+[Valgrind] ==55990==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==55990==   total heap usage: 14,517 allocs, 14,317 frees, 771,280 bytes allocated
+
+[Run] VF3 grp=14 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp14_lvl20.log ./bin/vf3 -u ./test/scale_free/14graph20.sub.grf ./test/scale_free/14graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=14 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp14_lvl60.log ./bin/vf3 -u ./test/scale_free/14graph60.sub.grf ./test/scale_free/14graph.grf
+[Run] Done in 6.10s
+1 0.278956 0.278956
+
+[Valgrind] ==56078==     in use at exit: 76,800 bytes in 2,400 blocks
+[Valgrind] ==56078==   total heap usage: 36,017 allocs, 33,617 frees, 1,499,200 bytes allocated
+
+[Run] VF3 grp=15 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp15_lvl10.log ./bin/vf3 -u ./test/scale_free/15graph10.sub.grf ./test/scale_free/15graph.grf
+[Run] Done in 6.33s
+1 0.636808 0.636808
+
+[Valgrind] ==56084==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==56084==   total heap usage: 14,461 allocs, 14,261 frees, 771,448 bytes allocated
+
+[Run] VF3 grp=15 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp15_lvl20.log ./bin/vf3 -u ./test/scale_free/15graph20.sub.grf ./test/scale_free/15graph.grf
+[Run] Done in 6.68s
+1 0.784026 0.784026
+
+[Valgrind] ==56095==     in use at exit: 12,800 bytes in 400 blocks
+[Valgrind] ==56095==   total heap usage: 16,953 allocs, 16,553 frees, 858,552 bytes allocated
+
+[Run] VF3 grp=15 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp15_lvl60.log ./bin/vf3 -u ./test/scale_free/15graph60.sub.grf ./test/scale_free/15graph.grf
+[Run] Done in 6.26s
+1 0.371783 0.371783
+
+[Valgrind] ==56102==     in use at exit: 57,600 bytes in 1,800 blocks
+[Valgrind] ==56102==   total heap usage: 31,757 allocs, 29,957 frees, 1,375,056 bytes allocated
+
+[Run] VF3 grp=16 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp16_lvl10.log ./bin/vf3 -u ./test/scale_free/16graph10.sub.grf ./test/scale_free/16graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=16 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp16_lvl20.log ./bin/vf3 -u ./test/scale_free/16graph20.sub.grf ./test/scale_free/16graph.grf
+[Run] Done in 7.52s
+1 2.6304 2.6304
+
+[Valgrind] ==56184==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==56184==   total heap usage: 15,617 allocs, 15,417 frees, 810,960 bytes allocated
+
+[Run] VF3 grp=16 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp16_lvl60.log ./bin/vf3 -u ./test/scale_free/16graph60.sub.grf ./test/scale_free/16graph.grf
+[Run] Done in 6.81s
+1 1.72449 1.72449
+
+[Valgrind] ==56190==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==56190==   total heap usage: 23,233 allocs, 22,633 frees, 1,114,732 bytes allocated
+
+[Run] VF3 grp=17 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp17_lvl10.log ./bin/vf3 -u ./test/scale_free/17graph10.sub.grf ./test/scale_free/17graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=17 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp17_lvl20.log ./bin/vf3 -u ./test/scale_free/17graph20.sub.grf ./test/scale_free/17graph.grf
+[Run] Done in 6.43s
+1 0.542523 0.542523
+
+[Valgrind] ==56227==     in use at exit: 12,800 bytes in 400 blocks
+[Valgrind] ==56227==   total heap usage: 17,025 allocs, 16,625 frees, 862,176 bytes allocated
+
+[Run] VF3 grp=17 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp17_lvl60.log ./bin/vf3 -u ./test/scale_free/17graph60.sub.grf ./test/scale_free/17graph.grf
+[Run] Done in 7.29s
+1 0.579153 0.579153
+
+[Valgrind] ==56233==     in use at exit: 38,400 bytes in 1,200 blocks
+[Valgrind] ==56233==   total heap usage: 27,497 allocs, 26,297 frees, 1,245,920 bytes allocated
+
+[Run] VF3 grp=18 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp18_lvl10.log ./bin/vf3 -u ./test/scale_free/18graph10.sub.grf ./test/scale_free/18graph.grf
+[Run] Done in 7.10s
+1 0.409408 0.409408
+
+[Valgrind] ==56249==     in use at exit: 9,600 bytes in 300 blocks
+[Valgrind] ==56249==   total heap usage: 15,275 allocs, 14,975 frees, 809,172 bytes allocated
+
+[Run] VF3 grp=18 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp18_lvl20.log ./bin/vf3 -u ./test/scale_free/18graph20.sub.grf ./test/scale_free/18graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=18 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp18_lvl60.log ./bin/vf3 -u ./test/scale_free/18graph60.sub.grf ./test/scale_free/18graph.grf
+[Run] Done in 7.58s
+1 0.708719 0.708719
+
+[Valgrind] ==56330==     in use at exit: 38,400 bytes in 1,200 blocks
+[Valgrind] ==56330==   total heap usage: 27,521 allocs, 26,321 frees, 1,247,288 bytes allocated
+
+[Run] VF3 grp=19 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp19_lvl10.log ./bin/vf3 -u ./test/scale_free/19graph10.sub.grf ./test/scale_free/19graph.grf
+[Run] Done in 7.33s
+1 1.00854 1.00854
+
+[Valgrind] ==56337==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==56337==   total heap usage: 13,739 allocs, 13,639 frees, 738,200 bytes allocated
+
+[Run] VF3 grp=19 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp19_lvl20.log ./bin/vf3 -u ./test/scale_free/19graph20.sub.grf ./test/scale_free/19graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=19 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp19_lvl60.log ./bin/vf3 -u ./test/scale_free/19graph60.sub.grf ./test/scale_free/19graph.grf
+[Run] Done in 8.20s
+1 0.538978 0.538978
+
+[Valgrind] ==56373==     in use at exit: 38,400 bytes in 1,200 blocks
+[Valgrind] ==56373==   total heap usage: 27,509 allocs, 26,309 frees, 1,244,732 bytes allocated
+
+[Run] VF3 grp=20 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp20_lvl10.log ./bin/vf3 -u ./test/scale_free/20graph10.sub.grf ./test/scale_free/20graph.grf
+[Run] Done in 11.21s
+1 4.96531 4.96531
+
+[Valgrind] ==56379==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==56379==   total heap usage: 13,707 allocs, 13,607 frees, 738,632 bytes allocated
+
+[Run] VF3 grp=20 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp20_lvl20.log ./bin/vf3 -u ./test/scale_free/20graph20.sub.grf ./test/scale_free/20graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=20 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp20_lvl60.log ./bin/vf3 -u ./test/scale_free/20graph60.sub.grf ./test/scale_free/20graph.grf
+[Run] Done in 7.48s
+1 1.11088 1.11088
+
+[Valgrind] ==56429==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==56429==   total heap usage: 23,205 allocs, 22,605 frees, 1,115,776 bytes allocated
+
+[Run] VF3 grp=21 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp21_lvl10.log ./bin/vf3 -u ./test/scale_free/21graph10.sub.grf ./test/scale_free/21graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=21 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp21_lvl20.log ./bin/vf3 -u ./test/scale_free/21graph20.sub.grf ./test/scale_free/21graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=21 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp21_lvl60.log ./bin/vf3 -u ./test/scale_free/21graph60.sub.grf ./test/scale_free/21graph.grf
+[Run] Done in 8.89s
+1 0.401608 0.401608
+
+[Valgrind] ==56549==     in use at exit: 57,600 bytes in 1,800 blocks
+[Valgrind] ==56549==   total heap usage: 31,777 allocs, 29,977 frees, 1,375,236 bytes allocated
+
+[Run] VF3 grp=22 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp22_lvl10.log ./bin/vf3 -u ./test/scale_free/22graph10.sub.grf ./test/scale_free/22graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=22 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp22_lvl20.log ./bin/vf3 -u ./test/scale_free/22graph20.sub.grf ./test/scale_free/22graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=22 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp22_lvl60.log ./bin/vf3 -u ./test/scale_free/22graph60.sub.grf ./test/scale_free/22graph.grf
+[Run] Done in 12.51s
+1 1.30681 1.30681
+
+[Valgrind] ==56683==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==56683==   total heap usage: 23,221 allocs, 22,621 frees, 1,115,968 bytes allocated
+
+[Run] VF3 grp=23 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp23_lvl10.log ./bin/vf3 -u ./test/scale_free/23graph10.sub.grf ./test/scale_free/23graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=23 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp23_lvl20.log ./bin/vf3 -u ./test/scale_free/23graph20.sub.grf ./test/scale_free/23graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=23 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp23_lvl60.log ./bin/vf3 -u ./test/scale_free/23graph60.sub.grf ./test/scale_free/23graph.grf
+[Run] Done in 11.84s
+1 0.554756 0.554756
+
+[Valgrind] ==56724==     in use at exit: 38,400 bytes in 1,200 blocks
+[Valgrind] ==56724==   total heap usage: 27,481 allocs, 26,281 frees, 1,242,320 bytes allocated
+
+[Run] VF3 grp=24 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp24_lvl10.log ./bin/vf3 -u ./test/scale_free/24graph10.sub.grf ./test/scale_free/24graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=24 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp24_lvl20.log ./bin/vf3 -u ./test/scale_free/24graph20.sub.grf ./test/scale_free/24graph.grf
+[Run] Done in 51.64s
+1 39.7317 39.7317
+
+[Valgrind] ==56800==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==56800==   total heap usage: 15,557 allocs, 15,357 frees, 809,316 bytes allocated
+
+[Run] VF3 grp=24 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp24_lvl60.log ./bin/vf3 -u ./test/scale_free/24graph60.sub.grf ./test/scale_free/24graph.grf
+[Run] Done in 14.01s
+1 1.90207 1.90207
+
+[Valgrind] ==56829==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==56829==   total heap usage: 23,237 allocs, 22,637 frees, 1,115,968 bytes allocated
+
+[Run] VF3 grp=25 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp25_lvl10.log ./bin/vf3 -u ./test/scale_free/25graph10.sub.grf ./test/scale_free/25graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=25 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp25_lvl20.log ./bin/vf3 -u ./test/scale_free/25graph20.sub.grf ./test/scale_free/25graph.grf
+[Run] Done in 9.21s
+1 1.20411 1.20411
+
+[Valgrind] ==56860==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==56860==   total heap usage: 15,533 allocs, 15,333 frees, 809,820 bytes allocated
+
+[Run] VF3 grp=25 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp25_lvl60.log ./bin/vf3 -u ./test/scale_free/25graph60.sub.grf ./test/scale_free/25graph.grf
+[Run] Done in 10.75s
+1 2.26488 2.26488
+
+[Valgrind] ==56866==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==56866==   total heap usage: 23,209 allocs, 22,609 frees, 1,116,292 bytes allocated
+
+[Run] VF3 grp=26 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp26_lvl10.log ./bin/vf3 -u ./test/scale_free/26graph10.sub.grf ./test/scale_free/26graph.grf
+[Run] Done in 21.82s
+1 11.7246 11.7246
+
+[Valgrind] ==56874==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==56874==   total heap usage: 13,723 allocs, 13,623 frees, 738,296 bytes allocated
+
+[Run] VF3 grp=26 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp26_lvl20.log ./bin/vf3 -u ./test/scale_free/26graph20.sub.grf ./test/scale_free/26graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=26 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp26_lvl60.log ./bin/vf3 -u ./test/scale_free/26graph60.sub.grf ./test/scale_free/26graph.grf
+[Run] Done in 10.50s
+1 0.530233 0.530233
+
+[Valgrind] ==56911==     in use at exit: 38,400 bytes in 1,200 blocks
+[Valgrind] ==56911==   total heap usage: 27,465 allocs, 26,265 frees, 1,244,384 bytes allocated
+
+[Run] VF3 grp=27 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp27_lvl10.log ./bin/vf3 -u ./test/scale_free/27graph10.sub.grf ./test/scale_free/27graph.grf
+[Run] Done in 10.27s
+1 1.19454 1.19454
+
+[Valgrind] ==56917==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==56917==   total heap usage: 13,771 allocs, 13,671 frees, 739,448 bytes allocated
+
+[Run] VF3 grp=27 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp27_lvl20.log ./bin/vf3 -u ./test/scale_free/27graph20.sub.grf ./test/scale_free/27graph.grf
+[Run] Done in 40.88s
+1 32.4442 32.4442
+
+[Valgrind] ==56923==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==56923==   total heap usage: 15,489 allocs, 15,289 frees, 805,440 bytes allocated
+
+[Run] VF3 grp=27 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp27_lvl60.log ./bin/vf3 -u ./test/scale_free/27graph60.sub.grf ./test/scale_free/27graph.grf
+[Run] Done in 12.63s
+1 1.72634 1.72634
+
+[Valgrind] ==56976==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==56976==   total heap usage: 23,233 allocs, 22,633 frees, 1,114,972 bytes allocated
+
+[Run] VF3 grp=28 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp28_lvl10.log ./bin/vf3 -u ./test/scale_free/28graph10.sub.grf ./test/scale_free/28graph.grf
+[Run] Done in 21.18s
+1 9.54943 9.54943
+
+[Valgrind] ==57002==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57002==   total heap usage: 13,707 allocs, 13,607 frees, 737,384 bytes allocated
+
+[Run] VF3 grp=28 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp28_lvl20.log ./bin/vf3 -u ./test/scale_free/28graph20.sub.grf ./test/scale_free/28graph.grf
+[Run] Done in 13.05s
+1 0.592032 0.592032
+
+[Valgrind] ==57013==     in use at exit: 12,800 bytes in 400 blocks
+[Valgrind] ==57013==   total heap usage: 16,981 allocs, 16,581 frees, 859,716 bytes allocated
+
+[Run] VF3 grp=28 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp28_lvl60.log ./bin/vf3 -u ./test/scale_free/28graph60.sub.grf ./test/scale_free/28graph.grf
+[Run] Done in 10.86s
+1 1.25319 1.25319
+
+[Valgrind] ==57020==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57020==   total heap usage: 23,269 allocs, 22,669 frees, 1,117,408 bytes allocated
+
+[Run] VF3 grp=29 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp29_lvl10.log ./bin/vf3 -u ./test/scale_free/29graph10.sub.grf ./test/scale_free/29graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=29 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp29_lvl20.log ./bin/vf3 -u ./test/scale_free/29graph20.sub.grf ./test/scale_free/29graph.grf
+[Run] Done in 12.53s
+1 1.19566 1.19566
+
+[Valgrind] ==57102==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==57102==   total heap usage: 15,549 allocs, 15,349 frees, 807,516 bytes allocated
+
+[Run] VF3 grp=29 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp29_lvl60.log ./bin/vf3 -u ./test/scale_free/29graph60.sub.grf ./test/scale_free/29graph.grf
+[Run] Done in 21.51s
+1 11.0903 11.0903
+
+[Valgrind] ==57110==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57110==   total heap usage: 23,209 allocs, 22,609 frees, 1,113,268 bytes allocated
+
+[Run] VF3 grp=30 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp30_lvl10.log ./bin/vf3 -u ./test/scale_free/30graph10.sub.grf ./test/scale_free/30graph.grf
+[Run] Done in 8.97s
+1 1.25214 1.25214
+
+[Valgrind] ==57116==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57116==   total heap usage: 13,755 allocs, 13,655 frees, 739,400 bytes allocated
+
+[Run] VF3 grp=30 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp30_lvl20.log ./bin/vf3 -u ./test/scale_free/30graph20.sub.grf ./test/scale_free/30graph.grf
+[Run] Done in 12.18s
+1 1.28869 1.28869
+
+[Valgrind] ==57122==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==57122==   total heap usage: 15,553 allocs, 15,353 frees, 808,992 bytes allocated
+
+[Run] VF3 grp=30 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp30_lvl60.log ./bin/vf3 -u ./test/scale_free/30graph60.sub.grf ./test/scale_free/30graph.grf
+[Run] Done in 11.75s
+1 1.86134 1.86134
+
+[Valgrind] ==57138==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57138==   total heap usage: 23,165 allocs, 22,565 frees, 1,112,584 bytes allocated
+
+[Run] VF3 grp=31 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp31_lvl10.log ./bin/vf3 -u ./test/scale_free/31graph10.sub.grf ./test/scale_free/31graph.grf
+[Run] Done in 13.73s
+1 2.60758 2.60758
+
+[Valgrind] ==57151==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57151==   total heap usage: 13,787 allocs, 13,687 frees, 740,360 bytes allocated
+
+[Run] VF3 grp=31 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp31_lvl20.log ./bin/vf3 -u ./test/scale_free/31graph20.sub.grf ./test/scale_free/31graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=31 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp31_lvl60.log ./bin/vf3 -u ./test/scale_free/31graph60.sub.grf ./test/scale_free/31graph.grf
+[Run] Done in 12.57s
+1 1.02896 1.02896
+
+[Valgrind] ==57172==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57172==   total heap usage: 23,185 allocs, 22,585 frees, 1,113,004 bytes allocated
+
+[Run] VF3 grp=32 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp32_lvl10.log ./bin/vf3 -u ./test/scale_free/32graph10.sub.grf ./test/scale_free/32graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=32 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp32_lvl20.log ./bin/vf3 -u ./test/scale_free/32graph20.sub.grf ./test/scale_free/32graph.grf
+[Run] Done in 11.74s
+1 2.51847 2.51847
+
+[Valgrind] ==57231==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==57231==   total heap usage: 15,577 allocs, 15,377 frees, 809,304 bytes allocated
+
+[Run] VF3 grp=32 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp32_lvl60.log ./bin/vf3 -u ./test/scale_free/32graph60.sub.grf ./test/scale_free/32graph.grf
+[Run] Done in 12.61s
+1 2.63739 2.63739
+
+[Valgrind] ==57238==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57238==   total heap usage: 23,217 allocs, 22,617 frees, 1,114,156 bytes allocated
+
+[Run] VF3 grp=33 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp33_lvl10.log ./bin/vf3 -u ./test/scale_free/33graph10.sub.grf ./test/scale_free/33graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=33 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp33_lvl20.log ./bin/vf3 -u ./test/scale_free/33graph20.sub.grf ./test/scale_free/33graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=33 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp33_lvl60.log ./bin/vf3 -u ./test/scale_free/33graph60.sub.grf ./test/scale_free/33graph.grf
+[Run] Done in 16.02s
+1 2.14075 2.14075
+
+[Valgrind] ==57378==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57378==   total heap usage: 23,209 allocs, 22,609 frees, 1,114,900 bytes allocated
+
+[Run] VF3 grp=34 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp34_lvl10.log ./bin/vf3 -u ./test/scale_free/34graph10.sub.grf ./test/scale_free/34graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=34 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp34_lvl20.log ./bin/vf3 -u ./test/scale_free/34graph20.sub.grf ./test/scale_free/34graph.grf
+[Run] Done in 16.57s
+1 3.94841 3.94841
+
+[Valgrind] ==57409==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==57409==   total heap usage: 15,573 allocs, 15,373 frees, 809,412 bytes allocated
+
+[Run] VF3 grp=34 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp34_lvl60.log ./bin/vf3 -u ./test/scale_free/34graph60.sub.grf ./test/scale_free/34graph.grf
+[Run] Done in 13.30s
+1 1.38048 1.38048
+
+[Valgrind] ==57420==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57420==   total heap usage: 23,237 allocs, 22,637 frees, 1,115,344 bytes allocated
+
+[Run] VF3 grp=35 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp35_lvl10.log ./bin/vf3 -u ./test/scale_free/35graph10.sub.grf ./test/scale_free/35graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=35 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp35_lvl20.log ./bin/vf3 -u ./test/scale_free/35graph20.sub.grf ./test/scale_free/35graph.grf
+[Run] Done in 30.50s
+1 19.6982 19.6982
+
+[Valgrind] ==57455==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==57455==   total heap usage: 15,541 allocs, 15,341 frees, 808,548 bytes allocated
+
+[Run] VF3 grp=35 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp35_lvl60.log ./bin/vf3 -u ./test/scale_free/35graph60.sub.grf ./test/scale_free/35graph.grf
+[Run] Done in 15.95s
+1 0.763022 0.763022
+
+[Valgrind] ==57491==     in use at exit: 38,400 bytes in 1,200 blocks
+[Valgrind] ==57491==   total heap usage: 27,457 allocs, 26,257 frees, 1,243,544 bytes allocated
+
+[Run] VF3 grp=36 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp36_lvl10.log ./bin/vf3 -u ./test/scale_free/36graph10.sub.grf ./test/scale_free/36graph.grf
+[Run] Done in 27.35s
+1 18.1308 18.1308
+
+[Valgrind] ==57526==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57526==   total heap usage: 13,743 allocs, 13,643 frees, 738,956 bytes allocated
+
+[Run] VF3 grp=36 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp36_lvl20.log ./bin/vf3 -u ./test/scale_free/36graph20.sub.grf ./test/scale_free/36graph.grf
+[Run] Done in 14.87s
+1 1.68575 1.68575
+
+[Valgrind] ==57565==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==57565==   total heap usage: 15,581 allocs, 15,381 frees, 810,348 bytes allocated
+
+[Run] VF3 grp=36 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp36_lvl60.log ./bin/vf3 -u ./test/scale_free/36graph60.sub.grf ./test/scale_free/36graph.grf
+[Run] Done in 19.89s
+1 3.02014 3.02014
+
+[Valgrind] ==57583==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57583==   total heap usage: 23,189 allocs, 22,589 frees, 1,113,760 bytes allocated
+
+[Run] VF3 grp=37 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp37_lvl10.log ./bin/vf3 -u ./test/scale_free/37graph10.sub.grf ./test/scale_free/37graph.grf
+[Run] Done in 15.00s
+1 2.76105 2.76105
+
+[Valgrind] ==57589==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57589==   total heap usage: 13,755 allocs, 13,655 frees, 738,920 bytes allocated
+
+[Run] VF3 grp=37 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp37_lvl20.log ./bin/vf3 -u ./test/scale_free/37graph20.sub.grf ./test/scale_free/37graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=37 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp37_lvl60.log ./bin/vf3 -u ./test/scale_free/37graph60.sub.grf ./test/scale_free/37graph.grf
+[Run] Done in 15.91s
+1 1.50947 1.50947
+
+[Valgrind] ==57673==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57673==   total heap usage: 23,257 allocs, 22,657 frees, 1,116,244 bytes allocated
+
+[Run] VF3 grp=38 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp38_lvl10.log ./bin/vf3 -u ./test/scale_free/38graph10.sub.grf ./test/scale_free/38graph.grf
+[Run] Done in 15.79s
+1 2.67912 2.67912
+
+[Valgrind] ==57717==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57717==   total heap usage: 13,795 allocs, 13,695 frees, 742,208 bytes allocated
+
+[Run] VF3 grp=38 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp38_lvl20.log ./bin/vf3 -u ./test/scale_free/38graph20.sub.grf ./test/scale_free/38graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=38 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp38_lvl60.log ./bin/vf3 -u ./test/scale_free/38graph60.sub.grf ./test/scale_free/38graph.grf
+[Run] Done in 19.99s
+1 2.67795 2.67795
+
+[Valgrind] ==57773==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57773==   total heap usage: 23,249 allocs, 22,649 frees, 1,117,372 bytes allocated
+
+[Run] VF3 grp=39 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp39_lvl10.log ./bin/vf3 -u ./test/scale_free/39graph10.sub.grf ./test/scale_free/39graph.grf
+[Run] Done in 14.36s
+1 1.88445 1.88445
+
+[Valgrind] ==57787==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57787==   total heap usage: 13,767 allocs, 13,667 frees, 739,460 bytes allocated
+
+[Run] VF3 grp=39 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp39_lvl20.log ./bin/vf3 -u ./test/scale_free/39graph20.sub.grf ./test/scale_free/39graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=39 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp39_lvl60.log ./bin/vf3 -u ./test/scale_free/39graph60.sub.grf ./test/scale_free/39graph.grf
+[Run] Done in 19.19s
+1 1.94173 1.94173
+
+[Valgrind] ==57818==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57818==   total heap usage: 23,225 allocs, 22,625 frees, 1,114,804 bytes allocated
+
+[Run] VF3 grp=40 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp40_lvl10.log ./bin/vf3 -u ./test/scale_free/40graph10.sub.grf ./test/scale_free/40graph.grf
+[Run] Done in 36.67s
+1 20.187 20.187
+
+[Valgrind] ==57824==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==57824==   total heap usage: 13,751 allocs, 13,651 frees, 739,700 bytes allocated
+
+[Run] VF3 grp=40 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp40_lvl20.log ./bin/vf3 -u ./test/scale_free/40graph20.sub.grf ./test/scale_free/40graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=40 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp40_lvl60.log ./bin/vf3 -u ./test/scale_free/40graph60.sub.grf ./test/scale_free/40graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=41 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp41_lvl10.log ./bin/vf3 -u ./test/scale_free/41graph10.sub.grf ./test/scale_free/41graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=41 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp41_lvl20.log ./bin/vf3 -u ./test/scale_free/41graph20.sub.grf ./test/scale_free/41graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=41 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp41_lvl60.log ./bin/vf3 -u ./test/scale_free/41graph60.sub.grf ./test/scale_free/41graph.grf
+[Run] Done in 20.16s
+1 2.41125 2.41125
+
+[Valgrind] ==57944==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57944==   total heap usage: 23,221 allocs, 22,621 frees, 1,115,344 bytes allocated
+
+[Run] VF3 grp=42 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp42_lvl10.log ./bin/vf3 -u ./test/scale_free/42graph10.sub.grf ./test/scale_free/42graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=42 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp42_lvl20.log ./bin/vf3 -u ./test/scale_free/42graph20.sub.grf ./test/scale_free/42graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=42 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp42_lvl60.log ./bin/vf3 -u ./test/scale_free/42graph60.sub.grf ./test/scale_free/42graph.grf
+[Run] Done in 29.57s
+1 8.72846 8.72846
+
+[Valgrind] ==57999==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==57999==   total heap usage: 23,229 allocs, 22,629 frees, 1,114,792 bytes allocated
+
+[Run] VF3 grp=43 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp43_lvl10.log ./bin/vf3 -u ./test/scale_free/43graph10.sub.grf ./test/scale_free/43graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=43 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp43_lvl20.log ./bin/vf3 -u ./test/scale_free/43graph20.sub.grf ./test/scale_free/43graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=43 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp43_lvl60.log ./bin/vf3 -u ./test/scale_free/43graph60.sub.grf ./test/scale_free/43graph.grf
+[Run] Done in 26.23s
+1 2.99215 2.99215
+
+[Valgrind] ==58090==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58090==   total heap usage: 23,201 allocs, 22,601 frees, 1,113,196 bytes allocated
+
+[Run] VF3 grp=44 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp44_lvl10.log ./bin/vf3 -u ./test/scale_free/44graph10.sub.grf ./test/scale_free/44graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=44 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp44_lvl20.log ./bin/vf3 -u ./test/scale_free/44graph20.sub.grf ./test/scale_free/44graph.grf
+[Run] Done in 41.06s
+1 21.2377 21.2377
+
+[Valgrind] ==58145==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58145==   total heap usage: 15,501 allocs, 15,301 frees, 807,180 bytes allocated
+
+[Run] VF3 grp=44 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp44_lvl60.log ./bin/vf3 -u ./test/scale_free/44graph60.sub.grf ./test/scale_free/44graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=45 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp45_lvl10.log ./bin/vf3 -u ./test/scale_free/45graph10.sub.grf ./test/scale_free/45graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=45 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp45_lvl20.log ./bin/vf3 -u ./test/scale_free/45graph20.sub.grf ./test/scale_free/45graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=45 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp45_lvl60.log ./bin/vf3 -u ./test/scale_free/45graph60.sub.grf ./test/scale_free/45graph.grf
+[Run] Done in 27.58s
+1 9.22847 9.22847
+
+[Valgrind] ==58231==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58231==   total heap usage: 23,245 allocs, 22,645 frees, 1,115,560 bytes allocated
+
+[Run] VF3 grp=46 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp46_lvl10.log ./bin/vf3 -u ./test/scale_free/46graph10.sub.grf ./test/scale_free/46graph.grf
+[Run] Done in 34.91s
+1 12.6056 12.6056
+
+[Valgrind] ==58249==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==58249==   total heap usage: 13,795 allocs, 13,695 frees, 740,720 bytes allocated
+
+[Run] VF3 grp=46 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp46_lvl20.log ./bin/vf3 -u ./test/scale_free/46graph20.sub.grf ./test/scale_free/46graph.grf
+[Run] Done in 24.79s
+1 2.31799 2.31799
+
+[Valgrind] ==58261==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58261==   total heap usage: 15,605 allocs, 15,405 frees, 810,852 bytes allocated
+
+[Run] VF3 grp=46 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp46_lvl60.log ./bin/vf3 -u ./test/scale_free/46graph60.sub.grf ./test/scale_free/46graph.grf
+[Run] Done in 21.34s
+1 2.84882 2.84882
+
+[Valgrind] ==58274==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58274==   total heap usage: 23,185 allocs, 22,585 frees, 1,113,004 bytes allocated
+
+[Run] VF3 grp=47 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp47_lvl10.log ./bin/vf3 -u ./test/scale_free/47graph10.sub.grf ./test/scale_free/47graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=47 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp47_lvl20.log ./bin/vf3 -u ./test/scale_free/47graph20.sub.grf ./test/scale_free/47graph.grf
+[Run] Done in 43.56s
+1 23.0085 23.0085
+
+[Valgrind] ==58312==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58312==   total heap usage: 15,613 allocs, 15,413 frees, 812,268 bytes allocated
+
+[Run] VF3 grp=47 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp47_lvl60.log ./bin/vf3 -u ./test/scale_free/47graph60.sub.grf ./test/scale_free/47graph.grf
+[Run] Done in 27.62s
+1 4.85021 4.85021
+
+[Valgrind] ==58343==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58343==   total heap usage: 23,225 allocs, 22,625 frees, 1,115,860 bytes allocated
+
+[Run] VF3 grp=48 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp48_lvl10.log ./bin/vf3 -u ./test/scale_free/48graph10.sub.grf ./test/scale_free/48graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=48 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp48_lvl20.log ./bin/vf3 -u ./test/scale_free/48graph20.sub.grf ./test/scale_free/48graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=48 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp48_lvl60.log ./bin/vf3 -u ./test/scale_free/48graph60.sub.grf ./test/scale_free/48graph.grf
+[Run] Done in 28.41s
+1 4.0042 4.0042
+
+[Valgrind] ==58386==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58386==   total heap usage: 23,217 allocs, 22,617 frees, 1,115,548 bytes allocated
+
+[Run] VF3 grp=49 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp49_lvl10.log ./bin/vf3 -u ./test/scale_free/49graph10.sub.grf ./test/scale_free/49graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=49 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp49_lvl20.log ./bin/vf3 -u ./test/scale_free/49graph20.sub.grf ./test/scale_free/49graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=49 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp49_lvl60.log ./bin/vf3 -u ./test/scale_free/49graph60.sub.grf ./test/scale_free/49graph.grf
+[Run] Done in 35.57s
+1 12.5683 12.5683
+
+[Valgrind] ==58454==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58454==   total heap usage: 23,193 allocs, 22,593 frees, 1,114,900 bytes allocated
+
+[Run] VF3 grp=50 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp50_lvl10.log ./bin/vf3 -u ./test/scale_free/50graph10.sub.grf ./test/scale_free/50graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=50 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp50_lvl20.log ./bin/vf3 -u ./test/scale_free/50graph20.sub.grf ./test/scale_free/50graph.grf
+[Run] Done in 25.24s
+1 7.08001 7.08001
+
+[Valgrind] ==58503==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58503==   total heap usage: 15,589 allocs, 15,389 frees, 812,100 bytes allocated
+
+[Run] VF3 grp=50 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp50_lvl60.log ./bin/vf3 -u ./test/scale_free/50graph60.sub.grf ./test/scale_free/50graph.grf
+[Run] Done in 41.74s
+1 15.3403 15.3403
+
+[Valgrind] ==58513==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58513==   total heap usage: 23,197 allocs, 22,597 frees, 1,115,512 bytes allocated
+
+[Run] VF3 grp=51 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp51_lvl10.log ./bin/vf3 -u ./test/scale_free/51graph10.sub.grf ./test/scale_free/51graph.grf
+[Run] Done in 32.60s
+1 6.62747 6.62747
+
+[Valgrind] ==58530==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==58530==   total heap usage: 13,755 allocs, 13,655 frees, 740,744 bytes allocated
+
+[Run] VF3 grp=51 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp51_lvl20.log ./bin/vf3 -u ./test/scale_free/51graph20.sub.grf ./test/scale_free/51graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=51 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp51_lvl60.log ./bin/vf3 -u ./test/scale_free/51graph60.sub.grf ./test/scale_free/51graph.grf
+[Run] Done in 29.39s
+1 3.34867 3.34867
+
+[Valgrind] ==58559==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58559==   total heap usage: 23,229 allocs, 22,629 frees, 1,116,808 bytes allocated
+
+[Run] VF3 grp=52 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp52_lvl10.log ./bin/vf3 -u ./test/scale_free/52graph10.sub.grf ./test/scale_free/52graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=52 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp52_lvl20.log ./bin/vf3 -u ./test/scale_free/52graph20.sub.grf ./test/scale_free/52graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=52 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp52_lvl60.log ./bin/vf3 -u ./test/scale_free/52graph60.sub.grf ./test/scale_free/52graph.grf
+[Run] Done in 26.53s
+1 6.02036 6.02036
+
+[Valgrind] ==58599==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58599==   total heap usage: 23,221 allocs, 22,621 frees, 1,114,144 bytes allocated
+
+[Run] VF3 grp=53 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp53_lvl10.log ./bin/vf3 -u ./test/scale_free/53graph10.sub.grf ./test/scale_free/53graph.grf
+[Run] Done in 25.36s
+1 8.18084 8.18084
+
+[Valgrind] ==58618==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==58618==   total heap usage: 13,727 allocs, 13,627 frees, 738,764 bytes allocated
+
+[Run] VF3 grp=53 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp53_lvl20.log ./bin/vf3 -u ./test/scale_free/53graph20.sub.grf ./test/scale_free/53graph.grf
+[Run] Done in 22.93s
+1 3.30159 3.30159
+
+[Valgrind] ==58627==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58627==   total heap usage: 15,585 allocs, 15,385 frees, 811,056 bytes allocated
+
+[Run] VF3 grp=53 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp53_lvl60.log ./bin/vf3 -u ./test/scale_free/53graph60.sub.grf ./test/scale_free/53graph.grf
+[Run] Done in 29.15s
+1 8.88501 8.88501
+
+[Valgrind] ==58633==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58633==   total heap usage: 23,209 allocs, 22,609 frees, 1,115,188 bytes allocated
+
+[Run] VF3 grp=54 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp54_lvl10.log ./bin/vf3 -u ./test/scale_free/54graph10.sub.grf ./test/scale_free/54graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=54 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp54_lvl20.log ./bin/vf3 -u ./test/scale_free/54graph20.sub.grf ./test/scale_free/54graph.grf
+[Run] Done in 30.64s
+1 3.73389 3.73389
+
+[Valgrind] ==58659==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58659==   total heap usage: 15,601 allocs, 15,401 frees, 810,096 bytes allocated
+
+[Run] VF3 grp=54 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp54_lvl60.log ./bin/vf3 -u ./test/scale_free/54graph60.sub.grf ./test/scale_free/54graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=55 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp55_lvl10.log ./bin/vf3 -u ./test/scale_free/55graph10.sub.grf ./test/scale_free/55graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=55 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp55_lvl20.log ./bin/vf3 -u ./test/scale_free/55graph20.sub.grf ./test/scale_free/55graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=55 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp55_lvl60.log ./bin/vf3 -u ./test/scale_free/55graph60.sub.grf ./test/scale_free/55graph.grf
+[Run] Done in 50.33s
+1 23.8763 23.8763
+
+[Valgrind] ==58747==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58747==   total heap usage: 23,193 allocs, 22,593 frees, 1,114,900 bytes allocated
+
+[Run] VF3 grp=56 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp56_lvl10.log ./bin/vf3 -u ./test/scale_free/56graph10.sub.grf ./test/scale_free/56graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=56 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp56_lvl20.log ./bin/vf3 -u ./test/scale_free/56graph20.sub.grf ./test/scale_free/56graph.grf
+[Run] Done in 36.20s
+1 8.96947 8.96947
+
+[Valgrind] ==58772==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58772==   total heap usage: 15,533 allocs, 15,333 frees, 807,852 bytes allocated
+
+[Run] VF3 grp=56 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp56_lvl60.log ./bin/vf3 -u ./test/scale_free/56graph60.sub.grf ./test/scale_free/56graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=57 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp57_lvl10.log ./bin/vf3 -u ./test/scale_free/57graph10.sub.grf ./test/scale_free/57graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=57 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp57_lvl20.log ./bin/vf3 -u ./test/scale_free/57graph20.sub.grf ./test/scale_free/57graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=57 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp57_lvl60.log ./bin/vf3 -u ./test/scale_free/57graph60.sub.grf ./test/scale_free/57graph.grf
+[Run] Done in 25.86s
+1 2.37116 2.37116
+
+[Valgrind] ==58842==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58842==   total heap usage: 23,213 allocs, 22,613 frees, 1,116,280 bytes allocated
+
+[Run] VF3 grp=58 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp58_lvl10.log ./bin/vf3 -u ./test/scale_free/58graph10.sub.grf ./test/scale_free/58graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=58 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp58_lvl20.log ./bin/vf3 -u ./test/scale_free/58graph20.sub.grf ./test/scale_free/58graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=58 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp58_lvl60.log ./bin/vf3 -u ./test/scale_free/58graph60.sub.grf ./test/scale_free/58graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=59 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp59_lvl10.log ./bin/vf3 -u ./test/scale_free/59graph10.sub.grf ./test/scale_free/59graph.grf
+[Run] Done in 36.33s
+1 10.7644 10.7644
+
+[Valgrind] ==58901==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==58901==   total heap usage: 13,783 allocs, 13,683 frees, 742,772 bytes allocated
+
+[Run] VF3 grp=59 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp59_lvl20.log ./bin/vf3 -u ./test/scale_free/59graph20.sub.grf ./test/scale_free/59graph.grf
+[Run] Done in 47.75s
+1 21.8507 21.8507
+
+[Valgrind] ==58919==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==58919==   total heap usage: 15,533 allocs, 15,333 frees, 810,204 bytes allocated
+
+[Run] VF3 grp=59 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp59_lvl60.log ./bin/vf3 -u ./test/scale_free/59graph60.sub.grf ./test/scale_free/59graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=60 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp60_lvl10.log ./bin/vf3 -u ./test/scale_free/60graph10.sub.grf ./test/scale_free/60graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=60 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp60_lvl20.log ./bin/vf3 -u ./test/scale_free/60graph20.sub.grf ./test/scale_free/60graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=60 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp60_lvl60.log ./bin/vf3 -u ./test/scale_free/60graph60.sub.grf ./test/scale_free/60graph.grf
+[Run] Done in 46.52s
+1 14.0278 14.0278
+
+[Valgrind] ==58978==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==58978==   total heap usage: 23,221 allocs, 22,621 frees, 1,114,576 bytes allocated
+
+[Run] VF3 grp=61 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp61_lvl10.log ./bin/vf3 -u ./test/scale_free/61graph10.sub.grf ./test/scale_free/61graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=61 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp61_lvl20.log ./bin/vf3 -u ./test/scale_free/61graph20.sub.grf ./test/scale_free/61graph.grf
+[Run] Done in 20.35s
+1 1.87338 1.87338
+
+[Valgrind] ==59006==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==59006==   total heap usage: 15,493 allocs, 15,293 frees, 805,620 bytes allocated
+
+[Run] VF3 grp=61 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp61_lvl60.log ./bin/vf3 -u ./test/scale_free/61graph60.sub.grf ./test/scale_free/61graph.grf
+[Run] Done in 27.77s
+1 2.94834 2.94834
+
+[Valgrind] ==59022==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59022==   total heap usage: 23,213 allocs, 22,613 frees, 1,114,072 bytes allocated
+
+[Run] VF3 grp=62 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp62_lvl10.log ./bin/vf3 -u ./test/scale_free/62graph10.sub.grf ./test/scale_free/62graph.grf
+[Run] Done in 26.07s
+1 1.65619 1.65619
+
+[Valgrind] ==59034==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==59034==   total heap usage: 13,791 allocs, 13,691 frees, 740,876 bytes allocated
+
+[Run] VF3 grp=62 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp62_lvl20.log ./bin/vf3 -u ./test/scale_free/62graph20.sub.grf ./test/scale_free/62graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=62 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp62_lvl60.log ./bin/vf3 -u ./test/scale_free/62graph60.sub.grf ./test/scale_free/62graph.grf
+[Run] Done in 40.44s
+1 7.26352 7.26352
+
+[Valgrind] ==59077==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59077==   total heap usage: 23,205 allocs, 22,605 frees, 1,114,240 bytes allocated
+
+[Run] VF3 grp=63 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp63_lvl10.log ./bin/vf3 -u ./test/scale_free/63graph10.sub.grf ./test/scale_free/63graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=63 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp63_lvl20.log ./bin/vf3 -u ./test/scale_free/63graph20.sub.grf ./test/scale_free/63graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.14s)
+
+[Run] VF3 grp=63 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp63_lvl60.log ./bin/vf3 -u ./test/scale_free/63graph60.sub.grf ./test/scale_free/63graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=64 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp64_lvl10.log ./bin/vf3 -u ./test/scale_free/64graph10.sub.grf ./test/scale_free/64graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=64 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp64_lvl20.log ./bin/vf3 -u ./test/scale_free/64graph20.sub.grf ./test/scale_free/64graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=64 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp64_lvl60.log ./bin/vf3 -u ./test/scale_free/64graph60.sub.grf ./test/scale_free/64graph.grf
+[Run] Done in 46.01s
+1 11.144 11.144
+
+[Valgrind] ==59219==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59219==   total heap usage: 23,209 allocs, 22,609 frees, 1,113,748 bytes allocated
+
+[Run] VF3 grp=65 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp65_lvl10.log ./bin/vf3 -u ./test/scale_free/65graph10.sub.grf ./test/scale_free/65graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=65 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp65_lvl20.log ./bin/vf3 -u ./test/scale_free/65graph20.sub.grf ./test/scale_free/65graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=65 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp65_lvl60.log ./bin/vf3 -u ./test/scale_free/65graph60.sub.grf ./test/scale_free/65graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=66 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp66_lvl10.log ./bin/vf3 -u ./test/scale_free/66graph10.sub.grf ./test/scale_free/66graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=66 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp66_lvl20.log ./bin/vf3 -u ./test/scale_free/66graph20.sub.grf ./test/scale_free/66graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=66 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp66_lvl60.log ./bin/vf3 -u ./test/scale_free/66graph60.sub.grf ./test/scale_free/66graph.grf
+[Run] Done in 44.51s
+1 6.54068 6.54068
+
+[Valgrind] ==59377==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59377==   total heap usage: 23,161 allocs, 22,561 frees, 1,111,444 bytes allocated
+
+[Run] VF3 grp=67 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp67_lvl10.log ./bin/vf3 -u ./test/scale_free/67graph10.sub.grf ./test/scale_free/67graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.12s)
+
+[Run] VF3 grp=67 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp67_lvl20.log ./bin/vf3 -u ./test/scale_free/67graph20.sub.grf ./test/scale_free/67graph.grf
+[Run] Done in 29.97s
+1 3.76008 3.76008
+
+[Valgrind] ==59442==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==59442==   total heap usage: 15,577 allocs, 15,377 frees, 810,456 bytes allocated
+
+[Run] VF3 grp=67 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp67_lvl60.log ./bin/vf3 -u ./test/scale_free/67graph60.sub.grf ./test/scale_free/67graph.grf
+[Run] Done in 32.60s
+1 2.56908 2.56908
+
+[Valgrind] ==59458==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59458==   total heap usage: 23,193 allocs, 22,593 frees, 1,114,228 bytes allocated
+
+[Run] VF3 grp=68 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp68_lvl10.log ./bin/vf3 -u ./test/scale_free/68graph10.sub.grf ./test/scale_free/68graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=68 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp68_lvl20.log ./bin/vf3 -u ./test/scale_free/68graph20.sub.grf ./test/scale_free/68graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=68 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp68_lvl60.log ./bin/vf3 -u ./test/scale_free/68graph60.sub.grf ./test/scale_free/68graph.grf
+[Run] Done in 38.67s
+1 7.51912 7.51912
+
+[Valgrind] ==59517==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59517==   total heap usage: 23,225 allocs, 22,625 frees, 1,116,004 bytes allocated
+
+[Run] VF3 grp=69 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp69_lvl10.log ./bin/vf3 -u ./test/scale_free/69graph10.sub.grf ./test/scale_free/69graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=69 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp69_lvl20.log ./bin/vf3 -u ./test/scale_free/69graph20.sub.grf ./test/scale_free/69graph.grf
+[Run] Done in 39.84s
+1 14.0636 14.0636
+
+[Valgrind] ==59551==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==59551==   total heap usage: 15,637 allocs, 15,437 frees, 812,100 bytes allocated
+
+[Run] VF3 grp=69 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp69_lvl60.log ./bin/vf3 -u ./test/scale_free/69graph60.sub.grf ./test/scale_free/69graph.grf
+[Run] Done in 42.70s
+1 3.35308 3.35308
+
+[Valgrind] ==59568==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59568==   total heap usage: 23,177 allocs, 22,577 frees, 1,112,452 bytes allocated
+
+[Run] VF3 grp=70 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp70_lvl10.log ./bin/vf3 -u ./test/scale_free/70graph10.sub.grf ./test/scale_free/70graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=70 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp70_lvl20.log ./bin/vf3 -u ./test/scale_free/70graph20.sub.grf ./test/scale_free/70graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=70 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp70_lvl60.log ./bin/vf3 -u ./test/scale_free/70graph60.sub.grf ./test/scale_free/70graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=71 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp71_lvl10.log ./bin/vf3 -u ./test/scale_free/71graph10.sub.grf ./test/scale_free/71graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=71 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp71_lvl20.log ./bin/vf3 -u ./test/scale_free/71graph20.sub.grf ./test/scale_free/71graph.grf
+[Run] Done in 39.76s
+1 13.4602 13.4602
+
+[Valgrind] ==59658==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==59658==   total heap usage: 15,545 allocs, 15,345 frees, 809,544 bytes allocated
+
+[Run] VF3 grp=71 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp71_lvl60.log ./bin/vf3 -u ./test/scale_free/71graph60.sub.grf ./test/scale_free/71graph.grf
+[Run] Done in 51.00s
+1 12.0286 12.0286
+
+[Valgrind] ==59679==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59679==   total heap usage: 23,201 allocs, 22,601 frees, 1,115,116 bytes allocated
+
+[Run] VF3 grp=72 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp72_lvl10.log ./bin/vf3 -u ./test/scale_free/72graph10.sub.grf ./test/scale_free/72graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=72 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp72_lvl20.log ./bin/vf3 -u ./test/scale_free/72graph20.sub.grf ./test/scale_free/72graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=72 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp72_lvl60.log ./bin/vf3 -u ./test/scale_free/72graph60.sub.grf ./test/scale_free/72graph.grf
+[Run] Done in 35.45s
+1 5.37547 5.37547
+
+[Valgrind] ==59755==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59755==   total heap usage: 23,257 allocs, 22,657 frees, 1,117,204 bytes allocated
+
+[Run] VF3 grp=73 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp73_lvl10.log ./bin/vf3 -u ./test/scale_free/73graph10.sub.grf ./test/scale_free/73graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=73 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp73_lvl20.log ./bin/vf3 -u ./test/scale_free/73graph20.sub.grf ./test/scale_free/73graph.grf
+[Run] Done in 47.37s
+1 4.10657 4.10657
+
+[Valgrind] ==59790==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==59790==   total heap usage: 15,617 allocs, 15,417 frees, 811,440 bytes allocated
+
+[Run] VF3 grp=73 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp73_lvl60.log ./bin/vf3 -u ./test/scale_free/73graph60.sub.grf ./test/scale_free/73graph.grf
+[Run] Done in 39.70s
+1 3.13862 3.13862
+
+[Valgrind] ==59809==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59809==   total heap usage: 23,253 allocs, 22,653 frees, 1,116,112 bytes allocated
+
+[Run] VF3 grp=74 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp74_lvl10.log ./bin/vf3 -u ./test/scale_free/74graph10.sub.grf ./test/scale_free/74graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=74 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp74_lvl20.log ./bin/vf3 -u ./test/scale_free/74graph20.sub.grf ./test/scale_free/74graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=74 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp74_lvl60.log ./bin/vf3 -u ./test/scale_free/74graph60.sub.grf ./test/scale_free/74graph.grf
+[Run] Done in 47.39s
+1 8.87987 8.87987
+
+[Valgrind] ==59887==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==59887==   total heap usage: 23,233 allocs, 22,633 frees, 1,116,172 bytes allocated
+
+[Run] VF3 grp=75 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp75_lvl10.log ./bin/vf3 -u ./test/scale_free/75graph10.sub.grf ./test/scale_free/75graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=75 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp75_lvl20.log ./bin/vf3 -u ./test/scale_free/75graph20.sub.grf ./test/scale_free/75graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=75 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp75_lvl60.log ./bin/vf3 -u ./test/scale_free/75graph60.sub.grf ./test/scale_free/75graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=76 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp76_lvl10.log ./bin/vf3 -u ./test/scale_free/76graph10.sub.grf ./test/scale_free/76graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=76 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp76_lvl20.log ./bin/vf3 -u ./test/scale_free/76graph20.sub.grf ./test/scale_free/76graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=76 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp76_lvl60.log ./bin/vf3 -u ./test/scale_free/76graph60.sub.grf ./test/scale_free/76graph.grf
+[Run] Done in 44.87s
+1 7.35739 7.35739
+
+[Valgrind] ==60051==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60051==   total heap usage: 23,209 allocs, 22,609 frees, 1,114,084 bytes allocated
+
+[Run] VF3 grp=77 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp77_lvl10.log ./bin/vf3 -u ./test/scale_free/77graph10.sub.grf ./test/scale_free/77graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=77 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp77_lvl20.log ./bin/vf3 -u ./test/scale_free/77graph20.sub.grf ./test/scale_free/77graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=77 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp77_lvl60.log ./bin/vf3 -u ./test/scale_free/77graph60.sub.grf ./test/scale_free/77graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=78 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp78_lvl10.log ./bin/vf3 -u ./test/scale_free/78graph10.sub.grf ./test/scale_free/78graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=78 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp78_lvl20.log ./bin/vf3 -u ./test/scale_free/78graph20.sub.grf ./test/scale_free/78graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=78 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp78_lvl60.log ./bin/vf3 -u ./test/scale_free/78graph60.sub.grf ./test/scale_free/78graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.12s)
+
+[Run] VF3 grp=79 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp79_lvl10.log ./bin/vf3 -u ./test/scale_free/79graph10.sub.grf ./test/scale_free/79graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=79 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp79_lvl20.log ./bin/vf3 -u ./test/scale_free/79graph20.sub.grf ./test/scale_free/79graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=79 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp79_lvl60.log ./bin/vf3 -u ./test/scale_free/79graph60.sub.grf ./test/scale_free/79graph.grf
+[Run] Done in 35.46s
+1 1.36118 1.36118
+
+[Valgrind] ==60263==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60263==   total heap usage: 23,129 allocs, 22,529 frees, 1,110,052 bytes allocated
+
+[Run] VF3 grp=80 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp80_lvl10.log ./bin/vf3 -u ./test/scale_free/80graph10.sub.grf ./test/scale_free/80graph.grf
+[Run] Done in 39.95s
+1 2.54425 2.54425
+
+[Valgrind] ==60291==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==60291==   total heap usage: 13,763 allocs, 13,663 frees, 740,672 bytes allocated
+
+[Run] VF3 grp=80 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp80_lvl20.log ./bin/vf3 -u ./test/scale_free/80graph20.sub.grf ./test/scale_free/80graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=80 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp80_lvl60.log ./bin/vf3 -u ./test/scale_free/80graph60.sub.grf ./test/scale_free/80graph.grf
+[Run] Done in 57.24s
+1 20.228 20.228
+
+[Valgrind] ==60326==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60326==   total heap usage: 23,161 allocs, 22,561 frees, 1,113,316 bytes allocated
+
+[Run] VF3 grp=81 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp81_lvl10.log ./bin/vf3 -u ./test/scale_free/81graph10.sub.grf ./test/scale_free/81graph.grf
+[Run] Done in 44.10s
+1 4.46052 4.46052
+
+[Valgrind] ==60352==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==60352==   total heap usage: 13,775 allocs, 13,675 frees, 740,300 bytes allocated
+
+[Run] VF3 grp=81 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp81_lvl20.log ./bin/vf3 -u ./test/scale_free/81graph20.sub.grf ./test/scale_free/81graph.grf
+[Run] Done in 36.96s
+1 2.10959 2.10959
+
+[Valgrind] ==60361==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==60361==   total heap usage: 15,561 allocs, 15,361 frees, 809,352 bytes allocated
+
+[Run] VF3 grp=81 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp81_lvl60.log ./bin/vf3 -u ./test/scale_free/81graph60.sub.grf ./test/scale_free/81graph.grf
+[Run] Done in 49.48s
+1 8.55676 8.55676
+
+[Valgrind] ==60371==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60371==   total heap usage: 23,205 allocs, 22,605 frees, 1,114,384 bytes allocated
+
+[Run] VF3 grp=82 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp82_lvl10.log ./bin/vf3 -u ./test/scale_free/82graph10.sub.grf ./test/scale_free/82graph.grf
+[Run] Done in 54.47s
+1 10.7917 10.7917
+
+[Valgrind] ==60392==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==60392==   total heap usage: 13,727 allocs, 13,627 frees, 737,804 bytes allocated
+
+[Run] VF3 grp=82 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp82_lvl20.log ./bin/vf3 -u ./test/scale_free/82graph20.sub.grf ./test/scale_free/82graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=82 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp82_lvl60.log ./bin/vf3 -u ./test/scale_free/82graph60.sub.grf ./test/scale_free/82graph.grf
+[Run] Done in 39.89s
+1 5.71677 5.71677
+
+[Valgrind] ==60426==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60426==   total heap usage: 23,201 allocs, 22,601 frees, 1,113,868 bytes allocated
+
+[Run] VF3 grp=83 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp83_lvl10.log ./bin/vf3 -u ./test/scale_free/83graph10.sub.grf ./test/scale_free/83graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=83 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp83_lvl20.log ./bin/vf3 -u ./test/scale_free/83graph20.sub.grf ./test/scale_free/83graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=83 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp83_lvl60.log ./bin/vf3 -u ./test/scale_free/83graph60.sub.grf ./test/scale_free/83graph.grf
+[Run] Done in 51.89s
+1 6.23995 6.23995
+
+[Valgrind] ==60487==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60487==   total heap usage: 23,229 allocs, 22,629 frees, 1,115,368 bytes allocated
+
+[Run] VF3 grp=84 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp84_lvl10.log ./bin/vf3 -u ./test/scale_free/84graph10.sub.grf ./test/scale_free/84graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=84 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp84_lvl20.log ./bin/vf3 -u ./test/scale_free/84graph20.sub.grf ./test/scale_free/84graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=84 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp84_lvl60.log ./bin/vf3 -u ./test/scale_free/84graph60.sub.grf ./test/scale_free/84graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=85 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp85_lvl10.log ./bin/vf3 -u ./test/scale_free/85graph10.sub.grf ./test/scale_free/85graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=85 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp85_lvl20.log ./bin/vf3 -u ./test/scale_free/85graph20.sub.grf ./test/scale_free/85graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=85 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp85_lvl60.log ./bin/vf3 -u ./test/scale_free/85graph60.sub.grf ./test/scale_free/85graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=86 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp86_lvl10.log ./bin/vf3 -u ./test/scale_free/86graph10.sub.grf ./test/scale_free/86graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=86 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp86_lvl20.log ./bin/vf3 -u ./test/scale_free/86graph20.sub.grf ./test/scale_free/86graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=86 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp86_lvl60.log ./bin/vf3 -u ./test/scale_free/86graph60.sub.grf ./test/scale_free/86graph.grf
+[Run] Done in 55.59s
+1 12.0674 12.0674
+
+[Valgrind] ==60696==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60696==   total heap usage: 23,217 allocs, 22,617 frees, 1,116,412 bytes allocated
+
+[Run] VF3 grp=87 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp87_lvl10.log ./bin/vf3 -u ./test/scale_free/87graph10.sub.grf ./test/scale_free/87graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.06s)
+
+[Run] VF3 grp=87 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp87_lvl20.log ./bin/vf3 -u ./test/scale_free/87graph20.sub.grf ./test/scale_free/87graph.grf
+[Run] Done in 52.53s
+1 11.4225 11.4225
+
+[Valgrind] ==60733==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==60733==   total heap usage: 15,593 allocs, 15,393 frees, 810,888 bytes allocated
+
+[Run] VF3 grp=87 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp87_lvl60.log ./bin/vf3 -u ./test/scale_free/87graph60.sub.grf ./test/scale_free/87graph.grf
+[Run] Done in 59.48s
+1 7.54012 7.54012
+
+[Valgrind] ==60753==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60753==   total heap usage: 23,261 allocs, 22,661 frees, 1,117,000 bytes allocated
+
+[Run] VF3 grp=88 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp88_lvl10.log ./bin/vf3 -u ./test/scale_free/88graph10.sub.grf ./test/scale_free/88graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=88 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp88_lvl20.log ./bin/vf3 -u ./test/scale_free/88graph20.sub.grf ./test/scale_free/88graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=88 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp88_lvl60.log ./bin/vf3 -u ./test/scale_free/88graph60.sub.grf ./test/scale_free/88graph.grf
+[Run] Done in 56.37s
+1 12.0089 12.0089
+
+[Valgrind] ==60838==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==60838==   total heap usage: 23,225 allocs, 22,625 frees, 1,115,380 bytes allocated
+
+[Run] VF3 grp=89 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp89_lvl10.log ./bin/vf3 -u ./test/scale_free/89graph10.sub.grf ./test/scale_free/89graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=89 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp89_lvl20.log ./bin/vf3 -u ./test/scale_free/89graph20.sub.grf ./test/scale_free/89graph.grf
+[Run] Done in 42.30s
+1 5.69206 5.69206
+
+[Valgrind] ==60919==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==60919==   total heap usage: 15,549 allocs, 15,349 frees, 807,564 bytes allocated
+
+[Run] VF3 grp=89 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp89_lvl60.log ./bin/vf3 -u ./test/scale_free/89graph60.sub.grf ./test/scale_free/89graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.01s)
+
+[Run] VF3 grp=90 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp90_lvl10.log ./bin/vf3 -u ./test/scale_free/90graph10.sub.grf ./test/scale_free/90graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=90 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp90_lvl20.log ./bin/vf3 -u ./test/scale_free/90graph20.sub.grf ./test/scale_free/90graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=90 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp90_lvl60.log ./bin/vf3 -u ./test/scale_free/90graph60.sub.grf ./test/scale_free/90graph.grf
+[Run] Done in 58.70s
+1 5.84852 5.84852
+
+[Valgrind] ==61053==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==61053==   total heap usage: 23,257 allocs, 22,657 frees, 1,117,108 bytes allocated
+
+[Run] VF3 grp=91 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp91_lvl10.log ./bin/vf3 -u ./test/scale_free/91graph10.sub.grf ./test/scale_free/91graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=91 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp91_lvl20.log ./bin/vf3 -u ./test/scale_free/91graph20.sub.grf ./test/scale_free/91graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=91 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp91_lvl60.log ./bin/vf3 -u ./test/scale_free/91graph60.sub.grf ./test/scale_free/91graph.grf
+[Run] Done in 39.57s
+1 6.88955 6.88955
+
+[Valgrind] ==61124==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==61124==   total heap usage: 23,217 allocs, 22,617 frees, 1,115,356 bytes allocated
+
+[Run] VF3 grp=92 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp92_lvl10.log ./bin/vf3 -u ./test/scale_free/92graph10.sub.grf ./test/scale_free/92graph.grf
+[Run] Done in 47.77s
+1 11.6119 11.6119
+
+[Valgrind] ==61142==     in use at exit: 3,200 bytes in 100 blocks
+[Valgrind] ==61142==   total heap usage: 13,747 allocs, 13,647 frees, 738,464 bytes allocated
+
+[Run] VF3 grp=92 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp92_lvl20.log ./bin/vf3 -u ./test/scale_free/92graph20.sub.grf ./test/scale_free/92graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=92 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp92_lvl60.log ./bin/vf3 -u ./test/scale_free/92graph60.sub.grf ./test/scale_free/92graph.grf
+[Run] Done in 52.17s
+1 3.39135 3.39135
+
+[Valgrind] ==61175==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==61175==   total heap usage: 23,185 allocs, 22,585 frees, 1,112,908 bytes allocated
+
+[Run] VF3 grp=93 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp93_lvl10.log ./bin/vf3 -u ./test/scale_free/93graph10.sub.grf ./test/scale_free/93graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.09s)
+
+[Run] VF3 grp=93 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp93_lvl20.log ./bin/vf3 -u ./test/scale_free/93graph20.sub.grf ./test/scale_free/93graph.grf
+[Run] Done in 50.54s
+1 5.42908 5.42908
+
+[Valgrind] ==61239==     in use at exit: 6,400 bytes in 200 blocks
+[Valgrind] ==61239==   total heap usage: 15,593 allocs, 15,393 frees, 810,744 bytes allocated
+
+[Run] VF3 grp=93 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp93_lvl60.log ./bin/vf3 -u ./test/scale_free/93graph60.sub.grf ./test/scale_free/93graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+
+[Run] VF3 grp=94 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp94_lvl10.log ./bin/vf3 -u ./test/scale_free/94graph10.sub.grf ./test/scale_free/94graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=94 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp94_lvl20.log ./bin/vf3 -u ./test/scale_free/94graph20.sub.grf ./test/scale_free/94graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.13s)
+
+[Run] VF3 grp=94 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp94_lvl60.log ./bin/vf3 -u ./test/scale_free/94graph60.sub.grf ./test/scale_free/94graph.grf
+[Run] Done in 59.43s
+1 3.52814 3.52814
+
+[Valgrind] ==61380==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==61380==   total heap usage: 23,241 allocs, 22,641 frees, 1,115,956 bytes allocated
+
+[Run] VF3 grp=95 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp95_lvl10.log ./bin/vf3 -u ./test/scale_free/95graph10.sub.grf ./test/scale_free/95graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.12s)
+
+[Run] VF3 grp=95 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp95_lvl20.log ./bin/vf3 -u ./test/scale_free/95graph20.sub.grf ./test/scale_free/95graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.07s)
+
+[Run] VF3 grp=95 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp95_lvl60.log ./bin/vf3 -u ./test/scale_free/95graph60.sub.grf ./test/scale_free/95graph.grf
+[Run] Done in 41.89s
+1 6.52945 6.52945
+
+[Valgrind] ==61469==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==61469==   total heap usage: 23,237 allocs, 22,637 frees, 1,115,632 bytes allocated
+
+[Run] VF3 grp=96 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp96_lvl10.log ./bin/vf3 -u ./test/scale_free/96graph10.sub.grf ./test/scale_free/96graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.13s)
+
+[Run] VF3 grp=96 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp96_lvl20.log ./bin/vf3 -u ./test/scale_free/96graph20.sub.grf ./test/scale_free/96graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=96 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp96_lvl60.log ./bin/vf3 -u ./test/scale_free/96graph60.sub.grf ./test/scale_free/96graph.grf
+[Run] Done in 56.33s
+1 3.44208 3.44208
+
+[Valgrind] ==61518==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==61518==   total heap usage: 23,205 allocs, 22,605 frees, 1,114,336 bytes allocated
+
+[Run] VF3 grp=97 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp97_lvl10.log ./bin/vf3 -u ./test/scale_free/97graph10.sub.grf ./test/scale_free/97graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=97 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp97_lvl20.log ./bin/vf3 -u ./test/scale_free/97graph20.sub.grf ./test/scale_free/97graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=97 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp97_lvl60.log ./bin/vf3 -u ./test/scale_free/97graph60.sub.grf ./test/scale_free/97graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.08s)
+
+[Run] VF3 grp=98 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp98_lvl10.log ./bin/vf3 -u ./test/scale_free/98graph10.sub.grf ./test/scale_free/98graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=98 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp98_lvl20.log ./bin/vf3 -u ./test/scale_free/98graph20.sub.grf ./test/scale_free/98graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=98 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp98_lvl60.log ./bin/vf3 -u ./test/scale_free/98graph60.sub.grf ./test/scale_free/98graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=99 lvl=10
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp99_lvl10.log ./bin/vf3 -u ./test/scale_free/99graph10.sub.grf ./test/scale_free/99graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.10s)
+
+[Run] VF3 grp=99 lvl=20
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp99_lvl20.log ./bin/vf3 -u ./test/scale_free/99graph20.sub.grf ./test/scale_free/99graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.11s)
+
+[Run] VF3 grp=99 lvl=60
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_scale_free_grp99_lvl60.log ./bin/vf3 -u ./test/scale_free/99graph60.sub.grf ./test/scale_free/99graph.grf
+[Run] TIMED OUT after 60s (elapsed=60.03s)
+=== END   VF3 (scale_free) ===
