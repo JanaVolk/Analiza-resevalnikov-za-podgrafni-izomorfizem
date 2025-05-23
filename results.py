@@ -2,8 +2,8 @@ import os
 import re
 from collections import defaultdict
 
-RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/real graphs/results quatrilateral"
-OUTPUT_DIR  = "summariesReaQuatri"
+RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/real graphs/results pentagon"
+OUTPUT_DIR  = "summariesRealPentagon"
 
 FNAME_RE       = re.compile(r"^(.+?)_(er|tree|scale_free|real)_results\.txt$")
 TIME_RE        = re.compile(r"Done in ([0-9.]+)s")

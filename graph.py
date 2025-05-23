@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-folder_path = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/summariesRealTringle"
+folder_path = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/summariesRealPentagon"
 
 def clean_and_sort_data(df, column_to_sort):
     df[column_to_sort] = pd.to_numeric(df[column_to_sort], errors='coerce')
