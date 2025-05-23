@@ -1,0 +1,1805 @@
+=== START Glasgow (real) ===
+[Run] Glasgow real graphs: ['Amazon0302_graph.lad', 'Amazon0312_graph.lad', 'Amazon0505_graph.lad', 'Amazon0601_graph.lad', 'Brightkite_edges_graph.lad', 'CA-AstroPh_graph.lad', 'CA-GrQc_graph.lad', 'CA-HepPh_graph.lad', 'CA-HepTh_graph.lad', 'CA-rCondMat_graph.lad', 'Cit-HepPh_graph.lad', 'Cit-HepTh_graph.lad', 'Gowalla_edges_graph.lad', 'as-skitter_graph.lad', 'as19971108_graph.lad', 'as19971109_graph.lad', 'as19971110_graph.lad', 'as19971111_graph.lad', 'as19971112_graph.lad', 'as19971113_graph.lad', 'as19971114_graph.lad', 'as19971115_graph.lad', 'as19971116_graph.lad', 'as19971117_graph.lad', 'as19971118_graph.lad', 'as19971119_graph.lad', 'as19971120_graph.lad', 'as19971121_graph.lad', 'cit-Patents_graph.lad', 'com-amazon_graph.lad', 'email-Eu-core-department-labels_graph.lad', 'email-Eu-core_graph.lad', 'email-enron_graph.lad', 'email-euall_graph.lad', 'fb0_graph.lad', 'fb107_graph.lad', 'fb1684_graph.lad', 'fb1912_graph.lad', 'fb3437_graph.lad', 'fb348_graph.lad', 'fb3980_graph.lad', 'fb414_graph.lad', 'fb686_graph.lad', 'fb698_graph.lad', 'gplus100500197140377336562_graph.lad', 'gplus100720409235366385249_graph.lad', 'gplus100962871525684315897_graph.lad', 'gplus101185748996927059931_graph.lad', 'gplus101263615503715477581_graph.lad', 'gplus101373961279443806744_graph.lad', 'gplus101499880233887429402_graph.lad', 'gplus101541879642294398860_graph.lad', 'gplus101560853443212199687_graph.lad', 'gplus101626577406833098387_graph.lad', 'gplus102778563580121606331_graph.lad', 'gplus103236949470535942612_graph.lad', 'gplus103338524411980406972_graph.lad', 'oregon1_010331_graph.lad', 'oregon1_010407_graph.lad', 'oregon1_010414_graph.lad', 'oregon1_010421_graph.lad', 'oregon1_010428_graph.lad', 'oregon1_010505_graph.lad', 'oregon1_010512_graph.lad', 'oregon1_010519_graph.lad', 'oregon2_010331_graph.lad', 'oregon2_010407_graph.lad', 'oregon2_010414_graph.lad', 'oregon2_010421_graph.lad', 'oregon2_010428_graph.lad', 'oregon2_010505_graph.lad', 'oregon2_010512_graph.lad', 'oregon2_010519_graph.lad', 'oregon2_010526_graph.lad', 'p2p-Gnutella04_graph.lad', 'p2p-Gnutella05_graph.lad', 'p2p-Gnutella06_graph.lad', 'p2p-Gnutella08_graph.lad', 'p2p-Gnutella09_graph.lad', 'p2p-Gnutella24_graph.lad', 'p2p-Gnutella25_graph.lad', 'p2p-Gnutella30_graph.lad', 'twitter12831_graph.lad', 'twitter356963_graph.lad', 'twitter428333_graph.lad', 'twitter612473_graph.lad', 'twitter613313_graph.lad', 'twitter623623_graph.lad', 'twitter629863_graph.lad', 'twitter734493_graph.lad', 'twitter742143_graph.lad', 'twitter745823_graph.lad', 'twitter759679_graph.lad', 'twitter778446_graph.lad', 'twitter78813_graph.lad', 'web-BerkStan_graph.lad', 'web-Google_graph.lad', 'web-NotreDame_graph.lad', 'web-Stanford_graph.lad', 'wikitalk_graph.lad']
+
+[Run] Glasgow real graph=Amazon0302_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Amazon0302_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Amazon0302_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=Amazon0312_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Amazon0312_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Amazon0312_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=Amazon0505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Amazon0505_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Amazon0505_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=Amazon0601_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Amazon0601_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Amazon0601_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=Brightkite_edges_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Brightkite_edges_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Brightkite_edges_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.06s)
+
+[Run] Glasgow real graph=CA-AstroPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_CA-AstroPh_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/CA-AstroPh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] Glasgow real graph=CA-GrQc_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_CA-GrQc_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/CA-GrQc_graph.lad
+[Run] Done in 23.59s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/CA-GrQc_graph.lad
+started_at = 2025-05-21 00:53:49
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/CA-GrQc_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 5242
+target_directed_edges = 28980
+status = true
+nodes = 4
+propagations = 17
+mapping = (0 -> 4282) (1 -> 4553) (2 -> 4313) (3 -> 4059) 
+runtime = 16882
+where = 0/2999 -1/-1 0/77 -1/-1 0/16 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 1663
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16410==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16410==   total heap usage: 169,648 allocs, 169,648 frees, 170,762,226 bytes allocated
+
+[Run] Glasgow real graph=CA-HepPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_CA-HepPh_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/CA-HepPh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=CA-HepTh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_CA-HepTh_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/CA-HepTh_graph.lad
+[Run] Done in 80.38s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/CA-HepTh_graph.lad
+started_at = 2025-05-21 00:56:14
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/CA-HepTh_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 9877
+target_directed_edges = 51971
+status = true
+nodes = 4
+propagations = 9
+mapping = (0 -> 222) (1 -> 3871) (2 -> 9736) (3 -> 8308) 
+runtime = 71010
+where = 0/5981 -1/-1 1/61 -1/-1 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 5797
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16457==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16457==   total heap usage: 320,734 allocs, 320,734 frees, 587,662,471 bytes allocated
+
+[Run] Glasgow real graph=CA-rCondMat_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_CA-rCondMat_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/CA-rCondMat_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=Cit-HepPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Cit-HepPh_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Cit-HepPh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] Glasgow real graph=Cit-HepTh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Cit-HepTh_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Cit-HepTh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] Glasgow real graph=Gowalla_edges_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_Gowalla_edges_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/Gowalla_edges_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] Glasgow real graph=as-skitter_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as-skitter_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as-skitter_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.04s)
+
+[Run] Glasgow real graph=as19971108_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971108_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971108_graph.lad
+[Run] Done in 12.22s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971108_graph.lad
+started_at = 2025-05-21 01:07:34
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971108_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3015
+target_directed_edges = 10695
+status = true
+nodes = 4
+propagations = 7
+mapping = (0 -> 2506) (1 -> 1601) (2 -> 2589) (3 -> 466) 
+runtime = 6843
+where = 0/964 -1/-1 0/2 -1/-1 -1/-1 0/21 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 365
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16589==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16589==   total heap usage: 67,101 allocs, 67,101 frees, 59,708,726 bytes allocated
+
+[Run] Glasgow real graph=as19971109_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971109_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971109_graph.lad
+[Run] Done in 12.73s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971109_graph.lad
+started_at = 2025-05-21 01:07:46
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971109_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3011
+target_directed_edges = 10687
+status = true
+nodes = 4
+propagations = 5
+mapping = (0 -> 464) (1 -> 1738) (2 -> 1600) (3 -> 1744) 
+runtime = 7382
+where = 0/956 -1/-1 0/25 -1/-1 -1/-1 0/21 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 368
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16593==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16593==   total heap usage: 66,832 allocs, 66,832 frees, 59,497,195 bytes allocated
+
+[Run] Glasgow real graph=as19971110_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971110_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971110_graph.lad
+[Run] Done in 11.85s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971110_graph.lad
+started_at = 2025-05-21 01:07:59
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971110_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3024
+target_directed_edges = 10773
+status = true
+nodes = 5
+propagations = 9
+mapping = (0 -> 447) (1 -> 884) (2 -> 1298) (3 -> 706) 
+runtime = 6500
+where = 1/963 -1/-1 0/4 -1/-1 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 361
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16615==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16615==   total heap usage: 67,289 allocs, 67,289 frees, 59,957,153 bytes allocated
+
+[Run] Glasgow real graph=as19971111_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971111_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971111_graph.lad
+[Run] Done in 13.37s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971111_graph.lad
+started_at = 2025-05-21 01:08:11
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971111_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3022
+target_directed_edges = 10736
+status = true
+nodes = 4
+propagations = 7
+mapping = (0 -> 2513) (1 -> 1606) (2 -> 1753) (3 -> 467) 
+runtime = 7649
+where = 0/960 -1/-1 0/2 -1/-1 -1/-1 0/21 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 475
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16628==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16628==   total heap usage: 67,129 allocs, 67,129 frees, 59,931,038 bytes allocated
+
+[Run] Glasgow real graph=as19971112_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971112_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971112_graph.lad
+[Run] Done in 13.27s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971112_graph.lad
+started_at = 2025-05-21 01:08:24
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971112_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3023
+target_directed_edges = 10782
+status = true
+nodes = 5
+propagations = 9
+mapping = (0 -> 2510) (1 -> 1602) (2 -> 1748) (3 -> 465) 
+runtime = 7812
+where = 1/967 -1/-1 0/2 -1/-1 -1/-1 0/21 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 477
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16631==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16631==   total heap usage: 67,363 allocs, 67,363 frees, 60,057,530 bytes allocated
+
+[Run] Glasgow real graph=as19971113_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971113_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971113_graph.lad
+[Run] Done in 12.83s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971113_graph.lad
+started_at = 2025-05-21 01:08:38
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971113_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 2948
+target_directed_edges = 10631
+status = true
+nodes = 4
+propagations = 5
+mapping = (0 -> 443) (1 -> 84) (2 -> 694) (3 -> 40) 
+runtime = 6829
+where = 0/958 -1/-1 0/2 -1/-1 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 355
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16634==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16634==   total heap usage: 66,305 allocs, 66,305 frees, 57,472,989 bytes allocated
+
+[Run] Glasgow real graph=as19971114_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971114_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971114_graph.lad
+[Run] Done in 14.83s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971114_graph.lad
+started_at = 2025-05-21 01:08:51
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971114_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3042
+target_directed_edges = 10799
+status = true
+nodes = 5
+propagations = 6
+mapping = (0 -> 446) (1 -> 302) (2 -> 1517) (3 -> 1330) 
+runtime = 8470
+where = 0/956 -1/-1 0/6 -1/-1 0/3 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 410
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16637==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16637==   total heap usage: 67,334 allocs, 67,334 frees, 60,454,673 bytes allocated
+
+[Run] Glasgow real graph=as19971115_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971115_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971115_graph.lad
+[Run] Done in 14.46s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971115_graph.lad
+started_at = 2025-05-21 01:09:05
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971115_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3037
+target_directed_edges = 10723
+status = true
+nodes = 4
+propagations = 6
+mapping = (0 -> 2779) (1 -> 891) (2 -> 2593) (3 -> 890) 
+runtime = 8363
+where = 0/957 -1/-1 0/2 -1/-1 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 543
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16640==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16640==   total heap usage: 67,231 allocs, 67,231 frees, 60,352,381 bytes allocated
+
+[Run] Glasgow real graph=as19971116_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971116_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971116_graph.lad
+[Run] Done in 15.83s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971116_graph.lad
+started_at = 2025-05-21 01:09:20
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971116_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3036
+target_directed_edges = 10813
+status = true
+nodes = 5
+propagations = 7
+mapping = (0 -> 474) (1 -> 472) (2 -> 712) (3 -> 396) 
+runtime = 9173
+where = 1/960 -1/-1 0/2 -1/-1 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 425
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16643==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16643==   total heap usage: 67,422 allocs, 67,422 frees, 60,343,953 bytes allocated
+
+[Run] Glasgow real graph=as19971117_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971117_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971117_graph.lad
+[Run] Done in 14.21s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971117_graph.lad
+started_at = 2025-05-21 01:09:36
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971117_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3033
+target_directed_edges = 10809
+status = true
+nodes = 4
+propagations = 10
+mapping = (0 -> 454) (1 -> 889) (2 -> 1303) (3 -> 712) 
+runtime = 8002
+where = 0/965 -1/-1 0/4 -1/-1 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 418
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16657==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16657==   total heap usage: 67,510 allocs, 67,510 frees, 60,316,253 bytes allocated
+
+[Run] Glasgow real graph=as19971118_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971118_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971118_graph.lad
+[Run] Done in 15.36s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971118_graph.lad
+started_at = 2025-05-21 01:09:50
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971118_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3042
+target_directed_edges = 10866
+status = true
+nodes = 5
+propagations = 7
+mapping = (0 -> 460) (1 -> 87) (2 -> 201) (3 -> 41) 
+runtime = 8744
+where = 1/964 -1/-1 0/2 -1/-1 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 552
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16660==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16660==   total heap usage: 67,699 allocs, 67,699 frees, 60,548,353 bytes allocated
+
+[Run] Glasgow real graph=as19971119_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971119_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971119_graph.lad
+[Run] Done in 15.20s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971119_graph.lad
+started_at = 2025-05-21 01:10:06
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971119_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3055
+target_directed_edges = 10867
+status = true
+nodes = 3
+propagations = 3
+mapping = (0 -> 2485) (1 -> 1808) (2 -> 2277) (3 -> 395) 
+runtime = 8686
+where = 0/971 -1/-1 0/2 -1/-1 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 429
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16665==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16665==   total heap usage: 67,916 allocs, 67,916 frees, 60,822,237 bytes allocated
+
+[Run] Glasgow real graph=as19971120_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971120_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971120_graph.lad
+[Run] Done in 15.92s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971120_graph.lad
+started_at = 2025-05-21 01:10:21
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971120_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3066
+target_directed_edges = 10925
+status = true
+nodes = 5
+propagations = 8
+mapping = (0 -> 451) (1 -> 606) (2 -> 206) (3 -> 307) 
+runtime = 9384
+where = 1/977 -1/-1 0/5 -1/-1 0/2 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 484
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16668==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16668==   total heap usage: 68,175 allocs, 68,175 frees, 61,285,545 bytes allocated
+
+[Run] Glasgow real graph=as19971121_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_as19971121_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971121_graph.lad
+[Run] Done in 15.81s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/as19971121_graph.lad
+started_at = 2025-05-21 01:10:37
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/as19971121_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 3074
+target_directed_edges = 10949
+status = true
+nodes = 4
+propagations = 5
+mapping = (0 -> 438) (1 -> 61) (2 -> 715) (3 -> 400) 
+runtime = 9064
+where = 0/980 -1/-1 0/2 -1/-1 -1/-1 0/7 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 606
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16671==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16671==   total heap usage: 68,438 allocs, 68,438 frees, 61,857,965 bytes allocated
+
+[Run] Glasgow real graph=cit-Patents_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_cit-Patents_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/cit-Patents_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] Glasgow real graph=com-amazon_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_com-amazon_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/com-amazon_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=email-Eu-core-department-labels_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_email-Eu-core-department-labels_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/email-Eu-core-department-labels_graph.lad
+[Run] Done in 10.18s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/email-Eu-core-department-labels_graph.lad
+started_at = 2025-05-21 01:14:55
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/email-Eu-core-department-labels_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 1005
+target_directed_edges = 2009
+status = true
+nodes = 3
+propagations = 3
+mapping = (0 -> 4) (1 -> 14) (2 -> 9) (3 -> 21) 
+runtime = 1810
+where = 0/4 -1/-1 -1/-1 0/2 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 338
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16712==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16712==   total heap usage: 4,161 allocs, 4,161 frees, 5,443,657 bytes allocated
+
+[Run] Glasgow real graph=email-Eu-core_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_email-Eu-core_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/email-Eu-core_graph.lad
+[Run] Done in 14.25s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/email-Eu-core_graph.lad
+started_at = 2025-05-21 01:15:05
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/email-Eu-core_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 1005
+target_directed_edges = 32770
+status = true
+nodes = 5
+propagations = 9
+mapping = (0 -> 16) (1 -> 221) (2 -> 155) (3 -> 153) 
+runtime = 3392
+where = 0/284 -1/-1 0/10 -1/-1 0/8 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 260
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16715==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16715==   total heap usage: 45,109 allocs, 45,109 frees, 10,405,036 bytes allocated
+
+[Run] Glasgow real graph=email-enron_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_email-enron_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/email-enron_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=email-euall_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_email-euall_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/email-euall_graph.lad
+[Run] TIMED OUT after 120s (elapsed=124.55s)
+
+[Run] Glasgow real graph=fb0_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb0_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb0_graph.lad
+[Run] Done in 30.36s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb0_graph.lad
+started_at = 2025-05-21 01:20:00
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb0_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 333
+target_directed_edges = 5038
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 60) (1 -> 49) (2 -> 278) (3 -> 268) 
+runtime = 1132
+where = 0/290 -1/-1 0/75 -1/-1 0/18 -1/-1 0/3 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 293
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16776==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16776==   total heap usage: 15,427 allocs, 15,427 frees, 2,242,872 bytes allocated
+
+[Run] Glasgow real graph=fb107_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb107_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb107_graph.lad
+[Run] Done in 16.48s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb107_graph.lad
+started_at = 2025-05-21 01:20:07
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb107_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 1034
+target_directed_edges = 53498
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 1010) (1 -> 786) (2 -> 407) (3 -> 329) 
+runtime = 7394
+where = 0/1006 -1/-1 0/171 -1/-1 0/64 -1/-1 0/5 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 414
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16788==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16788==   total heap usage: 161,660 allocs, 161,660 frees, 29,176,486 bytes allocated
+
+[Run] Glasgow real graph=fb1684_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb1684_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb1684_graph.lad
+[Run] Done in 10.49s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb1684_graph.lad
+started_at = 2025-05-21 01:20:24
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb1684_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 786
+target_directed_edges = 28048
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 193) (1 -> 712) (2 -> 441) (3 -> 404) 
+runtime = 3292
+where = 0/766 -1/-1 0/86 -1/-1 0/66 -1/-1 0/9 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 369
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16802==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16802==   total heap usage: 59,816 allocs, 59,816 frees, 11,686,698 bytes allocated
+
+[Run] Glasgow real graph=fb1912_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb1912_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb1912_graph.lad
+[Run] Done in 14.96s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb1912_graph.lad
+started_at = 2025-05-21 01:20:34
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb1912_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 747
+target_directed_edges = 60050
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 631) (1 -> 253) (2 -> 480) (3 -> 375) 
+runtime = 5979
+where = 0/738 -1/-1 0/246 -1/-1 0/22 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 332
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16805==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16805==   total heap usage: 93,807 allocs, 93,807 frees, 17,297,659 bytes allocated
+
+[Run] Glasgow real graph=fb3437_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb3437_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb3437_graph.lad
+[Run] Done in 7.62s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb3437_graph.lad
+started_at = 2025-05-21 01:20:49
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb3437_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 534
+target_directed_edges = 9626
+status = true
+nodes = 5
+propagations = 6
+mapping = (0 -> 388) (1 -> 160) (2 -> 7) (3 -> 4) 
+runtime = 1502
+where = 0/512 -1/-1 0/103 -1/-1 0/29 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 279
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16808==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16808==   total heap usage: 27,697 allocs, 27,697 frees, 4,266,287 bytes allocated
+
+[Run] Glasgow real graph=fb348_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb348_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb348_graph.lad
+[Run] Done in 6.75s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb348_graph.lad
+started_at = 2025-05-21 01:20:57
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb348_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 224
+target_directed_edges = 6384
+status = true
+nodes = 4
+propagations = 4
+mapping = (0 -> 29) (1 -> 214) (2 -> 168) (3 -> 72) 
+runtime = 1086
+where = 0/215 -1/-1 0/81 -1/-1 0/3 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 236
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16811==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16811==   total heap usage: 15,498 allocs, 15,498 frees, 2,251,675 bytes allocated
+
+[Run] Glasgow real graph=fb3980_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb3980_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb3980_graph.lad
+[Run] Done in 6.41s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb3980_graph.lad
+started_at = 2025-05-21 01:21:04
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb3980_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 52
+target_directed_edges = 292
+status = true
+nodes = 4
+propagations = 4
+mapping = (0 -> 44) (1 -> 38) (2 -> 45) (3 -> 36) 
+runtime = 742
+where = 0/40 -1/-1 0/11 -1/-1 0/3 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 212
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16814==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16814==   total heap usage: 2,250 allocs, 2,250 frees, 269,312 bytes allocated
+
+[Run] Glasgow real graph=fb414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb414_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb414_graph.lad
+[Run] Done in 6.54s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb414_graph.lad
+started_at = 2025-05-21 01:21:10
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb414_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 150
+target_directed_edges = 3386
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 8) (1 -> 3) (2 -> 15) (3 -> 75) 
+runtime = 830
+where = 0/147 -1/-1 0/20 -1/-1 0/9 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 230
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16817==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16817==   total heap usage: 9,436 allocs, 9,436 frees, 1,035,399 bytes allocated
+
+[Run] Glasgow real graph=fb686_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb686_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb686_graph.lad
+[Run] Done in 6.73s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb686_graph.lad
+started_at = 2025-05-21 01:21:17
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb686_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 168
+target_directed_edges = 3312
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 139) (1 -> 25) (2 -> 7) (3 -> 66) 
+runtime = 973
+where = 0/159 -1/-1 0/54 -1/-1 0/34 -1/-1 0/3 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 236
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16820==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16820==   total heap usage: 9,945 allocs, 9,945 frees, 1,257,184 bytes allocated
+
+[Run] Glasgow real graph=fb698_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_fb698_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb698_graph.lad
+[Run] Done in 6.12s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/fb698_graph.lad
+started_at = 2025-05-21 01:21:23
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/fb698_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 61
+target_directed_edges = 540
+status = true
+nodes = 4
+propagations = 4
+mapping = (0 -> 26) (1 -> 21) (2 -> 4) (3 -> 10) 
+runtime = 725
+where = 0/59 -1/-1 0/9 -1/-1 0/13 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 222
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16823==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16823==   total heap usage: 3,067 allocs, 3,067 frees, 324,338 bytes allocated
+
+[Run] Glasgow real graph=gplus100500197140377336562_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus100500197140377336562_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus100500197140377336562_graph.lad
+[Run] Done in 11.07s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus100500197140377336562_graph.lad
+started_at = 2025-05-21 01:21:29
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus100500197140377336562_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 638
+target_directed_edges = 28324
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 393) (1 -> 314) (2 -> 506) (3 -> 147) 
+runtime = 4176
+where = 0/633 -1/-1 0/169 -1/-1 0/17 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 308
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16828==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16828==   total heap usage: 59,062 allocs, 59,062 frees, 16,640,508 bytes allocated
+
+[Run] Glasgow real graph=gplus100720409235366385249_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus100720409235366385249_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus100720409235366385249_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] Glasgow real graph=gplus100962871525684315897_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus100962871525684315897_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus100962871525684315897_graph.lad
+[Run] Done in 20.51s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus100962871525684315897_graph.lad
+started_at = 2025-05-21 01:23:42
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus100962871525684315897_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 559
+target_directed_edges = 53510
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 134) (1 -> 389) (2 -> 186) (3 -> 463) 
+runtime = 8782
+where = 0/512 -1/-1 0/103 -1/-1 0/30 -1/-1 0/7 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 387
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16862==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16862==   total heap usage: 78,759 allocs, 78,759 frees, 15,025,604 bytes allocated
+
+[Run] Glasgow real graph=gplus101185748996927059931_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus101185748996927059931_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101185748996927059931_graph.lad
+[Run] Done in 48.80s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101185748996927059931_graph.lad
+started_at = 2025-05-21 01:24:03
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus101185748996927059931_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 1052
+target_directed_edges = 124176
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 252) (1 -> 294) (2 -> 536) (3 -> 640) 
+runtime = 30201
+where = 0/1048 -1/-1 0/209 -1/-1 0/83 -1/-1 0/24 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 432
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16865==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16865==   total heap usage: 314,171 allocs, 314,171 frees, 63,823,074 bytes allocated
+
+[Run] Glasgow real graph=gplus101263615503715477581_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus101263615503715477581_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101263615503715477581_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.06s)
+
+[Run] Glasgow real graph=gplus101373961279443806744_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus101373961279443806744_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101373961279443806744_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=gplus101499880233887429402_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus101499880233887429402_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101499880233887429402_graph.lad
+[Run] Done in 9.81s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101499880233887429402_graph.lad
+started_at = 2025-05-21 01:28:51
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus101499880233887429402_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 268
+target_directed_edges = 10796
+status = true
+nodes = 5
+propagations = 6
+mapping = (0 -> 50) (1 -> 149) (2 -> 40) (3 -> 235) 
+runtime = 2096
+where = 0/261 -1/-1 0/24 -1/-1 0/27 -1/-1 0/5 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 304
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16914==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16914==   total heap usage: 22,949 allocs, 22,949 frees, 4,020,483 bytes allocated
+
+[Run] Glasgow real graph=gplus101541879642294398860_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus101541879642294398860_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101541879642294398860_graph.lad
+[Run] Done in 10.08s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101541879642294398860_graph.lad
+started_at = 2025-05-21 01:28:59
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus101541879642294398860_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 488
+target_directed_edges = 30328
+status = true
+nodes = 5
+propagations = 7
+mapping = (0 -> 168) (1 -> 94) (2 -> 115) (3 -> 134) 
+runtime = 3446
+where = 0/479 -1/-1 0/119 -1/-1 0/30 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 242
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16917==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16917==   total heap usage: 53,314 allocs, 53,314 frees, 11,158,020 bytes allocated
+
+[Run] Glasgow real graph=gplus101560853443212199687_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus101560853443212199687_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101560853443212199687_graph.lad
+[Run] Done in 6.07s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101560853443212199687_graph.lad
+started_at = 2025-05-21 01:29:10
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus101560853443212199687_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 19
+target_directed_edges = 188
+status = true
+nodes = 3
+propagations = 4
+mapping = (0 -> 12) (1 -> 4) (2 -> 0) (3 -> 11) 
+runtime = 645
+where = 0/19 -1/-1 -1/-1 0/12 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 228
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16920==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16920==   total heap usage: 1,800 allocs, 1,800 frees, 212,669 bytes allocated
+
+[Run] Glasgow real graph=gplus101626577406833098387_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus101626577406833098387_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus101626577406833098387_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] Glasgow real graph=gplus102778563580121606331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus102778563580121606331_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus102778563580121606331_graph.lad
+[Run] Done in 27.55s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus102778563580121606331_graph.lad
+started_at = 2025-05-21 01:31:16
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus102778563580121606331_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 1371
+target_directed_edges = 82246
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 201) (1 -> 524) (2 -> 1119) (3 -> 562) 
+runtime = 16872
+where = 0/1350 -1/-1 0/546 -1/-1 0/31 -1/-1 0/10 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 534
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16956==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16956==   total heap usage: 246,832 allocs, 246,832 frees, 71,281,078 bytes allocated
+
+[Run] Glasgow real graph=gplus103236949470535942612_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus103236949470535942612_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus103236949470535942612_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.05s)
+
+[Run] Glasgow real graph=gplus103338524411980406972_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_gplus103338524411980406972_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus103338524411980406972_graph.lad
+[Run] Done in 6.14s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/gplus103338524411980406972_graph.lad
+started_at = 2025-05-21 01:33:44
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/gplus103338524411980406972_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 34
+target_directed_edges = 198
+status = true
+nodes = 8
+propagations = 18
+mapping = (0 -> 24) (1 -> 22) (2 -> 21) (3 -> 15) 
+runtime = 651
+where = 1/28 -1/-1 2/5 -1/-1 0/5 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 218
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==16982==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16982==   total heap usage: 1,975 allocs, 1,975 frees, 248,492 bytes allocated
+
+[Run] Glasgow real graph=oregon1_010331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010331_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010331_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon1_010407_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010407_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010407_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon1_010414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010414_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010414_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon1_010421_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010421_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010421_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon1_010428_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010428_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010428_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.01s)
+
+[Run] Glasgow real graph=oregon1_010505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010505_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010505_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.08s)
+
+[Run] Glasgow real graph=oregon1_010512_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010512_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010512_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon1_010519_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon1_010519_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon1_010519_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.04s)
+
+[Run] Glasgow real graph=oregon2_010331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010331_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010331_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.05s)
+
+[Run] Glasgow real graph=oregon2_010407_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010407_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010407_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon2_010414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010414_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010414_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon2_010421_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010421_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010421_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon2_010428_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010428_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010428_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon2_010505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010505_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010505_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.00s)
+
+[Run] Glasgow real graph=oregon2_010512_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010512_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010512_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.06s)
+
+[Run] Glasgow real graph=oregon2_010519_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010519_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010519_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=oregon2_010526_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_oregon2_010526_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/oregon2_010526_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.09s)
+
+[Run] Glasgow real graph=p2p-Gnutella04_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella04_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella04_graph.lad
+[Run] Done in 97.23s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella04_graph.lad
+started_at = 2025-05-21 02:07:51
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/p2p-Gnutella04_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 10876
+target_directed_edges = 79988
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 3109) (1 -> 1056) (2 -> 5302) (3 -> 2975) 
+runtime = 86326
+where = 0/4667 -1/-1 0/87 -1/-1 0/9 -1/-1 0/5 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 3848
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17410==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17410==   total heap usage: 353,829 allocs, 353,829 frees, 731,308,403 bytes allocated
+
+[Run] Glasgow real graph=p2p-Gnutella05_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella05_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella05_graph.lad
+[Run] Done in 63.13s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella05_graph.lad
+started_at = 2025-05-21 02:09:28
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/p2p-Gnutella05_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 8846
+target_directed_edges = 63678
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 1020) (1 -> 225) (2 -> 227) (3 -> 229) 
+runtime = 53598
+where = 0/3872 -1/-1 0/83 -1/-1 0/50 -1/-1 0/41 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 2660
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17445==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17445==   total heap usage: 287,309 allocs, 287,309 frees, 488,150,613 bytes allocated
+
+[Run] Glasgow real graph=p2p-Gnutella06_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella06_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella06_graph.lad
+[Run] Done in 61.64s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella06_graph.lad
+started_at = 2025-05-21 02:10:31
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/p2p-Gnutella06_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 8717
+target_directed_edges = 63050
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 6494) (1 -> 809) (2 -> 916) (3 -> 229) 
+runtime = 52257
+where = 0/3934 -1/-1 0/102 -1/-1 0/2 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 2915
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17458==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17458==   total heap usage: 286,584 allocs, 286,584 frees, 475,288,064 bytes allocated
+
+[Run] Glasgow real graph=p2p-Gnutella08_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella08_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella08_graph.lad
+[Run] Done in 33.57s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella08_graph.lad
+started_at = 2025-05-21 02:11:33
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/p2p-Gnutella08_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 6301
+target_directed_edges = 41554
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 127) (1 -> 427) (2 -> 251) (3 -> 9) 
+runtime = 25620
+where = 0/2483 -1/-1 0/95 -1/-1 0/53 -1/-1 0/17 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 1217
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17471==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17471==   total heap usage: 194,315 allocs, 194,315 frees, 248,707,989 bytes allocated
+
+[Run] Glasgow real graph=p2p-Gnutella09_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella09_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella09_graph.lad
+[Run] Done in 53.31s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella09_graph.lad
+started_at = 2025-05-21 02:12:06
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/p2p-Gnutella09_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 8114
+target_directed_edges = 52026
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 1074) (1 -> 822) (2 -> 93) (3 -> 565) 
+runtime = 44546
+where = 0/3019 -1/-1 0/99 -1/-1 0/37 -1/-1 0/16 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 1684
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17484==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17484==   total heap usage: 240,545 allocs, 240,545 frees, 402,112,329 bytes allocated
+
+[Run] Glasgow real graph=p2p-Gnutella24_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella24_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella24_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] Glasgow real graph=p2p-Gnutella25_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella25_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella25_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] Glasgow real graph=p2p-Gnutella30_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_p2p-Gnutella30_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/p2p-Gnutella30_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=twitter12831_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter12831_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter12831_graph.lad
+[Run] Done in 6.86s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter12831_graph.lad
+started_at = 2025-05-21 02:19:00
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter12831_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 236
+target_directed_edges = 3621
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 6) (1 -> 215) (2 -> 29) (3 -> 102) 
+runtime = 1015
+where = 0/221 -1/-1 0/59 -1/-1 0/26 -1/-1 0/11 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 240
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17573==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17573==   total heap usage: 11,917 allocs, 11,917 frees, 1,638,016 bytes allocated
+
+[Run] Glasgow real graph=twitter356963_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter356963_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter356963_graph.lad
+[Run] Done in 6.49s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter356963_graph.lad
+started_at = 2025-05-21 02:19:07
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter356963_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 126
+target_directed_edges = 990
+status = true
+nodes = 4
+propagations = 4
+mapping = (0 -> 42) (1 -> 46) (2 -> 2) (3 -> 3) 
+runtime = 773
+where = 0/102 -1/-1 0/17 -1/-1 0/2 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 222
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17576==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17576==   total heap usage: 4,686 allocs, 4,686 frees, 568,400 bytes allocated
+
+[Run] Glasgow real graph=twitter428333_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter428333_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter428333_graph.lad
+[Run] Done in 6.44s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter428333_graph.lad
+started_at = 2025-05-21 02:19:14
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter428333_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 65
+target_directed_edges = 1858
+status = true
+nodes = 7
+propagations = 13
+mapping = (0 -> 63) (1 -> 15) (2 -> 18) (3 -> 64) 
+runtime = 735
+where = 1/65 -1/-1 0/10 -1/-1 0/25 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 232
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17579==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17579==   total heap usage: 5,225 allocs, 5,225 frees, 553,200 bytes allocated
+
+[Run] Glasgow real graph=twitter612473_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter612473_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter612473_graph.lad
+[Run] Done in 6.40s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter612473_graph.lad
+started_at = 2025-05-21 02:19:20
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter612473_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 76
+target_directed_edges = 1868
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 3) (1 -> 33) (2 -> 18) (3 -> 6) 
+runtime = 753
+where = 0/74 -1/-1 0/11 -1/-1 0/37 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 225
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17582==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17582==   total heap usage: 5,748 allocs, 5,748 frees, 696,456 bytes allocated
+
+[Run] Glasgow real graph=twitter613313_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter613313_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter613313_graph.lad
+[Run] Done in 7.06s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter613313_graph.lad
+started_at = 2025-05-21 02:19:27
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter613313_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 88
+target_directed_edges = 1408
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 43) (1 -> 19) (2 -> 32) (3 -> 7) 
+runtime = 789
+where = 0/85 -1/-1 0/26 -1/-1 0/17 -1/-1 0/8 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 255
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17595==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17595==   total heap usage: 5,254 allocs, 5,254 frees, 605,636 bytes allocated
+
+[Run] Glasgow real graph=twitter623623_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter623623_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter623623_graph.lad
+[Run] Done in 6.97s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter623623_graph.lad
+started_at = 2025-05-21 02:19:34
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter623623_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 106
+target_directed_edges = 876
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 68) (1 -> 11) (2 -> 81) (3 -> 1) 
+runtime = 856
+where = 0/95 -1/-1 0/31 -1/-1 0/10 -1/-1 0/4 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 228
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17598==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17598==   total heap usage: 4,376 allocs, 4,376 frees, 507,188 bytes allocated
+
+[Run] Glasgow real graph=twitter629863_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter629863_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter629863_graph.lad
+[Run] Done in 6.83s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter629863_graph.lad
+started_at = 2025-05-21 02:19:41
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter629863_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 159
+target_directed_edges = 1592
+status = true
+nodes = 5
+propagations = 6
+mapping = (0 -> 112) (1 -> 108) (2 -> 21) (3 -> 7) 
+runtime = 876
+where = 0/142 -1/-1 0/34 -1/-1 0/12 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 236
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17601==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17601==   total heap usage: 6,651 allocs, 6,651 frees, 770,533 bytes allocated
+
+[Run] Glasgow real graph=twitter734493_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter734493_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter734493_graph.lad
+[Run] Done in 6.03s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter734493_graph.lad
+started_at = 2025-05-21 02:19:47
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter734493_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 9
+target_directed_edges = 68
+status = false
+nodes = 6
+propagations = 36
+runtime = 555
+restarts = 1
+shape_graphs = 5
+search_time = 182
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17604==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17604==   total heap usage: 1,381 allocs, 1,381 frees, 193,757 bytes allocated
+
+[Run] Glasgow real graph=twitter742143_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter742143_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter742143_graph.lad
+[Run] Done in 6.52s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter742143_graph.lad
+started_at = 2025-05-21 02:19:54
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter742143_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 57
+target_directed_edges = 1154
+status = true
+nodes = 4
+propagations = 4
+mapping = (0 -> 1) (1 -> 3) (2 -> 27) (3 -> 25) 
+runtime = 719
+where = 0/57 -1/-1 -1/-1 0/6 -1/-1 0/2 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 215
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17607==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17607==   total heap usage: 4,175 allocs, 4,175 frees, 440,506 bytes allocated
+
+[Run] Glasgow real graph=twitter745823_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter745823_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter745823_graph.lad
+[Run] Done in 7.69s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter745823_graph.lad
+started_at = 2025-05-21 02:20:00
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter745823_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 242
+target_directed_edges = 8744
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 86) (1 -> 25) (2 -> 75) (3 -> 52) 
+runtime = 1344
+where = 0/226 -1/-1 0/54 -1/-1 0/12 -1/-1 0/3 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 236
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17610==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17610==   total heap usage: 18,317 allocs, 18,317 frees, 2,745,469 bytes allocated
+
+[Run] Glasgow real graph=twitter759679_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter759679_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter759679_graph.lad
+[Run] Done in 6.78s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter759679_graph.lad
+started_at = 2025-05-21 02:20:08
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter759679_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 115
+target_directed_edges = 1094
+status = true
+nodes = 4
+propagations = 4
+mapping = (0 -> 88) (1 -> 3) (2 -> 35) (3 -> 25) 
+runtime = 880
+where = 0/106 -1/-1 0/40 -1/-1 0/7 -1/-1 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 247
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17614==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17614==   total heap usage: 5,082 allocs, 5,082 frees, 579,056 bytes allocated
+
+[Run] Glasgow real graph=twitter778446_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter778446_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter778446_graph.lad
+[Run] Done in 6.87s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter778446_graph.lad
+started_at = 2025-05-21 02:20:14
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter778446_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties =
+target_vertices = 187
+target_directed_edges = 4348
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 20) (1 -> 4) (2 -> 47) (3 -> 131) 
+runtime = 1027
+where = 0/178 -1/-1 0/59 -1/-1 0/73 -1/-1 0/14 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 254
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17617==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17617==   total heap usage: 12,096 allocs, 12,096 frees, 1,777,238 bytes allocated
+
+[Run] Glasgow real graph=twitter78813_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_twitter78813_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter78813_graph.lad
+[Run] Done in 7.41s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/twitter78813_graph.lad
+started_at = 2025-05-21 02:20:22
+pattern_file = ./testReal/real/quadrilateralLAD
+target_file = ./testReal/real/twitter78813_graph.lad
+pattern_properties =
+pattern_vertices = 4
+pattern_directed_edges = 8
+target_properties = loopy
+target_vertices = 231
+target_directed_edges = 4513
+status = true
+nodes = 5
+propagations = 5
+mapping = (0 -> 189) (1 -> 85) (2 -> 149) (3 -> 88) 
+runtime = 1175
+where = 0/217 -1/-1 0/94 -1/-1 0/31 -1/-1 0/6 -1/-1
+restarts = 1
+shape_graphs = 5
+search_time = 285
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==17620==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17620==   total heap usage: 13,514 allocs, 13,514 frees, 2,030,903 bytes allocated
+
+[Run] Glasgow real graph=web-BerkStan_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_web-BerkStan_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/web-BerkStan_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=web-Google_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_web-Google_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/web-Google_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=web-NotreDame_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_web-NotreDame_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/web-NotreDame_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.08s)
+
+[Run] Glasgow real graph=web-Stanford_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_web-Stanford_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/web-Stanford_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow real graph=wikitalk_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_real_wikitalk_graph.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testReal/real/quadrilateralLAD ./testReal/real/wikitalk_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+=== END   Glasgow (real) ===

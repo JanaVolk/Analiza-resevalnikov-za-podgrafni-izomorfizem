@@ -1,0 +1,747 @@
+=== START VF3 (real) ===
+[Run] VF3 real graphs: ['Amazon0302_graph.grf', 'Amazon0312_graph.grf', 'Amazon0505_graph.grf', 'Amazon0601_graph.grf', 'Brightkite_edges_graph.grf', 'CA-AstroPh_graph.grf', 'CA-GrQc_graph.grf', 'CA-HepPh_graph.grf', 'CA-HepTh_graph.grf', 'CA-rCondMat_graph.grf', 'Cit-HepPh_graph.grf', 'Cit-HepTh_graph.grf', 'Gowalla_edges.grf', 'as-skitter_graph.grf', 'as19971108_graph.grf', 'as19971109_graph.grf', 'as19971110_graph.grf', 'as19971111_graph.grf', 'as19971112_graph.grf', 'as19971113_graph.grf', 'as19971114_graph.grf', 'as19971115_graph.grf', 'as19971116_graph.grf', 'as19971117_graph.grf', 'as19971118_graph.grf', 'as19971119_graph.grf', 'as19971120_graph.grf', 'as19971121_graph.grf', 'cit-Patents_graph.grf', 'com-amazon_graph.grf', 'email-Eu-core-department-labels_graph.grf', 'email-Eu-core_graph.grf', 'email-enron_graph.grf', 'email-euall_graph.grf', 'fb0graph_graph.grf', 'fb107graph_graph.grf', 'fb1684graph_graph.grf', 'fb1912graph_graph.grf', 'fb3437graph_graph.grf', 'fb348graph_graph.grf', 'fb3980graph_graph.grf', 'fb414graph_graph.grf', 'fb686graph_graph.grf', 'fb698graph_graph.grf', 'gplus100500197140377336562_graph.grf', 'gplus100720409235366385249_graph.grf', 'gplus100962871525684315897_graph.grf', 'gplus101185748996927059931_graph.grf', 'gplus101263615503715477581_graph.grf', 'gplus101373961279443806744_graph.grf', 'gplus101499880233887429402_graph.grf', 'gplus101541879642294398860_graph.grf', 'gplus101560853443212199687_graph.grf', 'gplus101626577406833098387_graph.grf', 'gplus102778563580121606331_graph.grf', 'gplus103236949470535942612_graph.grf', 'gplus103338524411980406972_graph.grf', 'oregon1_010331_graph.grf', 'oregon1_010407_graph.grf', 'oregon1_010414_graph.grf', 'oregon1_010421_graph.grf', 'oregon1_010428_graph.grf', 'oregon1_010505_graph.grf', 'oregon1_010512_graph.grf', 'oregon1_010519_graph.grf', 'oregon2_010331_graph.grf', 'oregon2_010407_graph.grf', 'oregon2_010414_graph.grf', 'oregon2_010421_graph.grf', 'oregon2_010428_graph.grf', 'oregon2_010505_graph.grf', 'oregon2_010512_graph.grf', 'oregon2_010519_graph.grf', 'oregon2_010526_graph.grf', 'p2p-Gnutella04_graph.grf', 'p2p-Gnutella05_graph.grf', 'p2p-Gnutella06_graph.grf', 'p2p-Gnutella08_graph.grf', 'p2p-Gnutella09_graph.grf', 'p2p-Gnutella24_graph.grf', 'p2p-Gnutella25_graph.grf', 'p2p-Gnutella30_graph.grf', 'twitter12831graph_graph.grf', 'twitter356963graph_graph.grf', 'twitter428333graph_graph.grf', 'twitter612473graph_graph.grf', 'twitter613313graph_graph.grf', 'twitter623623graph_graph.grf', 'twitter629863graph_graph.grf', 'twitter734493graph_graph.grf', 'twitter742143graph_graph.grf', 'twitter745823graph_graph.grf', 'twitter759679graph_graph.grf', 'twitter778446graph_graph.grf', 'twitter78813graph_graph.grf', 'web-BerkStan_graph.grf', 'web-Google_graph.grf', 'web-NotreDame_graph.grf', 'web-Stanford_graph.grf', 'wikitalk_graph.grf']
+
+[Run] VF3 real graph=Amazon0302_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Amazon0302_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Amazon0302_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.03s)
+
+[Run] VF3 real graph=Amazon0312_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Amazon0312_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Amazon0312_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=Amazon0505_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Amazon0505_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Amazon0505_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=Amazon0601_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Amazon0601_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Amazon0601_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=Brightkite_edges_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Brightkite_edges_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Brightkite_edges_graph.grf
+[Run] Done in 63.57s
+1 0.118076 0.118076
+
+[Valgrind] ==10452==     in use at exit: 864 bytes in 27 blocks
+[Valgrind] ==10452==   total heap usage: 1,089,893 allocs, 1,089,866 frees, 57,295,032 bytes allocated
+
+[Run] VF3 real graph=CA-AstroPh_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_CA-AstroPh_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/CA-AstroPh_graph.grf
+[Run] Done in 3.88s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10475==     in use at exit: 1,241,822 bytes in 6,211 blocks
+[Valgrind] ==10475==   total heap usage: 6,212 allocs, 1 frees, 1,315,550 bytes allocated
+
+[Run] VF3 real graph=CA-GrQc_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_CA-GrQc_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/CA-GrQc_graph.grf
+[Run] Done in 3.26s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10478==     in use at exit: 290,502 bytes in 17 blocks
+[Valgrind] ==10478==   total heap usage: 18 allocs, 1 frees, 364,230 bytes allocated
+
+[Run] VF3 real graph=CA-HepPh_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_CA-HepPh_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/CA-HepPh_graph.grf
+[Run] Done in 4.08s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10480==     in use at exit: 710,734 bytes in 1,727 blocks
+[Valgrind] ==10480==   total heap usage: 1,728 allocs, 1 frees, 784,462 bytes allocated
+
+[Run] VF3 real graph=CA-HepTh_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_CA-HepTh_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/CA-HepTh_graph.grf
+[Run] Done in 3.84s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10482==     in use at exit: 685,522 bytes in 3,867 blocks
+[Valgrind] ==10482==   total heap usage: 3,868 allocs, 1 frees, 759,250 bytes allocated
+
+[Run] VF3 real graph=CA-rCondMat_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_CA-rCondMat_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/CA-rCondMat_graph.grf
+[Run] Done in 4.21s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10484==     in use at exit: 1,227,714 bytes in 189 blocks
+[Valgrind] ==10484==   total heap usage: 190 allocs, 1 frees, 1,301,442 bytes allocated
+
+[Run] VF3 real graph=Cit-HepPh_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Cit-HepPh_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Cit-HepPh_graph.grf
+[Run] Done in 5.69s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10489==     in use at exit: 2,809,190 bytes in 24,889 blocks
+[Valgrind] ==10489==   total heap usage: 24,890 allocs, 1 frees, 2,882,918 bytes allocated
+
+[Run] VF3 real graph=Cit-HepTh_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Cit-HepTh_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Cit-HepTh_graph.grf
+[Run] Done in 7.44s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10491==     in use at exit: 4,572,038 bytes in 77,769 blocks
+[Valgrind] ==10491==   total heap usage: 77,770 allocs, 1 frees, 4,645,766 bytes allocated
+
+[Run] VF3 real graph=Gowalla_edges.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_Gowalla_edges.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/Gowalla_edges.grf
+[Run] TIMED OUT after 120s (elapsed=120.05s)
+
+[Run] VF3 real graph=as-skitter_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as-skitter_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as-skitter_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=as19971108_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971108_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971108_graph.grf
+[Run] Done in 4.56s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10541==     in use at exit: 192,538 bytes in 463 blocks
+[Valgrind] ==10541==   total heap usage: 464 allocs, 1 frees, 266,266 bytes allocated
+
+[Run] VF3 real graph=as19971109_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971109_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971109_graph.grf
+[Run] Done in 4.61s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10546==     in use at exit: 192,570 bytes in 469 blocks
+[Valgrind] ==10546==   total heap usage: 470 allocs, 1 frees, 266,298 bytes allocated
+
+[Run] VF3 real graph=as19971110_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971110_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971110_graph.grf
+[Run] Done in 5.61s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10548==     in use at exit: 193,166 bytes in 467 blocks
+[Valgrind] ==10548==   total heap usage: 468 allocs, 1 frees, 266,894 bytes allocated
+
+[Run] VF3 real graph=as19971111_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971111_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971111_graph.grf
+[Run] Done in 4.87s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10555==     in use at exit: 193,222 bytes in 471 blocks
+[Valgrind] ==10555==   total heap usage: 472 allocs, 1 frees, 266,950 bytes allocated
+
+[Run] VF3 real graph=as19971112_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971112_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971112_graph.grf
+[Run] Done in 4.40s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10559==     in use at exit: 193,274 bytes in 471 blocks
+[Valgrind] ==10559==   total heap usage: 472 allocs, 1 frees, 267,002 bytes allocated
+
+[Run] VF3 real graph=as19971113_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971113_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971113_graph.grf
+[Run] Done in 4.81s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10566==     in use at exit: 189,214 bytes in 467 blocks
+[Valgrind] ==10566==   total heap usage: 468 allocs, 1 frees, 262,942 bytes allocated
+
+[Run] VF3 real graph=as19971114_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971114_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971114_graph.grf
+[Run] Done in 3.44s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10574==     in use at exit: 194,342 bytes in 473 blocks
+[Valgrind] ==10574==   total heap usage: 474 allocs, 1 frees, 268,070 bytes allocated
+
+[Run] VF3 real graph=as19971115_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971115_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971115_graph.grf
+[Run] Done in 4.56s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10578==     in use at exit: 194,802 bytes in 491 blocks
+[Valgrind] ==10578==   total heap usage: 492 allocs, 1 frees, 268,530 bytes allocated
+
+[Run] VF3 real graph=as19971116_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971116_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971116_graph.grf
+[Run] Done in 4.85s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10584==     in use at exit: 194,110 bytes in 475 blocks
+[Valgrind] ==10584==   total heap usage: 476 allocs, 1 frees, 267,838 bytes allocated
+
+[Run] VF3 real graph=as19971117_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971117_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971117_graph.grf
+[Run] Done in 5.27s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10588==     in use at exit: 194,034 bytes in 477 blocks
+[Valgrind] ==10588==   total heap usage: 478 allocs, 1 frees, 267,762 bytes allocated
+
+[Run] VF3 real graph=as19971118_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971118_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971118_graph.grf
+[Run] Done in 5.62s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10591==     in use at exit: 194,502 bytes in 477 blocks
+[Valgrind] ==10591==   total heap usage: 478 allocs, 1 frees, 268,230 bytes allocated
+
+[Run] VF3 real graph=as19971119_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971119_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971119_graph.grf
+[Run] Done in 5.51s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10593==     in use at exit: 194,778 bytes in 467 blocks
+[Valgrind] ==10593==   total heap usage: 468 allocs, 1 frees, 268,506 bytes allocated
+
+[Run] VF3 real graph=as19971120_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971120_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971120_graph.grf
+[Run] Done in 4.37s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10595==     in use at exit: 195,590 bytes in 473 blocks
+[Valgrind] ==10595==   total heap usage: 474 allocs, 1 frees, 269,318 bytes allocated
+
+[Run] VF3 real graph=as19971121_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_as19971121_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/as19971121_graph.grf
+[Run] Done in 4.40s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==10597==     in use at exit: 196,246 bytes in 479 blocks
+[Valgrind] ==10597==   total heap usage: 480 allocs, 1 frees, 269,974 bytes allocated
+
+[Run] VF3 real graph=cit-Patents_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_cit-Patents_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/cit-Patents_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=com-amazon_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_com-amazon_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/com-amazon_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=email-Eu-core-department-labels_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_email-Eu-core-department-labels_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/email-Eu-core-department-labels_graph.grf
+[Run] Done in 4.73s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==11302==     in use at exit: 74,178 bytes in 117 blocks
+[Valgrind] ==11302==   total heap usage: 118 allocs, 1 frees, 147,906 bytes allocated
+
+[Run] VF3 real graph=email-Eu-core_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_email-Eu-core_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/email-Eu-core_graph.grf
+[Run] Done in 4.73s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==11304==     in use at exit: 70,178 bytes in 17 blocks
+[Valgrind] ==11304==   total heap usage: 18 allocs, 1 frees, 143,906 bytes allocated
+
+[Run] VF3 real graph=email-enron_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_email-enron_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/email-enron_graph.grf
+[Run] Done in 49.54s
+1 0.0739404 0.0739404
+
+[Valgrind] ==11306==     in use at exit: 1,344 bytes in 42 blocks
+[Valgrind] ==11306==   total heap usage: 883,101 allocs, 883,059 frees, 47,776,348 bytes allocated
+
+[Run] VF3 real graph=email-euall_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_email-euall_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/email-euall_graph.grf
+[Run] Done in 12.86s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==11318==     in use at exit: 13,810,246 bytes in 47 blocks
+[Valgrind] ==11318==   total heap usage: 48 allocs, 1 frees, 13,883,974 bytes allocated
+
+[Run] VF3 real graph=fb0graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb0graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb0graph_graph.grf
+[Run] Done in 4.79s
+1 0.00254277 0.00254277
+
+[Valgrind] ==11321==     in use at exit: 37,824 bytes in 1,182 blocks
+[Valgrind] ==11321==   total heap usage: 38,257 allocs, 37,075 frees, 3,963,968 bytes allocated
+
+[Run] VF3 real graph=fb107graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb107graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb107graph_graph.grf
+[Run] Done in 8.39s
+1 0.00331866 0.00331866
+
+[Valgrind] ==11323==     in use at exit: 28,992 bytes in 906 blocks
+[Valgrind] ==11323==   total heap usage: 131,725 allocs, 130,819 frees, 12,778,828 bytes allocated
+
+[Run] VF3 real graph=fb1684graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb1684graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb1684graph_graph.grf
+[Run] Done in 6.86s
+1 0.00318541 0.00318541
+
+[Valgrind] ==11325==     in use at exit: 30,144 bytes in 942 blocks
+[Valgrind] ==11325==   total heap usage: 80,649 allocs, 79,707 frees, 8,044,072 bytes allocated
+
+[Run] VF3 real graph=fb1912graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb1912graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb1912graph_graph.grf
+[Run] Done in 9.31s
+1 0.00479204 0.00479204
+
+[Valgrind] ==11327==     in use at exit: 20,064 bytes in 627 blocks
+[Valgrind] ==11327==   total heap usage: 137,357 allocs, 136,730 frees, 10,633,708 bytes allocated
+
+[Run] VF3 real graph=fb3437graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb3437graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb3437graph_graph.grf
+[Run] Done in 5.15s
+1 0.00263855 0.00263855
+
+[Valgrind] ==11329==     in use at exit: 36,384 bytes in 1,137 blocks
+[Valgrind] ==11329==   total heap usage: 47,217 allocs, 46,080 frees, 5,750,420 bytes allocated
+
+[Run] VF3 real graph=fb348graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb348graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb348graph_graph.grf
+[Run] Done in 4.95s
+1 0.00223694 0.00223694
+
+[Valgrind] ==11331==     in use at exit: 43,008 bytes in 1,344 blocks
+[Valgrind] ==11331==   total heap usage: 44,185 allocs, 42,841 frees, 4,408,544 bytes allocated
+
+[Run] VF3 real graph=fb3980graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb3980graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb3980graph_graph.grf
+[Run] Done in 4.51s
+1 0.00210617 0.00210617
+
+[Valgrind] ==11335==     in use at exit: 45,600 bytes in 1,425 blocks
+[Valgrind] ==11335==   total heap usage: 33,149 allocs, 31,724 frees, 1,220,456 bytes allocated
+
+[Run] VF3 real graph=fb414graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb414graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb414graph_graph.grf
+[Run] Done in 4.75s
+1 0.00229697 0.00229697
+
+[Valgrind] ==11337==     in use at exit: 41,856 bytes in 1,308 blocks
+[Valgrind] ==11337==   total heap usage: 37,077 allocs, 35,769 frees, 2,758,604 bytes allocated
+
+[Run] VF3 real graph=fb686graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb686graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb686graph_graph.grf
+[Run] Done in 5.11s
+1 0.00385156 0.00385156
+
+[Valgrind] ==11340==     in use at exit: 24,960 bytes in 780 blocks
+[Valgrind] ==11340==   total heap usage: 25,033 allocs, 24,253 frees, 2,122,240 bytes allocated
+
+[Run] VF3 real graph=fb698graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_fb698graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/fb698graph_graph.grf
+[Run] Done in 5.49s
+1 0.0021441 0.0021441
+
+[Valgrind] ==11346==     in use at exit: 44,832 bytes in 1,401 blocks
+[Valgrind] ==11346==   total heap usage: 33,137 allocs, 31,736 frees, 1,523,320 bytes allocated
+
+[Run] VF3 real graph=gplus100500197140377336562_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus100500197140377336562_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus100500197140377336562_graph.grf
+[Run] Done in 7.56s
+1 0.0042453 0.0042453
+
+[Valgrind] ==11348==     in use at exit: 22,656 bytes in 708 blocks
+[Valgrind] ==11348==   total heap usage: 75,305 allocs, 74,597 frees, 9,959,920 bytes allocated
+
+[Run] VF3 real graph=gplus100720409235366385249_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus100720409235366385249_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus100720409235366385249_graph.grf
+[Run] Done in 104.88s
+1 0.0206801 0.0206801
+
+[Valgrind] ==11361==     in use at exit: 4,704 bytes in 147 blocks
+[Valgrind] ==11361==   total heap usage: 1,591,573 allocs, 1,591,426 frees, 77,834,708 bytes allocated
+
+[Run] VF3 real graph=gplus100962871525684315897_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus100962871525684315897_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus100962871525684315897_graph.grf
+[Run] Done in 8.88s
+1 0.00500951 0.00500951
+
+[Valgrind] ==11375==     in use at exit: 19,200 bytes in 600 blocks
+[Valgrind] ==11375==   total heap usage: 122,913 allocs, 122,313 frees, 10,406,704 bytes allocated
+
+[Run] VF3 real graph=gplus101185748996927059931_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus101185748996927059931_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus101185748996927059931_graph.grf
+[Run] Done in 14.52s
+1 0.00738017 0.00738017
+
+[Valgrind] ==11377==     in use at exit: 13,056 bytes in 408 blocks
+[Valgrind] ==11377==   total heap usage: 261,865 allocs, 261,457 frees, 17,601,776 bytes allocated
+
+[Run] VF3 real graph=gplus101263615503715477581_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus101263615503715477581_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus101263615503715477581_graph.grf
+[Run] Done in 100.53s
+1 0.0230677 0.0230677
+
+[Valgrind] ==11379==     in use at exit: 4,224 bytes in 132 blocks
+[Valgrind] ==11379==   total heap usage: 1,748,233 allocs, 1,748,101 frees, 83,562,232 bytes allocated
+
+[Run] VF3 real graph=gplus101373961279443806744_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus101373961279443806744_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus101373961279443806744_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=gplus101499880233887429402_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus101499880233887429402_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus101499880233887429402_graph.grf
+[Run] Done in 5.11s
+1 0.00311981 0.00311981
+
+[Valgrind] ==11420==     in use at exit: 30,816 bytes in 963 blocks
+[Valgrind] ==11420==   total heap usage: 44,549 allocs, 43,586 frees, 6,033,096 bytes allocated
+
+[Run] VF3 real graph=gplus101541879642294398860_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus101541879642294398860_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus101541879642294398860_graph.grf
+[Run] Done in 6.47s
+1 0.00401838 0.00401838
+
+[Valgrind] ==11423==     in use at exit: 23,904 bytes in 747 blocks
+[Valgrind] ==11423==   total heap usage: 79,597 allocs, 78,850 frees, 8,563,200 bytes allocated
+
+[Run] VF3 real graph=gplus101560853443212199687_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus101560853443212199687_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus101560853443212199687_graph.grf
+[Run] Done in 4.56s
+1 0.00155895 0.00155895
+
+[Valgrind] ==11425==     in use at exit: 61,632 bytes in 1,926 blocks
+[Valgrind] ==11425==   total heap usage: 44,165 allocs, 42,239 frees, 1,332,228 bytes allocated
+
+[Run] VF3 real graph=gplus101626577406833098387_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus101626577406833098387_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus101626577406833098387_graph.grf
+[Run] Done in 99.69s
+1 0.0307871 0.0307871
+
+[Valgrind] ==11438==     in use at exit: 3,168 bytes in 99 blocks
+[Valgrind] ==11438==   total heap usage: 1,532,541 allocs, 1,532,442 frees, 72,901,824 bytes allocated
+
+[Run] VF3 real graph=gplus102778563580121606331_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus102778563580121606331_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus102778563580121606331_graph.grf
+[Run] Done in 10.92s
+1 0.00567081 0.00567081
+
+[Valgrind] ==11456==     in use at exit: 16,992 bytes in 531 blocks
+[Valgrind] ==11456==   total heap usage: 182,069 allocs, 181,538 frees, 15,471,012 bytes allocated
+
+[Run] VF3 real graph=gplus103236949470535942612_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus103236949470535942612_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus103236949470535942612_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.01s)
+
+[Run] VF3 real graph=gplus103338524411980406972_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_gplus103338524411980406972_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/gplus103338524411980406972_graph.grf
+[Run] Done in 4.62s
+1 0.00186574 0.00186574
+
+[Valgrind] ==11481==     in use at exit: 51,456 bytes in 1,608 blocks
+[Valgrind] ==11481==   total heap usage: 37,037 allocs, 35,429 frees, 1,592,308 bytes allocated
+
+[Run] VF3 real graph=oregon1_010331_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010331_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010331_graph.grf
+[Run] Done in 8.68s
+1 0.0238072 0.0238072
+
+[Valgrind] ==11483==     in use at exit: 4,128 bytes in 129 blocks
+[Valgrind] ==11483==   total heap usage: 133,669 allocs, 133,540 frees, 16,545,896 bytes allocated
+
+[Run] VF3 real graph=oregon1_010407_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010407_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010407_graph.grf
+[Run] Done in 8.22s
+1 0.0207071 0.0207071
+
+[Valgrind] ==11485==     in use at exit: 4,704 bytes in 147 blocks
+[Valgrind] ==11485==   total heap usage: 134,301 allocs, 134,154 frees, 18,038,036 bytes allocated
+
+[Run] VF3 real graph=oregon1_010414_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010414_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010414_graph.grf
+[Run] Done in 8.30s
+1 0.0210045 0.0210045
+
+[Valgrind] ==11487==     in use at exit: 4,608 bytes in 144 blocks
+[Valgrind] ==11487==   total heap usage: 136,357 allocs, 136,213 frees, 17,980,236 bytes allocated
+
+[Run] VF3 real graph=oregon1_010421_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010421_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010421_graph.grf
+[Run] Done in 8.38s
+1 0.0213035 0.0213035
+
+[Valgrind] ==11489==     in use at exit: 4,512 bytes in 141 blocks
+[Valgrind] ==11489==   total heap usage: 137,677 allocs, 137,536 frees, 17,881,420 bytes allocated
+
+[Run] VF3 real graph=oregon1_010428_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010428_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010428_graph.grf
+[Run] Done in 8.39s
+1 0.0205694 0.0205694
+
+[Valgrind] ==11491==     in use at exit: 4,704 bytes in 147 blocks
+[Valgrind] ==11491==   total heap usage: 136,905 allocs, 136,758 frees, 18,373,604 bytes allocated
+
+[Run] VF3 real graph=oregon1_010505_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010505_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010505_graph.grf
+[Run] Done in 8.33s
+1 0.0208999 0.0208999
+
+[Valgrind] ==11503==     in use at exit: 4,608 bytes in 144 blocks
+[Valgrind] ==11503==   total heap usage: 137,521 allocs, 137,377 frees, 18,200,448 bytes allocated
+
+[Run] VF3 real graph=oregon1_010512_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010512_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010512_graph.grf
+[Run] Done in 8.45s
+1 0.0257163 0.0257163
+
+[Valgrind] ==11505==     in use at exit: 3,744 bytes in 117 blocks
+[Valgrind] ==11505==   total heap usage: 137,461 allocs, 137,344 frees, 16,045,860 bytes allocated
+
+[Run] VF3 real graph=oregon1_010519_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon1_010519_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon1_010519_graph.grf
+[Run] Done in 8.52s
+1 0.0202428 0.0202428
+
+[Valgrind] ==11507==     in use at exit: 4,800 bytes in 150 blocks
+[Valgrind] ==11507==   total heap usage: 138,557 allocs, 138,407 frees, 18,843,292 bytes allocated
+
+[Run] VF3 real graph=oregon2_010331_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010331_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010331_graph.grf
+[Run] Done in 9.70s
+1 0.0218755 0.0218755
+
+[Valgrind] ==11509==     in use at exit: 4,416 bytes in 138 blocks
+[Valgrind] ==11509==   total heap usage: 171,505 allocs, 171,367 frees, 19,159,712 bytes allocated
+
+[Run] VF3 real graph=oregon2_010407_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010407_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010407_graph.grf
+[Run] Done in 10.89s
+1 0.0354669 0.0354669
+
+[Valgrind] ==11524==     in use at exit: 2,784 bytes in 87 blocks
+[Valgrind] ==11524==   total heap usage: 169,373 allocs, 169,286 frees, 14,989,876 bytes allocated
+
+[Run] VF3 real graph=oregon2_010414_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010414_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010414_graph.grf
+[Run] Done in 14.16s
+1 0.0377135 0.0377135
+
+[Valgrind] ==11780==     in use at exit: 2,592 bytes in 81 blocks
+[Valgrind] ==11780==   total heap usage: 173,013 allocs, 172,932 frees, 14,710,644 bytes allocated
+
+[Run] VF3 real graph=oregon2_010421_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010421_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010421_graph.grf
+[Run] Done in 15.65s
+1 0.0510967 0.0510967
+
+[Valgrind] ==12322==     in use at exit: 1,920 bytes in 60 blocks
+[Valgrind] ==12322==   total heap usage: 171,889 allocs, 171,829 frees, 12,988,168 bytes allocated
+
+[Run] VF3 real graph=oregon2_010428_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010428_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010428_graph.grf
+[Run] Done in 14.24s
+1 0.0456162 0.0456162
+
+[Valgrind] ==12397==     in use at exit: 2,112 bytes in 66 blocks
+[Valgrind] ==12397==   total heap usage: 171,741 allocs, 171,675 frees, 13,490,876 bytes allocated
+
+[Run] VF3 real graph=oregon2_010505_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010505_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010505_graph.grf
+[Run] Done in 13.58s
+1 0.0385382 0.0385382
+
+[Valgrind] ==12636==     in use at exit: 2,496 bytes in 78 blocks
+[Valgrind] ==12636==   total heap usage: 170,225 allocs, 170,147 frees, 14,422,048 bytes allocated
+
+[Run] VF3 real graph=oregon2_010512_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010512_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010512_graph.grf
+[Run] Done in 15.43s
+1 0.0445804 0.0445804
+
+[Valgrind] ==12659==     in use at exit: 2,208 bytes in 69 blocks
+[Valgrind] ==12659==   total heap usage: 171,873 allocs, 171,804 frees, 13,804,108 bytes allocated
+
+[Run] VF3 real graph=oregon2_010519_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010519_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010519_graph.grf
+[Run] Done in 11.88s
+1 0.0204552 0.0204552
+
+[Valgrind] ==12698==     in use at exit: 4,800 bytes in 150 blocks
+[Valgrind] ==12698==   total heap usage: 178,105 allocs, 177,955 frees, 20,911,528 bytes allocated
+
+[Run] VF3 real graph=oregon2_010526_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_oregon2_010526_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/oregon2_010526_graph.grf
+[Run] Done in 9.61s
+1 0.0198963 0.0198963
+
+[Valgrind] ==12707==     in use at exit: 4,896 bytes in 153 blocks
+[Valgrind] ==12707==   total heap usage: 180,289 allocs, 180,136 frees, 21,334,680 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella04_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella04_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella04_graph.grf
+[Run] Done in 10.15s
+1 0.0175543 0.0175543
+
+[Valgrind] ==12712==     in use at exit: 5,472 bytes in 171 blocks
+[Valgrind] ==12712==   total heap usage: 207,413 allocs, 207,242 frees, 17,280,984 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella05_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella05_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella05_graph.grf
+[Run] Done in 9.73s
+1 0.0126626 0.0126626
+
+[Valgrind] ==12714==     in use at exit: 7,584 bytes in 237 blocks
+[Valgrind] ==12714==   total heap usage: 168,169 allocs, 167,932 frees, 16,415,276 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella06_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella06_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella06_graph.grf
+[Run] Done in 9.36s
+1 0.0125596 0.0125596
+
+[Valgrind] ==12718==     in use at exit: 7,680 bytes in 240 blocks
+[Valgrind] ==12718==   total heap usage: 166,465 allocs, 166,225 frees, 16,423,456 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella08_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella08_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella08_graph.grf
+[Run] Done in 7.60s
+1 0.0115508 0.0115508
+
+[Valgrind] ==12720==     in use at exit: 8,352 bytes in 261 blocks
+[Valgrind] ==12720==   total heap usage: 114,285 allocs, 114,024 frees, 12,174,948 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella09_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella09_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella09_graph.grf
+[Run] Done in 8.67s
+1 0.0119796 0.0119796
+
+[Valgrind] ==12732==     in use at exit: 8,064 bytes in 252 blocks
+[Valgrind] ==12732==   total heap usage: 142,277 allocs, 142,025 frees, 15,091,740 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella24_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella24_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella24_graph.grf
+[Run] Done in 15.60s
+1 0.0361736 0.0361736
+
+[Valgrind] ==12735==     in use at exit: 2,688 bytes in 84 blocks
+[Valgrind] ==12735==   total heap usage: 369,509 allocs, 369,425 frees, 26,682,428 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella25_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella25_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella25_graph.grf
+[Run] Done in 13.87s
+1 0.0291047 0.0291047
+
+[Valgrind] ==12738==     in use at exit: 3,360 bytes in 105 blocks
+[Valgrind] ==12738==   total heap usage: 312,005 allocs, 311,900 frees, 24,239,236 bytes allocated
+
+[Run] VF3 real graph=p2p-Gnutella30_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_p2p-Gnutella30_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/p2p-Gnutella30_graph.grf
+[Run] Done in 20.08s
+1 0.0517319 0.0517319
+
+[Valgrind] ==12740==     in use at exit: 1,920 bytes in 60 blocks
+[Valgrind] ==12740==   total heap usage: 501,457 allocs, 501,397 frees, 32,351,416 bytes allocated
+
+[Run] VF3 real graph=twitter12831graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter12831graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter12831graph_graph.grf
+[Run] Done in 3.19s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==12743==     in use at exit: 111,790 bytes in 2,057 blocks
+[Valgrind] ==12743==   total heap usage: 2,058 allocs, 1 frees, 185,518 bytes allocated
+
+[Run] VF3 real graph=twitter356963graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter356963graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter356963graph_graph.grf
+[Run] Done in 4.38s
+1 0.00179417 0.00179417
+
+[Valgrind] ==12745==     in use at exit: 53,568 bytes in 1,674 blocks
+[Valgrind] ==12745==   total heap usage: 40,485 allocs, 38,811 frees, 2,974,788 bytes allocated
+
+[Run] VF3 real graph=twitter428333graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter428333graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter428333graph_graph.grf
+[Run] Done in 4.43s
+1 0.00201038 0.00201038
+
+[Valgrind] ==12747==     in use at exit: 47,808 bytes in 1,494 blocks
+[Valgrind] ==12747==   total heap usage: 37,897 allocs, 36,403 frees, 2,546,136 bytes allocated
+
+[Run] VF3 real graph=twitter612473graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter612473graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter612473graph_graph.grf
+[Run] Done in 4.54s
+1 0.00184918 0.00184918
+
+[Valgrind] ==12749==     in use at exit: 51,936 bytes in 1,623 blocks
+[Valgrind] ==12749==   total heap usage: 40,885 allocs, 39,262 frees, 2,816,600 bytes allocated
+
+[Run] VF3 real graph=twitter613313graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter613313graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter613313graph_graph.grf
+[Run] Done in 4.45s
+1 0.00161907 0.00161907
+
+[Valgrind] ==12751==     in use at exit: 59,328 bytes in 1,854 blocks
+[Valgrind] ==12751==   total heap usage: 45,249 allocs, 43,395 frees, 2,960,640 bytes allocated
+
+[Run] VF3 real graph=twitter623623graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter623623graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter623623graph_graph.grf
+[Run] Done in 4.54s
+1 0.00214692 0.00214692
+
+[Valgrind] ==12753==     in use at exit: 44,736 bytes in 1,398 blocks
+[Valgrind] ==12753==   total heap usage: 33,921 allocs, 32,523 frees, 2,012,768 bytes allocated
+
+[Run] VF3 real graph=twitter629863graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter629863graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter629863graph_graph.grf
+[Run] Done in 4.45s
+1 0.00187438 0.00187438
+
+[Valgrind] ==12755==     in use at exit: 51,264 bytes in 1,602 blocks
+[Valgrind] ==12755==   total heap usage: 40,189 allocs, 38,587 frees, 2,666,940 bytes allocated
+
+[Run] VF3 real graph=twitter734493graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter734493graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter734493graph_graph.grf
+[Run] Done in 4.28s
+1 0.00153985 0.00153985
+
+[Valgrind] ==12767==     in use at exit: 62,400 bytes in 1,950 blocks
+[Valgrind] ==12767==   total heap usage: 44,429 allocs, 42,479 frees, 944,524 bytes allocated
+
+[Run] VF3 real graph=twitter742143graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter742143graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter742143graph_graph.grf
+[Run] Done in 4.51s
+1 0.00201501 0.00201501
+
+[Valgrind] ==12769==     in use at exit: 47,712 bytes in 1,491 blocks
+[Valgrind] ==12769==   total heap usage: 36,389 allocs, 34,898 frees, 2,261,884 bytes allocated
+
+[Run] VF3 real graph=twitter745823graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter745823graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter745823graph_graph.grf
+[Run] Done in 5.14s
+1 0.00211187 0.00211187
+
+[Valgrind] ==12771==     in use at exit: 45,504 bytes in 1,422 blocks
+[Valgrind] ==12771==   total heap usage: 50,745 allocs, 49,323 frees, 5,601,048 bytes allocated
+
+[Run] VF3 real graph=twitter759679graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter759679graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter759679graph_graph.grf
+[Run] Done in 4.48s
+1 0.00183523 0.00183523
+
+[Valgrind] ==12773==     in use at exit: 52,320 bytes in 1,635 blocks
+[Valgrind] ==12773==   total heap usage: 39,765 allocs, 38,130 frees, 2,610,148 bytes allocated
+
+[Run] VF3 real graph=twitter778446graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter778446graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter778446graph_graph.grf
+[Run] Done in 4.72s
+1 0.00282602 0.00282602
+
+[Valgrind] ==12775==     in use at exit: 33,984 bytes in 1,062 blocks
+[Valgrind] ==12775==   total heap usage: 33,573 allocs, 32,511 frees, 3,523,908 bytes allocated
+
+[Run] VF3 real graph=twitter78813graph_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_twitter78813graph_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/twitter78813graph_graph.grf
+[Run] Done in 3.16s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==12778==     in use at exit: 100,730 bytes in 1,787 blocks
+[Valgrind] ==12778==   total heap usage: 1,788 allocs, 1 frees, 174,458 bytes allocated
+
+[Run] VF3 real graph=web-BerkStan_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_web-BerkStan_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/web-BerkStan_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] VF3 real graph=web-Google_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_web-Google_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/web-Google_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=web-NotreDame_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_web-NotreDame_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/web-NotreDame_graph.grf
+[Run] Done in 14.20s
+ERROR: Error in file format reading edge
+
+[Valgrind] ==12829==     in use at exit: 16,955,826 bytes in 17 blocks
+[Valgrind] ==12829==   total heap usage: 18 allocs, 1 frees, 17,029,554 bytes allocated
+
+[Run] VF3 real graph=web-Stanford_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_web-Stanford_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/web-Stanford_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] VF3 real graph=wikitalk_graph.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_real_wikitalk_graph.grf.log ./bin/vf3 -u ./testReal/real/triangleVF3.sub.grf ./testReal/real/wikitalk_graph.grf
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+=== END   VF3 (real) ===

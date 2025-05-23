@@ -1,0 +1,615 @@
+=== START LAD (real) ===
+[Run] LAD real graphs: ['Amazon0302_graph.lad', 'Amazon0312_graph.lad', 'Amazon0505_graph.lad', 'Amazon0601_graph.lad', 'Brightkite_edges_graph.lad', 'CA-AstroPh_graph.lad', 'CA-GrQc_graph.lad', 'CA-HepPh_graph.lad', 'CA-HepTh_graph.lad', 'CA-rCondMat_graph.lad', 'Cit-HepPh_graph.lad', 'Cit-HepTh_graph.lad', 'Gowalla_edges_graph.lad', 'as-skitter_graph.lad', 'as19971108_graph.lad', 'as19971109_graph.lad', 'as19971110_graph.lad', 'as19971111_graph.lad', 'as19971112_graph.lad', 'as19971113_graph.lad', 'as19971114_graph.lad', 'as19971115_graph.lad', 'as19971116_graph.lad', 'as19971117_graph.lad', 'as19971118_graph.lad', 'as19971119_graph.lad', 'as19971120_graph.lad', 'as19971121_graph.lad', 'cit-Patents_graph.lad', 'com-amazon_graph.lad', 'email-Eu-core-department-labels_graph.lad', 'email-Eu-core_graph.lad', 'email-enron_graph.lad', 'email-euall_graph.lad', 'fb0_graph.lad', 'fb107_graph.lad', 'fb1684_graph.lad', 'fb1912_graph.lad', 'fb3437_graph.lad', 'fb348_graph.lad', 'fb3980_graph.lad', 'fb414_graph.lad', 'fb686_graph.lad', 'fb698_graph.lad', 'gplus100500197140377336562_graph.lad', 'gplus100720409235366385249_graph.lad', 'gplus100962871525684315897_graph.lad', 'gplus101185748996927059931_graph.lad', 'gplus101263615503715477581_graph.lad', 'gplus101373961279443806744_graph.lad', 'gplus101499880233887429402_graph.lad', 'gplus101541879642294398860_graph.lad', 'gplus101560853443212199687_graph.lad', 'gplus101626577406833098387_graph.lad', 'gplus102778563580121606331_graph.lad', 'gplus103236949470535942612_graph.lad', 'gplus103338524411980406972_graph.lad', 'oregon1_010331_graph.lad', 'oregon1_010407_graph.lad', 'oregon1_010414_graph.lad', 'oregon1_010421_graph.lad', 'oregon1_010428_graph.lad', 'oregon1_010505_graph.lad', 'oregon1_010512_graph.lad', 'oregon1_010519_graph.lad', 'oregon2_010331_graph.lad', 'oregon2_010407_graph.lad', 'oregon2_010414_graph.lad', 'oregon2_010421_graph.lad', 'oregon2_010428_graph.lad', 'oregon2_010505_graph.lad', 'oregon2_010512_graph.lad', 'oregon2_010519_graph.lad', 'oregon2_010526_graph.lad', 'p2p-Gnutella04_graph.lad', 'p2p-Gnutella05_graph.lad', 'p2p-Gnutella06_graph.lad', 'p2p-Gnutella08_graph.lad', 'p2p-Gnutella09_graph.lad', 'p2p-Gnutella24_graph.lad', 'p2p-Gnutella25_graph.lad', 'p2p-Gnutella30_graph.lad', 'twitter12831_graph.lad', 'twitter356963_graph.lad', 'twitter428333_graph.lad', 'twitter612473_graph.lad', 'twitter613313_graph.lad', 'twitter623623_graph.lad', 'twitter629863_graph.lad', 'twitter734493_graph.lad', 'twitter742143_graph.lad', 'twitter745823_graph.lad', 'twitter759679_graph.lad', 'twitter778446_graph.lad', 'twitter78813_graph.lad', 'web-BerkStan_graph.lad', 'web-Google_graph.lad', 'web-NotreDame_graph.lad', 'web-Stanford_graph.lad', 'wikitalk_graph.lad']
+
+[Run] LAD real graph=Amazon0302_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Amazon0302_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Amazon0302_graph.lad
+[Run] Done in 85.48s
+Killed
+
+
+[Run] LAD real graph=Amazon0312_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Amazon0312_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Amazon0312_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.19s)
+
+[Run] LAD real graph=Amazon0505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Amazon0505_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Amazon0505_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] LAD real graph=Amazon0601_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Amazon0601_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Amazon0601_graph.lad
+[Run] Done in 111.84s
+Killed
+
+
+[Run] LAD real graph=Brightkite_edges_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Brightkite_edges_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Brightkite_edges_graph.lad
+[Run] Done in 98.74s
+Killed
+
+
+[Run] LAD real graph=CA-AstroPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_CA-AstroPh_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/CA-AstroPh_graph.lad
+[Run] Done in 90.14s
+Killed
+
+
+[Run] LAD real graph=CA-GrQc_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_CA-GrQc_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/CA-GrQc_graph.lad
+[Run] Done in 87.09s
+Run completed: 1 solutions; 10 fail nodes; 17 nodes; 84.270266 seconds
+
+[Valgrind] ==17863==     in use at exit: 247,899,766 bytes in 15,775 blocks
+[Valgrind] ==17863==   total heap usage: 15,780 allocs, 5 frees, 247,912,998 bytes allocated
+
+[Run] LAD real graph=CA-HepPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_CA-HepPh_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/CA-HepPh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=CA-HepTh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_CA-HepTh_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/CA-HepTh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=CA-rCondMat_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_CA-rCondMat_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/CA-rCondMat_graph.lad
+[Run] Done in 71.78s
+Killed
+
+
+[Run] LAD real graph=Cit-HepPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Cit-HepPh_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Cit-HepPh_graph.lad
+[Run] Done in 91.35s
+Killed
+
+
+[Run] LAD real graph=Cit-HepTh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Cit-HepTh_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Cit-HepTh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=Gowalla_edges_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_Gowalla_edges_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/Gowalla_edges_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=as-skitter_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as-skitter_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as-skitter_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] LAD real graph=as19971108_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971108_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971108_graph.lad
+[Run] Done in 8.17s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 7.370021 seconds
+
+[Valgrind] ==18017==     in use at exit: 82,099,940 bytes in 9,094 blocks
+[Valgrind] ==18017==   total heap usage: 9,099 allocs, 5 frees, 82,113,172 bytes allocated
+
+[Run] LAD real graph=as19971109_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971109_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971109_graph.lad
+[Run] Done in 8.18s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 7.405248 seconds
+
+[Valgrind] ==18019==     in use at exit: 81,882,552 bytes in 9,082 blocks
+[Valgrind] ==18019==   total heap usage: 9,087 allocs, 5 frees, 81,895,784 bytes allocated
+
+[Run] LAD real graph=as19971110_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971110_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971110_graph.lad
+[Run] Done in 8.38s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 7.549378 seconds
+
+[Valgrind] ==18021==     in use at exit: 82,589,984 bytes in 9,121 blocks
+[Valgrind] ==18021==   total heap usage: 9,126 allocs, 5 frees, 82,603,216 bytes allocated
+
+[Run] LAD real graph=as19971111_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971111_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971111_graph.lad
+[Run] Done in 8.61s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 7.542139 seconds
+
+[Valgrind] ==18023==     in use at exit: 82,480,426 bytes in 9,115 blocks
+[Valgrind] ==18023==   total heap usage: 9,120 allocs, 5 frees, 82,493,658 bytes allocated
+
+[Run] LAD real graph=as19971112_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971112_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971112_graph.lad
+[Run] Done in 9.60s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 7.942768 seconds
+
+[Valgrind] ==18025==     in use at exit: 82,535,628 bytes in 9,118 blocks
+[Valgrind] ==18025==   total heap usage: 9,123 allocs, 5 frees, 82,548,860 bytes allocated
+
+[Run] LAD real graph=as19971113_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971113_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971113_graph.lad
+[Run] Done in 6.62s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 5.944747 seconds
+
+[Valgrind] ==18037==     in use at exit: 78,499,140 bytes in 8,893 blocks
+[Valgrind] ==18037==   total heap usage: 8,898 allocs, 5 frees, 78,512,372 bytes allocated
+
+[Run] LAD real graph=as19971114_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971114_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971114_graph.lad
+[Run] Done in 6.67s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 6.041424 seconds
+
+[Valgrind] ==18040==     in use at exit: 83,573,630 bytes in 9,175 blocks
+[Valgrind] ==18040==   total heap usage: 9,180 allocs, 5 frees, 83,586,862 bytes allocated
+
+[Run] LAD real graph=as19971115_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971115_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971115_graph.lad
+[Run] Done in 6.84s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 6.184980 seconds
+
+[Valgrind] ==18042==     in use at exit: 83,300,026 bytes in 9,160 blocks
+[Valgrind] ==18042==   total heap usage: 9,165 allocs, 5 frees, 83,313,258 bytes allocated
+
+[Run] LAD real graph=as19971116_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971116_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971116_graph.lad
+[Run] Done in 6.87s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 6.228720 seconds
+
+[Valgrind] ==18045==     in use at exit: 83,245,772 bytes in 9,157 blocks
+[Valgrind] ==18045==   total heap usage: 9,162 allocs, 5 frees, 83,259,004 bytes allocated
+
+[Run] LAD real graph=as19971117_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971117_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971117_graph.lad
+[Run] Done in 6.77s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 6.179228 seconds
+
+[Valgrind] ==18047==     in use at exit: 83,081,630 bytes in 9,148 blocks
+[Valgrind] ==18047==   total heap usage: 9,153 allocs, 5 frees, 83,094,862 bytes allocated
+
+[Run] LAD real graph=as19971118_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971118_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971118_graph.lad
+[Run] Done in 6.73s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 6.108725 seconds
+
+[Valgrind] ==18049==     in use at exit: 83,574,350 bytes in 9,175 blocks
+[Valgrind] ==18049==   total heap usage: 9,180 allocs, 5 frees, 83,587,582 bytes allocated
+
+[Run] LAD real graph=as19971119_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971119_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971119_graph.lad
+[Run] Done in 6.90s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 6.253509 seconds
+
+[Valgrind] ==18051==     in use at exit: 84,289,084 bytes in 9,214 blocks
+[Valgrind] ==18051==   total heap usage: 9,219 allocs, 5 frees, 84,302,316 bytes allocated
+
+[Run] LAD real graph=as19971120_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971120_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971120_graph.lad
+[Run] Done in 6.88s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 6.229865 seconds
+
+[Valgrind] ==18053==     in use at exit: 84,896,198 bytes in 9,247 blocks
+[Valgrind] ==18053==   total heap usage: 9,252 allocs, 5 frees, 84,909,430 bytes allocated
+
+[Run] LAD real graph=as19971121_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_as19971121_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/as19971121_graph.lad
+[Run] Done in 7.09s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 6.426627 seconds
+
+[Valgrind] ==18055==     in use at exit: 85,339,038 bytes in 9,271 blocks
+[Valgrind] ==18055==   total heap usage: 9,276 allocs, 5 frees, 85,352,270 bytes allocated
+
+[Run] LAD real graph=cit-Patents_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_cit-Patents_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/cit-Patents_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.04s)
+
+[Run] LAD real graph=com-amazon_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_com-amazon_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/com-amazon_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=email-Eu-core-department-labels_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_email-Eu-core-department-labels_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/email-Eu-core-department-labels_graph.lad
+[Run] Done in 2.33s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 1.948038 seconds
+
+[Valgrind] ==18106==     in use at exit: 9,168,794 bytes in 3,064 blocks
+[Valgrind] ==18106==   total heap usage: 3,069 allocs, 5 frees, 9,182,026 bytes allocated
+
+[Run] LAD real graph=email-Eu-core_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_email-Eu-core_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/email-Eu-core_graph.lad
+[Run] Done in 3.86s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 3.490398 seconds
+
+[Valgrind] ==18108==     in use at exit: 9,181,994 bytes in 3,064 blocks
+[Valgrind] ==18108==   total heap usage: 3,069 allocs, 5 frees, 9,195,226 bytes allocated
+
+[Run] LAD real graph=email-enron_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_email-enron_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/email-enron_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=email-euall_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_email-euall_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/email-euall_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] LAD real graph=fb0_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb0_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb0_graph.lad
+[Run] Done in 2.46s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 2.110328 seconds
+
+[Valgrind] ==18164==     in use at exit: 1,038,746 bytes in 1,048 blocks
+[Valgrind] ==18164==   total heap usage: 1,053 allocs, 5 frees, 1,051,978 bytes allocated
+
+[Run] LAD real graph=fb107_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb107_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb107_graph.lad
+[Run] Done in 7.98s
+Run completed: 1 solutions; 5 fail nodes; 12 nodes; 7.638607 seconds
+
+[Valgrind] ==18166==     in use at exit: 9,751,590 bytes in 3,151 blocks
+[Valgrind] ==18166==   total heap usage: 3,156 allocs, 5 frees, 9,764,822 bytes allocated
+
+[Run] LAD real graph=fb1684_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb1684_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb1684_graph.lad
+[Run] Done in 4.77s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 4.446568 seconds
+
+[Valgrind] ==18171==     in use at exit: 5,658,542 bytes in 2,407 blocks
+[Valgrind] ==18171==   total heap usage: 2,412 allocs, 5 frees, 5,671,774 bytes allocated
+
+[Run] LAD real graph=fb1912_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb1912_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb1912_graph.lad
+[Run] Done in 7.37s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 7.026473 seconds
+
+[Valgrind] ==18174==     in use at exit: 5,115,920 bytes in 2,290 blocks
+[Valgrind] ==18174==   total heap usage: 2,295 allocs, 5 frees, 5,129,152 bytes allocated
+
+[Run] LAD real graph=fb3437_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb3437_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb3437_graph.lad
+[Run] Done in 3.09s
+Run completed: 1 solutions; 1 fail nodes; 5 nodes; 2.781908 seconds
+
+[Valgrind] ==18176==     in use at exit: 2,633,090 bytes in 1,651 blocks
+[Valgrind] ==18176==   total heap usage: 1,656 allocs, 5 frees, 2,646,322 bytes allocated
+
+[Run] LAD real graph=fb348_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb348_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb348_graph.lad
+[Run] Done in 2.38s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 2.069831 seconds
+
+[Valgrind] ==18178==     in use at exit: 479,952 bytes in 721 blocks
+[Valgrind] ==18178==   total heap usage: 726 allocs, 5 frees, 493,184 bytes allocated
+
+[Run] LAD real graph=fb3980_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb3980_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb3980_graph.lad
+[Run] Done in 2.04s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 1.741786 seconds
+
+[Valgrind] ==18180==     in use at exit: 31,060 bytes in 205 blocks
+[Valgrind] ==18180==   total heap usage: 210 allocs, 5 frees, 44,292 bytes allocated
+
+[Run] LAD real graph=fb414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb414_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb414_graph.lad
+[Run] Done in 2.19s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 1.908935 seconds
+
+[Valgrind] ==18182==     in use at exit: 221,810 bytes in 499 blocks
+[Valgrind] ==18182==   total heap usage: 504 allocs, 5 frees, 235,042 bytes allocated
+
+[Run] LAD real graph=fb686_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb686_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb686_graph.lad
+[Run] Done in 2.24s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 1.930362 seconds
+
+[Valgrind] ==18184==     in use at exit: 275,336 bytes in 553 blocks
+[Valgrind] ==18184==   total heap usage: 558 allocs, 5 frees, 288,568 bytes allocated
+
+[Run] LAD real graph=fb698_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_fb698_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/fb698_graph.lad
+[Run] Done in 2.23s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 1.907283 seconds
+
+[Valgrind] ==18186==     in use at exit: 41,722 bytes in 232 blocks
+[Valgrind] ==18186==   total heap usage: 237 allocs, 5 frees, 54,954 bytes allocated
+
+[Run] LAD real graph=gplus100500197140377336562_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus100500197140377336562_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus100500197140377336562_graph.lad
+[Run] Done in 5.10s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 4.518684 seconds
+
+[Valgrind] ==18188==     in use at exit: 3,743,610 bytes in 1,963 blocks
+[Valgrind] ==18188==   total heap usage: 1,968 allocs, 5 frees, 3,756,842 bytes allocated
+
+[Run] LAD real graph=gplus100720409235366385249_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus100720409235366385249_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus100720409235366385249_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=gplus100962871525684315897_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus100962871525684315897_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus100962871525684315897_graph.lad
+[Run] Done in 7.25s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 6.915836 seconds
+
+[Valgrind] ==18205==     in use at exit: 2,880,652 bytes in 1,726 blocks
+[Valgrind] ==18205==   total heap usage: 1,731 allocs, 5 frees, 2,893,884 bytes allocated
+
+[Run] LAD real graph=gplus101185748996927059931_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus101185748996927059931_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus101185748996927059931_graph.lad
+[Run] Done in 20.30s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 19.911463 seconds
+
+[Valgrind] ==18207==     in use at exit: 10,092,348 bytes in 3,205 blocks
+[Valgrind] ==18207==   total heap usage: 3,210 allocs, 5 frees, 10,105,580 bytes allocated
+
+[Run] LAD real graph=gplus101263615503715477581_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus101263615503715477581_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus101263615503715477581_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=gplus101373961279443806744_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus101373961279443806744_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus101373961279443806744_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=gplus101499880233887429402_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus101499880233887429402_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus101499880233887429402_graph.lad
+[Run] Done in 2.83s
+Run completed: 1 solutions; 16 fail nodes; 26 nodes; 2.520874 seconds
+
+[Valgrind] ==18270==     in use at exit: 680,284 bytes in 853 blocks
+[Valgrind] ==18270==   total heap usage: 858 allocs, 5 frees, 693,516 bytes allocated
+
+[Run] LAD real graph=gplus101541879642294398860_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus101541879642294398860_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus101541879642294398860_graph.lad
+[Run] Done in 4.39s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 4.071154 seconds
+
+[Valgrind] ==18272==     in use at exit: 2,204,568 bytes in 1,513 blocks
+[Valgrind] ==18272==   total heap usage: 1,518 allocs, 5 frees, 2,217,800 bytes allocated
+
+[Run] LAD real graph=gplus101560853443212199687_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus101560853443212199687_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus101560853443212199687_graph.lad
+[Run] Done in 2.13s
+Run completed: 1 solutions; 9 fail nodes; 17 nodes; 1.785875 seconds
+
+[Valgrind] ==18274==     in use at exit: 6,328 bytes in 106 blocks
+[Valgrind] ==18274==   total heap usage: 111 allocs, 5 frees, 19,560 bytes allocated
+
+[Run] LAD real graph=gplus101626577406833098387_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus101626577406833098387_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus101626577406833098387_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=gplus102778563580121606331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus102778563580121606331_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus102778563580121606331_graph.lad
+[Run] Done in 13.17s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 12.698178 seconds
+
+[Valgrind] ==18302==     in use at exit: 17,087,936 bytes in 4,162 blocks
+[Valgrind] ==18302==   total heap usage: 4,167 allocs, 5 frees, 17,101,168 bytes allocated
+
+[Run] LAD real graph=gplus103236949470535942612_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus103236949470535942612_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus103236949470535942612_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=gplus103338524411980406972_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_gplus103338524411980406972_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/gplus103338524411980406972_graph.lad
+[Run] Done in 2.25s
+Run completed: 1 solutions; 12 fail nodes; 18 nodes; 1.877157 seconds
+
+[Valgrind] ==18329==     in use at exit: 15,166 bytes in 151 blocks
+[Valgrind] ==18329==   total heap usage: 156 allocs, 5 frees, 28,398 bytes allocated
+
+[Run] LAD real graph=oregon1_010331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010331_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010331_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon1_010407_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010407_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010407_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon1_010414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010414_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010414_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon1_010421_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010421_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010421_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon1_010428_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010428_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010428_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon1_010505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010505_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010505_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon1_010512_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010512_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010512_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] LAD real graph=oregon1_010519_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon1_010519_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon1_010519_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon2_010331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010331_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010331_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon2_010407_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010407_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010407_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon2_010414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010414_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010414_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon2_010421_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010421_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010421_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.09s)
+
+[Run] LAD real graph=oregon2_010428_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010428_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010428_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.01s)
+
+[Run] LAD real graph=oregon2_010505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010505_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010505_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon2_010512_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010512_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010512_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon2_010519_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010519_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010519_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=oregon2_010526_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_oregon2_010526_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/oregon2_010526_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.05s)
+
+[Run] LAD real graph=p2p-Gnutella04_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella04_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella04_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=p2p-Gnutella05_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella05_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella05_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=p2p-Gnutella06_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella06_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella06_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=p2p-Gnutella08_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella08_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella08_graph.lad
+[Run] Done in 69.40s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 66.981105 seconds
+
+[Valgrind] ==18865==     in use at exit: 358,026,970 bytes in 18,952 blocks
+[Valgrind] ==18865==   total heap usage: 18,957 allocs, 5 frees, 358,040,202 bytes allocated
+
+[Run] LAD real graph=p2p-Gnutella09_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella09_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella09_graph.lad
+[Run] Done in 109.09s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 104.023488 seconds
+
+[Valgrind] ==18868==     in use at exit: 593,427,534 bytes in 24,391 blocks
+[Valgrind] ==18868==   total heap usage: 24,396 allocs, 5 frees, 593,440,766 bytes allocated
+
+[Run] LAD real graph=p2p-Gnutella24_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella24_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella24_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD real graph=p2p-Gnutella25_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella25_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella25_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=p2p-Gnutella30_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_p2p-Gnutella30_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/p2p-Gnutella30_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=twitter12831_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter12831_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter12831_graph.lad
+[Run] Done in 2.33s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 1.994142 seconds
+
+[Valgrind] ==18971==     in use at exit: 530,796 bytes in 757 blocks
+[Valgrind] ==18971==   total heap usage: 762 allocs, 5 frees, 544,028 bytes allocated
+
+[Run] LAD real graph=twitter356963_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter356963_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter356963_graph.lad
+[Run] Done in 2.15s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 1.845427 seconds
+
+[Valgrind] ==18973==     in use at exit: 158,426 bytes in 427 blocks
+[Valgrind] ==18973==   total heap usage: 432 allocs, 5 frees, 171,658 bytes allocated
+
+[Run] LAD real graph=twitter428333_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter428333_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter428333_graph.lad
+[Run] Done in 2.15s
+Run completed: 1 solutions; 9 fail nodes; 20 nodes; 1.855603 seconds
+
+[Valgrind] ==18975==     in use at exit: 46,854 bytes in 244 blocks
+[Valgrind] ==18975==   total heap usage: 249 allocs, 5 frees, 60,086 bytes allocated
+
+[Run] LAD real graph=twitter612473_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter612473_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter612473_graph.lad
+[Run] Done in 2.15s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 1.852525 seconds
+
+[Valgrind] ==18977==     in use at exit: 62,092 bytes in 277 blocks
+[Valgrind] ==18977==   total heap usage: 282 allocs, 5 frees, 75,324 bytes allocated
+
+[Run] LAD real graph=twitter613313_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter613313_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter613313_graph.lad
+[Run] Done in 2.16s
+Run completed: 1 solutions; 2 fail nodes; 9 nodes; 1.841559 seconds
+
+[Valgrind] ==18979==     in use at exit: 81,256 bytes in 313 blocks
+[Valgrind] ==18979==   total heap usage: 318 allocs, 5 frees, 94,488 bytes allocated
+
+[Run] LAD real graph=twitter623623_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter623623_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter623623_graph.lad
+[Run] Done in 2.11s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 1.818406 seconds
+
+[Valgrind] ==18981==     in use at exit: 114,742 bytes in 367 blocks
+[Valgrind] ==18981==   total heap usage: 372 allocs, 5 frees, 127,974 bytes allocated
+
+[Run] LAD real graph=twitter629863_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter629863_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter629863_graph.lad
+[Run] Done in 2.20s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 1.903764 seconds
+
+[Valgrind] ==18983==     in use at exit: 247,388 bytes in 526 blocks
+[Valgrind] ==18983==   total heap usage: 531 allocs, 5 frees, 260,620 bytes allocated
+
+[Run] LAD real graph=twitter734493_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter734493_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter734493_graph.lad
+[Run] Done in 2.12s
+Run completed: 0 solutions; 30 fail nodes; 37 nodes; 1.811035 seconds
+
+[Valgrind] ==18985==     in use at exit: 2,558 bytes in 76 blocks
+[Valgrind] ==18985==   total heap usage: 81 allocs, 5 frees, 15,790 bytes allocated
+
+[Run] LAD real graph=twitter742143_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter742143_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter742143_graph.lad
+[Run] Done in 2.13s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 1.829067 seconds
+
+[Valgrind] ==18987==     in use at exit: 37,070 bytes in 220 blocks
+[Valgrind] ==18987==   total heap usage: 225 allocs, 5 frees, 50,302 bytes allocated
+
+[Run] LAD real graph=twitter745823_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter745823_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter745823_graph.lad
+[Run] Done in 2.52s
+Run completed: 1 solutions; 0 fail nodes; 5 nodes; 2.212112 seconds
+
+[Valgrind] ==18989==     in use at exit: 557,502 bytes in 775 blocks
+[Valgrind] ==18989==   total heap usage: 780 allocs, 5 frees, 570,734 bytes allocated
+
+[Run] LAD real graph=twitter759679_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter759679_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter759679_graph.lad
+[Run] Done in 2.22s
+Run completed: 1 solutions; 0 fail nodes; 4 nodes; 1.903674 seconds
+
+[Valgrind] ==18991==     in use at exit: 133,816 bytes in 394 blocks
+[Valgrind] ==18991==   total heap usage: 399 allocs, 5 frees, 147,048 bytes allocated
+
+[Run] LAD real graph=twitter778446_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter778446_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter778446_graph.lad
+[Run] Done in 2.33s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 2.027710 seconds
+
+[Valgrind] ==18994==     in use at exit: 338,512 bytes in 610 blocks
+[Valgrind] ==18994==   total heap usage: 615 allocs, 5 frees, 351,744 bytes allocated
+
+[Run] LAD real graph=twitter78813_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_twitter78813_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/twitter78813_graph.lad
+[Run] Done in 2.39s
+Run completed: 1 solutions; 0 fail nodes; 6 nodes; 2.068626 seconds
+
+[Valgrind] ==18996==     in use at exit: 509,156 bytes in 742 blocks
+[Valgrind] ==18996==   total heap usage: 747 allocs, 5 frees, 522,388 bytes allocated
+
+[Run] LAD real graph=web-BerkStan_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_web-BerkStan_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/web-BerkStan_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] LAD real graph=web-Google_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_web-Google_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/web-Google_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] LAD real graph=web-NotreDame_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_web-NotreDame_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/web-NotreDame_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=web-Stanford_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_web-Stanford_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/web-Stanford_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] LAD real graph=wikitalk_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_real_wikitalk_graph.lad.log ./main -s 120 -f -i -p ./testReal/real/quadrilateralLAD -t ./testReal/real/wikitalk_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+=== END   LAD (real) ===

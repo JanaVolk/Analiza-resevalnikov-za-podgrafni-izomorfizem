@@ -1,0 +1,1494 @@
+=== START RI (real) ===
+[Run] RI real graphs: ['Amazon0302_graph.gfu', 'Amazon0312_graph.gfu', 'Amazon0505_graph.gfu', 'Amazon0601_graph.gfu', 'Brightkite_edges_graph.gfu', 'CA-AstroPh_graph.gfu', 'CA-GrQc_graph.gfu', 'CA-HepPh_graph.gfu', 'CA-HepTh_graph.gfu', 'CA-rCondMat_graph.gfu', 'Cit-HepPh_graph.gfu', 'Cit-HepTh_graph.gfu', 'Gowalla_edges_graph.gfu', 'as-skitter_graph.gfu', 'as19971108_graph.gfu', 'as19971109_graph.gfu', 'as19971110_graph.gfu', 'as19971111_graph.gfu', 'as19971112_graph.gfu', 'as19971113_graph.gfu', 'as19971114_graph.gfu', 'as19971115_graph.gfu', 'as19971116_graph.gfu', 'as19971117_graph.gfu', 'as19971118_graph.gfu', 'as19971119_graph.gfu', 'as19971120_graph.gfu', 'as19971121_graph.gfu', 'cit-Patents_graph.gfu', 'com-amazon_graph.gfu', 'email-Eu-core-department-labels_graph.gfu', 'email-Eu-core_graph.gfu', 'email-enron_graph.gfu', 'email-euall_graph.gfu', 'fb0_graph.gfu', 'fb107_graph.gfu', 'fb1684_graph.gfu', 'fb1912_graph.gfu', 'fb3437_graph.gfu', 'fb348_graph.gfu', 'fb3980_graph.gfu', 'fb414_graph.gfu', 'fb686_graph.gfu', 'fb698_graph.gfu', 'gplus100500197140377336562_graph.gfu', 'gplus100720409235366385249_graph.gfu', 'gplus100962871525684315897_graph.gfu', 'gplus101185748996927059931_graph.gfu', 'gplus101263615503715477581_graph.gfu', 'gplus101373961279443806744_graph.gfu', 'gplus101499880233887429402_graph.gfu', 'gplus101541879642294398860_graph.gfu', 'gplus101560853443212199687_graph.gfu', 'gplus101626577406833098387_graph.gfu', 'gplus102778563580121606331_graph.gfu', 'gplus103236949470535942612_graph.gfu', 'gplus103338524411980406972_graph.gfu', 'oregon1_010331_graph.gfu', 'oregon1_010407_graph.gfu', 'oregon1_010414_graph.gfu', 'oregon1_010421_graph.gfu', 'oregon1_010428_graph.gfu', 'oregon1_010505_graph.gfu', 'oregon1_010512_graph.gfu', 'oregon1_010519_graph.gfu', 'oregon2_010331_graph.gfu', 'oregon2_010407_graph.gfu', 'oregon2_010414_graph.gfu', 'oregon2_010421_graph.gfu', 'oregon2_010428_graph.gfu', 'oregon2_010505_graph.gfu', 'oregon2_010512_graph.gfu', 'oregon2_010519_graph.gfu', 'oregon2_010526_graph.gfu', 'p2p-Gnutella04_graph.gfu', 'p2p-Gnutella05_graph.gfu', 'p2p-Gnutella06_graph.gfu', 'p2p-Gnutella08_graph.gfu', 'p2p-Gnutella09_graph.gfu', 'p2p-Gnutella24_graph.gfu', 'p2p-Gnutella25_graph.gfu', 'p2p-Gnutella30_graph.gfu', 'twitter12831_graph.gfu', 'twitter356963_graph.gfu', 'twitter428333_graph.gfu', 'twitter612473_graph.gfu', 'twitter613313_graph.gfu', 'twitter623623_graph.gfu', 'twitter629863_graph.gfu', 'twitter734493_graph.gfu', 'twitter742143_graph.gfu', 'twitter745823_graph.gfu', 'twitter759679_graph.gfu', 'twitter778446_graph.gfu', 'twitter78813_graph.gfu', 'web-BerkStan_graph.gfu', 'web-Google_graph.gfu', 'web-NotreDame_graph.gfu', 'web-Stanford_graph.gfu', 'wikitalk_graph.gfu']
+
+[Run] RI real graph=Amazon0302_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Amazon0302_graph.gfu.log ./ri36 ind gfu ./testReal/real/Amazon0302_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 80.28s
+#0
+{(0,0)(1,5)(2,1)}
+#1
+reference file: ./testReal/real/Amazon0302_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 77.9104
+matching time: 0.522869
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==9777==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9777==   total heap usage: 2,848,111 allocs, 2,848,111 frees, 79,430,891 bytes allocated
+
+[Run] RI real graph=Amazon0312_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Amazon0312_graph.gfu.log ./ri36 ind gfu ./testReal/real/Amazon0312_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI real graph=Amazon0505_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Amazon0505_graph.gfu.log ./ri36 ind gfu ./testReal/real/Amazon0505_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] RI real graph=Amazon0601_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Amazon0601_graph.gfu.log ./ri36 ind gfu ./testReal/real/Amazon0601_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.01s)
+
+[Run] RI real graph=Brightkite_edges_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Brightkite_edges_graph.gfu.log ./ri36 ind gfu ./testReal/real/Brightkite_edges_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 16.28s
+#0
+{(0,0)(1,121)(2,120)}
+#1
+reference file: ./testReal/real/Brightkite_edges_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 13.8604
+matching time: 0.0638089
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9849==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9849==   total heap usage: 661,152 allocs, 661,152 frees, 18,622,952 bytes allocated
+
+[Run] RI real graph=CA-AstroPh_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_CA-AstroPh_graph.gfu.log ./ri36 ind gfu ./testReal/real/CA-AstroPh_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 16.93s
+#0
+{(0,0)(1,18714)(2,17686)}
+#1
+reference file: ./testReal/real/CA-AstroPh_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 13.967
+matching time: 0.053251
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==9864==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9864==   total heap usage: 471,391 allocs, 471,391 frees, 14,326,106 bytes allocated
+
+[Run] RI real graph=CA-GrQc_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_CA-GrQc_graph.gfu.log ./ri36 ind gfu ./testReal/real/CA-GrQc_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.32s
+#0
+{(0,2)(1,4989)(2,4548)}
+#1
+reference file: ./testReal/real/CA-GrQc_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 1.45501
+matching time: 0.0597739
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9869==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9869==   total heap usage: 50,044 allocs, 50,044 frees, 1,451,857 bytes allocated
+
+[Run] RI real graph=CA-HepPh_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_CA-HepPh_graph.gfu.log ./ri36 ind gfu ./testReal/real/CA-HepPh_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 10.56s
+#0
+{(0,1)(1,10226)(2,3651)}
+#1
+reference file: ./testReal/real/CA-HepPh_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 7.73744
+matching time: 0.0499299
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==9871==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9871==   total heap usage: 285,157 allocs, 285,157 frees, 8,670,996 bytes allocated
+
+[Run] RI real graph=CA-HepTh_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_CA-HepTh_graph.gfu.log ./ri36 ind gfu ./testReal/real/CA-HepTh_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.96s
+#0
+{(0,0)(1,8406)(2,2930)}
+#1
+reference file: ./testReal/real/CA-HepTh_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.2779
+matching time: 0.053654
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==9873==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9873==   total heap usage: 91,587 allocs, 91,587 frees, 2,572,651 bytes allocated
+
+[Run] RI real graph=CA-rCondMat_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_CA-rCondMat_graph.gfu.log ./ri36 ind gfu ./testReal/real/CA-rCondMat_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 10.17s
+#0
+{(0,0)(1,19642)(2,6918)}
+#1
+reference file: ./testReal/real/CA-rCondMat_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 7.36481
+matching time: 0.053863
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==9875==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9875==   total heap usage: 279,609 allocs, 279,609 frees, 7,992,838 bytes allocated
+
+[Run] RI real graph=Cit-HepPh_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Cit-HepPh_graph.gfu.log ./ri36 ind gfu ./testReal/real/Cit-HepPh_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 34.62s
+#0
+{(0,0)(1,34245)(2,32763)}
+#1
+reference file: ./testReal/real/Cit-HepPh_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 31.7399
+matching time: 0.04649
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==9877==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9877==   total heap usage: 980,109 allocs, 980,109 frees, 29,895,251 bytes allocated
+
+[Run] RI real graph=Cit-HepTh_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Cit-HepTh_graph.gfu.log ./ri36 ind gfu ./testReal/real/Cit-HepTh_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 22.44s
+#0
+{(0,0)(1,27245)(2,27225)}
+#1
+reference file: ./testReal/real/Cit-HepTh_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 19.8667
+matching time: 0.0415521
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==9881==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9881==   total heap usage: 815,811 allocs, 815,811 frees, 24,942,635 bytes allocated
+
+[Run] RI real graph=Gowalla_edges_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_Gowalla_edges_graph.gfu.log ./ri36 ind gfu ./testReal/real/Gowalla_edges_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 70.11s
+#0
+{(0,0)(1,614)(2,584)}
+#1
+reference file: ./testReal/real/Gowalla_edges_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 68.0286
+matching time: 0.426871
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9898==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9898==   total heap usage: 2,687,102 allocs, 2,687,102 frees, 77,227,014 bytes allocated
+
+[Run] RI real graph=as-skitter_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as-skitter_graph.gfu.log ./ri36 ind gfu ./testReal/real/as-skitter_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI real graph=as19971108_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971108_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971108_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.97s
+#0
+{(0,0)(1,2981)(2,131)}
+#1
+reference file: ./testReal/real/as19971108_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.644408
+matching time: 0.0509851
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9930==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9930==   total heap usage: 23,222 allocs, 23,222 frees, 693,771 bytes allocated
+
+[Run] RI real graph=as19971109_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971109_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971109_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.92s
+#0
+{(0,0)(1,2978)(2,130)}
+#1
+reference file: ./testReal/real/as19971109_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.639988
+matching time: 0.0505579
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9932==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9932==   total heap usage: 23,202 allocs, 23,202 frees, 693,311 bytes allocated
+
+[Run] RI real graph=as19971110_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971110_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971110_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.90s
+#0
+{(0,0)(1,2990)(2,130)}
+#1
+reference file: ./testReal/real/as19971110_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.639766
+matching time: 0.049829
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9934==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9934==   total heap usage: 23,342 allocs, 23,342 frees, 697,206 bytes allocated
+
+[Run] RI real graph=as19971111_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971111_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971111_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.90s
+#0
+{(0,0)(1,2987)(2,129)}
+#1
+reference file: ./testReal/real/as19971111_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.644713
+matching time: 0.05022
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9936==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9936==   total heap usage: 23,298 allocs, 23,298 frees, 695,888 bytes allocated
+
+[Run] RI real graph=as19971112_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971112_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971112_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.90s
+#0
+{(0,0)(1,2984)(2,128)}
+#1
+reference file: ./testReal/real/as19971112_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.639593
+matching time: 0.0502179
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9938==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9938==   total heap usage: 23,350 allocs, 23,350 frees, 697,507 bytes allocated
+
+[Run] RI real graph=as19971113_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971113_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971113_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.89s
+#0
+{(0,0)(1,2908)(2,124)}
+#1
+reference file: ./testReal/real/as19971113_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.62885
+matching time: 0.04685
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9941==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9941==   total heap usage: 22,906 allocs, 22,906 frees, 686,674 bytes allocated
+
+[Run] RI real graph=as19971114_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971114_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971114_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.81s
+#0
+{(0,0)(1,3002)(2,132)}
+#1
+reference file: ./testReal/real/as19971114_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.611213
+matching time: 0.046844
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9943==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9943==   total heap usage: 23,442 allocs, 23,442 frees, 699,596 bytes allocated
+
+[Run] RI real graph=as19971115_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971115_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971115_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.83s
+#0
+{(0,0)(1,2996)(2,133)}
+#1
+reference file: ./testReal/real/as19971115_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.644223
+matching time: 0.049901
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9945==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9945==   total heap usage: 23,344 allocs, 23,344 frees, 696,685 bytes allocated
+
+[Run] RI real graph=as19971116_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971116_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971116_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.92s
+#0
+{(0,0)(1,2994)(2,134)}
+#1
+reference file: ./testReal/real/as19971116_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.651345
+matching time: 0.050231
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9947==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9947==   total heap usage: 23,442 allocs, 23,442 frees, 699,866 bytes allocated
+
+[Run] RI real graph=as19971117_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971117_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971117_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.86s
+#0
+{(0,0)(1,2992)(2,134)}
+#1
+reference file: ./testReal/real/as19971117_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.621094
+matching time: 0.0468428
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9952==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9952==   total heap usage: 23,422 allocs, 23,422 frees, 699,361 bytes allocated
+
+[Run] RI real graph=as19971118_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971118_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971118_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.93s
+#0
+{(0,0)(1,2999)(2,134)}
+#1
+reference file: ./testReal/real/as19971118_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.631807
+matching time: 0.0475891
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9954==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9954==   total heap usage: 23,520 allocs, 23,520 frees, 702,092 bytes allocated
+
+[Run] RI real graph=as19971119_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971119_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971119_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.00s
+#0
+{(0,0)(1,3010)(2,134)}
+#1
+reference file: ./testReal/real/as19971119_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.650907
+matching time: 0.05071
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9961==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9961==   total heap usage: 23,562 allocs, 23,562 frees, 702,851 bytes allocated
+
+[Run] RI real graph=as19971120_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971120_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971120_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.94s
+#0
+{(0,0)(1,3019)(2,134)}
+#1
+reference file: ./testReal/real/as19971120_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.642214
+matching time: 0.0479419
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9965==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9965==   total heap usage: 23,668 allocs, 23,668 frees, 705,748 bytes allocated
+
+[Run] RI real graph=as19971121_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_as19971121_graph.gfu.log ./ri36 ind gfu ./testReal/real/as19971121_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.98s
+#0
+{(0,0)(1,3028)(2,133)}
+#1
+reference file: ./testReal/real/as19971121_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.678071
+matching time: 0.049469
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==9967==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==9967==   total heap usage: 23,728 allocs, 23,728 frees, 707,308 bytes allocated
+
+[Run] RI real graph=cit-Patents_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_cit-Patents_graph.gfu.log ./ri36 ind gfu ./testReal/real/cit-Patents_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI real graph=com-amazon_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_com-amazon_graph.gfu.log ./ri36 ind gfu ./testReal/real/com-amazon_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 94.19s
+#0
+{(0,0)(1,302147)(2,209319)}
+#1
+reference file: ./testReal/real/com-amazon_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 91.2544
+matching time: 0.384235
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10024==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10024==   total heap usage: 3,191,279 allocs, 3,191,279 frees, 87,138,427 bytes allocated
+
+[Run] RI real graph=email-Eu-core-department-labels_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_email-Eu-core-department-labels_graph.gfu.log ./ri36 ind gfu ./testReal/real/email-Eu-core-department-labels_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.08s
+#0
+#1
+reference file: ./testReal/real/email-Eu-core-department-labels_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.422737
+matching time: 0.0711119
+number of found matches: 0
+search space size: 124
+
+[Valgrind] ==10039==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10039==   total heap usage: 6,234 allocs, 6,234 frees, 241,586 bytes allocated
+
+[Run] RI real graph=email-Eu-core_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_email-Eu-core_graph.gfu.log ./ri36 ind gfu ./testReal/real/email-Eu-core_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.53s
+#0
+{(0,0)(1,734)(2,377)}
+#1
+reference file: ./testReal/real/email-Eu-core_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 1.12915
+matching time: 0.04495
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10041==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10041==   total heap usage: 37,515 allocs, 37,515 frees, 1,241,592 bytes allocated
+
+[Run] RI real graph=email-enron_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_email-enron_graph.gfu.log ./ri36 ind gfu ./testReal/real/email-enron_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 13.79s
+#0
+{(0,1)(1,56)(2,55)}
+#1
+reference file: ./testReal/real/email-enron_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 11.424
+matching time: 0.0562868
+number of found matches: 1
+search space size: 10
+
+[Valgrind] ==10043==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10043==   total heap usage: 514,520 allocs, 514,520 frees, 14,899,891 bytes allocated
+
+[Run] RI real graph=email-euall_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_email-euall_graph.gfu.log ./ri36 ind gfu ./testReal/real/email-euall_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 36.70s
+#0
+{(0,0)(1,736)(2,160)}
+#1
+reference file: ./testReal/real/email-euall_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 34.28
+matching time: 0.07183
+number of found matches: 1
+search space size: 6
+
+[Valgrind] ==10046==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10046==   total heap usage: 1,792,082 allocs, 1,792,082 frees, 45,498,353 bytes allocated
+
+[Run] RI real graph=fb0_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb0_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb0_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.75s
+#0
+{(0,0)(1,331)(2,285)}
+#1
+reference file: ./testReal/real/fb0_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.400821
+matching time: 0.0455379
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10049==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10049==   total heap usage: 6,453 allocs, 6,453 frees, 277,839 bytes allocated
+
+[Run] RI real graph=fb107_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb107_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb107_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.02s
+#0
+{(0,0)(1,2)(2,1)}
+#1
+reference file: ./testReal/real/fb107_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 1.67862
+matching time: 0.0420918
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10051==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10051==   total heap usage: 57,717 allocs, 57,717 frees, 1,886,743 bytes allocated
+
+[Run] RI real graph=fb1684_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb1684_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb1684_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.33s
+#0
+{(0,0)(1,639)(2,238)}
+#1
+reference file: ./testReal/real/fb1684_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.978879
+matching time: 0.04426
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10053==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10053==   total heap usage: 31,275 allocs, 31,275 frees, 1,051,760 bytes allocated
+
+[Run] RI real graph=fb1912_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb1912_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb1912_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.16s
+#0
+{(0,0)(1,746)(2,726)}
+#1
+reference file: ./testReal/real/fb1912_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 1.80949
+matching time: 0.045876
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10055==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10055==   total heap usage: 63,121 allocs, 63,121 frees, 2,072,587 bytes allocated
+
+[Run] RI real graph=fb3437_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb3437_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb3437_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.90s
+#0
+{(0,0)(1,516)(2,285)}
+#1
+reference file: ./testReal/real/fb3437_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.527988
+matching time: 0.045064
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10057==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10057==   total heap usage: 11,845 allocs, 11,845 frees, 441,340 bytes allocated
+
+[Run] RI real graph=fb348_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb348_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb348_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.79s
+#0
+{(0,0)(1,81)(2,67)}
+#1
+reference file: ./testReal/real/fb348_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.429171
+matching time: 0.042742
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10059==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10059==   total heap usage: 7,363 allocs, 7,363 frees, 311,865 bytes allocated
+
+[Run] RI real graph=fb3980_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb3980_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb3980_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.62s
+#0
+{(0,0)(1,45)(2,28)}
+#1
+reference file: ./testReal/real/fb3980_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.261356
+matching time: 0.04301
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10061==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10061==   total heap usage: 583 allocs, 583 frees, 102,646 bytes allocated
+
+[Run] RI real graph=fb414_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb414_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb414_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.81s
+#0
+{(0,0)(1,18)(2,3)}
+#1
+reference file: ./testReal/real/fb414_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.360807
+matching time: 0.044471
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10063==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10063==   total heap usage: 4,069 allocs, 4,069 frees, 209,787 bytes allocated
+
+[Run] RI real graph=fb686_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb686_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb686_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.90s
+#0
+{(0,0)(1,167)(2,149)}
+#1
+reference file: ./testReal/real/fb686_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.368673
+matching time: 0.0440571
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10075==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10075==   total heap usage: 4,067 allocs, 4,067 frees, 208,913 bytes allocated
+
+[Run] RI real graph=fb698_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_fb698_graph.gfu.log ./ri36 ind gfu ./testReal/real/fb698_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 2.94s
+#0
+{(0,0)(1,57)(2,9)}
+#1
+reference file: ./testReal/real/fb698_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.270193
+matching time: 0.0443561
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10077==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10077==   total heap usage: 867 allocs, 867 frees, 111,328 bytes allocated
+
+[Run] RI real graph=gplus100500197140377336562_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus100500197140377336562_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus100500197140377336562_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.60s
+#0
+{(0,0)(1,563)(2,559)}
+#1
+reference file: ./testReal/real/gplus100500197140377336562_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 1.1137
+matching time: 0.0479548
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10079==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10079==   total heap usage: 30,959 allocs, 30,959 frees, 1,048,328 bytes allocated
+
+[Run] RI real graph=gplus100720409235366385249_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus100720409235366385249_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus100720409235366385249_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 24.99s
+#0
+{(0,0)(1,3427)(2,3415)}
+#1
+reference file: ./testReal/real/gplus100720409235366385249_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 22.1454
+matching time: 0.057451
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10081==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10081==   total heap usage: 801,085 allocs, 801,085 frees, 25,565,595 bytes allocated
+
+[Run] RI real graph=gplus100962871525684315897_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus100962871525684315897_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus100962871525684315897_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.04s
+#0
+{(0,0)(1,558)(2,548)}
+#1
+reference file: ./testReal/real/gplus100962871525684315897_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 1.63032
+matching time: 0.0467179
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10083==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10083==   total heap usage: 55,829 allocs, 55,829 frees, 1,847,723 bytes allocated
+
+[Run] RI real graph=gplus101185748996927059931_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus101185748996927059931_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus101185748996927059931_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.79s
+#0
+{(0,0)(1,1050)(2,989)}
+#1
+reference file: ./testReal/real/gplus101185748996927059931_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 3.42656
+matching time: 0.0467191
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10085==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10085==   total heap usage: 128,467 allocs, 128,467 frees, 4,149,954 bytes allocated
+
+[Run] RI real graph=gplus101263615503715477581_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus101263615503715477581_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus101263615503715477581_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 27.47s
+#0
+{(0,0)(1,2453)(2,2382)}
+#1
+reference file: ./testReal/real/gplus101263615503715477581_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 25.0481
+matching time: 0.0473502
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10092==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10092==   total heap usage: 877,585 allocs, 877,585 frees, 28,058,595 bytes allocated
+
+[Run] RI real graph=gplus101373961279443806744_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus101373961279443806744_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus101373961279443806744_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 73.97s
+#0
+{(0,0)(1,3811)(2,3782)}
+#1
+reference file: ./testReal/real/gplus101373961279443806744_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 71.4051
+matching time: 0.299657
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10100==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10100==   total heap usage: 1,924,501 allocs, 1,924,501 frees, 61,498,752 bytes allocated
+
+[Run] RI real graph=gplus101499880233887429402_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus101499880233887429402_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus101499880233887429402_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.55s
+#0
+{(0,0)(1,264)(2,244)}
+#1
+reference file: ./testReal/real/gplus101499880233887429402_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.664411
+matching time: 0.0524089
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10112==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10112==   total heap usage: 11,951 allocs, 11,951 frees, 456,722 bytes allocated
+
+[Run] RI real graph=gplus101541879642294398860_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus101541879642294398860_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus101541879642294398860_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.15s
+#0
+{(0,0)(1,481)(2,479)}
+#1
+reference file: ./testReal/real/gplus101541879642294398860_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 1.24956
+matching time: 0.0526619
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10114==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10114==   total heap usage: 32,363 allocs, 32,363 frees, 1,100,006 bytes allocated
+
+[Run] RI real graph=gplus101560853443212199687_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus101560853443212199687_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus101560853443212199687_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.18s
+#0
+{(0,0)(1,18)(2,17)}
+#1
+reference file: ./testReal/real/gplus101560853443212199687_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.305326
+matching time: 0.053221
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10116==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10116==   total heap usage: 347 allocs, 347 frees, 96,599 bytes allocated
+
+[Run] RI real graph=gplus101626577406833098387_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus101626577406833098387_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus101626577406833098387_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 27.97s
+#0
+{(0,0)(1,4707)(2,4663)}
+#1
+reference file: ./testReal/real/gplus101626577406833098387_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 25.157
+matching time: 0.0548279
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10118==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10118==   total heap usage: 774,627 allocs, 774,627 frees, 24,662,374 bytes allocated
+
+[Run] RI real graph=gplus102778563580121606331_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus102778563580121606331_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus102778563580121606331_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.93s
+#0
+{(0,0)(1,1360)(2,1158)}
+#1
+reference file: ./testReal/real/gplus102778563580121606331_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.98992
+matching time: 0.0553601
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10130==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10130==   total heap usage: 87,813 allocs, 87,813 frees, 2,834,671 bytes allocated
+
+[Run] RI real graph=gplus103236949470535942612_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus103236949470535942612_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus103236949470535942612_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 44.67s
+#0
+{(0,0)(1,2331)(2,2330)}
+#1
+reference file: ./testReal/real/gplus103236949470535942612_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 41.5461
+matching time: 0.0554008
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10133==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10133==   total heap usage: 1,056,303 allocs, 1,056,303 frees, 33,783,106 bytes allocated
+
+[Run] RI real graph=gplus103338524411980406972_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_gplus103338524411980406972_graph.gfu.log ./ri36 ind gfu ./testReal/real/gplus103338524411980406972_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.27s
+#0
+{(0,0)(1,27)(2,4)}
+#1
+reference file: ./testReal/real/gplus103338524411980406972_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.311713
+matching time: 0.049258
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10155==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10155==   total heap usage: 417 allocs, 417 frees, 98,164 bytes allocated
+
+[Run] RI real graph=oregon1_010331_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010331_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010331_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.27s
+#0
+{(0,0)(1,10600)(2,186)}
+#1
+reference file: ./testReal/real/oregon1_010331_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.31194
+matching time: 0.0596421
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10157==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10157==   total heap usage: 86,767 allocs, 86,767 frees, 2,382,732 bytes allocated
+
+[Run] RI real graph=oregon1_010407_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010407_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010407_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.24s
+#0
+{(0,0)(1,10631)(2,188)}
+#1
+reference file: ./testReal/real/oregon1_010407_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.2517
+matching time: 0.0599229
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10159==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10159==   total heap usage: 86,997 allocs, 86,997 frees, 2,387,437 bytes allocated
+
+[Run] RI real graph=oregon1_010414_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010414_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010414_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.50s
+#0
+{(0,0)(1,10677)(2,188)}
+#1
+reference file: ./testReal/real/oregon1_010414_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.44762
+matching time: 0.068454
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==10162==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10162==   total heap usage: 88,182 allocs, 88,182 frees, 2,422,620 bytes allocated
+
+[Run] RI real graph=oregon1_010421_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010421_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010421_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.21s
+#0
+{(0,0)(1,10798)(2,189)}
+#1
+reference file: ./testReal/real/oregon1_010421_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.23991
+matching time: 0.0600641
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10164==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10164==   total heap usage: 89,013 allocs, 89,013 frees, 2,446,099 bytes allocated
+
+[Run] RI real graph=oregon1_010428_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010428_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010428_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.88s
+#0
+{(0,0)(1,10801)(2,189)}
+#1
+reference file: ./testReal/real/oregon1_010428_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.12571
+matching time: 0.0564351
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10166==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10166==   total heap usage: 88,613 allocs, 88,613 frees, 2,432,084 bytes allocated
+
+[Run] RI real graph=oregon1_010505_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010505_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010505_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.72s
+#0
+{(0,0)(1,10839)(2,190)}
+#1
+reference file: ./testReal/real/oregon1_010505_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.04554
+matching time: 0.0538821
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10168==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10168==   total heap usage: 89,069 allocs, 89,069 frees, 2,444,111 bytes allocated
+
+[Run] RI real graph=oregon1_010512_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010512_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010512_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.69s
+#0
+{(0,0)(1,10863)(2,190)}
+#1
+reference file: ./testReal/real/oregon1_010512_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.01698
+matching time: 0.0534642
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10170==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10170==   total heap usage: 89,481 allocs, 89,481 frees, 2,454,235 bytes allocated
+
+[Run] RI real graph=oregon1_010519_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon1_010519_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon1_010519_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 4.90s
+#0
+{(0,0)(1,10867)(2,190)}
+#1
+reference file: ./testReal/real/oregon1_010519_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.2641
+matching time: 0.053678
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10182==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10182==   total heap usage: 89,735 allocs, 89,735 frees, 2,460,563 bytes allocated
+
+[Run] RI real graph=oregon2_010331_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010331_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010331_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.23s
+#0
+{(0,0)(1,10880)(2,2002)}
+#1
+reference file: ./testReal/real/oregon2_010331_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.56801
+matching time: 0.0520141
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10184==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10184==   total heap usage: 106,043 allocs, 106,043 frees, 2,989,214 bytes allocated
+
+[Run] RI real graph=oregon2_010407_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010407_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010407_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.34s
+#0
+{(0,0)(1,10969)(2,2009)}
+#1
+reference file: ./testReal/real/oregon2_010407_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.59218
+matching time: 0.0576811
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10186==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10186==   total heap usage: 105,717 allocs, 105,717 frees, 2,975,137 bytes allocated
+
+[Run] RI real graph=oregon2_010414_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010414_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010414_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.66s
+#0
+{(0,0)(1,11010)(2,2001)}
+#1
+reference file: ./testReal/real/oregon2_010414_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.95333
+matching time: 0.0653398
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10188==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10188==   total heap usage: 107,681 allocs, 107,681 frees, 3,036,275 bytes allocated
+
+[Run] RI real graph=oregon2_010421_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010421_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010421_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.57s
+#0
+{(0,0)(1,11072)(2,2004)}
+#1
+reference file: ./testReal/real/oregon2_010421_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.75974
+matching time: 0.0572929
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10190==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10190==   total heap usage: 107,479 allocs, 107,479 frees, 3,027,066 bytes allocated
+
+[Run] RI real graph=oregon2_010428_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010428_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010428_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.47s
+#0
+{(0,0)(1,11105)(2,2009)}
+#1
+reference file: ./testReal/real/oregon2_010428_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.73591
+matching time: 0.057616
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10192==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10192==   total heap usage: 107,403 allocs, 107,403 frees, 3,023,149 bytes allocated
+
+[Run] RI real graph=oregon2_010505_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010505_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010505_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.83s
+#0
+{(0,0)(1,11149)(2,2007)}
+#1
+reference file: ./testReal/real/oregon2_010505_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.93942
+matching time: 0.058974
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10194==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10194==   total heap usage: 106,597 allocs, 106,597 frees, 2,995,377 bytes allocated
+
+[Run] RI real graph=oregon2_010512_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010512_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010512_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.64s
+#0
+{(0,0)(1,11252)(2,2011)}
+#1
+reference file: ./testReal/real/oregon2_010512_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.7989
+matching time: 0.0528641
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10196==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10196==   total heap usage: 107,729 allocs, 107,729 frees, 3,026,966 bytes allocated
+
+[Run] RI real graph=oregon2_010519_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010519_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010519_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.56s
+#0
+{(0,0)(1,11363)(2,2016)}
+#1
+reference file: ./testReal/real/oregon2_010519_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.85735
+matching time: 0.0565751
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10198==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10198==   total heap usage: 110,157 allocs, 110,157 frees, 3,099,487 bytes allocated
+
+[Run] RI real graph=oregon2_010526_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_oregon2_010526_graph.gfu.log ./ri36 ind gfu ./testReal/real/oregon2_010526_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 6.00s
+#0
+{(0,0)(1,11271)(2,2360)}
+#1
+reference file: ./testReal/real/oregon2_010526_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 3.05202
+matching time: 0.0672162
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==10200==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10200==   total heap usage: 111,388 allocs, 111,388 frees, 3,135,017 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella04_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella04_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella04_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 6.54s
+#0
+{(0,0)(1,6041)(2,5079)}
+#1
+reference file: ./testReal/real/p2p-Gnutella04_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 3.55705
+matching time: 0.059463
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==10202==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10202==   total heap usage: 123,576 allocs, 123,576 frees, 3,551,358 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella05_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella05_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella05_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.82s
+#0
+{(0,0)(1,3259)(2,9)}
+#1
+reference file: ./testReal/real/p2p-Gnutella05_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.7539
+matching time: 0.064091
+number of found matches: 1
+search space size: 5
+
+[Valgrind] ==10204==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10204==   total heap usage: 99,147 allocs, 99,147 frees, 2,860,988 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella06_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella06_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella06_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.66s
+#0
+{(0,3)(1,2079)(2,1829)}
+#1
+reference file: ./testReal/real/p2p-Gnutella06_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.77158
+matching time: 0.0740571
+number of found matches: 1
+search space size: 34
+
+[Valgrind] ==10206==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10206==   total heap usage: 98,032 allocs, 98,032 frees, 2,831,345 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella08_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella08_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella08_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.07s
+#0
+{(0,3)(1,5792)(2,123)}
+#1
+reference file: ./testReal/real/p2p-Gnutella08_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.13245
+matching time: 0.075
+number of found matches: 1
+search space size: 20
+
+[Valgrind] ==10208==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10208==   total heap usage: 66,858 allocs, 66,858 frees, 1,942,385 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella09_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella09_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella09_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 5.46s
+#0
+{(0,2)(1,4317)(2,1274)}
+#1
+reference file: ./testReal/real/p2p-Gnutella09_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 2.48013
+matching time: 0.073066
+number of found matches: 1
+search space size: 25
+
+[Valgrind] ==10210==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10210==   total heap usage: 84,587 allocs, 84,587 frees, 2,428,168 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella24_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella24_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella24_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 8.90s
+#0
+{(0,4)(1,26049)(2,3060)}
+#1
+reference file: ./testReal/real/p2p-Gnutella24_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 5.91446
+matching time: 0.072629
+number of found matches: 1
+search space size: 13
+
+[Valgrind] ==10214==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10214==   total heap usage: 236,903 allocs, 236,903 frees, 6,474,004 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella25_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella25_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella25_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 8.05s
+#0
+{(0,0)(1,2164)(2,9)}
+#1
+reference file: ./testReal/real/p2p-Gnutella25_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 5.12777
+matching time: 0.0632832
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==10227==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10227==   total heap usage: 200,242 allocs, 200,242 frees, 5,473,175 bytes allocated
+
+[Run] RI real graph=p2p-Gnutella30_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_p2p-Gnutella30_graph.gfu.log ./ri36 ind gfu ./testReal/real/p2p-Gnutella30_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 11.26s
+#0
+{(0,0)(1,5352)(2,7)}
+#1
+reference file: ./testReal/real/p2p-Gnutella30_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 8.18179
+matching time: 0.0619771
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==10229==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10229==   total heap usage: 323,468 allocs, 323,468 frees, 8,786,632 bytes allocated
+
+[Run] RI real graph=twitter12831_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter12831_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter12831_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.31s
+#0
+{(0,0)(1,97)(2,4)}
+#1
+reference file: ./testReal/real/twitter12831_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.422716
+matching time: 0.05405
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10231==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10231==   total heap usage: 4,649 allocs, 4,649 frees, 224,484 bytes allocated
+
+[Run] RI real graph=twitter356963_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter356963_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter356963_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.29s
+#0
+{(0,0)(1,96)(2,17)}
+#1
+reference file: ./testReal/real/twitter356963_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.341477
+matching time: 0.052501
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10234==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10234==   total heap usage: 1,577 allocs, 1,577 frees, 131,131 bytes allocated
+
+[Run] RI real graph=twitter428333_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter428333_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter428333_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.24s
+#0
+{(0,0)(1,64)(2,63)}
+#1
+reference file: ./testReal/real/twitter428333_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.339946
+matching time: 0.0483699
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10236==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10236==   total heap usage: 2,201 allocs, 2,201 frees, 153,844 bytes allocated
+
+[Run] RI real graph=twitter612473_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter612473_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter612473_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.37s
+#0
+{(0,0)(1,74)(2,71)}
+#1
+reference file: ./testReal/real/twitter612473_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.403842
+matching time: 0.0589919
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10238==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10238==   total heap usage: 2,255 allocs, 2,255 frees, 155,077 bytes allocated
+
+[Run] RI real graph=twitter613313_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter613313_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter613313_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.37s
+#0
+{(0,0)(1,70)(2,67)}
+#1
+reference file: ./testReal/real/twitter613313_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.365883
+matching time: 0.0525122
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10240==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10240==   total heap usage: 1,843 allocs, 1,843 frees, 141,353 bytes allocated
+
+[Run] RI real graph=twitter623623_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter623623_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter623623_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.26s
+#0
+{(0,1)(1,104)(2,98)}
+#1
+reference file: ./testReal/real/twitter623623_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.348
+matching time: 0.066787
+number of found matches: 1
+search space size: 7
+
+[Valgrind] ==10242==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10242==   total heap usage: 1,387 allocs, 1,387 frees, 125,983 bytes allocated
+
+[Run] RI real graph=twitter629863_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter629863_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter629863_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.43s
+#0
+{(0,0)(1,41)(2,27)}
+#1
+reference file: ./testReal/real/twitter629863_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.364697
+matching time: 0.0523651
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10244==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10244==   total heap usage: 2,311 allocs, 2,311 frees, 153,134 bytes allocated
+
+[Run] RI real graph=twitter734493_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter734493_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter734493_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.31s
+#0
+{(0,0)(1,8)(2,7)}
+#1
+reference file: ./testReal/real/twitter734493_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.311024
+matching time: 0.0522439
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10246==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10246==   total heap usage: 187 allocs, 187 frees, 91,916 bytes allocated
+
+[Run] RI real graph=twitter742143_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter742143_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter742143_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.43s
+#0
+{(0,0)(1,56)(2,48)}
+#1
+reference file: ./testReal/real/twitter742143_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.359012
+matching time: 0.063915
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10248==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10248==   total heap usage: 1,465 allocs, 1,465 frees, 130,652 bytes allocated
+
+[Run] RI real graph=twitter745823_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter745823_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter745823_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.56s
+#0
+{(0,0)(1,211)(2,8)}
+#1
+reference file: ./testReal/real/twitter745823_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.562777
+matching time: 0.0509229
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10250==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10250==   total heap usage: 9,795 allocs, 9,795 frees, 388,887 bytes allocated
+
+[Run] RI real graph=twitter759679_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter759679_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter759679_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.53s
+#0
+{(0,0)(1,92)(2,88)}
+#1
+reference file: ./testReal/real/twitter759679_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.351911
+matching time: 0.0596271
+number of found matches: 1
+search space size: 4
+
+[Valgrind] ==10252==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10252==   total heap usage: 1,638 allocs, 1,638 frees, 133,586 bytes allocated
+
+[Run] RI real graph=twitter778446_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter778446_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter778446_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.53s
+#0
+{(0,0)(1,150)(2,104)}
+#1
+reference file: ./testReal/real/twitter778446_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.466438
+matching time: 0.0543289
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10255==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10255==   total heap usage: 5,179 allocs, 5,179 frees, 243,650 bytes allocated
+
+[Run] RI real graph=twitter78813_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_twitter78813_graph.gfu.log ./ri36 ind gfu ./testReal/real/twitter78813_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 3.35s
+#0
+{(0,0)(1,229)(2,145)}
+#1
+reference file: ./testReal/real/twitter78813_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 0.473484
+matching time: 0.0541639
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10257==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10257==   total heap usage: 5,521 allocs, 5,521 frees, 252,613 bytes allocated
+
+[Run] RI real graph=web-BerkStan_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_web-BerkStan_graph.gfu.log ./ri36 ind gfu ./testReal/real/web-BerkStan_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] RI real graph=web-Google_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_web-Google_graph.gfu.log ./ri36 ind gfu ./testReal/real/web-Google_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI real graph=web-NotreDame_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_web-NotreDame_graph.gfu.log ./ri36 ind gfu ./testReal/real/web-NotreDame_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] Done in 104.02s
+#0
+{(0,0)(1,324398)(2,324217)}
+#1
+reference file: ./testReal/real/web-NotreDame_graph.gfu
+query file: ./testReal/real/triangleRI.gfu
+total time: 101.358
+matching time: 0.475424
+number of found matches: 1
+search space size: 3
+
+[Valgrind] ==10312==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==10312==   total heap usage: 3,538,125 allocs, 3,538,125 frees, 98,648,532 bytes allocated
+
+[Run] RI real graph=web-Stanford_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_web-Stanford_graph.gfu.log ./ri36 ind gfu ./testReal/real/web-Stanford_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI real graph=wikitalk_graph.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_real_wikitalk_graph.gfu.log ./ri36 ind gfu ./testReal/real/wikitalk_graph.gfu ./testReal/real/triangleRI.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+=== END   RI (real) ===

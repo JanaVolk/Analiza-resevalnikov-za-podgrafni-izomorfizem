@@ -1,0 +1,885 @@
+=== START SICS (real) ===
+
+[Run] SICS real graph=Amazon0302_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Amazon0302_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Amazon0302_graph.lad
+[Run] Done in 4.61s
+[Valgrind] ==16492==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16492==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=Amazon0312_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Amazon0312_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Amazon0312_graph.lad
+[Run] Done in 4.64s
+[Valgrind] ==16494==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16494==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=Amazon0505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Amazon0505_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Amazon0505_graph.lad
+[Run] Done in 4.32s
+[Valgrind] ==16496==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16496==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=Amazon0601_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Amazon0601_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Amazon0601_graph.lad
+[Run] Done in 4.30s
+[Valgrind] ==16501==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16501==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=Brightkite_edges_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Brightkite_edges_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Brightkite_edges_graph.lad
+[Run] Done in 4.15s
+[Valgrind] ==16503==     in use at exit: 4,667,352 bytes in 19 blocks
+[Valgrind] ==16503==   total heap usage: 32 allocs, 13 frees, 4,749,764 bytes allocated
+
+[Run] SICS real graph=CA-AstroPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_CA-AstroPh_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/CA-AstroPh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] SICS real graph=CA-GrQc_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_CA-GrQc_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/CA-GrQc_graph.lad
+[Run] Done in 28.82s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 22445 ms
+
+[Valgrind] ==16524==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16524==   total heap usage: 51,454 allocs, 51,454 frees, 18,677,958 bytes allocated
+
+[Run] SICS real graph=CA-HepPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_CA-HepPh_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/CA-HepPh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] SICS real graph=CA-HepTh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_CA-HepTh_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/CA-HepTh_graph.lad
+[Run] Done in 78.17s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 71435 ms
+
+[Valgrind] ==16558==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16558==   total heap usage: 97,968 allocs, 97,968 frees, 63,862,834 bytes allocated
+
+[Run] SICS real graph=CA-rCondMat_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_CA-rCondMat_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/CA-rCondMat_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] SICS real graph=Cit-HepPh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Cit-HepPh_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Cit-HepPh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] SICS real graph=Cit-HepTh_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Cit-HepTh_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Cit-HepTh_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] SICS real graph=Gowalla_edges_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_Gowalla_edges_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/Gowalla_edges_graph.lad
+[Run] Done in 4.69s
+[Valgrind] ==16663==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16663==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=as-skitter_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as-skitter_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as-skitter_graph.lad
+[Run] Done in 4.34s
+[Valgrind] ==16666==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16666==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=as19971108_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971108_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971108_graph.lad
+[Run] Done in 11.79s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6648 ms
+
+[Valgrind] ==16669==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16669==   total heap usage: 24,206 allocs, 24,206 frees, 6,596,978 bytes allocated
+
+[Run] SICS real graph=as19971109_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971109_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971109_graph.lad
+[Run] Done in 9.31s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4664 ms
+
+[Valgrind] ==16671==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16671==   total heap usage: 24,192 allocs, 24,192 frees, 6,587,258 bytes allocated
+
+[Run] SICS real graph=as19971110_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971110_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971110_graph.lad
+[Run] Done in 10.89s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6416 ms
+
+[Valgrind] ==16673==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16673==   total heap usage: 24,314 allocs, 24,314 frees, 6,620,214 bytes allocated
+
+[Run] SICS real graph=as19971111_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971111_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971111_graph.lad
+[Run] Done in 11.54s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6598 ms
+
+[Valgrind] ==16675==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16675==   total heap usage: 24,268 allocs, 24,268 frees, 6,615,142 bytes allocated
+
+[Run] SICS real graph=as19971112_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971112_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971112_graph.lad
+[Run] Done in 11.27s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6171 ms
+
+[Valgrind] ==16677==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16677==   total heap usage: 24,340 allocs, 24,340 frees, 6,618,282 bytes allocated
+
+[Run] SICS real graph=as19971113_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971113_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971113_graph.lad
+[Run] Done in 11.33s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 5989 ms
+
+[Valgrind] ==16679==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16679==   total heap usage: 23,890 allocs, 23,890 frees, 6,336,222 bytes allocated
+
+[Run] SICS real graph=as19971114_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971114_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971114_graph.lad
+[Run] Done in 11.66s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6639 ms
+
+[Valgrind] ==16681==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16681==   total heap usage: 24,440 allocs, 24,440 frees, 6,666,062 bytes allocated
+
+[Run] SICS real graph=as19971115_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971115_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971115_graph.lad
+[Run] Done in 13.74s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 7867 ms
+
+[Valgrind] ==16693==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16693==   total heap usage: 24,380 allocs, 24,380 frees, 6,652,138 bytes allocated
+
+[Run] SICS real graph=as19971116_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971116_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971116_graph.lad
+[Run] Done in 11.97s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6643 ms
+
+[Valgrind] ==16695==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16695==   total heap usage: 24,450 allocs, 24,450 frees, 6,650,670 bytes allocated
+
+[Run] SICS real graph=as19971117_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971117_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971117_graph.lad
+[Run] Done in 10.97s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6297 ms
+
+[Valgrind] ==16697==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16697==   total heap usage: 24,418 allocs, 24,418 frees, 6,643,274 bytes allocated
+
+[Run] SICS real graph=as19971118_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971118_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971118_graph.lad
+[Run] Done in 10.82s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4899 ms
+
+[Valgrind] ==16699==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16699==   total heap usage: 24,492 allocs, 24,492 frees, 6,665,990 bytes allocated
+
+[Run] SICS real graph=as19971119_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971119_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971119_graph.lad
+[Run] Done in 8.13s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4392 ms
+
+[Valgrind] ==16701==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16701==   total heap usage: 24,552 allocs, 24,552 frees, 6,698,482 bytes allocated
+
+[Run] SICS real graph=as19971120_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971120_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971120_graph.lad
+[Run] Done in 8.00s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 4308 ms
+
+[Valgrind] ==16703==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16703==   total heap usage: 24,666 allocs, 24,666 frees, 6,727,038 bytes allocated
+
+[Run] SICS real graph=as19971121_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_as19971121_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/as19971121_graph.lad
+[Run] Done in 12.21s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 6690 ms
+
+[Valgrind] ==16705==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16705==   total heap usage: 24,740 allocs, 24,740 frees, 6,845,550 bytes allocated
+
+[Run] SICS real graph=cit-Patents_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_cit-Patents_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/cit-Patents_graph.lad
+[Run] Done in 4.05s
+[Valgrind] ==16707==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16707==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=com-amazon_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_com-amazon_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/com-amazon_graph.lad
+[Run] Done in 3.09s
+[Valgrind] ==16709==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16709==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=email-Eu-core-department-labels_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_email-Eu-core-department-labels_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/email-Eu-core-department-labels_graph.lad
+[Run] Done in 5.40s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 1022 ms
+
+[Valgrind] ==16721==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16721==   total heap usage: 6,456 allocs, 6,456 frees, 962,978 bytes allocated
+
+[Run] SICS real graph=email-Eu-core_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_email-Eu-core_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/email-Eu-core_graph.lad
+[Run] Done in 5.79s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 551 ms
+
+[Valgrind] ==16724==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16724==   total heap usage: 14,870 allocs, 14,870 frees, 1,317,874 bytes allocated
+
+[Run] SICS real graph=email-enron_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_email-enron_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/email-enron_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] SICS real graph=email-euall_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_email-euall_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/email-euall_graph.lad
+[Run] Done in 4.96s
+[Valgrind] ==16748==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==16748==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=fb0_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb0_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb0_graph.lad
+[Run] Done in 5.51s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 361 ms
+
+[Valgrind] ==16751==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16751==   total heap usage: 4,402 allocs, 4,402 frees, 299,066 bytes allocated
+
+[Run] SICS real graph=fb107_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb107_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb107_graph.lad
+[Run] Done in 6.42s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 724 ms
+
+[Valgrind] ==16753==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16753==   total heap usage: 17,502 allocs, 17,502 frees, 1,613,294 bytes allocated
+
+[Run] SICS real graph=fb1684_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb1684_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb1684_graph.lad
+[Run] Done in 5.06s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 472 ms
+
+[Valgrind] ==16755==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16755==   total heap usage: 12,654 allocs, 12,654 frees, 982,022 bytes allocated
+
+[Run] SICS real graph=fb1912_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb1912_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb1912_graph.lad
+[Run] Done in 5.50s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 536 ms
+
+[Valgrind] ==16758==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16758==   total heap usage: 13,632 allocs, 13,632 frees, 1,296,698 bytes allocated
+
+[Run] SICS real graph=fb3437_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb3437_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb3437_graph.lad
+[Run] Done in 4.08s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 295 ms
+
+[Valgrind] ==16760==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16760==   total heap usage: 7,598 allocs, 7,598 frees, 502,254 bytes allocated
+
+[Run] SICS real graph=fb348_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb348_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb348_graph.lad
+[Run] Done in 4.32s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 261 ms
+
+[Valgrind] ==16762==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16762==   total heap usage: 3,480 allocs, 3,480 frees, 249,862 bytes allocated
+
+[Run] SICS real graph=fb3980_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb3980_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb3980_graph.lad
+[Run] Done in 3.80s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 189 ms
+
+[Valgrind] ==16764==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16764==   total heap usage: 612 allocs, 612 frees, 112,150 bytes allocated
+
+[Run] SICS real graph=fb414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb414_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb414_graph.lad
+[Run] Done in 3.91s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 224 ms
+
+[Valgrind] ==16766==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16766==   total heap usage: 2,328 allocs, 2,328 frees, 183,550 bytes allocated
+
+[Run] SICS real graph=fb686_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb686_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb686_graph.lad
+[Run] Done in 4.24s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 246 ms
+
+[Valgrind] ==16768==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16768==   total heap usage: 2,462 allocs, 2,462 frees, 188,222 bytes allocated
+
+[Run] SICS real graph=fb698_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_fb698_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/fb698_graph.lad
+[Run] Done in 4.10s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 252 ms
+
+[Valgrind] ==16770==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16770==   total heap usage: 816 allocs, 816 frees, 117,058 bytes allocated
+
+[Run] SICS real graph=gplus100500197140377336562_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus100500197140377336562_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus100500197140377336562_graph.lad
+[Run] Done in 6.29s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 573 ms
+
+[Valgrind] ==16782==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16782==   total heap usage: 10,576 allocs, 10,576 frees, 803,942 bytes allocated
+
+[Run] SICS real graph=gplus100720409235366385249_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus100720409235366385249_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus100720409235366385249_graph.lad
+[Run] Done in 40.46s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 10420 ms
+
+[Valgrind] ==16785==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16785==   total heap usage: 71,382 allocs, 71,382 frees, 17,452,546 bytes allocated
+
+[Run] SICS real graph=gplus100962871525684315897_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus100962871525684315897_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus100962871525684315897_graph.lad
+[Run] Done in 6.97s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 471 ms
+
+[Valgrind] ==16788==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16788==   total heap usage: 9,836 allocs, 9,836 frees, 1,034,474 bytes allocated
+
+[Run] SICS real graph=gplus101185748996927059931_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus101185748996927059931_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus101185748996927059931_graph.lad
+[Run] Done in 9.19s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 1014 ms
+
+[Valgrind] ==16791==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16791==   total heap usage: 20,100 allocs, 20,100 frees, 2,486,982 bytes allocated
+
+[Run] SICS real graph=gplus101263615503715477581_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus101263615503715477581_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus101263615503715477581_graph.lad
+[Run] Done in 25.46s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 2703 ms
+
+[Valgrind] ==16793==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16793==   total heap usage: 55,458 allocs, 55,458 frees, 14,568,474 bytes allocated
+
+[Run] SICS real graph=gplus101373961279443806744_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus101373961279443806744_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus101373961279443806744_graph.lad
+[Run] Done in 64.01s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 13029 ms
+
+[Valgrind] ==16795==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16795==   total heap usage: 87,732 allocs, 87,732 frees, 31,857,134 bytes allocated
+
+[Run] SICS real graph=gplus101499880233887429402_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus101499880233887429402_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus101499880233887429402_graph.lad
+[Run] Done in 5.59s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 321 ms
+
+[Valgrind] ==16821==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16821==   total heap usage: 4,314 allocs, 4,314 frees, 322,366 bytes allocated
+
+[Run] SICS real graph=gplus101541879642294398860_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus101541879642294398860_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus101541879642294398860_graph.lad
+[Run] Done in 6.22s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 443 ms
+
+[Valgrind] ==16824==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16824==   total heap usage: 8,434 allocs, 8,434 frees, 690,974 bytes allocated
+
+[Run] SICS real graph=gplus101560853443212199687_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus101560853443212199687_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus101560853443212199687_graph.lad
+[Run] Done in 4.14s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 207 ms
+
+[Valgrind] ==16826==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16826==   total heap usage: 306 allocs, 306 frees, 102,930 bytes allocated
+
+[Run] SICS real graph=gplus101626577406833098387_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus101626577406833098387_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus101626577406833098387_graph.lad
+[Run] Done in 34.23s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 12253 ms
+
+[Valgrind] ==16828==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16828==   total heap usage: 94,426 allocs, 94,426 frees, 23,734,998 bytes allocated
+
+[Run] SICS real graph=gplus102778563580121606331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus102778563580121606331_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus102778563580121606331_graph.lad
+[Run] Done in 6.99s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 1059 ms
+
+[Valgrind] ==16844==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16844==   total heap usage: 23,492 allocs, 23,492 frees, 2,513,130 bytes allocated
+
+[Run] SICS real graph=gplus103236949470535942612_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus103236949470535942612_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus103236949470535942612_graph.lad
+[Run] Done in 31.83s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 3869 ms
+
+[Valgrind] ==16847==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16847==   total heap usage: 54,150 allocs, 54,150 frees, 16,011,750 bytes allocated
+
+[Run] SICS real graph=gplus103338524411980406972_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_gplus103338524411980406972_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/gplus103338524411980406972_graph.lad
+[Run] Done in 3.67s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 177 ms
+
+[Valgrind] ==16856==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16856==   total heap usage: 420 allocs, 420 frees, 106,558 bytes allocated
+
+[Run] SICS real graph=oregon1_010331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010331_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010331_graph.lad
+[Run] Done in 107.38s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 101613 ms
+
+[Valgrind] ==16860==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16860==   total heap usage: 87,490 allocs, 87,490 frees, 74,006,390 bytes allocated
+
+[Run] SICS real graph=oregon1_010407_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010407_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010407_graph.lad
+[Run] Done in 87.94s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 82295 ms
+
+[Valgrind] ==16880==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16880==   total heap usage: 87,866 allocs, 87,866 frees, 74,830,586 bytes allocated
+
+[Run] SICS real graph=oregon1_010414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010414_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010414_graph.lad
+[Run] Done in 91.60s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 85835 ms
+
+[Valgrind] ==16894==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16894==   total heap usage: 88,542 allocs, 88,542 frees, 75,687,526 bytes allocated
+
+[Run] SICS real graph=oregon1_010421_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010421_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010421_graph.lad
+[Run] Done in 92.93s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 87498 ms
+
+[Valgrind] ==16910==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16910==   total heap usage: 89,260 allocs, 89,260 frees, 76,619,106 bytes allocated
+
+[Run] SICS real graph=oregon1_010428_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010428_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010428_graph.lad
+[Run] Done in 90.89s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 85223 ms
+
+[Valgrind] ==16924==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16924==   total heap usage: 89,342 allocs, 89,342 frees, 77,184,110 bytes allocated
+
+[Run] SICS real graph=oregon1_010505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010505_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010505_graph.lad
+[Run] Done in 81.10s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 75191 ms
+
+[Valgrind] ==16939==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16939==   total heap usage: 89,856 allocs, 89,856 frees, 77,665,826 bytes allocated
+
+[Run] SICS real graph=oregon1_010512_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010512_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010512_graph.lad
+[Run] Done in 81.71s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 76623 ms
+
+[Valgrind] ==16964==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16964==   total heap usage: 90,220 allocs, 90,220 frees, 78,943,106 bytes allocated
+
+[Run] SICS real graph=oregon1_010519_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon1_010519_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon1_010519_graph.lad
+[Run] Done in 83.39s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 78028 ms
+
+[Valgrind] ==16987==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==16987==   total heap usage: 90,512 allocs, 90,512 frees, 79,288,050 bytes allocated
+
+[Run] SICS real graph=oregon2_010331_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010331_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010331_graph.lad
+[Run] Done in 80.60s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 74965 ms
+
+[Valgrind] ==17001==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17001==   total heap usage: 94,810 allocs, 94,810 frees, 77,510,254 bytes allocated
+
+[Run] SICS real graph=oregon2_010407_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010407_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010407_graph.lad
+[Run] Done in 73.54s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 68523 ms
+
+[Valgrind] ==17026==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17026==   total heap usage: 95,164 allocs, 95,164 frees, 78,533,082 bytes allocated
+
+[Run] SICS real graph=oregon2_010414_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010414_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010414_graph.lad
+[Run] Done in 44.39s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 40484 ms
+
+[Valgrind] ==17060==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17060==   total heap usage: 95,778 allocs, 95,778 frees, 79,228,730 bytes allocated
+
+[Run] SICS real graph=oregon2_010421_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010421_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010421_graph.lad
+[Run] Done in 47.80s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 44332 ms
+
+[Valgrind] ==17065==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17065==   total heap usage: 96,346 allocs, 96,346 frees, 80,094,534 bytes allocated
+
+[Run] SICS real graph=oregon2_010428_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010428_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010428_graph.lad
+[Run] Done in 43.75s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 40368 ms
+
+[Valgrind] ==17079==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17079==   total heap usage: 96,658 allocs, 96,658 frees, 80,374,914 bytes allocated
+
+[Run] SICS real graph=oregon2_010505_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010505_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010505_graph.lad
+[Run] Done in 48.61s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 45208 ms
+
+[Valgrind] ==17084==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17084==   total heap usage: 96,802 allocs, 96,802 frees, 81,092,378 bytes allocated
+
+[Run] SICS real graph=oregon2_010512_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010512_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010512_graph.lad
+[Run] Done in 43.69s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 40147 ms
+
+[Valgrind] ==17110==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17110==   total heap usage: 97,768 allocs, 97,768 frees, 82,347,830 bytes allocated
+
+[Run] SICS real graph=oregon2_010519_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010519_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010519_graph.lad
+[Run] Done in 50.41s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 46836 ms
+
+[Valgrind] ==17116==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17116==   total heap usage: 98,928 allocs, 98,928 frees, 84,105,002 bytes allocated
+
+[Run] SICS real graph=oregon2_010526_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_oregon2_010526_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/oregon2_010526_graph.lad
+[Run] Done in 46.26s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 42752 ms
+
+[Valgrind] ==17131==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17131==   total heap usage: 99,706 allocs, 99,706 frees, 85,593,626 bytes allocated
+
+[Run] SICS real graph=p2p-Gnutella04_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella04_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella04_graph.lad
+[Run] Done in 45.87s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 41945 ms
+
+[Valgrind] ==17135==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17135==   total heap usage: 117,756 allocs, 117,756 frees, 77,138,526 bytes allocated
+
+[Run] SICS real graph=p2p-Gnutella05_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella05_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella05_graph.lad
+[Run] Done in 26.71s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 23234 ms
+
+[Valgrind] ==17148==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17148==   total heap usage: 95,566 allocs, 95,566 frees, 51,727,102 bytes allocated
+
+[Run] SICS real graph=p2p-Gnutella06_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella06_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella06_graph.lad
+[Run] Done in 25.45s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 21969 ms
+
+[Valgrind] ==17152==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17152==   total heap usage: 94,062 allocs, 94,062 frees, 50,272,274 bytes allocated
+
+[Run] SICS real graph=p2p-Gnutella08_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella08_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella08_graph.lad
+[Run] Done in 14.81s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 11759 ms
+
+[Valgrind] ==17155==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17155==   total heap usage: 64,822 allocs, 64,822 frees, 26,759,162 bytes allocated
+
+[Run] SICS real graph=p2p-Gnutella09_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella09_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella09_graph.lad
+[Run] Done in 22.25s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 18653 ms
+
+[Valgrind] ==17172==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17172==   total heap usage: 82,132 allocs, 82,132 frees, 43,516,470 bytes allocated
+
+[Run] SICS real graph=p2p-Gnutella24_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella24_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella24_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.04s)
+
+[Run] SICS real graph=p2p-Gnutella25_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella25_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella25_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] SICS real graph=p2p-Gnutella30_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_p2p-Gnutella30_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/p2p-Gnutella30_graph.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] SICS real graph=twitter12831_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter12831_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter12831_graph.lad
+[Run] Done in 4.75s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 270 ms
+
+[Valgrind] ==17252==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17252==   total heap usage: 3,228 allocs, 3,228 frees, 221,790 bytes allocated
+
+[Run] SICS real graph=twitter356963_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter356963_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter356963_graph.lad
+[Run] Done in 4.56s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 233 ms
+
+[Valgrind] ==17255==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17255==   total heap usage: 1,486 allocs, 1,486 frees, 142,806 bytes allocated
+
+[Run] SICS real graph=twitter428333_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter428333_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter428333_graph.lad
+[Run] Done in 3.26s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 176 ms
+
+[Valgrind] ==17257==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17257==   total heap usage: 1,102 allocs, 1,102 frees, 134,930 bytes allocated
+
+[Run] SICS real graph=twitter612473_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter612473_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter612473_graph.lad
+[Run] Done in 3.68s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 166 ms
+
+[Valgrind] ==17259==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17259==   total heap usage: 1,236 allocs, 1,236 frees, 138,870 bytes allocated
+
+[Run] SICS real graph=twitter613313_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter613313_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter613313_graph.lad
+[Run] Done in 3.63s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 172 ms
+
+[Valgrind] ==17261==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17261==   total heap usage: 1,284 allocs, 1,284 frees, 136,910 bytes allocated
+
+[Run] SICS real graph=twitter623623_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter623623_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter623623_graph.lad
+[Run] Done in 3.92s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 171 ms
+
+[Valgrind] ==17263==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17263==   total heap usage: 1,292 allocs, 1,292 frees, 135,790 bytes allocated
+
+[Run] SICS real graph=twitter629863_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter629863_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter629863_graph.lad
+[Run] Done in 4.10s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 180 ms
+
+[Valgrind] ==17267==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17267==   total heap usage: 2,004 allocs, 2,004 frees, 164,866 bytes allocated
+
+[Run] SICS real graph=twitter734493_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter734493_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter734493_graph.lad
+[Run] Done in 3.38s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 148 ms
+
+[Valgrind] ==17269==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17269==   total heap usage: 166 allocs, 166 frees, 99,034 bytes allocated
+
+[Run] SICS real graph=twitter742143_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter742143_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter742143_graph.lad
+[Run] Done in 3.23s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 160 ms
+
+[Valgrind] ==17271==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17271==   total heap usage: 914 allocs, 914 frees, 122,722 bytes allocated
+
+[Run] SICS real graph=twitter745823_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter745823_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter745823_graph.lad
+[Run] Done in 3.86s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 292 ms
+
+[Valgrind] ==17273==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17273==   total heap usage: 3,762 allocs, 3,762 frees, 282,806 bytes allocated
+
+[Run] SICS real graph=twitter759679_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter759679_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter759679_graph.lad
+[Run] Done in 4.15s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 261 ms
+
+[Valgrind] ==17275==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17275==   total heap usage: 1,458 allocs, 1,458 frees, 140,434 bytes allocated
+
+[Run] SICS real graph=twitter778446_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter778446_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter778446_graph.lad
+[Run] Done in 3.68s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 189 ms
+
+[Valgrind] ==17277==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17277==   total heap usage: 2,804 allocs, 2,804 frees, 206,394 bytes allocated
+
+[Run] SICS real graph=twitter78813_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_twitter78813_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/twitter78813_graph.lad
+[Run] Done in 3.48s
+Found an induced isomorphism.
+Number of induced isomorphisms: 1
+Time to find first induced isomorphism: 197 ms
+
+[Valgrind] ==17279==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17279==   total heap usage: 3,336 allocs, 3,336 frees, 232,170 bytes allocated
+
+[Run] SICS real graph=web-BerkStan_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_web-BerkStan_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/web-BerkStan_graph.lad
+[Run] Done in 3.28s
+[Valgrind] ==17281==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==17281==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=web-Google_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_web-Google_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/web-Google_graph.lad
+[Run] Done in 2.92s
+[Valgrind] ==17283==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==17283==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=web-NotreDame_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_web-NotreDame_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/web-NotreDame_graph.lad
+[Run] Done in 3.01s
+[Valgrind] ==17285==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==17285==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=web-Stanford_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_web-Stanford_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/web-Stanford_graph.lad
+[Run] Done in 3.47s
+[Valgrind] ==17287==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==17287==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+
+[Run] SICS real graph=wikitalk_graph.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_real_wikitalk_graph.lad.log ./a.out ./testReal/real/pentagonLAD ./testReal/real/wikitalk_graph.lad
+[Run] Done in 4.23s
+[Valgrind] ==17289==     in use at exit: 5,251,912 bytes in 19 blocks
+[Valgrind] ==17289==   total heap usage: 32 allocs, 13 frees, 5,334,324 bytes allocated
+=== END   SICS (real) ===
