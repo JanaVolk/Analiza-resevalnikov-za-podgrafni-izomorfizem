@@ -2,10 +2,10 @@ import os
 import re
 from collections import defaultdict
 
-RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/real graphs/results pentagon"
+RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/results pentagon"
 OUTPUT_DIR  = "summariesRealPentagon"
 
-FNAME_RE       = re.compile(r"^(.+?)_(er|tree|scale_free|real)_results\.txt$")
+FNAME_RE       = re.compile(r"^(.+?)_(tree|quatrilateral|pentagon|er|scale_free|real)_results\.txt$")
 TIME_RE        = re.compile(r"Done in ([0-9.]+)s")
 TIMEOUT_RE     = re.compile(r"TIMED OUT after [0-9.]+s\s+\(elapsed=([0-9.]+)s\)")
 TOTAL_ALLOC_RE = re.compile(r"total heap usage: [0-9,]+ allocs, [0-9,]+ frees, ([0-9,]+) bytes allocated")
