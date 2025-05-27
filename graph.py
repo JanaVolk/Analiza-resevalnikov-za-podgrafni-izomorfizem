@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-folder_path = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/summariesRealPentagon"
+folder_path = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/real_graphs/summaries"
 
 def clean_and_sort_data(df, column_to_sort):
     df[column_to_sort] = pd.to_numeric(df[column_to_sort], errors='coerce')
@@ -10,13 +10,14 @@ def clean_and_sort_data(df, column_to_sort):
     return df
 
 # REAL
-def load_real_summary_files(folder_path):
+def load_real_summary_files(folder_path, graph_type):
     data = {}
     for file_name in os.listdir(folder_path):
-        if file_name.endswith("_real_summary.txt"):
+        if file_name.endswith("_summary.txt") and graph_type in file_name:
             file_path = os.path.join(folder_path, file_name)
             df = pd.read_csv(file_path, sep="|", skiprows=2, names=["graph", "time(s)", "alloc(B)"])
             df["time(s)"] = pd.to_numeric(df["time(s)"].str.strip(), errors='coerce')
+            df["alloc(B)"] = pd.to_numeric(df["alloc(B)"].str.strip(), errors='coerce')
             solver_name = file_name.split("_")[0]
             data[solver_name] = df
     return data
@@ -28,7 +29,7 @@ def plot_cumulative_real(data, time_limit=120, save_path=None):
         solved = (times <= time_limit).cumsum()
         x = [0] + list(times[times <= time_limit])
         y = [0] + list(range(1, len(x)))
-        if x[-1] < time_limit:
+        if len(x) > 0 and x[-1] < time_limit:
             x.append(time_limit)
             y.append(y[-1])
         plt.plot(x, y, label=solver)
@@ -36,6 +37,28 @@ def plot_cumulative_real(data, time_limit=120, save_path=None):
     plt.ylim(0, None)
     plt.xlabel("čas [s]")
     plt.ylabel("število rešenih primerov")
+    plt.legend(loc="center left", bbox_to_anchor=(1, 0.5))
+    plt.grid()
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path)
+    plt.show()
+
+def plot_memory_time_real(data, time_limit=120, save_path=None):
+    plt.figure(figsize=(10, 6))
+    colors = ['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple']
+    max_mem = 0
+    for idx, (solver, df) in enumerate(data.items()):
+        times = pd.to_numeric(df["time(s)"], errors='coerce')
+        mems = pd.to_numeric(df["alloc(B)"], errors='coerce') / (1024 * 1024)  # MB
+        mask = (~times.isna()) & (~mems.isna()) & (times <= time_limit)
+        plt.scatter(times[mask], mems[mask], color=colors[idx % len(colors)], label=solver, s=40)
+        if mems[mask].max(skipna=True) > max_mem:
+            max_mem = mems[mask].max(skipna=True)
+    plt.xlim(0, time_limit)
+    plt.ylim(0, max_mem * 1.05 if max_mem > 0 else 1)
+    plt.xlabel("čas [s]")
+    plt.ylabel("poraba pomnilnika [MB]")
     plt.legend(loc="center left", bbox_to_anchor=(1, 0.5))
     plt.grid()
     plt.tight_layout()
@@ -71,8 +94,12 @@ def load_and_process_summary_files(folder_path, graph_type):
                     data[solver_name] = df
     return data
 
-summary_data = load_real_summary_files(folder_path)
-plot_cumulative_real(summary_data, time_limit=120, save_path="real_graphs_triangle.png")
+real_graph_types = ["pentagon", "quatrilateral", "triangle"]
+
+for graph_type in real_graph_types:
+    summary_data = load_real_summary_files(folder_path, graph_type)
+    plot_cumulative_real(summary_data, time_limit=120, save_path=f"{graph_type}.png")
+    plot_memory_time_real(summary_data, time_limit=120, save_path=f"{graph_type}_memory.png")
 
 def plot_cumulative_graph(data, column_to_sort, graph_type, save_path=None):
     plt.figure(figsize=(10, 6))
@@ -112,3 +139,34 @@ for graph_type in graph_types:
     for time_column in time_columns:
         save_name = f"{graph_type}{time_column.split('_')[0]}.png"
         plot_cumulative_graph(summary_data, time_column, graph_type, save_path=save_name)
+
+def plot_memory_time(data, time_column, memory_column, graph_type, save_path=None):
+    plt.figure(figsize=(10, 6))
+    colors = ['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple']
+    max_mem = 0
+    for idx, (solver, df) in enumerate(data.items()):
+        times = pd.to_numeric(df[time_column], errors='coerce')
+        mems = pd.to_numeric(df[memory_column], errors='coerce') / (1024 * 1024)  # Convert to MB
+        mask = (~times.isna()) & (~mems.isna()) & (times <= 60)
+        plt.scatter(times[mask], mems[mask], color=colors[idx % len(colors)], label=solver, s=40)
+        if mems[mask].max(skipna=True) > max_mem:
+            max_mem = mems[mask].max(skipna=True)
+    plt.xlim(0, 60)
+    plt.ylim(0, max_mem * 1.05 if max_mem > 0 else 1)
+    plt.xlabel("čas [s]")
+    plt.ylabel("poraba pomnilnika [MB]")  # Update label to MB
+    plt.legend(loc="center left", bbox_to_anchor=(1, 0.5))
+    plt.grid()
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path)
+    plt.show()
+
+memory_columns = ["10_alloc(B)", "20_alloc(B)", "60_alloc(B)"]
+
+for graph_type in graph_types:
+    summary_data = load_and_process_summary_files(folder_path, graph_type)
+    for time_column, memory_column in zip(time_columns, memory_columns):
+        save_name = f"{graph_type}{time_column.split('_')[0]}_memory.png"
+        plot_memory_time(summary_data, time_column, memory_column, graph_type, save_path=save_name)
+
