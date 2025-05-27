@@ -2,10 +2,10 @@ import os
 import re
 from collections import defaultdict
 
-RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/results pentagon"
-OUTPUT_DIR  = "summariesRealPentagon"
+RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/random_graphs/results 500-50"
+OUTPUT_DIR  = "summariesRandom"
 
-FNAME_RE       = re.compile(r"^(.+?)_(tree|quatrilateral|pentagon|er|scale_free|real)_results\.txt$")
+FNAME_RE       = re.compile(r"^(.+?)_(tree|quatrilateral|pentagon|er|scale_free|real|random)_results\.txt$")
 TIME_RE        = re.compile(r"Done in ([0-9.]+)s")
 TIMEOUT_RE     = re.compile(r"TIMED OUT after [0-9.]+s\s+\(elapsed=([0-9.]+)s\)")
 TOTAL_ALLOC_RE = re.compile(r"total heap usage: [0-9,]+ allocs, [0-9,]+ frees, ([0-9,]+) bytes allocated")
@@ -46,12 +46,10 @@ def main():
         if not m:
             continue
         solver, family = m.group(1), m.group(2)
-        if family != "real":
-            continue
         parsed = parse_real_log(os.path.join(RESULTS_DIR, fn))
-        out_path = os.path.join(OUTPUT_DIR, f"{solver}_real_summary.txt")
+        out_path = os.path.join(OUTPUT_DIR, f"{solver}_{family}_summary.txt")
         with open(out_path, "w") as out:
-            out.write(f"=== Summary for solver: {solver} (real graphs) ===\n\n")
+            out.write(f"=== Summary for solver: {solver} ({family} graphs) ===\n\n")
             hdr = ["graph", "time(s)", "alloc(B)"]
             out.write(" | ".join(hdr) + "\n")
             for graph in sorted(parsed.keys()):
@@ -59,7 +57,7 @@ def main():
                 t = "NaN" if rec["timeout"] or rec["time"] is None else f"{rec['time']:.3f}"
                 m = str(rec["mem"]) if rec["mem"] is not None else "NaN"
                 out.write(f"{graph} | {t} | {m}\n")
-        print(f"Wrote summary for {solver} → {out_path}")
-
+        print(f"Wrote summary for {solver} ({family}) → {out_path}")
+        
 if __name__ == "__main__":
     main()
