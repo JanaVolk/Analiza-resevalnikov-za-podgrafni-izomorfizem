@@ -1,0 +1,490 @@
+=== START LAD (random) ===
+
+[Run] LAD random graph=100_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_100_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/100_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=10_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_10_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/10_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=11_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_11_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/11_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=12_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_12_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/12_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=13_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_13_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/13_random_graph_500.lad
+[Run] Done in 12.44s
+Run completed: 0 solutions; 17 fail nodes; 19 nodes; 12.134808 seconds
+
+[Valgrind] ==19867==     in use at exit: 2,807,508 bytes in 1,779 blocks
+[Valgrind] ==19867==   total heap usage: 1,784 allocs, 5 frees, 2,820,740 bytes allocated
+
+[Run] LAD random graph=14_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_14_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/14_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=15_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_15_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/15_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=16_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_16_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/16_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=17_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_17_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/17_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=18_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_18_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/18_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=19_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_19_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/19_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=1_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_1_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/1_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=20_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_20_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/20_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=21_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_21_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/21_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=22_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_22_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/22_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=23_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_23_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/23_random_graph_500.lad
+[Run] Done in 1.93s
+Run completed: 0 solutions; 1 fail nodes; 1 nodes; 1.648391 seconds
+
+[Valgrind] ==20073==     in use at exit: 2,682,064 bytes in 1,779 blocks
+[Valgrind] ==20073==   total heap usage: 1,784 allocs, 5 frees, 2,695,296 bytes allocated
+
+[Run] LAD random graph=24_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_24_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/24_random_graph_500.lad
+[Run] Done in 9.73s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 9.422661 seconds
+
+[Valgrind] ==20075==     in use at exit: 2,792,128 bytes in 1,779 blocks
+[Valgrind] ==20075==   total heap usage: 1,784 allocs, 5 frees, 2,805,360 bytes allocated
+
+[Run] LAD random graph=25_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_25_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/25_random_graph_500.lad
+[Run] Done in 19.02s
+Run completed: 0 solutions; 25 fail nodes; 27 nodes; 18.714969 seconds
+
+[Valgrind] ==20078==     in use at exit: 2,833,400 bytes in 1,779 blocks
+[Valgrind] ==20078==   total heap usage: 1,784 allocs, 5 frees, 2,846,632 bytes allocated
+
+[Run] LAD random graph=26_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_26_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/26_random_graph_500.lad
+[Run] Done in 3.50s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 3.197279 seconds
+
+[Valgrind] ==20080==     in use at exit: 2,707,228 bytes in 1,779 blocks
+[Valgrind] ==20080==   total heap usage: 1,784 allocs, 5 frees, 2,720,460 bytes allocated
+
+[Run] LAD random graph=27_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_27_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/27_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] LAD random graph=28_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_28_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/28_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=29_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_29_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/29_random_graph_500.lad
+[Run] Done in 2.10s
+Run completed: 0 solutions; 1 fail nodes; 1 nodes; 1.773292 seconds
+
+[Valgrind] ==20125==     in use at exit: 2,671,368 bytes in 1,779 blocks
+[Valgrind] ==20125==   total heap usage: 1,784 allocs, 5 frees, 2,684,600 bytes allocated
+
+[Run] LAD random graph=2_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_2_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/2_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=30_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_30_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/30_random_graph_500.lad
+[Run] Done in 11.52s
+Run completed: 0 solutions; 5 fail nodes; 7 nodes; 11.222951 seconds
+
+[Valgrind] ==20142==     in use at exit: 2,796,656 bytes in 1,779 blocks
+[Valgrind] ==20142==   total heap usage: 1,784 allocs, 5 frees, 2,809,888 bytes allocated
+
+[Run] LAD random graph=31_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_31_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/31_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=32_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_32_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/32_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=33_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_33_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/33_random_graph_500.lad
+[Run] Done in 2.00s
+Run completed: 0 solutions; 0 fail nodes; 1 nodes; 1.688697 seconds
+
+[Valgrind] ==20187==     in use at exit: 2,370,964 bytes in 1,713 blocks
+[Valgrind] ==20187==   total heap usage: 1,718 allocs, 5 frees, 2,384,196 bytes allocated
+
+[Run] LAD random graph=34_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_34_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/34_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=35_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_35_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/35_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=36_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_36_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/36_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.09s)
+
+[Run] LAD random graph=37_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_37_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/37_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=38_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_38_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/38_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=39_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_39_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/39_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=3_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_3_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/3_random_graph_500.lad
+[Run] Done in 15.72s
+Run completed: 0 solutions; 21 fail nodes; 23 nodes; 15.412658 seconds
+
+[Valgrind] ==20324==     in use at exit: 2,809,656 bytes in 1,779 blocks
+[Valgrind] ==20324==   total heap usage: 1,784 allocs, 5 frees, 2,822,888 bytes allocated
+
+[Run] LAD random graph=40_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_40_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/40_random_graph_500.lad
+[Run] Done in 3.75s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 3.473258 seconds
+
+[Valgrind] ==20327==     in use at exit: 2,756,236 bytes in 1,779 blocks
+[Valgrind] ==20327==   total heap usage: 1,784 allocs, 5 frees, 2,769,468 bytes allocated
+
+[Run] LAD random graph=41_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_41_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/41_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=42_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_42_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/42_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=43_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_43_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/43_random_graph_500.lad
+[Run] Done in 27.30s
+Run completed: 0 solutions; 34 fail nodes; 36 nodes; 26.961840 seconds
+
+[Valgrind] ==20368==     in use at exit: 2,827,428 bytes in 1,779 blocks
+[Valgrind] ==20368==   total heap usage: 1,784 allocs, 5 frees, 2,840,660 bytes allocated
+
+[Run] LAD random graph=44_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_44_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/44_random_graph_500.lad
+[Run] Done in 5.78s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 5.487054 seconds
+
+[Valgrind] ==20371==     in use at exit: 2,756,724 bytes in 1,779 blocks
+[Valgrind] ==20371==   total heap usage: 1,784 allocs, 5 frees, 2,769,956 bytes allocated
+
+[Run] LAD random graph=45_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_45_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/45_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=46_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_46_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/46_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=47_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_47_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/47_random_graph_500.lad
+[Run] Done in 1.95s
+Run completed: 0 solutions; 1 fail nodes; 1 nodes; 1.654814 seconds
+
+[Valgrind] ==20417==     in use at exit: 2,683,424 bytes in 1,779 blocks
+[Valgrind] ==20417==   total heap usage: 1,784 allocs, 5 frees, 2,696,656 bytes allocated
+
+[Run] LAD random graph=48_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_48_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/48_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=49_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_49_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/49_random_graph_500.lad
+[Run] Done in 110.22s
+Run completed: 0 solutions; 87 fail nodes; 93 nodes; 109.819341 seconds
+
+[Valgrind] ==20432==     in use at exit: 2,860,068 bytes in 1,779 blocks
+[Valgrind] ==20432==   total heap usage: 1,784 allocs, 5 frees, 2,873,300 bytes allocated
+
+[Run] LAD random graph=4_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_4_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/4_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=50_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_50_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/50_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=51_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_51_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/51_random_graph_500.lad
+[Run] Done in 1.88s
+Run completed: 0 solutions; 1 fail nodes; 1 nodes; 1.576873 seconds
+
+[Valgrind] ==20486==     in use at exit: 2,678,592 bytes in 1,779 blocks
+[Valgrind] ==20486==   total heap usage: 1,784 allocs, 5 frees, 2,691,824 bytes allocated
+
+[Run] LAD random graph=52_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_52_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/52_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=53_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_53_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/53_random_graph_500.lad
+[Run] Done in 6.88s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 6.576125 seconds
+
+[Valgrind] ==20505==     in use at exit: 2,766,192 bytes in 1,779 blocks
+[Valgrind] ==20505==   total heap usage: 1,784 allocs, 5 frees, 2,779,424 bytes allocated
+
+[Run] LAD random graph=54_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_54_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/54_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=55_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_55_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/55_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=56_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_56_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/56_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=57_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_57_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/57_random_graph_500.lad
+[Run] Done in 12.27s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 11.944507 seconds
+
+[Valgrind] ==20559==     in use at exit: 2,792,904 bytes in 1,779 blocks
+[Valgrind] ==20559==   total heap usage: 1,784 allocs, 5 frees, 2,806,136 bytes allocated
+
+[Run] LAD random graph=58_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_58_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/58_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=59_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_59_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/59_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=5_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_5_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/5_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=60_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_60_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/60_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=61_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_61_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/61_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=62_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_62_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/62_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=63_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_63_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/63_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=64_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_64_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/64_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=65_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_65_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/65_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=66_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_66_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/66_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.02s)
+
+[Run] LAD random graph=67_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_67_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/67_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=68_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_68_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/68_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=69_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_69_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/69_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=6_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_6_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/6_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.04s)
+
+[Run] LAD random graph=70_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_70_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/70_random_graph_500.lad
+[Run] Done in 2.06s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 1.764294 seconds
+
+[Valgrind] ==20842==     in use at exit: 2,703,528 bytes in 1,779 blocks
+[Valgrind] ==20842==   total heap usage: 1,784 allocs, 5 frees, 2,716,760 bytes allocated
+
+[Run] LAD random graph=71_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_71_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/71_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=72_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_72_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/72_random_graph_500.lad
+[Run] Done in 10.85s
+Run completed: 0 solutions; 8 fail nodes; 10 nodes; 10.534971 seconds
+
+[Valgrind] ==20857==     in use at exit: 2,783,680 bytes in 1,779 blocks
+[Valgrind] ==20857==   total heap usage: 1,784 allocs, 5 frees, 2,796,912 bytes allocated
+
+[Run] LAD random graph=73_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_73_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/73_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=74_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_74_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/74_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=75_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_75_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/75_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=76_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_76_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/76_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=77_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_77_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/77_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=78_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_78_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/78_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=79_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_79_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/79_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=7_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_7_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/7_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.09s)
+
+[Run] LAD random graph=80_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_80_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/80_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=81_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_81_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/81_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.09s)
+
+[Run] LAD random graph=82_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_82_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/82_random_graph_500.lad
+[Run] Done in 1.88s
+Run completed: 0 solutions; 1 fail nodes; 1 nodes; 1.592267 seconds
+
+[Valgrind] ==21079==     in use at exit: 2,666,036 bytes in 1,779 blocks
+[Valgrind] ==21079==   total heap usage: 1,784 allocs, 5 frees, 2,679,268 bytes allocated
+
+[Run] LAD random graph=83_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_83_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/83_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=84_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_84_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/84_random_graph_500.lad
+[Run] Done in 5.83s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 5.535395 seconds
+
+[Valgrind] ==21094==     in use at exit: 2,748,776 bytes in 1,779 blocks
+[Valgrind] ==21094==   total heap usage: 1,784 allocs, 5 frees, 2,762,008 bytes allocated
+
+[Run] LAD random graph=85_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_85_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/85_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=86_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_86_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/86_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=87_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_87_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/87_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=88_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_88_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/88_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=89_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_89_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/89_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=8_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_8_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/8_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=90_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_90_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/90_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=91_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_91_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/91_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=92_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_92_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/92_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=93_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_93_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/93_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=94_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_94_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/94_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=95_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_95_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/95_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=96_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_96_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/96_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.03s)
+
+[Run] LAD random graph=97_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_97_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/97_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.05s)
+
+[Run] LAD random graph=98_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_98_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/98_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=99_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_99_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/99_random_graph_500.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] LAD random graph=9_random_graph_500.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_LAD_random_9_random_graph_500.lad.log ./main -s 120 -f -i -p ./testRandom/random/subgraph50.lad -t ./testRandom/random/9_random_graph_500.lad
+[Run] Done in 2.38s
+Run completed: 0 solutions; 1 fail nodes; 2 nodes; 2.077110 seconds
+
+[Valgrind] ==21408==     in use at exit: 2,724,832 bytes in 1,779 blocks
+[Valgrind] ==21408==   total heap usage: 1,784 allocs, 5 frees, 2,738,064 bytes allocated
+=== END   LAD (random) ===

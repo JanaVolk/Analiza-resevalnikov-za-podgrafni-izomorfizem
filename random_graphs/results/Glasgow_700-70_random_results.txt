@@ -1,0 +1,1351 @@
+=== START Glasgow (random) ===
+
+[Run] Glasgow random graph=100_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_100_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/100_random_graph_700.lad
+[Run] Done in 24.03s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/100_random_graph_700.lad
+started_at = 2025-06-03 22:11:06
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/100_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 17174
+status = false
+nodes = 2977
+propagations = 9477
+runtime = 17476
+restarts = 4
+shape_graphs = 5
+search_time = 13229
+nogoods_size = 462
+nogoods_lengths = 1:446 2:16
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==18782==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18782==   total heap usage: 71,926 allocs, 71,926 frees, 154,136,197 bytes allocated
+
+[Run] Glasgow random graph=10_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_10_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/10_random_graph_700.lad
+[Run] Done in 43.48s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/10_random_graph_700.lad
+started_at = 2025-06-03 22:11:29
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/10_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 19576
+status = false
+nodes = 8520
+propagations = 25071
+runtime = 38509
+restarts = 8
+shape_graphs = 5
+search_time = 34111
+nogoods_size = 617
+nogoods_lengths = 1:558 2:52 3:6 4:1
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==18807==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18807==   total heap usage: 125,664 allocs, 125,664 frees, 410,979,608 bytes allocated
+
+[Run] Glasgow random graph=11_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_11_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/11_random_graph_700.lad
+[Run] Done in 6.88s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/11_random_graph_700.lad
+started_at = 2025-06-03 22:12:13
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/11_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 6882
+status = false
+nodes = 0
+propagations = 0
+runtime = 2106
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==18855==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18855==   total heap usage: 23,235 allocs, 23,235 frees, 4,288,011 bytes allocated
+
+[Run] Glasgow random graph=12_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_12_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/12_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=13_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_13_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/13_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=14_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_14_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/14_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=15_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_15_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/15_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.04s)
+
+[Run] Glasgow random graph=16_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_16_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/16_random_graph_700.lad
+[Run] Done in 5.79s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/16_random_graph_700.lad
+started_at = 2025-06-03 22:20:20
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/16_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 5236
+status = false
+nodes = 0
+propagations = 0
+runtime = 921
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==20958==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==20958==   total heap usage: 19,425 allocs, 19,425 frees, 3,821,087 bytes allocated
+
+[Run] Glasgow random graph=17_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_17_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/17_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=18_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_18_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/18_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] Glasgow random graph=19_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_19_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/19_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=1_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_1_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/1_random_graph_700.lad
+[Run] Done in 21.30s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/1_random_graph_700.lad
+started_at = 2025-06-03 22:26:26
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/1_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 17502
+status = false
+nodes = 3363
+propagations = 10523
+runtime = 16004
+restarts = 5
+shape_graphs = 5
+search_time = 12027
+nogoods_size = 665
+nogoods_lengths = 1:653 2:12
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21060==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21060==   total heap usage: 76,111 allocs, 76,111 frees, 170,629,685 bytes allocated
+
+[Run] Glasgow random graph=20_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_20_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/20_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=21_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_21_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/21_random_graph_700.lad
+[Run] Done in 6.25s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/21_random_graph_700.lad
+started_at = 2025-06-03 22:28:48
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/21_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 6408
+status = false
+nodes = 0
+propagations = 0
+runtime = 949
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21096==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21096==   total heap usage: 22,097 allocs, 22,097 frees, 4,118,403 bytes allocated
+
+[Run] Glasgow random graph=22_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_22_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/22_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=23_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_23_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/23_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.05s)
+
+[Run] Glasgow random graph=24_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_24_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/24_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=25_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_25_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/25_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=26_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_26_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/26_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=27_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_27_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/27_random_graph_700.lad
+[Run] Done in 55.63s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/27_random_graph_700.lad
+started_at = 2025-06-03 22:38:54
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/27_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 20586
+status = false
+nodes = 13446
+propagations = 38414
+runtime = 50759
+restarts = 14
+shape_graphs = 5
+search_time = 46651
+nogoods_size = 759
+nogoods_lengths = 1:673 2:67 3:17 4:1 5:1
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21230==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21230==   total heap usage: 173,085 allocs, 173,085 frees, 638,509,177 bytes allocated
+
+[Run] Glasgow random graph=28_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_28_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/28_random_graph_700.lad
+[Run] Done in 5.37s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/28_random_graph_700.lad
+started_at = 2025-06-03 22:39:49
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/28_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 7210
+status = false
+nodes = 0
+propagations = 0
+runtime = 1039
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21236==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21236==   total heap usage: 23,835 allocs, 23,835 frees, 4,379,831 bytes allocated
+
+[Run] Glasgow random graph=29_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_29_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/29_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=2_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_2_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/2_random_graph_700.lad
+[Run] Done in 9.44s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/2_random_graph_700.lad
+started_at = 2025-06-03 22:41:55
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/2_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 13274
+status = false
+nodes = 177
+propagations = 889
+runtime = 4627
+restarts = 1
+shape_graphs = 5
+search_time = 1131
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21274==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21274==   total heap usage: 39,258 allocs, 39,258 frees, 21,211,421 bytes allocated
+
+[Run] Glasgow random graph=30_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_30_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/30_random_graph_700.lad
+[Run] Done in 23.83s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/30_random_graph_700.lad
+started_at = 2025-06-03 22:42:04
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/30_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 18066
+status = false
+nodes = 4512
+propagations = 13866
+runtime = 19033
+restarts = 6
+shape_graphs = 5
+search_time = 15137
+nogoods_size = 480
+nogoods_lengths = 1:465 2:15
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21278==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21278==   total heap usage: 86,693 allocs, 86,693 frees, 224,674,503 bytes allocated
+
+[Run] Glasgow random graph=31_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_31_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/31_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=32_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_32_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/32_random_graph_700.lad
+[Run] Done in 76.05s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/32_random_graph_700.lad
+started_at = 2025-06-03 22:44:28
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/32_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 21506
+status = false
+nodes = 18972
+propagations = 52696
+runtime = 70982
+restarts = 15
+shape_graphs = 5
+search_time = 66445
+nogoods_size = 597
+nogoods_lengths = 1:449 2:120 3:24 4:4
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21303==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21303==   total heap usage: 221,290 allocs, 221,290 frees, 877,523,258 bytes allocated
+
+[Run] Glasgow random graph=33_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_33_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/33_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.04s)
+
+[Run] Glasgow random graph=34_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_34_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/34_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.01s)
+
+[Run] Glasgow random graph=35_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_35_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/35_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=36_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_36_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/36_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=37_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_37_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/37_random_graph_700.lad
+[Run] Done in 52.37s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/37_random_graph_700.lad
+started_at = 2025-06-03 22:53:46
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/37_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 20346
+status = false
+nodes = 11389
+propagations = 32817
+runtime = 46243
+restarts = 12
+shape_graphs = 5
+search_time = 41638
+nogoods_size = 767
+nogoods_lengths = 1:685 2:65 3:15 5:2
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21417==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21417==   total heap usage: 153,688 allocs, 153,688 frees, 543,180,181 bytes allocated
+
+[Run] Glasgow random graph=38_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_38_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/38_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=39_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_39_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/39_random_graph_700.lad
+[Run] Done in 60.12s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/39_random_graph_700.lad
+started_at = 2025-06-03 22:56:37
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/39_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 20846
+status = false
+nodes = 13680
+propagations = 38644
+runtime = 54950
+restarts = 14
+shape_graphs = 5
+search_time = 50051
+nogoods_size = 725
+nogoods_lengths = 1:624 2:85 3:15 4:1
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21450==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21450==   total heap usage: 173,532 allocs, 173,532 frees, 640,739,845 bytes allocated
+
+[Run] Glasgow random graph=3_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_3_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/3_random_graph_700.lad
+[Run] Done in 10.25s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/3_random_graph_700.lad
+started_at = 2025-06-03 22:57:37
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/3_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 14474
+status = false
+nodes = 450
+propagations = 1813
+runtime = 5476
+restarts = 1
+shape_graphs = 5
+search_time = 1968
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21464==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21464==   total heap usage: 44,234 allocs, 44,234 frees, 35,706,673 bytes allocated
+
+[Run] Glasgow random graph=40_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_40_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/40_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=41_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_41_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/41_random_graph_700.lad
+[Run] Done in 9.13s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/41_random_graph_700.lad
+started_at = 2025-06-03 22:59:48
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/41_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 11922
+status = false
+nodes = 50
+propagations = 380
+runtime = 3993
+restarts = 1
+shape_graphs = 5
+search_time = 580
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21496==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21496==   total heap usage: 35,005 allocs, 35,005 frees, 12,844,827 bytes allocated
+
+[Run] Glasgow random graph=42_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_42_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/42_random_graph_700.lad
+[Run] Done in 7.31s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/42_random_graph_700.lad
+started_at = 2025-06-03 22:59:57
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/42_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 8402
+status = false
+nodes = 1
+propagations = 5
+runtime = 2735
+restarts = 1
+shape_graphs = 5
+search_time = 153
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21500==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21500==   total heap usage: 26,430 allocs, 26,430 frees, 6,050,623 bytes allocated
+
+[Run] Glasgow random graph=43_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_43_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/43_random_graph_700.lad
+[Run] Done in 9.55s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/43_random_graph_700.lad
+started_at = 2025-06-03 23:00:04
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/43_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 13428
+status = false
+nodes = 233
+propagations = 1087
+runtime = 4788
+restarts = 1
+shape_graphs = 5
+search_time = 1289
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21503==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21503==   total heap usage: 40,177 allocs, 40,177 frees, 24,079,359 bytes allocated
+
+[Run] Glasgow random graph=44_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_44_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/44_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=45_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_45_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/45_random_graph_700.lad
+[Run] Done in 11.05s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/45_random_graph_700.lad
+started_at = 2025-06-03 23:02:14
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/45_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 14660
+status = false
+nodes = 609
+propagations = 2273
+runtime = 6234
+restarts = 1
+shape_graphs = 5
+search_time = 2578
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21543==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21543==   total heap usage: 45,896 allocs, 45,896 frees, 42,796,767 bytes allocated
+
+[Run] Glasgow random graph=46_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_46_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/46_random_graph_700.lad
+[Run] Done in 10.12s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/46_random_graph_700.lad
+started_at = 2025-06-03 23:02:25
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/46_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 14014
+status = false
+nodes = 324
+propagations = 1392
+runtime = 5307
+restarts = 1
+shape_graphs = 5
+search_time = 1677
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21547==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21547==   total heap usage: 42,237 allocs, 42,237 frees, 29,246,211 bytes allocated
+
+[Run] Glasgow random graph=47_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_47_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/47_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=48_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_48_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/48_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.02s)
+
+[Run] Glasgow random graph=49_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_49_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/49_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=4_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_4_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/4_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=50_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_50_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/50_random_graph_700.lad
+[Run] Done in 28.03s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/50_random_graph_700.lad
+started_at = 2025-06-03 23:10:37
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/50_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 18072
+status = false
+nodes = 4008
+propagations = 12423
+runtime = 20932
+restarts = 6
+shape_graphs = 5
+search_time = 16094
+nogoods_size = 704
+nogoods_lengths = 1:690 2:11 3:3
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21640==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21640==   total heap usage: 82,838 allocs, 82,838 frees, 200,963,893 bytes allocated
+
+[Run] Glasgow random graph=51_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_51_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/51_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=52_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_52_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/52_random_graph_700.lad
+[Run] Done in 9.87s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/52_random_graph_700.lad
+started_at = 2025-06-03 23:13:03
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/52_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 12302
+status = false
+nodes = 81
+propagations = 488
+runtime = 4855
+restarts = 1
+shape_graphs = 5
+search_time = 691
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21671==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21671==   total heap usage: 36,062 allocs, 36,062 frees, 14,750,475 bytes allocated
+
+[Run] Glasgow random graph=53_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_53_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/53_random_graph_700.lad
+[Run] Done in 8.73s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/53_random_graph_700.lad
+started_at = 2025-06-03 23:13:14
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/53_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 9770
+status = false
+nodes = 6
+propagations = 73
+runtime = 3320
+restarts = 1
+shape_graphs = 5
+search_time = 337
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21675==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21675==   total heap usage: 29,475 allocs, 29,475 frees, 7,405,887 bytes allocated
+
+[Run] Glasgow random graph=54_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_54_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/54_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=55_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_55_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/55_random_graph_700.lad
+[Run] Done in 8.43s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/55_random_graph_700.lad
+started_at = 2025-06-03 23:15:23
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/55_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 7512
+status = false
+nodes = 1
+propagations = 5
+runtime = 2830
+restarts = 1
+shape_graphs = 5
+search_time = 153
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21707==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21707==   total heap usage: 24,547 allocs, 24,547 frees, 5,706,411 bytes allocated
+
+[Run] Glasgow random graph=56_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_56_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/56_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=57_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_57_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/57_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=58_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_58_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/58_random_graph_700.lad
+[Run] Done in 52.92s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/58_random_graph_700.lad
+started_at = 2025-06-03 23:19:32
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/58_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 19960
+status = false
+nodes = 10062
+propagations = 29468
+runtime = 44825
+restarts = 10
+shape_graphs = 5
+search_time = 39232
+nogoods_size = 607
+nogoods_lengths = 1:557 2:35 3:13 4:1 5:1
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21757==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21757==   total heap usage: 140,734 allocs, 140,734 frees, 484,631,505 bytes allocated
+
+[Run] Glasgow random graph=59_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_59_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/59_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.08s)
+
+[Run] Glasgow random graph=5_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_5_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/5_random_graph_700.lad
+[Run] Done in 20.61s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/5_random_graph_700.lad
+started_at = 2025-06-03 23:22:23
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/5_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 17340
+status = false
+nodes = 3072
+propagations = 9694
+runtime = 15676
+restarts = 4
+shape_graphs = 5
+search_time = 11645
+nogoods_size = 441
+nogoods_lengths = 1:429 2:12
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21780==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21780==   total heap usage: 72,667 allocs, 72,667 frees, 157,253,085 bytes allocated
+
+[Run] Glasgow random graph=60_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_60_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/60_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=61_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_61_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/61_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.01s)
+
+[Run] Glasgow random graph=62_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_62_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/62_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=63_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_63_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/63_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=64_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_64_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/64_random_graph_700.lad
+[Run] Done in 9.61s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/64_random_graph_700.lad
+started_at = 2025-06-03 23:30:44
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/64_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 14142
+status = false
+nodes = 340
+propagations = 1420
+runtime = 5098
+restarts = 1
+shape_graphs = 5
+search_time = 1651
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21906==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21906==   total heap usage: 42,554 allocs, 42,554 frees, 29,695,015 bytes allocated
+
+[Run] Glasgow random graph=65_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_65_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/65_random_graph_700.lad
+[Run] Done in 8.84s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/65_random_graph_700.lad
+started_at = 2025-06-03 23:30:54
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/65_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 12992
+status = false
+nodes = 148
+propagations = 753
+runtime = 4287
+restarts = 1
+shape_graphs = 5
+search_time = 903
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21910==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21910==   total heap usage: 38,332 allocs, 38,332 frees, 19,097,047 bytes allocated
+
+[Run] Glasgow random graph=66_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_66_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/66_random_graph_700.lad
+[Run] Done in 7.27s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/66_random_graph_700.lad
+started_at = 2025-06-03 23:31:03
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/66_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 9022
+status = false
+nodes = 1
+propagations = 34
+runtime = 2864
+restarts = 1
+shape_graphs = 5
+search_time = 169
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21913==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21913==   total heap usage: 27,895 allocs, 27,895 frees, 6,649,167 bytes allocated
+
+[Run] Glasgow random graph=67_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_67_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/67_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=68_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_68_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/68_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=69_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_69_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/69_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=6_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_6_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/6_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=70_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_70_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/70_random_graph_700.lad
+[Run] Done in 7.18s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/70_random_graph_700.lad
+started_at = 2025-06-03 23:39:11
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/70_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 7522
+status = false
+nodes = 1
+propagations = 4
+runtime = 2528
+restarts = 1
+shape_graphs = 5
+search_time = 154
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==21998==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==21998==   total heap usage: 24,536 allocs, 24,536 frees, 5,694,075 bytes allocated
+
+[Run] Glasgow random graph=71_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_71_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/71_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=72_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_72_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/72_random_graph_700.lad
+[Run] Done in 28.78s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/72_random_graph_700.lad
+started_at = 2025-06-03 23:41:18
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/72_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 18664
+status = false
+nodes = 5746
+propagations = 17319
+runtime = 23907
+restarts = 7
+shape_graphs = 5
+search_time = 20056
+nogoods_size = 548
+nogoods_lengths = 1:522 2:22 3:4
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22033==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22033==   total heap usage: 98,768 allocs, 98,768 frees, 281,482,189 bytes allocated
+
+[Run] Glasgow random graph=73_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_73_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/73_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=74_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_74_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/74_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=75_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_75_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/75_random_graph_700.lad
+[Run] Done in 8.75s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/75_random_graph_700.lad
+started_at = 2025-06-03 23:45:47
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/75_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 9212
+status = false
+nodes = 2
+propagations = 34
+runtime = 3674
+restarts = 1
+shape_graphs = 5
+search_time = 187
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22084==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22084==   total heap usage: 28,194 allocs, 28,194 frees, 6,716,467 bytes allocated
+
+[Run] Glasgow random graph=76_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_76_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/76_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=77_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_77_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/77_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=78_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_78_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/78_random_graph_700.lad
+[Run] Done in 5.67s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/78_random_graph_700.lad
+started_at = 2025-06-03 23:49:56
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/78_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 5968
+status = false
+nodes = 0
+propagations = 0
+runtime = 989
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22130==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22130==   total heap usage: 21,152 allocs, 21,152 frees, 4,006,503 bytes allocated
+
+[Run] Glasgow random graph=79_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_79_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/79_random_graph_700.lad
+[Run] Done in 9.17s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/79_random_graph_700.lad
+started_at = 2025-06-03 23:50:02
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/79_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 11642
+status = false
+nodes = 27
+propagations = 288
+runtime = 3781
+restarts = 1
+shape_graphs = 5
+search_time = 482
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22134==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22134==   total heap usage: 34,164 allocs, 34,164 frees, 11,379,431 bytes allocated
+
+[Run] Glasgow random graph=7_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_7_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/7_random_graph_700.lad
+[Run] Done in 80.64s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/7_random_graph_700.lad
+started_at = 2025-06-03 23:50:11
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/7_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 21564
+status = false
+nodes = 19667
+propagations = 54273
+runtime = 75462
+restarts = 15
+shape_graphs = 5
+search_time = 70984
+nogoods_size = 601
+nogoods_lengths = 1:426 2:155 3:14 4:6
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22140==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22140==   total heap usage: 227,261 allocs, 227,261 frees, 905,881,292 bytes allocated
+
+[Run] Glasgow random graph=80_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_80_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/80_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=81_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_81_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/81_random_graph_700.lad
+[Run] Done in 7.30s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/81_random_graph_700.lad
+started_at = 2025-06-03 23:53:31
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/81_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 8354
+status = false
+nodes = 1
+propagations = 10
+runtime = 2760
+restarts = 1
+shape_graphs = 5
+search_time = 157
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22170==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22170==   total heap usage: 26,409 allocs, 26,409 frees, 6,087,667 bytes allocated
+
+[Run] Glasgow random graph=82_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_82_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/82_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=83_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_83_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/83_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=84_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_84_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/84_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.06s)
+
+[Run] Glasgow random graph=85_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_85_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/85_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=86_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_86_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/86_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=87_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_87_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/87_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=88_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_88_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/88_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=89_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_89_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/89_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.08s)
+
+[Run] Glasgow random graph=8_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_8_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/8_random_graph_700.lad
+[Run] Done in 14.49s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/8_random_graph_700.lad
+started_at = 2025-06-04 00:09:41
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/8_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 11282
+status = false
+nodes = 20
+propagations = 217
+runtime = 7052
+restarts = 1
+shape_graphs = 5
+search_time = 679
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22429==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22429==   total heap usage: 33,080 allocs, 33,080 frees, 10,055,337 bytes allocated
+
+[Run] Glasgow random graph=90_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_90_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/90_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=91_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_91_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/91_random_graph_700.lad
+[Run] Done in 8.42s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/91_random_graph_700.lad
+started_at = 2025-06-04 00:11:54
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/91_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 11718
+status = false
+nodes = 33
+propagations = 292
+runtime = 3761
+restarts = 1
+shape_graphs = 5
+search_time = 474
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22455==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22455==   total heap usage: 34,277 allocs, 34,277 frees, 11,430,187 bytes allocated
+
+[Run] Glasgow random graph=92_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_92_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/92_random_graph_700.lad
+[Run] Done in 9.14s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/92_random_graph_700.lad
+started_at = 2025-06-04 00:12:02
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/92_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 12932
+status = false
+nodes = 140
+propagations = 732
+runtime = 4421
+restarts = 1
+shape_graphs = 5
+search_time = 984
+nogoods_size = 0
+nogoods_lengths =
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22459==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22459==   total heap usage: 38,214 allocs, 38,214 frees, 18,909,115 bytes allocated
+
+[Run] Glasgow random graph=93_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_93_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/93_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=94_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_94_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/94_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=95_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_95_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/95_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=96_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_96_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/96_random_graph_700.lad
+[Run] Done in 7.88s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/96_random_graph_700.lad
+started_at = 2025-06-04 00:18:14
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/96_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 7168
+status = false
+nodes = 0
+propagations = 0
+runtime = 1052
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22531==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22531==   total heap usage: 23,682 allocs, 23,682 frees, 4,367,151 bytes allocated
+
+[Run] Glasgow random graph=97_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_97_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/97_random_graph_700.lad
+[Run] Done in 23.06s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/97_random_graph_700.lad
+started_at = 2025-06-04 00:18:20
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/97_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 17434
+status = false
+nodes = 3362
+propagations = 10625
+runtime = 17548
+restarts = 5
+shape_graphs = 5
+search_time = 13323
+nogoods_size = 656
+nogoods_lengths = 1:641 2:15
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22535==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22535==   total heap usage: 76,289 allocs, 76,289 frees, 172,326,451 bytes allocated
+
+[Run] Glasgow random graph=98_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_98_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/98_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] Glasgow random graph=99_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_99_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/99_random_graph_700.lad
+[Run] Done in 7.24s
+hostname = jana
+commandline = ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/99_random_graph_700.lad
+started_at = 2025-06-04 00:20:44
+pattern_file = ./testRandom/random/subgraph70.lad
+target_file = ./testRandom/random/99_random_graph_700.lad
+pattern_properties =
+pattern_vertices = 70
+pattern_directed_edges = 378
+target_properties =
+target_vertices = 700
+target_directed_edges = 6926
+status = false
+nodes = 0
+propagations = 0
+runtime = 1163
+supplemental_graph_names = original exact_path_1 exact_path_2 exact_path_3 exact_path_4
+
+[Valgrind] ==22566==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==22566==   total heap usage: 23,285 allocs, 23,285 frees, 4,299,875 bytes allocated
+
+[Run] Glasgow random graph=9_random_graph_700.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_Glasgow_random_9_random_graph_700.lad.log ./build/glasgow_subgraph_solver --timeout 120 --induced --format lad ./testRandom/random/subgraph70.lad ./testRandom/random/9_random_graph_700.lad
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+=== END   Glasgow (random) ===

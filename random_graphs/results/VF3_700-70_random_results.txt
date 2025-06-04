@@ -1,0 +1,486 @@
+=== START VF3 (random) ===
+
+[Run] VF3 random graph=100_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_100_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/100_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=10_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_10_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/10_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=11_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_11_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/11_random_graph_700.grf
+[Run] Done in 43.61s
+0 3.50723 3.50723
+
+[Valgrind] ==27030==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==27030==   total heap usage: 18,181 allocs, 18,111 frees, 929,228 bytes allocated
+
+[Run] VF3 random graph=12_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_12_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/12_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=13_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_13_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/13_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] VF3 random graph=14_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_14_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/14_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] VF3 random graph=15_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_15_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/15_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=16_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_16_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/16_random_graph_700.grf
+[Run] Done in 43.82s
+0 1.39026 1.39026
+
+[Valgrind] ==27139==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==27139==   total heap usage: 14,885 allocs, 14,815 frees, 780,848 bytes allocated
+
+[Run] VF3 random graph=17_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_17_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/17_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] VF3 random graph=18_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_18_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/18_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] VF3 random graph=19_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_19_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/19_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=1_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_1_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/1_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=20_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_20_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/20_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=21_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_21_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/21_random_graph_700.grf
+[Run] Done in 48.05s
+0 3.79006 3.79006
+
+[Valgrind] ==27271==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==27271==   total heap usage: 17,233 allocs, 17,163 frees, 886,472 bytes allocated
+
+[Run] VF3 random graph=22_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_22_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/22_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=23_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_23_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/23_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] VF3 random graph=24_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_24_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/24_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=25_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_25_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/25_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=26_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_26_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/26_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=27_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_27_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/27_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=28_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_28_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/28_random_graph_700.grf
+[Run] Done in 46.34s
+0 4.27723 4.27723
+
+[Valgrind] ==27411==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==27411==   total heap usage: 18,837 allocs, 18,767 frees, 958,796 bytes allocated
+
+[Run] VF3 random graph=29_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_29_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/29_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=2_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_2_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/2_random_graph_700.grf
+[Run] Done in 98.09s
+0 54.547 54.547
+
+[Valgrind] ==27975==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==27975==   total heap usage: 30,965 allocs, 30,895 frees, 1,505,084 bytes allocated
+
+[Run] VF3 random graph=30_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_30_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/30_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] VF3 random graph=31_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_31_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/31_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=32_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_32_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/32_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] VF3 random graph=33_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_33_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/33_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=34_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_34_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/34_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=35_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_35_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/35_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=36_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_36_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/36_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=37_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_37_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/37_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=38_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_38_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/38_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] VF3 random graph=39_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_39_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/39_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=3_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_3_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/3_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] VF3 random graph=40_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_40_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/40_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=41_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_41_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/41_random_graph_700.grf
+[Run] Done in 81.96s
+0 34.9648 34.9648
+
+[Valgrind] ==28291==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==28291==   total heap usage: 28,261 allocs, 28,191 frees, 1,383,308 bytes allocated
+
+[Run] VF3 random graph=42_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_42_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/42_random_graph_700.grf
+[Run] Done in 53.13s
+0 7.18752 7.18752
+
+[Valgrind] ==28315==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==28315==   total heap usage: 21,221 allocs, 21,151 frees, 1,066,172 bytes allocated
+
+[Run] VF3 random graph=43_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_43_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/43_random_graph_700.grf
+[Run] Done in 100.31s
+0 45.0101 45.0101
+
+[Valgrind] ==28318==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==28318==   total heap usage: 31,273 allocs, 31,203 frees, 1,518,800 bytes allocated
+
+[Run] VF3 random graph=44_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_44_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/44_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] VF3 random graph=45_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_45_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/45_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=46_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_46_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/46_random_graph_700.grf
+[Run] Done in 111.38s
+0 55.0098 55.0098
+
+[Valgrind] ==28411==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==28411==   total heap usage: 32,445 allocs, 32,375 frees, 1,571,780 bytes allocated
+
+[Run] VF3 random graph=47_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_47_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/47_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] VF3 random graph=48_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_48_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/48_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.18s)
+
+[Run] VF3 random graph=49_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_49_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/49_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=122.27s)
+
+[Run] VF3 random graph=4_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_4_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/4_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=125.93s)
+
+[Run] VF3 random graph=50_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_50_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/50_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.26s)
+
+[Run] VF3 random graph=51_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_51_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/51_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=121.12s)
+
+[Run] VF3 random graph=52_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_52_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/52_random_graph_700.grf
+[Run] Done in 108.63s
+0 44.9105 44.9105
+
+[Valgrind] ==29241==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==29241==   total heap usage: 29,021 allocs, 28,951 frees, 1,417,412 bytes allocated
+
+[Run] VF3 random graph=53_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_53_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/53_random_graph_700.grf
+[Run] Done in 60.34s
+0 14.4684 14.4684
+
+[Valgrind] ==29270==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==29270==   total heap usage: 23,957 allocs, 23,887 frees, 1,189,532 bytes allocated
+
+[Run] VF3 random graph=54_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_54_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/54_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] VF3 random graph=55_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_55_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/55_random_graph_700.grf
+[Run] Done in 62.87s
+0 4.11334 4.11334
+
+[Valgrind] ==29312==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==29312==   total heap usage: 19,441 allocs, 19,371 frees, 985,880 bytes allocated
+
+[Run] VF3 random graph=56_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_56_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/56_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.27s)
+
+[Run] VF3 random graph=57_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_57_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/57_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.26s)
+
+[Run] VF3 random graph=58_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_58_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/58_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] VF3 random graph=59_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_59_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/59_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.19s)
+
+[Run] VF3 random graph=5_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_5_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/5_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.21s)
+
+[Run] VF3 random graph=60_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_60_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/60_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=141.65s)
+
+[Run] VF3 random graph=61_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_61_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/61_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=124.55s)
+
+[Run] VF3 random graph=62_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_62_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/62_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.29s)
+
+[Run] VF3 random graph=63_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_63_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/63_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.55s)
+
+[Run] VF3 random graph=64_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_64_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/64_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.05s)
+
+[Run] VF3 random graph=65_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_65_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/65_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.22s)
+
+[Run] VF3 random graph=66_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_66_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/66_random_graph_700.grf
+[Run] Done in 95.27s
+0 13.0973 13.0973
+
+[Valgrind] ==29656==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==29656==   total heap usage: 22,461 allocs, 22,391 frees, 1,122,020 bytes allocated
+
+[Run] VF3 random graph=67_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_67_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/67_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.17s)
+
+[Run] VF3 random graph=68_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_68_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/68_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=134.41s)
+
+[Run] VF3 random graph=69_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_69_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/69_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=141.72s)
+
+[Run] VF3 random graph=6_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_6_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/6_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=124.02s)
+
+[Run] VF3 random graph=70_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_70_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/70_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.26s)
+
+[Run] VF3 random graph=71_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_71_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/71_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.23s)
+
+[Run] VF3 random graph=72_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_72_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/72_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.17s)
+
+[Run] VF3 random graph=73_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_73_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/73_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=162.36s)
+
+[Run] VF3 random graph=74_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_74_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/74_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=345.03s)
+
+[Run] VF3 random graph=75_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_75_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/75_random_graph_700.grf
+[Run] Done in 74.74s
+0 13.553 13.553
+
+[Valgrind] ==30119==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==30119==   total heap usage: 22,841 allocs, 22,771 frees, 1,139,168 bytes allocated
+
+[Run] VF3 random graph=76_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_76_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/76_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.21s)
+
+[Run] VF3 random graph=77_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_77_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/77_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] VF3 random graph=78_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_78_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/78_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.36s)
+
+[Run] VF3 random graph=79_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_79_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/79_random_graph_700.grf
+[Run] Done in 88.86s
+0 25.2755 25.2755
+
+[Valgrind] ==30206==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==30206==   total heap usage: 27,701 allocs, 27,631 frees, 1,358,012 bytes allocated
+
+[Run] VF3 random graph=7_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_7_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/7_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=80_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_80_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/80_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=81_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_81_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/81_random_graph_700.grf
+[Run] Done in 60.55s
+0 7.97367 7.97367
+
+[Valgrind] ==30299==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==30299==   total heap usage: 21,125 allocs, 21,055 frees, 1,061,756 bytes allocated
+
+[Run] VF3 random graph=82_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_82_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/82_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] VF3 random graph=83_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_83_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/83_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=84_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_84_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/84_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.23s)
+
+[Run] VF3 random graph=85_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_85_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/85_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=172.67s)
+
+[Run] VF3 random graph=86_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_86_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/86_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=133.72s)
+
+[Run] VF3 random graph=87_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_87_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/87_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.21s)
+
+[Run] VF3 random graph=88_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_88_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/88_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=142.08s)
+
+[Run] VF3 random graph=89_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_89_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/89_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=155.15s)
+
+[Run] VF3 random graph=8_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_8_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/8_random_graph_700.grf
+[Run] Done in 97.23s
+0 22.7631 22.7631
+
+[Valgrind] ==30851==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==30851==   total heap usage: 26,981 allocs, 26,911 frees, 1,325,612 bytes allocated
+
+[Run] VF3 random graph=90_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_90_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/90_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.23s)
+
+[Run] VF3 random graph=91_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_91_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/91_random_graph_700.grf
+[Run] Done in 100.24s
+0 33.4756 33.4756
+
+[Valgrind] ==30882==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==30882==   total heap usage: 27,853 allocs, 27,783 frees, 1,364,852 bytes allocated
+
+[Run] VF3 random graph=92_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_92_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/92_random_graph_700.grf
+[Run] Done in 113.79s
+0 53.6266 53.6266
+
+[Valgrind] ==30897==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==30897==   total heap usage: 30,281 allocs, 30,211 frees, 1,474,304 bytes allocated
+
+[Run] VF3 random graph=93_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_93_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/93_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] VF3 random graph=94_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_94_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/94_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] VF3 random graph=95_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_95_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/95_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] VF3 random graph=96_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_96_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/96_random_graph_700.grf
+[Run] Done in 64.62s
+0 5.60707 5.60707
+
+[Valgrind] ==31010==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==31010==   total heap usage: 18,753 allocs, 18,683 frees, 954,968 bytes allocated
+
+[Run] VF3 random graph=97_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_97_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/97_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.18s)
+
+[Run] VF3 random graph=98_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_98_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/98_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=121.62s)
+
+[Run] VF3 random graph=99_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_99_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/99_random_graph_700.grf
+[Run] Done in 68.68s
+0 4.73236 4.73236
+
+[Valgrind] ==31196==     in use at exit: 2,240 bytes in 70 blocks
+[Valgrind] ==31196==   total heap usage: 18,269 allocs, 18,199 frees, 933,284 bytes allocated
+
+[Run] VF3 random graph=9_random_graph_700.grf
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_VF3_random_9_random_graph_700.grf.log ./bin/vf3 -u ./testRandom/random/subgraph70.sub.grf ./testRandom/random/9_random_graph_700.grf
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+=== END   VF3 (random) ===
