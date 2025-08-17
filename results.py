@@ -2,8 +2,8 @@ import os
 import re
 from collections import defaultdict
 
-RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/random_graphs/results 700-70"
-OUTPUT_DIR  = "summariesRandom700-70"
+RESULTS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/random_graphs/results 1000-100"
+OUTPUT_DIR  = "summariesRandom1000-100"
 
 FNAME_RE       = re.compile(r"^(.+?)_(tree|quatrilateral|pentagon|er|scale_free|real|random)_results\.txt$")
 TIME_RE        = re.compile(r"Done in ([0-9.]+)s")
