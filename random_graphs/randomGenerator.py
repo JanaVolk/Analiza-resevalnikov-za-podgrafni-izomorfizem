@@ -59,7 +59,7 @@ def export_graph_vf3(G, file_path, node_attr='label', default_node_attr=1):
 
 if __name__ == "__main__":
     num_graphs = 100
-    n1, n2 = 700, 70
+    n1, n2 = 1000, 100
 
     lad_dir = "LAD"
     ri_dir = "RI"
@@ -70,19 +70,19 @@ if __name__ == "__main__":
 
     p_sub = random.uniform(0.01, 0.1)
     G_sub = generate_random_graph(n2, p_sub)
-    export_graph_lad(G_sub, os.path.join(lad_dir, "subgraph70.lad"))
-    export_graph_ri(G_sub, os.path.join(ri_dir, "subgraph70.gfu"), "#query")
-    export_graph_vf3(G_sub, os.path.join(vf3_dir, "subgraph70.sub.grf"))
+    export_graph_lad(G_sub, os.path.join(lad_dir, "subgraph100.lad"))
+    export_graph_ri(G_sub, os.path.join(ri_dir, "subgraph100.gfu"), "#query")
+    export_graph_vf3(G_sub, os.path.join(vf3_dir, "subgraph100.sub.grf"))
 
     for i in range(1, num_graphs + 1):
         p1 = random.uniform(0.01, 0.1)
         G1 = generate_random_graph(n1, p1)
 
         # LAD format
-        export_graph_lad(G1, os.path.join(lad_dir, f"{i}_random_graph_700.lad"))
+        export_graph_lad(G1, os.path.join(lad_dir, f"{i}_random_graph_1000.lad"))
 
         # RI format
-        export_graph_ri(G1, os.path.join(ri_dir, f"{i}_random_graph_700.gfu"), "#data")
+        export_graph_ri(G1, os.path.join(ri_dir, f"{i}_random_graph_1000.gfu"), "#data")
 
         # VF3 format
-        export_graph_vf3(G1, os.path.join(vf3_dir, f"{i}_random_graph_700.grf"))
+        export_graph_vf3(G1, os.path.join(vf3_dir, f"{i}_random_graph_1000.grf"))

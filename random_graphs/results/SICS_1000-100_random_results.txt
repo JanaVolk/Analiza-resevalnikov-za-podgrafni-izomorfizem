@@ -1,0 +1,462 @@
+=== START SICS (random) ===
+
+[Run] SICS random graph=100_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_100_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/100_random_graph_1000.lad
+[Run] Done in 98.06s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 31417 ms
+
+[Valgrind] ==17964==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==17964==   total heap usage: 21,221 allocs, 21,221 frees, 1,976,456 bytes allocated
+
+[Run] SICS random graph=10_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_10_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/10_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] SICS random graph=11_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_11_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/11_random_graph_1000.lad
+[Run] Done in 102.68s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 34348 ms
+
+[Valgrind] ==18010==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18010==   total heap usage: 21,817 allocs, 21,817 frees, 2,018,696 bytes allocated
+
+[Run] SICS random graph=12_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_12_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/12_random_graph_1000.lad
+[Run] Done in 72.81s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 12462 ms
+
+[Valgrind] ==18025==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18025==   total heap usage: 21,517 allocs, 21,517 frees, 1,995,656 bytes allocated
+
+[Run] SICS random graph=13_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_13_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/13_random_graph_1000.lad
+[Run] Done in 111.26s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 52870 ms
+
+[Valgrind] ==18044==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18044==   total heap usage: 22,089 allocs, 22,089 frees, 2,046,856 bytes allocated
+
+[Run] SICS random graph=14_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_14_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/14_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] SICS random graph=15_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_15_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/15_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] SICS random graph=16_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_16_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/16_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=133.10s)
+
+[Run] SICS random graph=17_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_17_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/17_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=139.58s)
+
+[Run] SICS random graph=18_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_18_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/18_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.39s)
+
+[Run] SICS random graph=19_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_19_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/19_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] SICS random graph=1_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_1_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/1_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.23s)
+
+[Run] SICS random graph=20_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_20_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/20_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] SICS random graph=21_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_21_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/21_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.46s)
+
+[Run] SICS random graph=22_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_22_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/22_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.31s)
+
+[Run] SICS random graph=23_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_23_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/23_random_graph_1000.lad
+[Run] Done in 81.04s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 19697 ms
+
+[Valgrind] ==18310==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18310==   total heap usage: 21,519 allocs, 21,519 frees, 1,995,592 bytes allocated
+
+[Run] SICS random graph=24_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_24_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/24_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] SICS random graph=25_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_25_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/25_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] SICS random graph=26_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_26_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/26_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.18s)
+
+[Run] SICS random graph=27_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_27_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/27_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] SICS random graph=28_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_28_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/28_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.27s)
+
+[Run] SICS random graph=29_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_29_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/29_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.30s)
+
+[Run] SICS random graph=2_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_2_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/2_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] SICS random graph=30_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_30_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/30_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=121.69s)
+
+[Run] SICS random graph=31_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_31_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/31_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=122.40s)
+
+[Run] SICS random graph=32_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_32_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/32_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.21s)
+
+[Run] SICS random graph=33_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_33_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/33_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.19s)
+
+[Run] SICS random graph=34_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_34_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/34_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] SICS random graph=35_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_35_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/35_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.28s)
+
+[Run] SICS random graph=36_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_36_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/36_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.31s)
+
+[Run] SICS random graph=37_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_37_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/37_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.24s)
+
+[Run] SICS random graph=38_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_38_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/38_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] SICS random graph=39_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_39_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/39_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] SICS random graph=3_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_3_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/3_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] SICS random graph=40_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_40_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/40_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.30s)
+
+[Run] SICS random graph=41_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_41_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/41_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.18s)
+
+[Run] SICS random graph=42_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_42_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/42_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=121.99s)
+
+[Run] SICS random graph=43_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_43_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/43_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=123.16s)
+
+[Run] SICS random graph=44_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_44_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/44_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.22s)
+
+[Run] SICS random graph=45_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_45_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/45_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.18s)
+
+[Run] SICS random graph=46_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_46_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/46_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.23s)
+
+[Run] SICS random graph=47_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_47_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/47_random_graph_1000.lad
+[Run] Done in 76.29s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 15633 ms
+
+[Valgrind] ==18876==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==18876==   total heap usage: 20,509 allocs, 20,509 frees, 1,932,904 bytes allocated
+
+[Run] SICS random graph=48_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_48_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/48_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] SICS random graph=49_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_49_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/49_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.07s)
+
+[Run] SICS random graph=4_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_4_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/4_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.26s)
+
+[Run] SICS random graph=50_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_50_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/50_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=124.40s)
+
+[Run] SICS random graph=51_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_51_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/51_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.88s)
+
+[Run] SICS random graph=52_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_52_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/52_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=121.19s)
+
+[Run] SICS random graph=53_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_53_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/53_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.23s)
+
+[Run] SICS random graph=54_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_54_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/54_random_graph_1000.lad
+[Run] Done in 76.13s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 18873 ms
+
+[Valgrind] ==19033==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19033==   total heap usage: 21,559 allocs, 21,559 frees, 1,998,600 bytes allocated
+
+[Run] SICS random graph=55_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_55_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/55_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.27s)
+
+[Run] SICS random graph=56_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_56_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/56_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=180.17s)
+
+[Run] SICS random graph=57_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_57_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/57_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] SICS random graph=58_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_58_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/58_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.22s)
+
+[Run] SICS random graph=59_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_59_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/59_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.90s)
+
+[Run] SICS random graph=5_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_5_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/5_random_graph_1000.lad
+[Run] Done in 87.09s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 18019 ms
+
+[Valgrind] ==19164==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19164==   total heap usage: 19,761 allocs, 19,761 frees, 1,892,856 bytes allocated
+
+[Run] SICS random graph=60_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_60_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/60_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.25s)
+
+[Run] SICS random graph=61_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_61_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/61_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.27s)
+
+[Run] SICS random graph=62_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_62_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/62_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.35s)
+
+[Run] SICS random graph=63_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_63_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/63_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.31s)
+
+[Run] SICS random graph=64_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_64_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/64_random_graph_1000.lad
+[Run] Done in 98.34s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 24806 ms
+
+[Valgrind] ==19281==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19281==   total heap usage: 21,179 allocs, 21,179 frees, 1,974,088 bytes allocated
+
+[Run] SICS random graph=65_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_65_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/65_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.21s)
+
+[Run] SICS random graph=66_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_66_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/66_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=122.73s)
+
+[Run] SICS random graph=67_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_67_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/67_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=123.53s)
+
+[Run] SICS random graph=68_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_68_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/68_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.42s)
+
+[Run] SICS random graph=69_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_69_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/69_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.27s)
+
+[Run] SICS random graph=6_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_6_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/6_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.29s)
+
+[Run] SICS random graph=70_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_70_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/70_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.31s)
+
+[Run] SICS random graph=71_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_71_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/71_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.27s)
+
+[Run] SICS random graph=72_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_72_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/72_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=126.89s)
+
+[Run] SICS random graph=73_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_73_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/73_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=127.93s)
+
+[Run] SICS random graph=74_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_74_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/74_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=121.93s)
+
+[Run] SICS random graph=75_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_75_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/75_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.20s)
+
+[Run] SICS random graph=76_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_76_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/76_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.35s)
+
+[Run] SICS random graph=77_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_77_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/77_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.24s)
+
+[Run] SICS random graph=78_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_78_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/78_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.19s)
+
+[Run] SICS random graph=79_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_79_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/79_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.28s)
+
+[Run] SICS random graph=7_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_7_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/7_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] SICS random graph=80_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_80_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/80_random_graph_1000.lad
+[Run] Done in 81.51s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 13106 ms
+
+[Valgrind] ==19626==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19626==   total heap usage: 19,673 allocs, 19,673 frees, 1,889,032 bytes allocated
+
+[Run] SICS random graph=81_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_81_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/81_random_graph_1000.lad
+[Run] Done in 79.84s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 22060 ms
+
+[Valgrind] ==19639==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19639==   total heap usage: 21,029 allocs, 21,029 frees, 1,964,424 bytes allocated
+
+[Run] SICS random graph=82_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_82_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/82_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] SICS random graph=83_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_83_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/83_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] SICS random graph=84_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_84_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/84_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.27s)
+
+[Run] SICS random graph=85_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_85_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/85_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.30s)
+
+[Run] SICS random graph=86_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_86_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/86_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=136.15s)
+
+[Run] SICS random graph=87_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_87_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/87_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=123.49s)
+
+[Run] SICS random graph=88_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_88_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/88_random_graph_1000.lad
+[Run] Done in 106.21s
+Number of induced isomorphisms: 0
+No induced isomorphism found. Search took 8114 ms
+
+[Valgrind] ==19768==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==19768==   total heap usage: 19,317 allocs, 19,317 frees, 1,875,472 bytes allocated
+
+[Run] SICS random graph=89_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_89_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/89_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] SICS random graph=8_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_8_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/8_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.24s)
+
+[Run] SICS random graph=90_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_90_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/90_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.21s)
+
+[Run] SICS random graph=91_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_91_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/91_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=122.58s)
+
+[Run] SICS random graph=92_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_92_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/92_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.34s)
+
+[Run] SICS random graph=93_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_93_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/93_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.28s)
+
+[Run] SICS random graph=94_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_94_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/94_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.23s)
+
+[Run] SICS random graph=95_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_95_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/95_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.29s)
+
+[Run] SICS random graph=96_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_96_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/96_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.33s)
+
+[Run] SICS random graph=97_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_97_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/97_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=168.74s)
+
+[Run] SICS random graph=98_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_98_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/98_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=126.22s)
+
+[Run] SICS random graph=99_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_99_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/99_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.85s)
+
+[Run] SICS random graph=9_random_graph_1000.lad
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_SICS_random_9_random_graph_1000.lad.log ./a.out ./testRandom/random/subgraph100.lad ./testRandom/random/9_random_graph_1000.lad
+[Run] TIMED OUT after 120s (elapsed=120.46s)
+=== END   SICS (random) ===

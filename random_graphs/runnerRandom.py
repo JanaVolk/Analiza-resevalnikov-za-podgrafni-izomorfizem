@@ -4,7 +4,7 @@ import subprocess
 import time
 
 
-RANDOM_GRAPHS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/random_graphs/instances/700-70"
+RANDOM_GRAPHS_DIR = "/home/jana/Documents/DIPLOMA/AAA/Analiza-resevalnikov-za-podgrafni-izomorfizem/random_graphs/instances/1000-100"
 
 SOLVER_DEST_DIRS = {
     "Glasgow": "/home/jana/Documents/DIPLOMA/SOLVERJI/GLASGOW/glasgow-subgraph-solver/testRandom",
@@ -15,11 +15,11 @@ SOLVER_DEST_DIRS = {
 }
 
 SUBGRAPH_FILE = {
-    "Glasgow": "subgraph70.lad",
-    "LAD":     "subgraph70.lad",
-    "SICS":    "subgraph70.lad",
-    "RI":      "subgraph70.gfu",
-    "VF3":     "subgraph70.sub.grf",
+    "Glasgow": "subgraph100.lad",
+    "LAD":     "subgraph100.lad",
+    "SICS":    "subgraph100.lad",
+    "RI":      "subgraph100.gfu",
+    "VF3":     "subgraph100.sub.grf",
 }
 
 def log_print(msg, log_file):
@@ -143,7 +143,7 @@ def main():
     for solver_name in SOLVER_DEST_DIRS:
         copy_random_tests(solver_name)
 
-    os.makedirs("results 700-70", exist_ok=True)
+    os.makedirs("results 1000-100", exist_ok=True)
     os.makedirs("results", exist_ok=True) 
 
 
@@ -180,7 +180,7 @@ def main():
         if not os.path.isdir(test_dir):
             print(f"[Skip] {solver['name']} has no 'random' tests, skipping.")
             continue
-        log_path = os.path.join("results 700-70", f"{solver['name']}_random_results.txt")
+        log_path = os.path.join("results 1000-100", f"{solver['name']}_random_results.txt")
         with open(log_path, "w") as lf:
             log_print(f"=== START {solver['name']} (random) ===", lf)
             run_random_tests_for_solver(solver, lf)

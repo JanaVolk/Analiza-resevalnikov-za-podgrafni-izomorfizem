@@ -1,0 +1,567 @@
+=== START RI (random) ===
+
+[Run] RI random graph=100_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_100_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/100_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 6.44s
+#0
+#1
+reference file: ./testRandom/random/100_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 4.10803
+matching time: 3.38327
+number of found matches: 0
+search space size: 24427
+
+[Valgrind] ==13567==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==13567==   total heap usage: 48,345 allocs, 48,345 frees, 1,798,050 bytes allocated
+
+[Run] RI random graph=10_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_10_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/10_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI random graph=11_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_11_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/11_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 11.41s
+#0
+#1
+reference file: ./testRandom/random/11_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 9.16793
+matching time: 8.32771
+number of found matches: 0
+search space size: 49427
+
+[Valgrind] ==13593==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==13593==   total heap usage: 78,013 allocs, 78,013 frees, 2,947,425 bytes allocated
+
+[Run] RI random graph=12_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_12_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/12_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 7.77s
+#0
+#1
+reference file: ./testRandom/random/12_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 5.53461
+matching time: 4.79433
+number of found matches: 0
+search space size: 32356
+
+[Valgrind] ==13597==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==13597==   total heap usage: 58,122 allocs, 58,122 frees, 2,174,345 bytes allocated
+
+[Run] RI random graph=13_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_13_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/13_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 18.26s
+#0
+#1
+reference file: ./testRandom/random/13_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 15.9973
+matching time: 15.1111
+number of found matches: 0
+search space size: 80599
+
+[Valgrind] ==13599==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==13599==   total heap usage: 112,385 allocs, 112,385 frees, 4,296,705 bytes allocated
+
+[Run] RI random graph=14_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_14_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/14_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.03s)
+
+[Run] RI random graph=15_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_15_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/15_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.09s)
+
+[Run] RI random graph=16_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_16_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/16_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI random graph=17_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_17_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/17_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 49.60s
+#0
+#1
+reference file: ./testRandom/random/17_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 46.1561
+matching time: 44.29
+number of found matches: 0
+search space size: 129975
+
+[Valgrind] ==13660==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==13660==   total heap usage: 164,087 allocs, 164,087 frees, 6,346,177 bytes allocated
+
+[Run] RI random graph=18_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_18_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/18_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI random graph=19_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_19_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/19_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI random graph=1_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_1_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/1_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI random graph=20_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_20_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/20_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=21_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_21_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/21_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 107.33s
+#0
+#1
+reference file: ./testRandom/random/21_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 102.457
+matching time: 99.5093
+number of found matches: 0
+search space size: 161929
+
+[Valgrind] ==13769==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==13769==   total heap usage: 197,461 allocs, 197,461 frees, 7,669,777 bytes allocated
+
+[Run] RI random graph=22_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_22_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/22_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=23_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_23_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/23_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 20.70s
+#0
+#1
+reference file: ./testRandom/random/23_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 16.2932
+matching time: 14.4679
+number of found matches: 0
+search space size: 32263
+
+[Valgrind] ==13798==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==13798==   total heap usage: 58,125 allocs, 58,125 frees, 2,173,697 bytes allocated
+
+[Run] RI random graph=24_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_24_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/24_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=25_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_25_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/25_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=26_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_26_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/26_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=27_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_27_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/27_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=28_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_28_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/28_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=29_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_29_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/29_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=2_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_2_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/2_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=30_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_30_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/30_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=31_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_31_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/31_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=32_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_32_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/32_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=33_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_33_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/33_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=34_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_34_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/34_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=35_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_35_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/35_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=36_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_36_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/36_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=37_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_37_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/37_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=38_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_38_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/38_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=39_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_39_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/39_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=3_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_3_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/3_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=40_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_40_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/40_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=41_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_41_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/41_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=42_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_42_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/42_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=43_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_43_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/43_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=44_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_44_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/44_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=45_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_45_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/45_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=46_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_46_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/46_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=47_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_47_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/47_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 40.91s
+#0
+#1
+reference file: ./testRandom/random/47_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 21.5394
+matching time: 15.907
+number of found matches: 0
+search space size: 11101
+
+[Valgrind] ==14747==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==14747==   total heap usage: 31,719 allocs, 31,719 frees, 1,159,409 bytes allocated
+
+[Run] RI random graph=48_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_48_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/48_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=49_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_49_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/49_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=4_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_4_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/4_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=50_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_50_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/50_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=51_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_51_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/51_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=52_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_52_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/52_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=53_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_53_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/53_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=54_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_54_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/54_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 74.42s
+#0
+#1
+reference file: ./testRandom/random/54_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 57.4553
+matching time: 50.047
+number of found matches: 0
+search space size: 35443
+
+[Valgrind] ==14897==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==14897==   total heap usage: 61,553 allocs, 61,553 frees, 2,308,833 bytes allocated
+
+[Run] RI random graph=55_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_55_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/55_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.10s)
+
+[Run] RI random graph=56_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_56_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/56_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=57_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_57_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/57_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=58_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_58_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/58_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=59_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_59_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/59_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] RI random graph=5_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_5_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/5_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 37.37s
+#0
+#1
+reference file: ./testRandom/random/5_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 12.4923
+matching time: 4.58157
+number of found matches: 0
+search space size: 2317
+
+[Valgrind] ==14996==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==14996==   total heap usage: 19,681 allocs, 19,681 frees, 703,920 bytes allocated
+
+[Run] RI random graph=60_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_60_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/60_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=61_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_61_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/61_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=62_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_62_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/62_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=63_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_63_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/63_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=64_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_64_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/64_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 66.17s
+#0
+#1
+reference file: ./testRandom/random/64_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 47.6662
+matching time: 39.0078
+number of found matches: 0
+search space size: 22550
+
+[Valgrind] ==15101==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==15101==   total heap usage: 46,258 allocs, 46,258 frees, 1,716,249 bytes allocated
+
+[Run] RI random graph=65_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_65_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/65_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=66_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_66_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/66_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=67_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_67_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/67_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=68_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_68_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/68_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=69_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_69_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/69_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] RI random graph=6_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_6_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/6_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=70_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_70_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/70_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=71_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_71_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/71_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=72_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_72_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/72_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 35.02s
+#0
+#1
+reference file: ./testRandom/random/72_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 10.1795
+matching time: 1.63848
+number of found matches: 0
+search space size: 529
+
+[Valgrind] ==15268==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==15268==   total heap usage: 16,181 allocs, 16,181 frees, 577,617 bytes allocated
+
+[Run] RI random graph=73_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_73_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/73_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=74_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_74_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/74_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=75_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_75_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/75_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=76_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_76_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/76_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=77_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_77_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/77_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=78_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_78_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/78_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=79_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_79_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/79_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=7_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_7_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/7_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] RI random graph=80_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_80_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/80_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 45.35s
+#0
+#1
+reference file: ./testRandom/random/80_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 15.3896
+matching time: 5.24628
+number of found matches: 0
+search space size: 1902
+
+[Valgrind] ==15438==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==15438==   total heap usage: 19,014 allocs, 19,014 frees, 679,257 bytes allocated
+
+[Run] RI random graph=81_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_81_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/81_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 82.74s
+#0
+#1
+reference file: ./testRandom/random/81_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 62.0775
+matching time: 51.289
+number of found matches: 0
+search space size: 20283
+
+[Valgrind] ==15452==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==15452==   total heap usage: 43,243 allocs, 43,243 frees, 1,601,633 bytes allocated
+
+[Run] RI random graph=82_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_82_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/82_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=83_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_83_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/83_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.16s)
+
+[Run] RI random graph=84_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_84_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/84_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] RI random graph=85_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_85_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/85_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=86_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_86_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/86_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.12s)
+
+[Run] RI random graph=87_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_87_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/87_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=88_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_88_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/88_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] Done in 26.69s
+#0
+#1
+reference file: ./testRandom/random/88_random_graph_1000.gfu
+query file: ./testRandom/random/subgraph100.gfu
+total time: 4.98763
+matching time: 1.78547
+number of found matches: 0
+search space size: 666
+
+[Valgrind] ==15577==     in use at exit: 0 bytes in 0 blocks
+[Valgrind] ==15577==   total heap usage: 16,410 allocs, 16,410 frees, 586,041 bytes allocated
+
+[Run] RI random graph=89_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_89_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/89_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=8_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_8_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/8_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.11s)
+
+[Run] RI random graph=90_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_90_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/90_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=91_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_91_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/91_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=92_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_92_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/92_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=93_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_93_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/93_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=94_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_94_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/94_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=95_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_95_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/95_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.13s)
+
+[Run] RI random graph=96_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_96_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/96_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] RI random graph=97_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_97_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/97_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=98_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_98_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/98_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.15s)
+
+[Run] RI random graph=99_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_99_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/99_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.14s)
+
+[Run] RI random graph=9_random_graph_1000.gfu
+[Run] CMD: valgrind --tool=memcheck --leak-check=full --track-origins=yes --log-file=valgrind_RI_random_9_random_graph_1000.gfu.log ./ri36 ind gfu ./testRandom/random/9_random_graph_1000.gfu ./testRandom/random/subgraph100.gfu
+[Run] TIMED OUT after 120s (elapsed=120.28s)
+=== END   RI (random) ===
